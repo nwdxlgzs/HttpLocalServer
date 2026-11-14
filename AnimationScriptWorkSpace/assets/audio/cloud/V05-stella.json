@@ -1,0 +1,14 @@
+{
+  "id": "V05",
+  "voice": "stella",
+  "text": "它还承担Server任务，托管网页与轻量应用。",
+  "characters": 23,
+  "inputSha256": "bf6fd55f5b6080bbbdc3970c01bb5e08764068055a7ea2235801694c98ddac33",
+  "file": "assets/audio/cloud/V05-stella.wav",
+  "generatedAt": "2026-11-14T07:41:20.652374+00:00",
+  "seconds": 4.28,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 205484
+}

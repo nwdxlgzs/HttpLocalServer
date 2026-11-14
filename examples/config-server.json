@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "options": {
+    "mode": "server",
+    "root": "./workspace-data",
+    "workspace-app": "./workspace-demo.zip",
+    "workspace-arg": ["demo"],
+    "workspace-public": "public",
+    "workspace-access": "lan",
+    "workspace-share": false,
+    "script-fs": "readwrite",
+    "wasm": true,
+    "wasm-memory-mb": 64,
+    "wasm-instructions": 1000000,
+    "port": 8000,
+    "compression": true
+  }
+}

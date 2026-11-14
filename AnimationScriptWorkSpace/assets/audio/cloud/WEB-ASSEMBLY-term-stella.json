@@ -1,0 +1,15 @@
+{
+  "id": "WEB-ASSEMBLY-term",
+  "voice": "stella",
+  "text": "Web Assembly.",
+  "spokenText": "Web Assembly.",
+  "characters": 13,
+  "inputSha256": "ecbdd6ba004ed939b33d6d39bbbfdcc00b650338315fb948fd2e0c7a6b1d4ec6",
+  "file": "assets/audio/cloud/WEB-ASSEMBLY-term-stella.wav",
+  "generatedAt": "2026-11-14T08:17:05.829390+00:00",
+  "seconds": 1.04,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 49964
+}

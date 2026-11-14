@@ -1,0 +1,86 @@
+{
+  "id": "S19",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "说明文档、结构化数据和文本，都有合适的阅读方式。",
+  "events": [
+    {
+      "start": 0.0833125,
+      "position": 0,
+      "length": 2,
+      "text": "说明"
+    },
+    {
+      "start": 0.494625,
+      "position": 2,
+      "length": 2,
+      "text": "文档"
+    },
+    {
+      "start": 1.16,
+      "position": 5,
+      "length": 2,
+      "text": "结构"
+    },
+    {
+      "start": 1.518375,
+      "position": 7,
+      "length": 1,
+      "text": "化"
+    },
+    {
+      "start": 1.72,
+      "position": 8,
+      "length": 2,
+      "text": "数据"
+    },
+    {
+      "start": 2.18,
+      "position": 10,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 2.3945625,
+      "position": 11,
+      "length": 2,
+      "text": "文本"
+    },
+    {
+      "start": 3.08,
+      "position": 14,
+      "length": 1,
+      "text": "都"
+    },
+    {
+      "start": 3.238375,
+      "position": 15,
+      "length": 1,
+      "text": "有"
+    },
+    {
+      "start": 3.45,
+      "position": 16,
+      "length": 2,
+      "text": "合适"
+    },
+    {
+      "start": 3.83225,
+      "position": 18,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 4.02,
+      "position": 19,
+      "length": 2,
+      "text": "阅读"
+    },
+    {
+      "start": 4.3395625,
+      "position": 21,
+      "length": 2,
+      "text": "方式"
+    }
+  ]
+}

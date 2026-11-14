@@ -1,0 +1,625 @@
+[
+  {
+    "id": "S01",
+    "start": 0.2333,
+    "end": 3.8485,
+    "text": "文件要交给别人，网页也想在局域网里打开。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S02",
+    "start": 4.25,
+    "end": 6.36,
+    "text": "HttpLocalServer，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S02",
+    "start": 6.395,
+    "end": 9.977,
+    "text": "把文件服务和网页服务，装进一个程序。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S03",
+    "start": 10.3667,
+    "end": 14.1217,
+    "text": "指定共享目录，启动。默认文件传输模式，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S03",
+    "start": 14.1567,
+    "end": 16.6402,
+    "text": "端口和监听地址都能调整。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S04",
+    "start": 17.05,
+    "end": 19.305,
+    "text": "发送地址，或者扫一扫。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S04",
+    "start": 19.34,
+    "end": 22.5433,
+    "text": "选择设备实际能访问的局域网入口。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S05",
+    "start": 24.7,
+    "end": 29.0719,
+    "text": "熟悉的文件视图，列表或网格，按习惯浏览。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S06",
+    "start": 29.4833,
+    "end": 31.6033,
+    "text": "明暗跟随你的选择，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S06",
+    "start": 31.6383,
+    "end": 34.7818,
+    "text": "桌面和手机各有适合的操作空间。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S07",
+    "start": 35.1667,
+    "end": 39.1817,
+    "text": "目录各留一个标签。拖动排序，前后回看，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S07",
+    "start": 39.2167,
+    "end": 40.9801,
+    "text": "也能直接输入路径。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S08",
+    "start": 41.3833,
+    "end": 45.3183,
+    "text": "列表按需加载，文件名可检索。目录有变化，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S08",
+    "start": 45.3533,
+    "end": 47.919,
+    "text": "先提示，再由你决定刷新。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S09",
+    "start": 48.3333,
+    "end": 53.2983,
+    "text": "普通下载由浏览器管理。范围请求和文件版本检查，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S09",
+    "start": 53.3333,
+    "end": 55.7895,
+    "text": "为大文件续传守住边界。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S10",
+    "start": 56.3833,
+    "end": 61.0133,
+    "text": "传输能排队，也能在检查点继续。重新授权，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S10",
+    "start": 61.0483,
+    "end": 63.7415,
+    "text": "核对源文件，再接着传。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S11",
+    "start": 64.3333,
+    "end": 68.0333,
+    "text": "支持的浏览器可直接保存文件夹。其他环境，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S11",
+    "start": 68.0683,
+    "end": 69.9205,
+    "text": "也能由浏览器打包下载。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S12",
+    "start": 70.5167,
+    "end": 74.3417,
+    "text": "开放写入后，文件和文件夹都能拖进来。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S12",
+    "start": 74.3767,
+    "end": 78.1541,
+    "text": "落在哪里、怎样处理同名，由你选择。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S13",
+    "start": 78.5667,
+    "end": 83.5017,
+    "text": "复制、剪切、跨标签移动。跨位置搬运先核对，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S13",
+    "start": 83.5367,
+    "end": 84.9535,
+    "text": "再移除源文件。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S14",
+    "start": 85.35,
+    "end": 88.27,
+    "text": "需要时，新建文件，直接编辑。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S14",
+    "start": 88.305,
+    "end": 92.9177,
+    "text": "现代桌面增强代码体验，旧环境保留文本编辑。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S15",
+    "start": 93.3333,
+    "end": 97.5283,
+    "text": "后缀不完整，也能按内容寻找合适的打开方式。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S15",
+    "start": 97.5633,
+    "end": 100.8101,
+    "text": "识别给出建议，命名由你决定。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S16",
+    "start": 101.4167,
+    "end": 105.9867,
+    "text": "Word和PDF连续阅读。缩放、选择、复制，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S16",
+    "start": 106.0217,
+    "end": 107.7996,
+    "text": "在内容里自然完成。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S17",
+    "start": 108.2,
+    "end": 113.24,
+    "text": "按页面浏览，进入放映，或设定自动翻页。手机上，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S17",
+    "start": 113.275,
+    "end": 115.0849,
+    "text": "也把空间留给内容。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S18",
+    "start": 115.4833,
+    "end": 118.3833,
+    "text": "表格可选区域，也可取字符。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S18",
+    "start": 118.4183,
+    "end": 122.4258,
+    "text": "合并单元格与复制结果，都按阅读习惯处理。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S19",
+    "start": 122.8333,
+    "end": 125.6233,
+    "text": "说明文档、结构化数据和文本，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S19",
+    "start": 125.6583,
+    "end": 127.3621,
+    "text": "都有合适的阅读方式。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S20",
+    "start": 127.75,
+    "end": 130.925,
+    "text": "图片放大看，网页带上资源，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S20",
+    "start": 130.96,
+    "end": 134.31,
+    "text": "音视频按需播放和定位。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S21",
+    "start": 134.7,
+    "end": 137.67,
+    "text": "缩略图默认关闭。主机允许后，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S21",
+    "start": 137.705,
+    "end": 140.7383,
+    "text": "只把本次预览捕获在客户端内存。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S22",
+    "start": 141.15,
+    "end": 144.425,
+    "text": "ZIP预览按需开启。解压工作放在主机，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S22",
+    "start": 144.46,
+    "end": 146.0276,
+    "text": "或者交给浏览器。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S23",
+    "start": 146.4333,
+    "end": 150.3183,
+    "text": "包内网页和Markdown能带上依赖。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S23",
+    "start": 150.3533,
+    "end": 153.19,
+    "text": "实际展开、路径和处理预算，一起检查。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S24",
+    "start": 153.5833,
+    "end": 157.8883,
+    "text": "只读分发，共享协作，或者按IP独立提交。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S24",
+    "start": 157.9233,
+    "end": 159.7425,
+    "text": "主机保留管理范围。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S25",
+    "start": 160.7333,
+    "end": 164.4933,
+    "text": "上传才建立目录。姓名先审核，再展示；",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S25",
+    "start": 164.5283,
+    "end": 168.2214,
+    "text": "空目录在无人使用时清理。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S26",
+    "start": 169.2167,
+    "end": 173.2867,
+    "text": "公告说明事情，关注胶囊指向文件。点击定位，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S26",
+    "start": 173.3217,
+    "end": 175.6231,
+    "text": "还是直接下载，都可设置。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S27",
+    "start": 176.0333,
+    "end": 178.6533,
+    "text": "主机目录、分区和系统根，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S27",
+    "start": 178.6883,
+    "end": 181.3389,
+    "text": "可以按需要组织成共享入口。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S28",
+    "start": 182.35,
+    "end": 186.12,
+    "text": "浏览器目录可以持续共享，后台逐步上传。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S28",
+    "start": 186.155,
+    "end": 189.9519,
+    "text": "有人访问的内容优先，已完成副本留在主机。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S29",
+    "start": 190.9667,
+    "end": 196.0267,
+    "text": "写入完整发布，读取保留旧代。版本冲突先确认，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S29",
+    "start": 196.0617,
+    "end": 198.0671,
+    "text": "额度和带宽也有边界。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S30",
+    "start": 199.0833,
+    "end": 202.8733,
+    "text": "口令控制访问，严格主机收紧管理身份。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S30",
+    "start": 202.9083,
+    "end": 206.6574,
+    "text": "需要加密时，可配置内网HTTPS。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S31",
+    "start": 207.6667,
+    "end": 211.3217,
+    "text": "运行依赖按真实路径和文件身份保护。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S31",
+    "start": 211.3567,
+    "end": 215.1026,
+    "text": "该隐藏的隐藏，该冻结的保持不可操作。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S32",
+    "start": 216.1167,
+    "end": 220.3717,
+    "text": "主机统一调整策略，CLI决定启动规则，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S32",
+    "start": 220.4067,
+    "end": 222.4367,
+    "text": "运行数据随时可查。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S33",
+    "start": 222.8333,
+    "end": 225.8783,
+    "text": "切到Server，目录成为网站。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S33",
+    "start": 225.9133,
+    "end": 230.3252,
+    "text": "默认文档、单页应用回退和错误页，都能配置。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S34",
+    "start": 230.7167,
+    "end": 234.7717,
+    "text": "一个ZIP，可以装下轻量应用。公开前端，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S34",
+    "start": 234.8067,
+    "end": 237.8337,
+    "text": "保留后台，管理入口独立隔离。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S35",
+    "start": 238.8333,
+    "end": 242.8333,
+    "text": "文件、数据和常用组件开放给可信脚本，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S35",
+    "start": 242.8683,
+    "end": 245.3506,
+    "text": "能力与资源仍由主机限制。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S36",
+    "start": 246.35,
+    "end": 248.73,
+    "text": "QuickJS承接控制逻辑，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S36",
+    "start": 248.765,
+    "end": 254.04,
+    "text": "WAMR提供受限的Wasm互操作。执行有预算，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S36",
+    "start": 254.075,
+    "end": 255.8016,
+    "text": "资源有生命周期。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S37",
+    "start": 256.8,
+    "end": 260.24,
+    "text": "本机MCP把文件发现与受限读取，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S37",
+    "start": 260.275,
+    "end": 262.3837,
+    "text": "交给你的AI工具接入。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S38",
+    "start": 263.3833,
+    "end": 265.7883,
+    "text": "热点留下，冷内容让位。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S38",
+    "start": 265.8233,
+    "end": 269.5275,
+    "text": "线程、缓冲和流量按预算调度。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S39",
+    "start": 270.5333,
+    "end": 273.5783,
+    "text": "复用可信编译结果和空闲运行时，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S39",
+    "start": 273.6133,
+    "end": 277.5383,
+    "text": "缓存校验过的ZIP资源。减少重复工作，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S39",
+    "start": 277.5733,
+    "end": 279.074,
+    "text": "保留调用隔离。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S40",
+    "start": 280.0833,
+    "end": 282.2233,
+    "text": "需要时开启PCDN，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S40",
+    "start": 282.2583,
+    "end": 286.7433,
+    "text": "让浏览器与挂载来源分担部分流量。普通下载，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S40",
+    "start": 286.7783,
+    "end": 288.3206,
+    "text": "仍是默认选择。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S41",
+    "start": 289.3333,
+    "end": 294.5083,
+    "text": "资源随程序交付，界面按浏览器能力增强或降级。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S41",
+    "start": 294.5433,
+    "end": 297.3497,
+    "text": "平台支持，也标明验证范围。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S42",
+    "start": 298.35,
+    "end": 302.025,
+    "text": "功能有回归，优化有对照。用可复查的结果，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S42",
+    "start": 302.06,
+    "end": 304.823,
+    "text": "说明这次减少了哪些重复工作。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S43",
+    "start": 305.8333,
+    "end": 310.6133,
+    "text": "资料分发，团队提交，网站演示，内网工具。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S43",
+    "start": 310.6483,
+    "end": 313.3291,
+    "text": "一个入口，按你的规则开放。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S44",
+    "start": 314.3167,
+    "end": 317.1917,
+    "text": "HttpLocalServer。让本机，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "S44",
+    "start": 317.2267,
+    "end": 319.4465,
+    "text": "成为局域网的服务入口。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  }
+]

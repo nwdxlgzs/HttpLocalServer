@@ -1,0 +1,14 @@
+{
+  "id": "S25",
+  "voice": "stella",
+  "text": "上传才建立目录。姓名先审核，再展示；空目录在无人使用时清理。",
+  "characters": 30,
+  "inputSha256": "cfb615ba93e0631c8f9cb1bb0ea997be02d5c9f9200a41efa3469f2dae774147",
+  "file": "assets/audio/cloud/S25-stella.wav",
+  "generatedAt": "2026-11-14T07:39:38.092010+00:00",
+  "seconds": 7.64,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 366764
+}

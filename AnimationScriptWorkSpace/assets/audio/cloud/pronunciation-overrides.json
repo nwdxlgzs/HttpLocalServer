@@ -1,0 +1,551 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "id": "S02",
+      "voice": "stella",
+      "text": "HttpLocalServer，把文件服务和网页服务，装进一个程序。",
+      "spokenText": "H T T P Local Server，把文件服务和网页服务，装进一个程序。",
+      "file": "assets/audio/brand/S02-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 5.727041666666667,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "59b91617771c2b34074011d37abb4a700117b623ff636ea71d16961f9835ba78",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.19585416666666666
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "reused standard brand in original sample window; outside samples unchanged",
+        "originalClip": "assets/audio/before-pronunciation/S02.wav",
+        "replacedStart": 0.0,
+        "replacedEnd": 2.23,
+        "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+        "crossfadeSeconds": 0.008,
+        "maximumJoinJump": 0.0,
+        "outsideWindowPcmUnchanged": true
+      }
+    },
+    {
+      "id": "S44",
+      "voice": "stella",
+      "text": "HttpLocalServer。让本机，成为局域网的服务入口。",
+      "spokenText": "H T T P Local Server。让本机，成为局域网的服务入口。",
+      "file": "assets/audio/brand/S44-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 5.129791666666667,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "becd540afa8047a6030cb8eb6ac7c5b7f3dd92eef6fddc91d757879e115c2acf",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0250744047619047,
+        "edits": [
+          {
+            "type": "quiet-gap-center-removed",
+            "sourceStart": 0.02,
+            "sourceEnd": 0.045,
+            "removedRms": 5.23701382917352e-05
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "reused standard brand in original sample window; outside samples unchanged",
+        "originalClip": "assets/audio/before-pronunciation/S44.wav",
+        "replacedStart": 0.0,
+        "replacedEnd": 1.96,
+        "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+        "crossfadeSeconds": 0.008,
+        "maximumJoinJump": 0.000518798828125,
+        "outsideWindowPcmUnchanged": true
+      }
+    },
+    {
+      "id": "O08",
+      "voice": "stella",
+      "text": "让本机，成为局域网的服务入口。HttpLocalServer。",
+      "spokenText": "让本机，成为局域网的服务入口。H T T P Local Server。",
+      "file": "assets/audio/brand/O08-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 5.729333333333333,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "575b5b74471a88d04c36f947d3c88fd86da66274037e63e9ab2ebc58cd96f834",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.1951875
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "reused standard brand in original sample window; outside samples unchanged",
+        "originalClip": "assets/audio/before-pronunciation/O08.wav",
+        "replacedStart": 3.5,
+        "replacedEnd": 5.729333333333333,
+        "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+        "crossfadeSeconds": 0.008,
+        "maximumJoinJump": 3.0517578125e-05,
+        "outsideWindowPcmUnchanged": true
+      }
+    },
+    {
+      "id": "T06",
+      "voice": "stella",
+      "text": "HttpLocalServer。",
+      "spokenText": "H T T P Local Server。",
+      "file": "assets/audio/brand/T06-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 2.038375,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "31187bce2dfee603d2ea489dc2af10c4f10a7f41357b5e8af8b9247eae54f412",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.004229166666666667
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "reused standard brand in original sample window; outside samples unchanged",
+        "originalClip": "assets/audio/before-pronunciation/T06.wav",
+        "replacedStart": 0.0,
+        "replacedEnd": 2.038375,
+        "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+        "crossfadeSeconds": 0.008,
+        "maximumJoinJump": 0,
+        "outsideWindowPcmUnchanged": true
+      }
+    },
+    {
+      "id": "V07",
+      "voice": "stella",
+      "text": "HttpLocalServer。",
+      "spokenText": "H T T P Local Server。",
+      "file": "assets/audio/brand/V07-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 2.038375,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "31187bce2dfee603d2ea489dc2af10c4f10a7f41357b5e8af8b9247eae54f412",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.004229166666666667
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "reused standard brand in original sample window; outside samples unchanged",
+        "originalClip": "assets/audio/before-pronunciation/V07.wav",
+        "replacedStart": 0.0,
+        "replacedEnd": 2.038375,
+        "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+        "crossfadeSeconds": 0.008,
+        "maximumJoinJump": 0,
+        "outsideWindowPcmUnchanged": true
+      }
+    },
+    {
+      "id": "O02",
+      "voice": "stella",
+      "text": "启动HttpLocalServer，用浏览器访问。一个程序，先把服务提供出来。",
+      "spokenText": "启动 H T T P Local Server ，用浏览器访问。一个程序，先把服务提供出来。",
+      "file": "assets/audio/brand/O02-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 6.7005625,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "d8e2d5d3f101acb0f52665f30d4975a08c699815cdd50f69ce15e82804bec39e",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.32929166666666665
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-O02-stella.wav",
+        "sourceSpokenText": "启动 H T T P Local Server ，用浏览器访问。一个程序，先把服务提供出来。",
+        "nativeSeconds": 6.371270833333333,
+        "finalSeconds": 6.7005625,
+        "originalSeconds": 6.7005625
+      }
+    },
+    {
+      "id": "S16",
+      "voice": "stella",
+      "text": "Word和PDF连续阅读。缩放、选择、复制，在内容里自然完成。",
+      "spokenText": "Word和 P D F 连续阅读。缩放、选择、复制，在内容里自然完成。",
+      "file": "assets/audio/brand/S16-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 6.382895833333333,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "47d45b901fdaf35a62aeed7698d00acad0eededaa5ce6a9a5209f33889b3a6a0",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0633626978350343,
+        "edits": [
+          {
+            "type": "quiet-gap-center-removed",
+            "sourceStart": 0.02,
+            "sourceEnd": 0.055,
+            "removedRms": 0.00011228975927224383
+          },
+          {
+            "type": "quiet-gap-center-removed",
+            "sourceStart": 6.78,
+            "sourceEnd": 6.805,
+            "removedRms": 5.7244244089815766e-05
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-S16-stella.wav",
+        "sourceSpokenText": "Word和 P D F 连续阅读。缩放、选择、复制，在内容里自然完成。",
+        "nativeSeconds": 6.847333333333333,
+        "finalSeconds": 6.382895833333333,
+        "originalSeconds": 6.382895833333333
+      }
+    },
+    {
+      "id": "S22",
+      "voice": "stella",
+      "text": "ZIP预览按需开启。解压工作放在主机，或者交给浏览器。",
+      "spokenText": " zip 预览按需开启。解压工作放在主机，或者交给浏览器。",
+      "file": "assets/audio/brand/S22-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 4.916270833333333,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "bdc440db16b7b7e7029b5de1b886a90de65442bd188a33dbc968382e4be3b239",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0999953386077692,
+        "edits": [
+          {
+            "type": "quiet-gap-center-removed",
+            "sourceStart": 0.02,
+            "sourceEnd": 0.05,
+            "removedRms": 8.106855966616422e-05
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.03864583333333333,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-S22-stella.wav",
+        "sourceSpokenText": " zip 预览按需开启。解压工作放在主机，或者交给浏览器。",
+        "nativeSeconds": 5.437875,
+        "finalSeconds": 4.916270833333333,
+        "originalSeconds": 4.877625
+      }
+    },
+    {
+      "id": "S24",
+      "voice": "stella",
+      "text": "只读分发，共享协作，或者按IP独立提交。主机保留管理范围。",
+      "spokenText": "只读分发，共享协作，或者按 I P 独立提交。主机保留管理范围。",
+      "file": "assets/audio/brand/S24-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 6.159208333333333,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "0f25ff5e1f44ca78777b5bf79a031d311de4ead15c0fc8b7a83e87d45abed995",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.363125
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-S24-stella.wav",
+        "sourceSpokenText": "只读分发，共享协作，或者按 I P 独立提交。主机保留管理范围。",
+        "nativeSeconds": 5.796083333333334,
+        "finalSeconds": 6.159208333333333,
+        "originalSeconds": 6.159208333333333
+      }
+    },
+    {
+      "id": "S30",
+      "voice": "stella",
+      "text": "口令控制访问，严格主机收紧管理身份。需要加密时，可配置内网HTTPS。",
+      "spokenText": "口令控制访问，严格主机收紧管理身份。需要加密时，可配置内网 H T T P S 。",
+      "file": "assets/audio/brand/S30-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 7.574104166666666,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "f9dd0cd755abc3277959fef098d4727eae7f2c1e36623ca4f83992ba288ecab8",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.00302841095069,
+        "edits": [
+          {
+            "type": "quiet-gap-center-removed",
+            "sourceStart": 0.02,
+            "sourceEnd": 0.055,
+            "removedRms": 0.0001427840325050056
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-S30-stella.wav",
+        "sourceSpokenText": "口令控制访问，严格主机收紧管理身份。需要加密时，可配置内网 H T T P S 。",
+        "nativeSeconds": 7.632041666666667,
+        "finalSeconds": 7.574104166666666,
+        "originalSeconds": 7.574104166666666
+      }
+    },
+    {
+      "id": "S32",
+      "voice": "stella",
+      "text": "主机统一调整策略，CLI决定启动规则，运行数据随时可查。",
+      "spokenText": "主机统一调整策略， C L I 决定启动规则，运行数据随时可查。",
+      "file": "assets/audio/brand/S32-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 6.320083333333334,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "035b883f9ef3809bb32bf2b5121979070faf94d5847c5208b12c823e4b609713",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.2770416666666667
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-S32-stella.wav",
+        "sourceSpokenText": "主机统一调整策略， C L I 决定启动规则，运行数据随时可查。",
+        "nativeSeconds": 6.043041666666666,
+        "finalSeconds": 6.320083333333334,
+        "originalSeconds": 6.320083333333334
+      }
+    },
+    {
+      "id": "S34",
+      "voice": "stella",
+      "text": "一个ZIP，可以装下轻量应用。公开前端，保留后台，管理入口独立隔离。",
+      "spokenText": "一个 zip ，可以装下轻量应用。公开前端，保留后台，管理入口独立隔离。",
+      "file": "assets/audio/brand/S34-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 7.117041666666666,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "1573f31f000e7901f8246db0678364b7184d0d77416775b06d5769acda42e098",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.5053541666666667
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-S34-stella.wav",
+        "sourceSpokenText": "一个 zip ，可以装下轻量应用。公开前端，保留后台，管理入口独立隔离。",
+        "nativeSeconds": 6.6116875,
+        "finalSeconds": 7.117041666666666,
+        "originalSeconds": 7.117041666666666
+      }
+    },
+    {
+      "id": "S36",
+      "voice": "stella",
+      "text": "QuickJS承接控制逻辑，WAMR提供受限的Wasm互操作。执行有预算，资源有生命周期。",
+      "spokenText": " Quick J S 承接控制逻辑， W A M R 提供受限的 Web Assembly 互操作。执行有预算，资源有生命周期。",
+      "file": "assets/audio/brand/S36-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 9.4515625,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "e69f3f211c0e6c4df853161928c4dc9c7a35c4c4ffd59f550e96450447d51d79",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.10758333333333334
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-S36-stella.wav",
+        "sourceSpokenText": " Quick J S 承接控制逻辑， W A M R 提供受限的 Web Assembly 互操作。执行有预算，资源有生命周期。",
+        "nativeSeconds": 9.343979166666667,
+        "finalSeconds": 9.4515625,
+        "originalSeconds": 9.4515625
+      }
+    },
+    {
+      "id": "S37",
+      "voice": "stella",
+      "text": "本机MCP把文件发现与受限读取，交给你的AI工具接入。",
+      "spokenText": "本机 M C P 把文件发现与受限读取，交给你的 A I 工具接入。",
+      "file": "assets/audio/brand/S37-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 5.5836875,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "a6187d351c518205bda2e60887e86d28ea310cd84037d989683c468430bcabfd",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.053375
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-S37-stella.wav",
+        "sourceSpokenText": "本机 M C P 把文件发现与受限读取，交给你的 A I 工具接入。",
+        "nativeSeconds": 5.5303125,
+        "finalSeconds": 5.5836875,
+        "originalSeconds": 5.5836875
+      }
+    },
+    {
+      "id": "S39",
+      "voice": "stella",
+      "text": "复用可信编译结果和空闲运行时，缓存校验过的ZIP资源。减少重复工作，保留调用隔离。",
+      "spokenText": "复用可信编译结果和空闲运行时，缓存校验过的 zip 资源。减少重复工作，保留调用隔离。",
+      "file": "assets/audio/brand/S39-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 8.540666666666667,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "2bafb4fd19554b04471304b589e1ce81e86330c35b6b6e5146191513c500c491",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.4885
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-S39-stella.wav",
+        "sourceSpokenText": "复用可信编译结果和空闲运行时，缓存校验过的 zip 资源。减少重复工作，保留调用隔离。",
+        "nativeSeconds": 8.052166666666666,
+        "finalSeconds": 8.540666666666667,
+        "originalSeconds": 8.540666666666667
+      }
+    },
+    {
+      "id": "S40",
+      "voice": "stella",
+      "text": "需要时开启PCDN，让浏览器与挂载来源分担部分流量。普通下载，仍是默认选择。",
+      "spokenText": "需要时开启 P C D N ，让浏览器与挂载来源分担部分流量。普通下载，仍是默认选择。",
+      "file": "assets/audio/brand/S40-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 8.237270833333334,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "0a90047701a1bd01715d32f8ab13f0f502e4652619ee539959ab70b2fffb7e57",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.4261041666666667
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-S40-stella.wav",
+        "sourceSpokenText": "需要时开启 P C D N ，让浏览器与挂载来源分担部分流量。普通下载，仍是默认选择。",
+        "nativeSeconds": 7.811166666666667,
+        "finalSeconds": 8.237270833333334,
+        "originalSeconds": 8.237270833333334
+      }
+    },
+    {
+      "id": "T02",
+      "voice": "stella",
+      "text": "一个程序，启动HTTP服务。",
+      "spokenText": "一个程序，启动 H T T P 服务。",
+      "file": "assets/audio/brand/T02-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 3.0985625,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "1f9f6085fbbd182453c9f99e774f4304eecaf4bc886202e405fbddc4af8566da",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.4580416666666667
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-T02-stella.wav",
+        "sourceSpokenText": "一个程序，启动 H T T P 服务。",
+        "nativeSeconds": 2.6405208333333334,
+        "finalSeconds": 3.0985625,
+        "originalSeconds": 3.0985625
+      }
+    },
+    {
+      "id": "V02",
+      "voice": "stella",
+      "text": "启动一个HTTP入口，用浏览器访问。",
+      "spokenText": "启动一个 H T T P 入口，用浏览器访问。",
+      "file": "assets/audio/brand/V02-pronunciation-fixed.wav",
+      "preprocessed48k": true,
+      "seconds": 3.6990208333333334,
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "sha256": "8075e3458ec84a0a811344a7423c958276c2a3166301ded65adfe6b7ece62e67",
+      "pronunciation": {
+        "pitchPreservingTempo": 1.0,
+        "edits": [
+          {
+            "type": "trailing-silence-added",
+            "seconds": 0.05452083333333333
+          }
+        ],
+        "usedExtraExistingCueSeconds": 0.0,
+        "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+        "source": "assets/audio/cloud/corrected-V02-stella.wav",
+        "sourceSpokenText": "启动一个 H T T P 入口，用浏览器访问。",
+        "nativeSeconds": 3.6445,
+        "finalSeconds": 3.6990208333333334,
+        "originalSeconds": 3.6990208333333334
+      }
+    }
+  ]
+}

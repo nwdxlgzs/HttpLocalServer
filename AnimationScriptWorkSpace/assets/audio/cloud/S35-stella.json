@@ -1,0 +1,14 @@
+{
+  "id": "S35",
+  "voice": "stella",
+  "text": "文件、数据和常用组件开放给可信脚本，能力与资源仍由主机限制。",
+  "characters": 30,
+  "inputSha256": "17346cd6b78edbcd7beb70600b687cb355f64aca29228ad897d5a2f962c45bf3",
+  "file": "assets/audio/cloud/S35-stella.wav",
+  "generatedAt": "2026-11-14T07:40:06.813015+00:00",
+  "seconds": 6.72,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 322604
+}

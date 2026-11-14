@@ -1,0 +1,14 @@
+{
+  "id": "S26",
+  "voice": "stella",
+  "text": "公告说明事情，关注胶囊指向文件。点击定位，还是直接下载，都可设置。",
+  "characters": 33,
+  "inputSha256": "ca8050c9fbc0d4e8180853a84f50128d94f3c75459e1e2c98f62175d5352d41e",
+  "file": "assets/audio/cloud/S26-stella.wav",
+  "generatedAt": "2026-11-14T07:39:40.779843+00:00",
+  "seconds": 6.6,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 316844
+}

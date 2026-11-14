@@ -1,0 +1,44 @@
+{
+  "id": "T01",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "本机内容，局域网可达。",
+  "events": [
+    {
+      "start": 0.0788125,
+      "position": 0,
+      "length": 1,
+      "text": "本"
+    },
+    {
+      "start": 0.27,
+      "position": 1,
+      "length": 1,
+      "text": "机"
+    },
+    {
+      "start": 0.42425,
+      "position": 2,
+      "length": 2,
+      "text": "内容"
+    },
+    {
+      "start": 1.1009375,
+      "position": 5,
+      "length": 3,
+      "text": "局域网"
+    },
+    {
+      "start": 1.63,
+      "position": 8,
+      "length": 1,
+      "text": "可"
+    },
+    {
+      "start": 1.8535625,
+      "position": 9,
+      "length": 1,
+      "text": "达"
+    }
+  ]
+}

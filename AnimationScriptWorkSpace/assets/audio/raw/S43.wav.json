@@ -1,0 +1,104 @@
+{
+  "id": "S43",
+  "voice": "Microsoft Yaoyao",
+  "rate": 2,
+  "spoken": "资料分发，团队提交，网站演示，内网工具。一个入口，按你的规则开放。",
+  "events": [
+    {
+      "start": 0.0631875,
+      "position": 0,
+      "length": 2,
+      "text": "资料"
+    },
+    {
+      "start": 0.3313125,
+      "position": 2,
+      "length": 2,
+      "text": "分发"
+    },
+    {
+      "start": 0.88,
+      "position": 5,
+      "length": 2,
+      "text": "团队"
+    },
+    {
+      "start": 1.212375,
+      "position": 7,
+      "length": 2,
+      "text": "提交"
+    },
+    {
+      "start": 1.79,
+      "position": 10,
+      "length": 2,
+      "text": "网站"
+    },
+    {
+      "start": 2.1023125,
+      "position": 12,
+      "length": 2,
+      "text": "演示"
+    },
+    {
+      "start": 2.6900625,
+      "position": 15,
+      "length": 1,
+      "text": "内"
+    },
+    {
+      "start": 2.812625,
+      "position": 16,
+      "length": 1,
+      "text": "网"
+    },
+    {
+      "start": 2.9706875,
+      "position": 17,
+      "length": 2,
+      "text": "工具"
+    },
+    {
+      "start": 4.01,
+      "position": 20,
+      "length": 2,
+      "text": "一个"
+    },
+    {
+      "start": 4.2468125,
+      "position": 22,
+      "length": 2,
+      "text": "入口"
+    },
+    {
+      "start": 4.787125,
+      "position": 25,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 4.931125,
+      "position": 26,
+      "length": 1,
+      "text": "你"
+    },
+    {
+      "start": 5.0535,
+      "position": 27,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 5.1919375,
+      "position": 28,
+      "length": 2,
+      "text": "规则"
+    },
+    {
+      "start": 5.477125,
+      "position": 30,
+      "length": 2,
+      "text": "开放"
+    }
+  ]
+}

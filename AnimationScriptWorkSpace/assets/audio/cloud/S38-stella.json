@@ -1,0 +1,14 @@
+{
+  "id": "S38",
+  "voice": "stella",
+  "text": "热点留下，冷内容让位。线程、缓冲和流量按预算调度。",
+  "characters": 25,
+  "inputSha256": "b852720b8649fa6e82e95ccde8b13dfdec738330f7d88f926bc4a9147918c2bb",
+  "file": "assets/audio/cloud/S38-stella.wav",
+  "generatedAt": "2026-11-14T07:40:15.668734+00:00",
+  "seconds": 6.36,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 305324
+}

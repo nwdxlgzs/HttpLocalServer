@@ -1,0 +1,122 @@
+{
+  "id": "S28",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "浏览器目录可以持续共享，后台逐步上传。有人访问的内容优先，已完成副本留在主机。",
+  "events": [
+    {
+      "start": 0.0820625,
+      "position": 0,
+      "length": 3,
+      "text": "浏览器"
+    },
+    {
+      "start": 0.6418125,
+      "position": 3,
+      "length": 2,
+      "text": "目录"
+    },
+    {
+      "start": 1.0959375,
+      "position": 5,
+      "length": 2,
+      "text": "可以"
+    },
+    {
+      "start": 1.49,
+      "position": 7,
+      "length": 2,
+      "text": "持续"
+    },
+    {
+      "start": 1.88,
+      "position": 9,
+      "length": 2,
+      "text": "共享"
+    },
+    {
+      "start": 2.59,
+      "position": 12,
+      "length": 2,
+      "text": "后台"
+    },
+    {
+      "start": 3.09,
+      "position": 14,
+      "length": 2,
+      "text": "逐步"
+    },
+    {
+      "start": 3.4115,
+      "position": 16,
+      "length": 2,
+      "text": "上传"
+    },
+    {
+      "start": 4.825625,
+      "position": 19,
+      "length": 2,
+      "text": "有人"
+    },
+    {
+      "start": 5.1699375,
+      "position": 21,
+      "length": 2,
+      "text": "访问"
+    },
+    {
+      "start": 5.5733125,
+      "position": 23,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 5.7341875,
+      "position": 24,
+      "length": 2,
+      "text": "内容"
+    },
+    {
+      "start": 6.085125,
+      "position": 26,
+      "length": 2,
+      "text": "优先"
+    },
+    {
+      "start": 6.809,
+      "position": 29,
+      "length": 1,
+      "text": "已"
+    },
+    {
+      "start": 6.9769375,
+      "position": 30,
+      "length": 2,
+      "text": "完成"
+    },
+    {
+      "start": 7.4566875,
+      "position": 32,
+      "length": 2,
+      "text": "副本"
+    },
+    {
+      "start": 7.815625,
+      "position": 34,
+      "length": 1,
+      "text": "留"
+    },
+    {
+      "start": 7.994875,
+      "position": 35,
+      "length": 1,
+      "text": "在"
+    },
+    {
+      "start": 8.177875,
+      "position": 36,
+      "length": 2,
+      "text": "主机"
+    }
+  ]
+}

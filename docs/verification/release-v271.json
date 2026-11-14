@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-13",
+  "version": "2.7.1",
+  "baseline": "release-v270.json",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 7266304,
+      "sha256": "2425b7b0a3f7ddce547856a27f5d5ff6f1004fcc3b0c9281cd4847042cf57e49"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 9462040,
+      "sha256": "3118d7d5ec9c97b19b33400b3b8f96667f1c0a1d1cdfe3a880efe6105d8dd92a"
+    }
+  ],
+  "behavior": {
+    "hostTotalSwitch": "Default OFF; CLI --p2p or host settings controls both automatic sending and P2P download entry",
+    "pageSenderDefault": true,
+    "pageSenderPreference": "Document lifetime only. One opt-out covers all subsequent PCDN events in that page; no localStorage/sessionStorage/cookie persistence. Refresh or a new document defaults ON. Host policy changes do not reset an open page's choice.",
+    "receiverIndependent": "Turning sending OFF does not prevent P2P receiving or ordinary downloading",
+    "downloadMenu": ["普通下载", "P2P 下载"],
+    "passiveSender": "Capable idle pages register automatically. One passive page per active file lazily pulls, SHA-256 verifies and caches requested chunks, coalesces simultaneous same-piece pulls and shares cached chunks. No proactive full-file scan or local user file access.",
+    "passiveBounds": "512 page registrations globally, 32 per IP; one file per passive page, one origin chunk pull at a time, 90 second idle cache/task eviction. Existing file participant/cache/upload/signal budgets retained.",
+    "httpAndHttps": "Both support WebRTC data transfer. Prefer WebCrypto where available; bundled ES5 SHA-256 via Worker or yielding fallback handles ordinary HTTP without WebCrypto. Native disk writes remain browser/security-context dependent."
+  },
+  "verification": {
+    "windows": [
+      "Coherent MSVC Release build with static runtime and TLS enabled; CTest3/3",
+      "New passive PCDN integration passed separately over HTTP and HTTPS: idle registration, lazy assignment, IP/key/Origin isolation, authoritative hashes, one relay per file, page opt-out revocation/takeover and host total switch",
+      "Existing P2P HTTP integration and concurrent independent SHA-256 comparison passed",
+      "Existing access/login/ban/strict host/COW copy/hotlink/QR/gzip suite passed",
+      "Full HTTPS regression passed including TLS1.2/1.3, ALPN/resumption/close-notify, certificate/SAN/DER, 5GiB offset,96 ranges, uploads/gzip, preview/CSP/MCP and key/handshake protections",
+      "Final dist2.7.1, zero-argument HTTP8000 defaults, default P2P OFF and exact embedded gzip/identity assets checked"
+    ],
+    "linuxMusl": [
+      "Static x86_64 TLS-enabled build; CTest3/3",
+      "New passive PCDN HTTP and HTTPS integration passed after final allocation optimization",
+      "Existing P2P integration passed before final reservation-timing refactor; new final passive tests cover the changed allocation paths",
+      "Final dist2.7.1 and zero-argument HTTP8000 defaults checked"
+    ],
+    "javascript": [
+      "Portable SHA-256 independently checked against Node crypto for empty,55/56/63/64/65/127/128/129-byte padding boundaries and1MiB input",
+      "Capability test permits insecure HTTP with WebRTC and no WebCrypto",
+      "Page opt-out applies to10 consecutive send events, survives host policy refresh, leaves receiving active, and resets in a newly evaluated document",
+      "Passive origin request coalescing, verified cache reuse, registration and opt-out lease cleanup",
+      "Existing P2P frame/corruption/fallback/bounds/resume/pause/COW sink tests passed",
+      "25 frontend/vendor ES5 sources and full IE-like startup without modern APIs passed",
+      "Existing player, clipboard, drag/thumbnail and mount/browser suites passed"
+    ],
+    "realBrowser": {
+      "environment": "Two actual Chromium-based browser pages using the machine's non-loopback LAN address over ordinary HTTP; generated16MiB fixture. Same physical machine, no browser security changes.",
+      "idleSender": "Page never selected any download; default passive role transmitted16MiB, and later reused cached content for another16MiB",
+      "receiver": "Page sender switch OFF throughout repeated downloads; each completed with16MiB from peer and0 direct origin file bytes",
+      "preference": "Sender OFF remained across subsequent downloads. Earlier refresh reset the page to ON as intended.",
+      "cachedTransferTraffic": {
+        "fileBytes": 16777216,
+        "peerReceivedDeltaReported": 16777216,
+        "hostSentBytesBefore": 33851752,
+        "hostSentBytesAfter": 33866950,
+        "hostSentBytesDelta": 15198,
+        "interpretation": "Server response-body counter delta over the cached-download observation window, including control/hash/status traffic. It is not a NIC packet capture, billing metric or production benchmark."
+      },
+      "console": "Receiver had no error/warning logs",
+      "screenshots": ["v271-http-pcdn.png", "v271-http-sender.png"],
+      "outputScope": "Verified actual WebRTC reception and per-piece digest path. Final browser-save event/file was not independently captured for these ordinary-HTTP runs;2.7.0 loopback output hash verification remains separately recorded."
+    },
+    "macos": "Source compatibility only; no build/test per user instruction",
+    "ie11": "Static syntax/capability fallback only; no new actual IE run"
+  },
+  "webBundle": {
+    "uncompressedBytes": 434383,
+    "gzipBytes": 119238,
+    "sha256": "68172c99bbcf9564299fb5d785d4715d4c1efec41131e21b17d265a506b33893"
+  },
+  "limits": [
+    "IE and browsers without WebRTC retain ordinary downloading, not PCDN sending",
+    "Ordinary HTTP can relay arbitrary supported-size files with bounded memory; receiving without native local write APIs uses64/128MiB Blob limits, then ordinary-download fallback",
+    "Native disk streaming requires browser support and a trusted secure context; no actual save-file picker or multi-GB endurance test was performed",
+    "A passive relay's first uncached piece still comes from the host. Savings arise from reuse; the first relay-assisted transfer alone does not imply reduced host data traffic",
+    "WebRTC UDP/client isolation restrictions can force origin fallback; no external STUN/TURN added",
+    "Page choice resets on refresh/new document, and is independent across separately opened browser pages",
+    "No new third-party runtime/library dependency; Apache-2.0 project licensing retained"
+  ],
+  "documentation": ["docs/p2p.md", "docs/development.md", "README.md"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "O02",
+  "voice": "stella",
+  "text": "启动HttpLocalServer，用浏览器访问。一个程序，先把服务提供出来。",
+  "spokenText": "启动 H T T P Local Server ，用浏览器访问。一个程序，先把服务提供出来。",
+  "characters": 46,
+  "inputSha256": "43e33504ab7bdd013b0aff8d0ec560a56affffa5643360a0a3151b69e5564954",
+  "file": "assets/audio/cloud/corrected-O02-stella.wav",
+  "generatedAt": "2026-11-14T08:05:53.586750+00:00",
+  "seconds": 6.8,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 326444
+}

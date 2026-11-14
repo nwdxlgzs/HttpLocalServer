@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "profile": "uhd-stereo-music-v3",
+  "originalMusic": true,
+  "newTTSRequests": 0,
+  "musicGainFromPreviousMixDB": 4.5,
+  "timingFilesUnchanged": {
+    "data\\scenes.json": true,
+    "assets\\audio\\main.srt": true,
+    "assets\\audio\\main-captions.json": true,
+    "assets\\audio\\overview.srt": true,
+    "assets\\audio\\overview-captions.json": true,
+    "assets\\audio\\teaser.srt": true,
+    "assets\\audio\\teaser-captions.json": true,
+    "assets\\audio\\vertical.srt": true,
+    "assets\\audio\\vertical-captions.json": true
+  },
+  "films": [
+    {
+      "id": "main",
+      "seconds": 319.96666666666664,
+      "musicGainRequestedDB": 4.5,
+      "oldMusicLUFS": -32.866,
+      "newMusicLUFS": -28.427,
+      "musicIncreaseLU": 4.439,
+      "voiceChangeFromV2LU": -0.061,
+      "newVoiceLUFS": -18.102,
+      "newMixLUFS": -15.264,
+      "truePeakDBTP": -1.2,
+      "channels": 2,
+      "sampleRate": 48000,
+      "mixSha256": "60f46bedd53f14040e48ae6e9fa4517c650401b3b2f5320e5132925ddffbeb33"
+    },
+    {
+      "id": "overview",
+      "seconds": 58.3,
+      "musicGainRequestedDB": 4.5,
+      "oldMusicLUFS": -31.253,
+      "newMusicLUFS": -26.847,
+      "musicIncreaseLU": 4.405,
+      "voiceChangeFromV2LU": -0.095,
+      "newVoiceLUFS": -17.285,
+      "newMixLUFS": -14.977,
+      "truePeakDBTP": -1.2,
+      "channels": 2,
+      "sampleRate": 48000,
+      "mixSha256": "b726c9b256bb187f32b762abf7b1b2f8657983531e9d6f22edb621ccee349980"
+    },
+    {
+      "id": "teaser",
+      "seconds": 24.333333333333332,
+      "musicGainRequestedDB": 4.5,
+      "oldMusicLUFS": -31.3,
+      "newMusicLUFS": -26.89,
+      "musicIncreaseLU": 4.41,
+      "voiceChangeFromV2LU": -0.09,
+      "newVoiceLUFS": -17.633,
+      "newMixLUFS": -15.592,
+      "truePeakDBTP": -1.2,
+      "channels": 2,
+      "sampleRate": 48000,
+      "mixSha256": "eea86af0b5fe8f216472e55167729de9316457ab4b159fc4adf605092076171e"
+    },
+    {
+      "id": "vertical",
+      "seconds": 34.733333333333334,
+      "musicGainRequestedDB": 4.5,
+      "oldMusicLUFS": -30.951,
+      "newMusicLUFS": -26.631,
+      "musicIncreaseLU": 4.321,
+      "voiceChangeFromV2LU": -0.179,
+      "newVoiceLUFS": -17.179,
+      "newMixLUFS": -15.052,
+      "truePeakDBTP": -1.2,
+      "channels": 2,
+      "sampleRate": 48000,
+      "mixSha256": "3fb09b8eb45b26d347a7869a197fb5a5c095369987cab7677531022d529289ed"
+    }
+  ]
+}

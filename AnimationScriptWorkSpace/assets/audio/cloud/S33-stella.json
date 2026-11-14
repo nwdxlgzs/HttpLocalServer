@@ -1,0 +1,14 @@
+{
+  "id": "S33",
+  "voice": "stella",
+  "text": "切到Server，目录成为网站。默认文档、单页应用回退和错误页，都能配置。",
+  "characters": 37,
+  "inputSha256": "b742f900ec27de83353217d4138f09ee3b62d0dd27da403cd30dde911f452af0",
+  "file": "assets/audio/cloud/S33-stella.wav",
+  "generatedAt": "2026-11-14T07:40:00.870947+00:00",
+  "seconds": 7.84,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 376364
+}

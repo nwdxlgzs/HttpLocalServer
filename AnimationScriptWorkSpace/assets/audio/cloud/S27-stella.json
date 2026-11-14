@@ -1,0 +1,14 @@
+{
+  "id": "S27",
+  "voice": "stella",
+  "text": "主机目录、分区和系统根，可以按需要组织成共享入口。",
+  "characters": 25,
+  "inputSha256": "822b7f467b0f904c4be1d3eaab9dba38e08ce5bf29f8b7d144239e7d42cf2f7d",
+  "file": "assets/audio/cloud/S27-stella.wav",
+  "generatedAt": "2026-11-14T07:39:43.657767+00:00",
+  "seconds": 5.56,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 266924
+}

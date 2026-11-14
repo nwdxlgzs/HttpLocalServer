@@ -1,0 +1,10 @@
+/* SPDX-License-Identifier: Apache-2.0 */
+.content-tabs{z-index:4;overflow:hidden}.content-frame{display:block;width:100%;height:100%;border:0;background:#f1f4f8}.theme-dark .content-frame{background:#18212d}
+
+.document-edit-button{position:absolute;right:16px;bottom:16px;padding:9px 15px;border:1px solid #c3d4e9;border-radius:7px;background:#f0f6ff;color:#25578f;box-shadow:0 2px 8px rgba(30,65,110,.1)}.theme-dark .document-edit-button{background:#2d4666;color:#d6e7ff;border-color:#577497}
+
+.embedded-preview #close-drawer{display:none}.embedded-preview .drawer-head{height:44px}.embedded-preview .preview{top:49px;left:8px;right:8px;bottom:8px}.content-tabs{left:0!important}
+
+.app.preview-active .commands,.app.preview-active .navigation,.app.preview-active .sidebar,.app.preview-active .site-notice{display:none!important}.app.preview-active .workspace{top:49px!important;bottom:0!important}.app.preview-active .statusbar{display:none}.app.preview-active .content-tabs{left:0;right:0}
+
+.app.standalone.embedded-preview{min-height:0}

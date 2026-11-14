@@ -1,0 +1,109 @@
+{
+  "version": "3.3.0",
+  "date": "2026-11-14",
+  "license": "Apache-2.0",
+  "author": "github@nwdxlgzs",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 25269760,
+      "sha256": "d73618c714ec34291f9ad78700b654dc3809575ee34b503ba19a632309be1cff",
+      "tlsCompiled": true
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 27967800,
+      "sha256": "7e90aca6c7f41289fa2bcb48d96086eec18b279e5eb114cc93dfcf3533966d8f",
+      "tlsCompiled": true
+    }
+  ],
+  "regression": {
+    "windows": {
+      "groupsPassed": 35,
+      "skipped": 0,
+      "report": "docs/verification/acceptance-v330-windows.json",
+      "binarySha256": "d73618c714ec34291f9ad78700b654dc3809575ee34b503ba19a632309be1cff",
+      "ctest": {
+        "passed": 3,
+        "failed": 0
+      }
+    },
+    "musl": {
+      "groupsPassed": 35,
+      "skipped": 0,
+      "report": "docs/verification/acceptance-v330-musl.json",
+      "binarySha256": "7e90aca6c7f41289fa2bcb48d96086eec18b279e5eb114cc93dfcf3533966d8f",
+      "ctest": {
+        "passed": 3,
+        "failed": 0
+      }
+    }
+  },
+  "browser": {
+    "passed": 46,
+    "protocols": [
+      "HTTP",
+      "HTTPS"
+    ],
+    "sourceOverrides": false,
+    "report": "docs/verification/browser-v330.json"
+  },
+  "load": {
+    "windows": {
+      "report": "docs/verification/load-v330-windows.json",
+      "clients": 96,
+      "requests": 768,
+      "payloadBytes": 810915840,
+      "integrityFailures": 0
+    },
+    "musl": {
+      "report": "docs/verification/load-v330-musl.json",
+      "clients": 96,
+      "requests": 768,
+      "payloadBytes": 810915840,
+      "integrityFailures": 0
+    }
+  },
+  "loadScope": "Loopback integrity/concurrency/cache cooldown; not physical LAN throughput",
+  "features": [
+    "Content inference selects previews/actions despite missing or incorrect suffixes; bounded ZIP entry signatures and host inferred MIME",
+    "ZIP Markdown with scoped images and navigation in host/client modes",
+    "Continuous Word and virtualized PDF pages; responsive presentation rail/slideshow/keyboard/auto-play",
+    "Spreadsheet drag ranges and selectable cell-content field; text/PNG/compatible HTML image copying",
+    "Responsive mobile command/footer layout, expandable connection capsule and touch tap/hold actions",
+    "Writable UTF-8 text editor, version-pinned reads and COW saves; Chinese Monaco 0.57.0 and Modern Dark/Light; legacy/touch fallback",
+    "Server --workspace-app ZIP with persistent server.qjs ES modules, local imports, confined synchronous fs API and private backend code; Unicode/space static paths",
+    "gzip/deflate Accept-Encoding negotiation with unchanged byte Range semantics",
+    "Frozen .hls-state-* placeholders, no descendant web access; default CWD config and lock created only on first host settings save"
+  ],
+  "web": {
+    "mainRawBytes": 551296,
+    "mainGzipBytes": 151277,
+    "previewAssetCount": 429,
+    "previewGzipBytes": 16252314,
+    "mainSha256": "577197f1dd19b37c2cd52c37f64bfc5b2a67e6d369388fabfe6ae26f775268cb",
+    "previewSha256": "c00d8dee7794c58126b3ab1695bb9540eec7a3e1a8de48ad3905885e6017074e"
+  },
+  "sourceSnapshot": {
+    "report": "docs/verification/source-v330-sha256.json",
+    "files": 709
+  },
+  "binaryChecks": "docs/verification/binary-v330.json",
+  "validationBoundaries": [
+    "No actual Windows 7 run; subsystem 6.01 and selected post-Win7 direct imports checked",
+    "macOS remains source-adapted and untested as requested",
+    "No new native IE11 run; ES5/missing-API Chromium tests and a manual checklist are provided",
+    "Legacy Office is a basic text/table/common-image fallback, not desktop Office fidelity; PowerPoint complex animations are not fully reproduced",
+    "Non-UTF-8 text is previewable but editing remains read-only to prevent silent re-encoding",
+    "Clipboard availability varies; PNG, compatible HTML image copy, then PNG save fallback",
+    "Workspace hooks are synchronous, serial per app and resource-bounded; scripts have no Node/OS/network API and startup requires an explicit trusted CLI archive",
+    "PDF search covers rendered nearby pages; ZIP and document hard resource budgets still apply",
+    "No additional TLS-disabled build was run for this increment"
+  ],
+  "documentation": [
+    "docs/previews.md",
+    "docs/workspace-app.md",
+    "docs/configuration.md"
+  ],
+  "ieChecklist": "docs/verification/ie-v330.md"
+}

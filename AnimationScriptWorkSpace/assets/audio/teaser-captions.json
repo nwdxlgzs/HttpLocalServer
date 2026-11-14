@@ -1,0 +1,51 @@
+[
+  {
+    "id": "T01",
+    "start": 0.2333,
+    "end": 2.5554,
+    "text": "本机内容，局域网可达。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "T02",
+    "start": 2.95,
+    "end": 6.0486,
+    "text": "一个程序，启动HTTP服务。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "TQR",
+    "start": 6.4333,
+    "end": 8.209,
+    "text": "扫一扫，直接打开。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "T03",
+    "start": 11.8833,
+    "end": 14.195,
+    "text": "文件浏览、预览与传输。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "T04",
+    "start": 14.6,
+    "end": 17.9326,
+    "text": "开放文件，也开放网页与轻量应用。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "T05",
+    "start": 18.6167,
+    "end": 20.9802,
+    "text": "能力可配，资源有界。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "T06",
+    "start": 21.3667,
+    "end": 23.405,
+    "text": "HttpLocalServer。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  }
+]

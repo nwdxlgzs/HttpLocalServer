@@ -1,0 +1,29 @@
+{
+  "id": "O02",
+  "voice": "stella",
+  "text": "启动HttpLocalServer，用浏览器访问。一个程序，先把服务提供出来。",
+  "spokenText": "启动 H T T P Local Server ，用浏览器访问。一个程序，先把服务提供出来。",
+  "file": "assets/audio/brand/O02-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 6.7005625,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "d8e2d5d3f101acb0f52665f30d4975a08c699815cdd50f69ce15e82804bec39e",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.32929166666666665
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-O02-stella.wav",
+    "sourceSpokenText": "启动 H T T P Local Server ，用浏览器访问。一个程序，先把服务提供出来。",
+    "nativeSeconds": 6.371270833333333,
+    "finalSeconds": 6.7005625,
+    "originalSeconds": 6.7005625
+  }
+}

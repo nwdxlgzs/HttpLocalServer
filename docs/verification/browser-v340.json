@@ -1,0 +1,79 @@
+{
+  "version": "3.4.0",
+  "date": "2026-11-14",
+  "binary": "<project>\\dist\\HttpLocalServer-windows-x64.exe",
+  "binarySha256": "d06dcd73a305de04b25cf8bd3c0fe51bef3316d21b04695447ca92c3dce3a420",
+  "sourceOverrides": false,
+  "tests": [
+    {
+      "name": "preview_browser_integration.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 12.86,
+      "passedScenarios": 11,
+      "output": "PASS native-Wasm docx \nPASS native-Wasm pptx \nPASS native-Wasm xlsx \nPASS native-Wasm pdf \nPASS no-Wasm docx \nPASS no-Wasm pptx \nPASS no-Wasm xlsx \nPASS no-Wasm pdf \nZIP CONSOLE host Connecting to 'http://127.0.0.1:59730/api/admin/settings' violates the following Content Security Policy directive: \"connect-src http://127.0.0.1:59730/zip-assets/50e7f39066c615d3ead8273dcb7df8e80b0822dd3dd06108/\". The action has been blocked.\nZIP CONSOLE host Fetch API cannot load http://127.0.0.1:59730/api/admin/settings. Refused to connect because it violates the document's Content Security Policy.\nPASS ZIP website host CSS/script/image/fetch and API isolation\nPASS ZIP website client CSS/script/image/fetch and API isolation\nPASS internal tabs: 12 cap, close cleanup, dark mode and mobile\nPreview browser checks passed\n"
+    },
+    {
+      "name": "preview_browser_integration.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 13.52,
+      "passedScenarios": 11,
+      "output": "PASS native-Wasm docx \nPASS native-Wasm pptx \nPASS native-Wasm xlsx \nPASS native-Wasm pdf \nPASS no-Wasm docx \nPASS no-Wasm pptx \nPASS no-Wasm xlsx \nPASS no-Wasm pdf \nZIP CONSOLE host Connecting to 'https://127.0.0.1:54942/api/admin/settings' violates the following Content Security Policy directive: \"connect-src https://127.0.0.1:54942/zip-assets/2fa9729f29ff03169709ac293c82743d4f33ad6e34b84192/\". The action has been blocked.\nZIP CONSOLE host Fetch API cannot load https://127.0.0.1:54942/api/admin/settings. Refused to connect because it violates the document's Content Security Policy.\nPASS ZIP website host CSS/script/image/fetch and API isolation\nPASS ZIP website client CSS/script/image/fetch and API isolation\nPASS internal tabs: 12 cap, close cleanup, dark mode and mobile\nPreview browser checks passed\n"
+    },
+    {
+      "name": "features_v330_browser.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 14.28,
+      "passedScenarios": 12,
+      "output": "CONSOLE warning Allow attribute will take precedence over 'allowfullscreen'.\nPASS inferred image action without suffix\nPASS continuous scrolling docx\nPASS continuous scrolling pdf\nPASS PNG and compatible image copying\nPASS presentation rail and slideshow keyboard\nPASS spreadsheet text field, drag range and context menu\nPASS versioned editor save\nPASS localized Monaco and save\nPASS ZIP Markdown dependencies and navigation host\nCONSOLE error Failed to load resource: the server responded with a status of 403 (Forbidden)\nPASS ZIP Markdown dependencies and navigation client\nPASS mobile workspace spacing and host controls\nPASS touch single tap preview\n"
+    },
+    {
+      "name": "features_v330_browser.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 15.2,
+      "passedScenarios": 12,
+      "output": "CONSOLE warning Allow attribute will take precedence over 'allowfullscreen'.\nPASS inferred image action without suffix\nPASS continuous scrolling docx\nPASS continuous scrolling pdf\nPASS PNG and compatible image copying\nPASS presentation rail and slideshow keyboard\nPASS spreadsheet text field, drag range and context menu\nPASS versioned editor save\nPASS localized Monaco and save\nPASS ZIP Markdown dependencies and navigation host\nCONSOLE error Failed to load resource: the server responded with a status of 403 (Forbidden)\nPASS ZIP Markdown dependencies and navigation client\nPASS mobile workspace spacing and host controls\nPASS touch single tap preview\n"
+    },
+    {
+      "name": "viewer_layout_browser.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 25.66,
+      "passedScenarios": 8,
+      "output": "PASS presentation geometry, queued rapid navigation, virtual thumbnails and compact toolbar\nPASS slideshow fullscreen, Escape, keyboard, timed play/pause\nPASS responsive Word/PDF fit width, continuous navigation and manual zoom\nPASS merged-cell interior selection, anchor address, text field, clipboard and oversized-selection rejection\nPASS image in internal tab and separate window, captured thumbnail propagation, no preview sidebar\nPASS mobile slide drawer, tap-to-navigate, portrait/landscape fitting\nPASS no-Wasm merged cells, clipped column groups and row-page continuations\nPASS real touch tap navigation and swipe advance\nViewer layout browser tests passed\n"
+    },
+    {
+      "name": "viewer_layout_browser.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 26.17,
+      "passedScenarios": 8,
+      "output": "PASS presentation geometry, queued rapid navigation, virtual thumbnails and compact toolbar\nPASS slideshow fullscreen, Escape, keyboard, timed play/pause\nPASS responsive Word/PDF fit width, continuous navigation and manual zoom\nPASS merged-cell interior selection, anchor address, text field, clipboard and oversized-selection rejection\nPASS image in internal tab and separate window, captured thumbnail propagation, no preview sidebar\nPASS mobile slide drawer, tap-to-navigate, portrait/landscape fitting\nPASS no-Wasm merged cells, clipped column groups and row-page continuations\nPASS real touch tap navigation and swipe advance\nViewer layout browser tests passed\n"
+    }
+  ],
+  "initialFailures": [
+    {
+      "name": "preview_browser_integration.py",
+      "protocol": "https",
+      "output": "PASS native-Wasm docx \nPASS native-Wasm pptx \nPASS native-Wasm xlsx \nPASS native-Wasm pdf \nPASS no-Wasm docx \nPASS no-Wasm pptx \nPASS no-Wasm xlsx \nAssertionError [ERR_ASSERTION]: Document clipboard copy\n+ actual - expected\n\n+ 'Data\\nSecond\\n\\n行\\tA\\tB\\n1\\tName\\tValue\\n2\\texample\\t42\\n3\\t中文\\t123\\n'\n- 'HttpLocalServer PDF previewSelectable text and bounded rendering.'\n\n    at <project>\\tests\\preview_browser.cjs:25:550 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: 'Data\\nSecond\\n\\n行\\tA\\tB\\n1\\tName\\tValue\\n2\\texample\\t42\\n3\\t中文\\t123\\n',\n  expected: 'HttpLocalServer PDF previewSelectable text and bounded rendering.',\n  operator: 'strictEqual',\n  diff: 'simple'\n}\nServer exit at failure: None\nHttpLocalServer 3.4.0\n\nMode: filetrans (readonly)\n\nRoot: <user-profile>\\AppData\\Local\\Temp\\hls-preview-browser-sz2_1evf\n\nListen: 127.0.0.1:61026\n\nLocal: https://127.0.0.1:61026/\n\n  Loopback Pseudo-Interface 1: https://127.0.0.1:61026/\n\nHTTPS: mbedTLS 3.6.7; TLS 1.2/1.3; temporary self-signed certificate (new each run)\n\nCertificate SHA-256: b4:89:07:9c:3c:57:89:16:ef:b9:b7:ba:fc:6f:0c:e2:a1:b5:58:09:9a:f5:99:c9:57:25:68:24:79:93:98:9f\n\nRecommended: https://127.0.0.1:61026/\n\nCache: 32 MiB maximum, idle 3s, half-life 2s\n\nPress Ctrl+C to stop.\n\n\nTraceback (most recent call last):\n  File \"<project>\\tests\\preview_browser_integration.py\", line 27, in <module>\n    run(str(pathlib.Path(sys.argv[1]).resolve()),'--https' in sys.argv[2:])\n  File \"<project>\\tests\\preview_browser_integration.py\", line 16, in run\n    subprocess.run(['node',str(pathlib.Path(__file__).with_name('preview_browser.cjs')),\n  File \"C:\\Program Files\\Python310\\lib\\subprocess.py\", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['node', '<project>\\\\tests\\\\preview_browser.cjs', 'https://127.0.0.1:61026']' returned non-zero exit status 1.\n"
+    },
+    {
+      "name": "preview_browser_integration.py",
+      "protocol": "https",
+      "output": "PASS native-Wasm docx \nPASS native-Wasm pptx \nPASS native-Wasm xlsx \nPASS native-Wasm pdf \nPASS no-Wasm docx \nPASS no-Wasm pptx \nPASS no-Wasm xlsx \npage.waitForFunction: Timeout 30000ms exceeded.\n    at <project>\\tests\\preview_browser.cjs:25:554 {\n  log: [],\n  name: 'TimeoutError'\n}\nServer exit at failure: None\nHttpLocalServer 3.4.0\n\nMode: filetrans (readonly)\n\nRoot: <user-profile>\\AppData\\Local\\Temp\\hls-preview-browser-7jn6yw3y\n\nListen: 127.0.0.1:50594\n\nLocal: https://127.0.0.1:50594/\n\n  Loopback Pseudo-Interface 1: https://127.0.0.1:50594/\n\nHTTPS: mbedTLS 3.6.7; TLS 1.2/1.3; temporary self-signed certificate (new each run)\n\nCertificate SHA-256: 2a:17:94:4d:b5:5d:98:ba:d5:56:97:c5:54:3e:de:f1:0e:56:c5:e0:0d:e0:69:08:52:88:75:c8:48:07:74:49\n\nRecommended: https://127.0.0.1:50594/\n\nCache: 32 MiB maximum, idle 3s, half-life 2s\n\nPress Ctrl+C to stop.\n\n\nTraceback (most recent call last):\n  File \"<project>\\tests\\preview_browser_integration.py\", line 27, in <module>\n    run(str(pathlib.Path(sys.argv[1]).resolve()),'--https' in sys.argv[2:])\n  File \"<project>\\tests\\preview_browser_integration.py\", line 16, in run\n    subprocess.run(['node',str(pathlib.Path(__file__).with_name('preview_browser.cjs')),\n  File \"C:\\Program Files\\Python310\\lib\\subprocess.py\", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['node', '<project>\\\\tests\\\\preview_browser.cjs', 'https://127.0.0.1:50594']' returned non-zero exit status 1.\n"
+    },
+    {
+      "name": "features_v330_browser.py",
+      "protocol": "http",
+      "output": "CONSOLE warning Allow attribute will take precedence over 'allowfullscreen'.\nCONSOLE error Framing 'http://127.0.0.1:62021/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n\nlocator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#content-tabs iframe').contentFrame().locator('#preview img') to be visible\u001b[22m\n\n    at <project>\\tests\\features_v330_browser.cjs:12:262 {\n  log: [\n    \"  - waiting for locator('#content-tabs iframe').contentFrame().locator('#preview img') to be visible\"\n  ],\n  name: 'TimeoutError'\n}\nTraceback (most recent call last):\n  File \"<project>\\tests\\features_v330_browser.py\", line 52, in <module>\n    if __name__=='__main__':run(str(pathlib.Path(sys.argv[1]).resolve()),'--https' in sys.argv[2:])\n  File \"<project>\\tests\\features_v330_browser.py\", line 48, in run\n    try:subprocess.run(['node',str(pathlib.Path(__file__).with_name('features_v330_browser.cjs')),('https://' if https else 'http://')+'127.0.0.1:'+str(server.port)],check=True,timeout=480)\n  File \"C:\\Program Files\\Python310\\lib\\subprocess.py\", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['node', '<project>\\\\tests\\\\features_v330_browser.cjs', 'http://127.0.0.1:62021']' returned non-zero exit status 1.\n"
+    }
+  ],
+  "verificationAdjustments": [
+    "Asset integrity uses four persistent HTTP clients to avoid short-connection port churn",
+    "Clipboard verification waits for the asynchronous copy success notification"
+  ],
+  "passedScenarios": 62
+}

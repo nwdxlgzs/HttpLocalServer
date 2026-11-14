@@ -1,0 +1,12 @@
+{
+  "provider": "DeepSeek TTS",
+  "voice": "stella",
+  "approvedCueCount": 65,
+  "approvedTextCharacters": 1788,
+  "uniqueSynthesizedTexts": 64,
+  "uniqueTextCharacters": 1772,
+  "pricingVisible": false,
+  "billingTotalVisible": false,
+  "credentialsPersisted": false,
+  "responseMetadata": "Audio format and public approved text only; no request headers or error response bodies"
+}

@@ -1,0 +1,6 @@
+#pragma once
+#include <cstddef>
+namespace hls {
+inline constexpr unsigned char web_data[] = { @HLS_WEB_BYTES@ };
+inline constexpr std::size_t web_raw_size=@HLS_WEB_RAW_SIZE@;
+}

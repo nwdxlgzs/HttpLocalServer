@@ -1,0 +1,90 @@
+{
+  "version": "3.5.1",
+  "verifiedAt": "2026-11-14T06:41:03.386965+00:00",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 25621504,
+      "sha256": "81028b6a0f81876611b15d59a3b0b4f2aedc97989800c8c26a905e3c27c9103e"
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 28434840,
+      "sha256": "d5da2e4112dbd6ea5b3e2d6955b6db5eea50b872dc6f8c8f9a9cf745d629e8bf"
+    }
+  ],
+  "changes": [
+    "Bounded ZIP static asset cache, same-key extraction coalescing, frequency/size admission and idle eviction",
+    "Per-request permission/private-module and source-generation checks preserved on cache hits",
+    "Trusted source bytecode and embedded Wasm bootstrap compilation reuse",
+    "Exclusive idle runtime pool with fresh contexts/native components and GC; retire on failure, pending jobs, excess residual allocation, usage or idle limit",
+    "workspace-cache-mb CLI/config (16 MiB default, 0 disables retained data) and script diagnostics"
+  ],
+  "verification": {
+    "windows": {
+      "report": "docs/verification/targeted-v351-windows.json",
+      "checkGroups": 10,
+      "allPassed": true,
+      "ctestCases": 3
+    },
+    "musl": {
+      "report": "docs/verification/targeted-v351-musl.json",
+      "checkGroups": 10,
+      "allPassed": true,
+      "ctestCases": 3
+    }
+  },
+  "performance": {
+    "report": "docs/verification/script-performance-v351-windows.json",
+    "scope": "3 second per case HTTP loopback comparison; 1/8 clients; no capacity/sustained performance guarantee",
+    "comparisons": [
+      {
+        "scenario": "isolated-small",
+        "clients": 1,
+        "beforeRPS": 689.01,
+        "afterRPS": 991.47,
+        "ratio": 1.439
+      },
+      {
+        "scenario": "isolated-small",
+        "clients": 8,
+        "beforeRPS": 3909.49,
+        "afterRPS": 4899.58,
+        "ratio": 1.253
+      },
+      {
+        "scenario": "isolated-2048-functions",
+        "clients": 1,
+        "beforeRPS": 225.75,
+        "afterRPS": 488.88,
+        "ratio": 2.166
+      },
+      {
+        "scenario": "isolated-2048-functions",
+        "clients": 8,
+        "beforeRPS": 1158.17,
+        "afterRPS": 2601.44,
+        "ratio": 2.246
+      },
+      {
+        "scenario": "workspace-static",
+        "clients": 1,
+        "beforeRPS": 124.65,
+        "afterRPS": 173.21,
+        "ratio": 1.39
+      },
+      {
+        "scenario": "workspace-static",
+        "clients": 8,
+        "beforeRPS": 412.27,
+        "afterRPS": 443.33,
+        "ratio": 1.075
+      }
+    ]
+  },
+  "limits": [
+    "ZIP application JS dispatch remains serialized; this is not a backend worker-pool redesign",
+    "Targeted regression only; no new UI/IE, real Win7 or macOS runtime verification",
+    "Retained ZIP cache budget excludes active HTTP response copies; decompression separately bounded"
+  ]
+}

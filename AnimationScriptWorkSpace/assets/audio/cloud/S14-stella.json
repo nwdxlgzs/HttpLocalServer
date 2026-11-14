@@ -1,0 +1,14 @@
+{
+  "id": "S14",
+  "voice": "stella",
+  "text": "需要时，新建文件，直接编辑。现代桌面增强代码体验，旧环境保留文本编辑。",
+  "characters": 35,
+  "inputSha256": "ae8c388d8b936200b2138db2d9fce0993d2c8626747a5e8e5e3e1c6b38334d0b",
+  "file": "assets/audio/cloud/S14-stella.wav",
+  "generatedAt": "2026-11-14T07:39:05.336080+00:00",
+  "seconds": 7.88,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 378284
+}

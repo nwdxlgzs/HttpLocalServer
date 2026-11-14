@@ -1,0 +1,187 @@
+{
+  "binary": "dist/HttpLocalServer-windows-x64.exe",
+  "sha256": "756ac25440109913bf65ee16dc39ed09735390a8ff374b522a53275d8c4fcfd7",
+  "tests": [
+    {
+      "name": "ctest",
+      "exitCode": 0,
+      "seconds": 12.24,
+      "log": "final-v310-windows/ctest.log"
+    },
+    {
+      "name": "transfer_cache_integration.py",
+      "exitCode": 0,
+      "seconds": 8.44,
+      "log": "final-v310-windows/transfer_cache_integration.py.log"
+    },
+    {
+      "name": "bundle_integration.py",
+      "exitCode": 0,
+      "seconds": 0.92,
+      "log": "final-v310-windows/bundle_integration.py.log"
+    },
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 5.08,
+      "log": "final-v310-windows/durable_integration.py.log"
+    },
+    {
+      "name": "archive_integration.py",
+      "exitCode": 0,
+      "seconds": 8.27,
+      "log": "final-v310-windows/archive_integration.py.log"
+    },
+    {
+      "name": "state_integration.py",
+      "exitCode": 0,
+      "seconds": 1.59,
+      "log": "final-v310-windows/state_integration.py.log"
+    },
+    {
+      "name": "traffic_integration.py",
+      "exitCode": 0,
+      "seconds": 39.59,
+      "log": "final-v310-windows/traffic_integration.py.log"
+    },
+    {
+      "name": "secure_features_integration.py",
+      "exitCode": 0,
+      "seconds": 9.58,
+      "log": "final-v310-windows/secure_features_integration.py.log"
+    },
+    {
+      "name": "integration.py",
+      "exitCode": 0,
+      "seconds": 6.97,
+      "log": "final-v310-windows/integration.py.log"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 2.0,
+      "log": "final-v310-windows/config_integration.py.log"
+    },
+    {
+      "name": "access_integration.py",
+      "exitCode": 0,
+      "seconds": 9.33,
+      "log": "final-v310-windows/access_integration.py.log"
+    },
+    {
+      "name": "tls_integration.py",
+      "exitCode": 0,
+      "seconds": 7.03,
+      "log": "final-v310-windows/tls_integration.py.log"
+    },
+    {
+      "name": "mounts_integration.py",
+      "exitCode": 0,
+      "seconds": 47.7,
+      "log": "final-v310-windows/mounts_integration.py.log"
+    },
+    {
+      "name": "p2p_integration.py",
+      "exitCode": 0,
+      "seconds": 4.24,
+      "log": "final-v310-windows/p2p_integration.py.log"
+    },
+    {
+      "name": "p2p_relay_integration.py",
+      "exitCode": 0,
+      "seconds": 3.12,
+      "log": "final-v310-windows/p2p_relay_integration.py.log"
+    },
+    {
+      "name": "p2p_mount_integration.py",
+      "exitCode": 0,
+      "seconds": 3.33,
+      "log": "final-v310-windows/p2p_mount_integration.py.log"
+    },
+    {
+      "name": "branding_integration.py",
+      "exitCode": 0,
+      "seconds": 0.76,
+      "log": "final-v310-windows/branding_integration.py.log"
+    },
+    {
+      "name": "collaboration_integration.py",
+      "exitCode": 0,
+      "seconds": 54.61,
+      "log": "final-v310-windows/collaboration_integration.py.log"
+    },
+    {
+      "name": "defaults.py",
+      "exitCode": 0,
+      "seconds": 0.86,
+      "log": "final-v310-windows/defaults.py.log"
+    },
+    {
+      "name": "resume_test.cjs",
+      "exitCode": 0,
+      "seconds": 4.99,
+      "log": "final-v310-windows/resume_test.cjs.log"
+    },
+    {
+      "name": "jobs_test.cjs",
+      "exitCode": 0,
+      "seconds": 1.84,
+      "log": "final-v310-windows/jobs_test.cjs.log"
+    },
+    {
+      "name": "mounts_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.14,
+      "log": "final-v310-windows/mounts_test.cjs.log"
+    },
+    {
+      "name": "batch_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.28,
+      "log": "final-v310-windows/batch_test.cjs.log"
+    },
+    {
+      "name": "p2p_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.74,
+      "log": "final-v310-windows/p2p_test.cjs.log"
+    },
+    {
+      "name": "clipboard_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.08,
+      "log": "final-v310-windows/clipboard_test.cjs.log"
+    },
+    {
+      "name": "drag_thumbnail_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.28,
+      "log": "final-v310-windows/drag_thumbnail_test.cjs.log"
+    },
+    {
+      "name": "player_state_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.08,
+      "log": "final-v310-windows/player_state_test.cjs.log"
+    },
+    {
+      "name": "collaboration_test.cjs",
+      "exitCode": 0,
+      "seconds": 2.52,
+      "log": "final-v310-windows/collaboration_test.cjs.log"
+    },
+    {
+      "name": "ie_compat_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.22,
+      "log": "final-v310-windows/ie_compat_test.cjs.log"
+    },
+    {
+      "name": "mixed-load",
+      "exitCode": 0,
+      "seconds": 10.12,
+      "log": "final-v310-windows/mixed-load.log"
+    }
+  ],
+  "skipped": []
+}

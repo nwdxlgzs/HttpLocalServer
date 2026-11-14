@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-13",
+  "version": "2.6.0",
+  "baseline": "release-v251.json",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 7197696,
+      "sha256": "e792efed840b90993a795541ba9968297195a76a3cf152ab939558f734d9d345"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 9347352,
+      "sha256": "48b58ffb870caa11e8c03c1c2a38413452e19bb07e70ac28e4adf38445bce80d"
+    }
+  ],
+  "tlsDependency": {
+    "name": "Mbed TLS",
+    "version": "3.6.7",
+    "url": "https://github.com/Mbed-TLS/mbedtls/releases/download/mbedtls-3.6.7/mbedtls-3.6.7.tar.bz2",
+    "archive": "third_party/mbedtls-3.6.7.tar.bz2",
+    "sha256": "a7e8bcbec0e6f761b4af24f25677626b35f762f68eef79c08677a363212d11f6",
+    "license": "Apache-2.0 (selected from upstream Apache-2.0 OR GPL-2.0-or-later)",
+    "configuration": "src/tls/mbedtls_user_config.h",
+    "patches": []
+  },
+  "changes": [
+    "Optional HLS_ENABLE_TLS build switch defaults OFF; published executables include the statically linked backend; runtime remains HTTP by default",
+    "--https with PEM/DER certificate chain and matching private key, or --tls-self-signed for an in-memory per-run RSA-2048 certificate with local DNS/IP SANs and fingerprint",
+    "TLS1.2/1.3 only, ECDHE with preferred AEAD suites and trailing AES128-CBC-SHA256 compatibility suites for Win7 Schannel, HTTP/1.1 ALPN, renegotiation disabled, TLS1.3 PSK-only exchange/early data not enabled",
+    "Bounded asynchronous mbedTLS BIO over existing socket strands; 16KiB encrypted input, at most64KiB queued encrypted output, no dedicated thread per connection",
+    "Separate handshake ceiling32 and absolute timeout10s; process-local one-hour encrypted session tickets and TLS close-notify",
+    "std::mutex mbedTLS threading adapters protect shared PSA, RNG and key state across socket strands",
+    "Actual transport scheme drives CSRF Origin, hotlink Referer, Secure cookies, preview CSP, URL/QR advertisement and MCP download URLs",
+    "Configured private key path/physical aliases cannot be served or overwritten through shared roots/native mounts; webpage operations cannot delete or rename its parent",
+    "Pinned official offline source archive and SHA256, fetch script, selected Apache-2.0 license embedded by TLS builds, source-compatible Windows7+/musl/macOS code"
+  ],
+  "verification": {
+    "windows": [
+      "MSVC static runtime TLS-enabled build; CTest3/3",
+      "Real HTTPS suite: exact TLS1.2 and1.3, TLS1.1 rejection, ALPN, trusted/untrusted temporary certificate, IP SAN, verified RSA and ECDSA supplied certificates, DER parse",
+      "96 HTTPS Range operations using24 concurrent workers, range beyond4GiB in5GiB sparse file, multi-record ranges, repeated Keep-Alive",
+      "TLS session ticket resumption and clean close-notify checked by a client rejecting ragged EOF",
+      "Streaming fixed/chunked uploads, chunked gzip download, exact payloads, fragmented ClientHello/records/HTTP",
+      "HTTPS CSRF/Referer, Secure HttpOnly cookie, authenticated sandbox preview and related CSS, HTTPS MCP and URL/QR",
+      "Key download/replacement denied for original/hardlink/native mount paths, parent rename/delete denied, mismatched credentials rejected before serving",
+      "Handshake parallel cap and absolute timeout reclaim stalled connections",
+      "Existing HTTP core/144 ranges/backpressure/Server, login/hotlink/compression/QR/access, COW writer/reader/move and branding suites pass",
+      "Final dist zero-argument HTTP8000 defaults and embedded TLS Apache license checked",
+      "Forced TLS1.2 ECDHE-RSA-AES128-SHA256 with P256 negotiates the documented Win7 Schannel cipher subset (not an IE/Win7 engine run)"
+    ],
+    "linuxMusl": [
+      "Static stripped x86_64 TLS-enabled build; CTest3/3",
+      "Same full HTTPS suite passed using older Python/OpenSSL clients, including supplied DER keys, trust/SAN, resumption, clean TLS shutdown, concurrency, private-key aliases and handshake budgets",
+      "Existing HTTP core/144 ranges/backpressure/Server and access/login/hotlink/compression suite passed",
+      "Same forced Win7 Schannel cipher subset negotiation passed"
+    ],
+    "tlsOff": [
+      "Separate MSVC build with HLS_ENABLE_TLS=OFF compiled without mbedTLS libraries",
+      "HTTP session request passed; --tls-self-signed exits with an explicit rebuild instruction"
+    ],
+    "javascript": [
+      "21 frontend/vendor ES5 sources plus embedded login script static IE compatibility checks passed; frontend unchanged"
+    ],
+    "ie11": "No actual IE/Win7 HTTPS run. TLS1.2 capabilities and certificate trust must be validated on the target system.",
+    "macos": "Source compatibility only; no build or test per user instruction"
+  },
+  "webBundle": {
+    "uncompressedBytes": 390803,
+    "gzipBytes": 106844,
+    "sha256": "e392b885fc3ec55425edd34d1d46bc6447bb69b538d4d00c733a6f05d3e781d1"
+  },
+  "limits": [
+    "Current listener selects HTTP or HTTPS; no simultaneous protocol sniffing, extra HTTP redirect listener, HTTP/2 or QUIC",
+    "Temporary certificate changes per run, is valid30days and requires explicit client trust; app never installs roots or changes browser protections",
+    "Certificate/key are loaded only at startup; encrypted private keys and client-certificate authentication are not implemented",
+    "TLS has per-connection memory/CPU cost; existing global connection/transfer ceilings remain relevant",
+    "Key copies made as independent files cannot be recognized by physical identity; keep credentials and backups outside the shared tree"
+  ],
+  "documentation": [
+    "docs/https.md",
+    "tools/dependencies/mbedtls-lock.json"
+  ]
+}

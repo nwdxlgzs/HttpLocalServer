@@ -1,0 +1,98 @@
+{
+  "id": "S03",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "指定共享目录，启动。默认文件传输模式，端口和监听地址都能调整。",
+  "events": [
+    {
+      "start": 0.0789375,
+      "position": 0,
+      "length": 2,
+      "text": "指定"
+    },
+    {
+      "start": 0.460625,
+      "position": 2,
+      "length": 2,
+      "text": "共享"
+    },
+    {
+      "start": 0.85,
+      "position": 4,
+      "length": 2,
+      "text": "目录"
+    },
+    {
+      "start": 1.46,
+      "position": 7,
+      "length": 2,
+      "text": "启动"
+    },
+    {
+      "start": 2.767375,
+      "position": 10,
+      "length": 2,
+      "text": "默认"
+    },
+    {
+      "start": 3.094,
+      "position": 12,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 3.569625,
+      "position": 14,
+      "length": 2,
+      "text": "传输"
+    },
+    {
+      "start": 3.9800625,
+      "position": 16,
+      "length": 2,
+      "text": "模式"
+    },
+    {
+      "start": 4.6990625,
+      "position": 19,
+      "length": 2,
+      "text": "端口"
+    },
+    {
+      "start": 5.199625,
+      "position": 21,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 5.4598125,
+      "position": 22,
+      "length": 2,
+      "text": "监听"
+    },
+    {
+      "start": 5.882375,
+      "position": 24,
+      "length": 2,
+      "text": "地址"
+    },
+    {
+      "start": 6.309625,
+      "position": 26,
+      "length": 1,
+      "text": "都"
+    },
+    {
+      "start": 6.48825,
+      "position": 27,
+      "length": 1,
+      "text": "能"
+    },
+    {
+      "start": 6.669625,
+      "position": 28,
+      "length": 2,
+      "text": "调整"
+    }
+  ]
+}

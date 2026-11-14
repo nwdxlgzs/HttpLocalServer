@@ -1,0 +1,86 @@
+{
+  "id": "O05",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "先预览，再下载。文档、表格、媒体和代码，各有打开方式。",
+  "events": [
+    {
+      "start": 0.0833125,
+      "position": 0,
+      "length": 1,
+      "text": "先"
+    },
+    {
+      "start": 0.32,
+      "position": 1,
+      "length": 2,
+      "text": "预览"
+    },
+    {
+      "start": 1.01,
+      "position": 4,
+      "length": 1,
+      "text": "再"
+    },
+    {
+      "start": 1.21,
+      "position": 5,
+      "length": 2,
+      "text": "下载"
+    },
+    {
+      "start": 2.56325,
+      "position": 8,
+      "length": 2,
+      "text": "文档"
+    },
+    {
+      "start": 3.23325,
+      "position": 11,
+      "length": 2,
+      "text": "表格"
+    },
+    {
+      "start": 3.91325,
+      "position": 14,
+      "length": 2,
+      "text": "媒体"
+    },
+    {
+      "start": 4.3055,
+      "position": 16,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 4.520125,
+      "position": 17,
+      "length": 2,
+      "text": "代码"
+    },
+    {
+      "start": 5.1650625,
+      "position": 20,
+      "length": 1,
+      "text": "各"
+    },
+    {
+      "start": 5.340625,
+      "position": 21,
+      "length": 1,
+      "text": "有"
+    },
+    {
+      "start": 5.53325,
+      "position": 22,
+      "length": 2,
+      "text": "打开"
+    },
+    {
+      "start": 5.912125,
+      "position": 24,
+      "length": 2,
+      "text": "方式"
+    }
+  ]
+}

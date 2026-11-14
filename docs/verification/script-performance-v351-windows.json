@@ -1,0 +1,196 @@
+{
+  "measuredAt": "2026-11-14T06:35:41.202124+00:00",
+  "environment": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "logicalCPUs": 16,
+    "network": "local IPv4 loopback; HTTP; Python threaded keep-alive client"
+  },
+  "notes": [
+    "Short before/after diagnostic; not a capacity or sustained-load guarantee",
+    "Fixed 4 IO/8 metadata workers, isolated concurrency 8, 500ms script deadline, no Magika",
+    "Per-worker continuous requests, no failed-request retry, successful RPS excludes all errors",
+    "ZIP resource is warmed before measurements; ordinary script creates a fresh realm every time",
+    "Each case measured once; Python/network/OS overhead contributes to observed performance"
+  ],
+  "workloads": {
+    "isolated-small": {
+      "sourceBytes": 41
+    },
+    "isolated-2048-functions": {
+      "sourceBytes": 71549
+    },
+    "workspace-static": {
+      "bodyBytes": 450000
+    }
+  },
+  "binaries": [
+    {
+      "label": "before",
+      "path": "<project>\\dist\\HttpLocalServer-windows-x64.exe",
+      "sha256": "67d0af58f26163f8c78fa1edcf45f379b5e87635957476b17c10d9a64e20ca5f"
+    },
+    {
+      "label": "after",
+      "path": "<user-profile>\\AppData\\Local\\Temp\\hls-tabs-20261111\\build\\HttpLocalServer.exe",
+      "sha256": "81028b6a0f81876611b15d59a3b0b4f2aedc97989800c8c26a905e3c27c9103e"
+    }
+  ],
+  "results": [
+    {
+      "clients": 1,
+      "seconds": 3.001,
+      "requests": 2068,
+      "statuses": {
+        "200": 2068
+      },
+      "successfulRPS": 689.01,
+      "payloadMiBPerSecond": 0.0,
+      "successP95ms": 1.79,
+      "binary": "before",
+      "scenario": "isolated-small"
+    },
+    {
+      "clients": 8,
+      "seconds": 3.002,
+      "requests": 11738,
+      "statuses": {
+        "200": 11738
+      },
+      "successfulRPS": 3909.49,
+      "payloadMiBPerSecond": 0.01,
+      "successP95ms": 2.63,
+      "binary": "before",
+      "scenario": "isolated-small"
+    },
+    {
+      "clients": 1,
+      "seconds": 3.003,
+      "requests": 678,
+      "statuses": {
+        "200": 678
+      },
+      "successfulRPS": 225.75,
+      "payloadMiBPerSecond": 0.0,
+      "successP95ms": 5.27,
+      "binary": "before",
+      "scenario": "isolated-2048-functions"
+    },
+    {
+      "clients": 8,
+      "seconds": 3.009,
+      "requests": 3485,
+      "statuses": {
+        "200": 3485
+      },
+      "successfulRPS": 1158.17,
+      "payloadMiBPerSecond": 0.0,
+      "successP95ms": 9.34,
+      "binary": "before",
+      "scenario": "isolated-2048-functions"
+    },
+    {
+      "clients": 1,
+      "seconds": 3.001,
+      "requests": 374,
+      "statuses": {
+        "200": 374
+      },
+      "successfulRPS": 124.65,
+      "payloadMiBPerSecond": 53.49,
+      "successP95ms": 9.57,
+      "binary": "before",
+      "scenario": "workspace-static"
+    },
+    {
+      "clients": 8,
+      "seconds": 3.015,
+      "requests": 1243,
+      "statuses": {
+        "200": 1243
+      },
+      "successfulRPS": 412.27,
+      "payloadMiBPerSecond": 176.93,
+      "successP95ms": 21.7,
+      "binary": "before",
+      "scenario": "workspace-static"
+    },
+    {
+      "clients": 1,
+      "seconds": 3.001,
+      "requests": 2975,
+      "statuses": {
+        "200": 2975
+      },
+      "successfulRPS": 991.47,
+      "payloadMiBPerSecond": 0.0,
+      "successP95ms": 1.22,
+      "binary": "after",
+      "scenario": "isolated-small"
+    },
+    {
+      "clients": 8,
+      "seconds": 3.002,
+      "requests": 14709,
+      "statuses": {
+        "200": 14709
+      },
+      "successfulRPS": 4899.58,
+      "payloadMiBPerSecond": 0.01,
+      "successP95ms": 2.42,
+      "binary": "after",
+      "scenario": "isolated-small"
+    },
+    {
+      "clients": 1,
+      "seconds": 3.001,
+      "requests": 1467,
+      "statuses": {
+        "200": 1467
+      },
+      "successfulRPS": 488.88,
+      "payloadMiBPerSecond": 0.0,
+      "successP95ms": 2.52,
+      "binary": "after",
+      "scenario": "isolated-2048-functions"
+    },
+    {
+      "clients": 8,
+      "seconds": 3.004,
+      "requests": 7815,
+      "statuses": {
+        "200": 7815
+      },
+      "successfulRPS": 2601.44,
+      "payloadMiBPerSecond": 0.0,
+      "successP95ms": 3.99,
+      "binary": "after",
+      "scenario": "isolated-2048-functions"
+    },
+    {
+      "clients": 1,
+      "seconds": 3.002,
+      "requests": 520,
+      "statuses": {
+        "200": 520
+      },
+      "successfulRPS": 173.21,
+      "payloadMiBPerSecond": 74.33,
+      "successP95ms": 6.41,
+      "binary": "after",
+      "scenario": "workspace-static"
+    },
+    {
+      "clients": 8,
+      "seconds": 3.014,
+      "requests": 1336,
+      "statuses": {
+        "200": 1336
+      },
+      "successfulRPS": 443.33,
+      "payloadMiBPerSecond": 190.26,
+      "successP95ms": 19.66,
+      "binary": "after",
+      "scenario": "workspace-static"
+    }
+  ]
+}

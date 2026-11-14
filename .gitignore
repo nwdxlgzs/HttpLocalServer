@@ -1,0 +1,38 @@
+# 构建输出与可恢复的开发依赖；固定离线原料保留在 third_party/。
+/build*/
+/cmake-build*/
+/.deps/
+/dist/
+node_modules/
+
+# 本机运行状态；配置模板、源码和真实共享资料不使用通配规则忽略。
+/config.json
+/.hls-cache/
+/.hls-state-*/
+/.hls-config-lock-*
+
+# Python、测试工具及系统缓存。
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+
+# 本机清理盘点和复查报告，由 tools/maintenance 脚本生成。
+/CleanupInventory.json
+/CleanupInventory.md
+/CleanupVerification.json
+/CleanupMediaVerification.json
+
+# 任意层级的私有接口和凭据。
+**/.PrivateSpace/
+
+# 本机编辑器的私有项目元数据，不属于产品网页资源。
+**/project-codingagent.ejson
+**/project-editor.ejson
+/tools/LaunchIE.exe

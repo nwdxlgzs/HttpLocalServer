@@ -1,0 +1,122 @@
+{
+  "id": "S31",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "运行依赖按真实路径和文件身份保护。该隐藏的隐藏，该冻结的保持不可操作。",
+  "events": [
+    {
+      "start": 0.08,
+      "position": 0,
+      "length": 2,
+      "text": "运行"
+    },
+    {
+      "start": 0.4723125,
+      "position": 2,
+      "length": 2,
+      "text": "依赖"
+    },
+    {
+      "start": 0.88,
+      "position": 4,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 1.15625,
+      "position": 5,
+      "length": 2,
+      "text": "真实"
+    },
+    {
+      "start": 1.515875,
+      "position": 7,
+      "length": 2,
+      "text": "路径"
+    },
+    {
+      "start": 1.94,
+      "position": 9,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 2.1595625,
+      "position": 10,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 2.61,
+      "position": 12,
+      "length": 2,
+      "text": "身份"
+    },
+    {
+      "start": 3.0255,
+      "position": 14,
+      "length": 2,
+      "text": "保护"
+    },
+    {
+      "start": 4.318,
+      "position": 17,
+      "length": 1,
+      "text": "该"
+    },
+    {
+      "start": 4.500625,
+      "position": 18,
+      "length": 2,
+      "text": "隐藏"
+    },
+    {
+      "start": 4.951375,
+      "position": 20,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 5.0669375,
+      "position": 21,
+      "length": 2,
+      "text": "隐藏"
+    },
+    {
+      "start": 5.83875,
+      "position": 24,
+      "length": 1,
+      "text": "该"
+    },
+    {
+      "start": 6.02175,
+      "position": 25,
+      "length": 2,
+      "text": "冻结"
+    },
+    {
+      "start": 6.369125,
+      "position": 27,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 6.4935625,
+      "position": 28,
+      "length": 2,
+      "text": "保持"
+    },
+    {
+      "start": 6.98025,
+      "position": 30,
+      "length": 2,
+      "text": "不可"
+    },
+    {
+      "start": 7.3393125,
+      "position": 32,
+      "length": 2,
+      "text": "操作"
+    }
+  ]
+}

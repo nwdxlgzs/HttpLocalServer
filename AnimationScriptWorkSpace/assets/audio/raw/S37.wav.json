@@ -1,0 +1,122 @@
+{
+  "id": "S37",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "本机M C P把文件发现与受限读取，交给你的A I工具接入。",
+  "events": [
+    {
+      "start": 0.0788125,
+      "position": 0,
+      "length": 1,
+      "text": "本"
+    },
+    {
+      "start": 0.27,
+      "position": 1,
+      "length": 1,
+      "text": "机"
+    },
+    {
+      "start": 0.53,
+      "position": 2,
+      "length": 1,
+      "text": "M"
+    },
+    {
+      "start": 0.7628125,
+      "position": 4,
+      "length": 1,
+      "text": "C"
+    },
+    {
+      "start": 0.950875,
+      "position": 6,
+      "length": 1,
+      "text": "P"
+    },
+    {
+      "start": 1.19975,
+      "position": 7,
+      "length": 1,
+      "text": "把"
+    },
+    {
+      "start": 1.3864375,
+      "position": 8,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 1.7603125,
+      "position": 10,
+      "length": 2,
+      "text": "发现"
+    },
+    {
+      "start": 2.23875,
+      "position": 12,
+      "length": 1,
+      "text": "与"
+    },
+    {
+      "start": 2.44025,
+      "position": 13,
+      "length": 1,
+      "text": "受"
+    },
+    {
+      "start": 2.6464375,
+      "position": 14,
+      "length": 1,
+      "text": "限"
+    },
+    {
+      "start": 2.8750625,
+      "position": 15,
+      "length": 2,
+      "text": "读取"
+    },
+    {
+      "start": 3.5864375,
+      "position": 18,
+      "length": 2,
+      "text": "交给"
+    },
+    {
+      "start": 3.9671875,
+      "position": 20,
+      "length": 1,
+      "text": "你"
+    },
+    {
+      "start": 4.1164375,
+      "position": 21,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 4.2964375,
+      "position": 22,
+      "length": 1,
+      "text": "A"
+    },
+    {
+      "start": 4.444875,
+      "position": 24,
+      "length": 1,
+      "text": "I"
+    },
+    {
+      "start": 4.584875,
+      "position": 25,
+      "length": 2,
+      "text": "工具"
+    },
+    {
+      "start": 4.9326875,
+      "position": 27,
+      "length": 2,
+      "text": "接入"
+    }
+  ]
+}

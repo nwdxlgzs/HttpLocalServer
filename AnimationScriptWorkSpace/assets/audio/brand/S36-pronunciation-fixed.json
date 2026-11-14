@@ -1,0 +1,29 @@
+{
+  "id": "S36",
+  "voice": "stella",
+  "text": "QuickJS承接控制逻辑，WAMR提供受限的Wasm互操作。执行有预算，资源有生命周期。",
+  "spokenText": " Quick J S 承接控制逻辑， W A M R 提供受限的 Web Assembly 互操作。执行有预算，资源有生命周期。",
+  "file": "assets/audio/brand/S36-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 9.4515625,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "e69f3f211c0e6c4df853161928c4dc9c7a35c4c4ffd59f550e96450447d51d79",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.10758333333333334
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-S36-stella.wav",
+    "sourceSpokenText": " Quick J S 承接控制逻辑， W A M R 提供受限的 Web Assembly 互操作。执行有预算，资源有生命周期。",
+    "nativeSeconds": 9.343979166666667,
+    "finalSeconds": 9.4515625,
+    "originalSeconds": 9.4515625
+  }
+}

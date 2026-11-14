@@ -1,0 +1,37 @@
+{
+  "id": "S16",
+  "voice": "stella",
+  "text": "Word和PDF连续阅读。缩放、选择、复制，在内容里自然完成。",
+  "spokenText": "Word和 P D F 连续阅读。缩放、选择、复制，在内容里自然完成。",
+  "file": "assets/audio/brand/S16-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 6.382895833333333,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "47d45b901fdaf35a62aeed7698d00acad0eededaa5ce6a9a5209f33889b3a6a0",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0633626978350343,
+    "edits": [
+      {
+        "type": "quiet-gap-center-removed",
+        "sourceStart": 0.02,
+        "sourceEnd": 0.055,
+        "removedRms": 0.00011228975927224383
+      },
+      {
+        "type": "quiet-gap-center-removed",
+        "sourceStart": 6.78,
+        "sourceEnd": 6.805,
+        "removedRms": 5.7244244089815766e-05
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-S16-stella.wav",
+    "sourceSpokenText": "Word和 P D F 连续阅读。缩放、选择、复制，在内容里自然完成。",
+    "nativeSeconds": 6.847333333333333,
+    "finalSeconds": 6.382895833333333,
+    "originalSeconds": 6.382895833333333
+  }
+}

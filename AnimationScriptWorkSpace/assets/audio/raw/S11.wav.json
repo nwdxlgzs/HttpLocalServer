@@ -1,0 +1,98 @@
+{
+  "id": "S11",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "支持的浏览器可直接保存文件夹。其他环境，也能由浏览器打包下载。",
+  "events": [
+    {
+      "start": 0.0789375,
+      "position": 0,
+      "length": 2,
+      "text": "支持"
+    },
+    {
+      "start": 0.4398125,
+      "position": 2,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 0.5725,
+      "position": 3,
+      "length": 3,
+      "text": "浏览器"
+    },
+    {
+      "start": 1.2444375,
+      "position": 6,
+      "length": 1,
+      "text": "可"
+    },
+    {
+      "start": 1.5273125,
+      "position": 7,
+      "length": 2,
+      "text": "直接"
+    },
+    {
+      "start": 1.88,
+      "position": 9,
+      "length": 2,
+      "text": "保存"
+    },
+    {
+      "start": 2.35,
+      "position": 11,
+      "length": 3,
+      "text": "文件夹"
+    },
+    {
+      "start": 3.857125,
+      "position": 15,
+      "length": 2,
+      "text": "其他"
+    },
+    {
+      "start": 4.259375,
+      "position": 17,
+      "length": 2,
+      "text": "环境"
+    },
+    {
+      "start": 5.013125,
+      "position": 20,
+      "length": 1,
+      "text": "也"
+    },
+    {
+      "start": 5.1720625,
+      "position": 21,
+      "length": 1,
+      "text": "能"
+    },
+    {
+      "start": 5.353125,
+      "position": 22,
+      "length": 1,
+      "text": "由"
+    },
+    {
+      "start": 5.585375,
+      "position": 23,
+      "length": 3,
+      "text": "浏览器"
+    },
+    {
+      "start": 6.243125,
+      "position": 26,
+      "length": 2,
+      "text": "打包"
+    },
+    {
+      "start": 6.593125,
+      "position": 28,
+      "length": 2,
+      "text": "下载"
+    }
+  ]
+}

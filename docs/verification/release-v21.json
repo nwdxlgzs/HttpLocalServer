@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-10",
+  "version": "2.1.0",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 5747712,
+      "sha256": "0b8aae8393f5b28be2d3bd03cca5518622f323317c22728a58f729e35db39bfa"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 7188344,
+      "sha256": "09011b28809a42636cc5d4e43e00143308a3efa7527280706065c3daf2064cd6"
+    }
+  ],
+  "embeddedWebSha256": "343666a2a224dc0851d0d403090a6f4791abb052403151d031e98164dcedd47c",
+  "vendorManifest": "third_party/magika/manifest.json",
+  "browserScreenshots": {
+    "list-v21.png": {
+      "width": 1280,
+      "height": 720
+    },
+    "grid-v21.png": {
+      "width": 1280,
+      "height": 720
+    },
+    "media-v21.png": {
+      "width": 1280,
+      "height": 720
+    },
+    "image-v21.png": {
+      "width": 1280,
+      "height": 720
+    },
+    "mobile-v21.png": {
+      "width": 390,
+      "height": 844
+    }
+  }
+}

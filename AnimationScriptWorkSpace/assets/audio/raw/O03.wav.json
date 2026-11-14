@@ -1,0 +1,98 @@
+{
+  "id": "O03",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "熟悉的管理器，多标签、检索与按需列表，找到需要的内容。",
+  "events": [
+    {
+      "start": 0.083,
+      "position": 0,
+      "length": 2,
+      "text": "熟悉"
+    },
+    {
+      "start": 0.495875,
+      "position": 2,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 0.6721875,
+      "position": 3,
+      "length": 2,
+      "text": "管理"
+    },
+    {
+      "start": 1.0359375,
+      "position": 5,
+      "length": 1,
+      "text": "器"
+    },
+    {
+      "start": 1.539875,
+      "position": 7,
+      "length": 1,
+      "text": "多"
+    },
+    {
+      "start": 1.70175,
+      "position": 8,
+      "length": 2,
+      "text": "标签"
+    },
+    {
+      "start": 2.439,
+      "position": 11,
+      "length": 2,
+      "text": "检索"
+    },
+    {
+      "start": 2.9,
+      "position": 13,
+      "length": 1,
+      "text": "与"
+    },
+    {
+      "start": 3.1120625,
+      "position": 14,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 3.33375,
+      "position": 15,
+      "length": 1,
+      "text": "需"
+    },
+    {
+      "start": 3.52,
+      "position": 16,
+      "length": 2,
+      "text": "列表"
+    },
+    {
+      "start": 4.1945625,
+      "position": 19,
+      "length": 2,
+      "text": "找到"
+    },
+    {
+      "start": 4.644875,
+      "position": 21,
+      "length": 2,
+      "text": "需要"
+    },
+    {
+      "start": 5.0183125,
+      "position": 23,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 5.146375,
+      "position": 24,
+      "length": 2,
+      "text": "内容"
+    }
+  ]
+}

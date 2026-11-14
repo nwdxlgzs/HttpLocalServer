@@ -1,0 +1,5 @@
+#include "magika_layout.hpp"
+namespace hls { namespace magika { namespace data {
+alignas(64) const unsigned char weights[]={ @HLS_MAGIKA_BYTES@ };
+static_assert(sizeof(weights)==blob_size,"Magika bundle size mismatch");
+} } }

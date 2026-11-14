@@ -1,0 +1,29 @@
+{
+  "id": "S39",
+  "voice": "stella",
+  "text": "复用可信编译结果和空闲运行时，缓存校验过的ZIP资源。减少重复工作，保留调用隔离。",
+  "spokenText": "复用可信编译结果和空闲运行时，缓存校验过的 zip 资源。减少重复工作，保留调用隔离。",
+  "file": "assets/audio/brand/S39-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 8.540666666666667,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "2bafb4fd19554b04471304b589e1ce81e86330c35b6b6e5146191513c500c491",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.4885
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-S39-stella.wav",
+    "sourceSpokenText": "复用可信编译结果和空闲运行时，缓存校验过的 zip 资源。减少重复工作，保留调用隔离。",
+    "nativeSeconds": 8.052166666666666,
+    "finalSeconds": 8.540666666666667,
+    "originalSeconds": 8.540666666666667
+  }
+}

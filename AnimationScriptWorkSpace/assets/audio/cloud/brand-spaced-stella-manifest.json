@@ -1,0 +1,23 @@
+{
+  "provider": "DeepSeek TTS",
+  "voice": "stella",
+  "plannedCharacters": 21,
+  "pricingVisible": false,
+  "billingTotalVisible": false,
+  "cues": [
+    {
+      "id": "BRAND-spaced",
+      "voice": "stella",
+      "text": "H T T P Local Server.",
+      "characters": 21,
+      "inputSha256": "a689015b41140a00a91c43aece5fccceedbb3e02ec4755e7dd40f487e369f07d",
+      "file": "assets/audio/cloud/BRAND-spaced-stella.wav",
+      "generatedAt": "2026-11-14T08:02:19.731586+00:00",
+      "seconds": 2.28,
+      "sampleRate": 24000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "bytes": 109484
+    }
+  ]
+}

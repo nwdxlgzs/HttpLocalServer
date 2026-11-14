@@ -1,0 +1,14 @@
+{
+  "id": "T03",
+  "voice": "stella",
+  "text": "文件浏览、预览与传输。",
+  "characters": 11,
+  "inputSha256": "115b049e33e83261da516d720b95a7141fef57a5c81cfa80a9e780f8063a5637",
+  "file": "assets/audio/cloud/T03-stella.wav",
+  "generatedAt": "2026-11-14T07:41:02.488996+00:00",
+  "seconds": 2.6,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 124844
+}

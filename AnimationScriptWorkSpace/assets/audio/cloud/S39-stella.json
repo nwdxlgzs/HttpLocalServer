@@ -1,0 +1,14 @@
+{
+  "id": "S39",
+  "voice": "stella",
+  "text": "复用可信编译结果和空闲运行时，缓存校验过的ZIP资源。减少重复工作，保留调用隔离。",
+  "characters": 41,
+  "inputSha256": "bbec4d0e45bde0db401b36db5e5610504f2fcf0f9263dc546e8f429ebcf17e17",
+  "file": "assets/audio/cloud/S39-stella.wav",
+  "generatedAt": "2026-11-14T07:40:19.372969+00:00",
+  "seconds": 8.8,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 422444
+}

@@ -1,0 +1,14 @@
+{
+  "id": "S12",
+  "voice": "stella",
+  "text": "开放写入后，文件和文件夹都能拖进来。落在哪里、怎样处理同名，由你选择。",
+  "characters": 35,
+  "inputSha256": "c7a72e4ab79bde6682b8c6caddb759c523f1c5870ac3b340a21477c54023ff0f",
+  "file": "assets/audio/cloud/S12-stella.wav",
+  "generatedAt": "2026-11-14T07:38:59.077405+00:00",
+  "seconds": 7.84,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 376364
+}

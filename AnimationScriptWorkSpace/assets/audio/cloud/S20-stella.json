@@ -1,0 +1,14 @@
+{
+  "id": "S20",
+  "voice": "stella",
+  "text": "图片放大看，网页带上资源，音视频按需播放和定位。",
+  "characters": 24,
+  "inputSha256": "a59484a0f002c08fff9d3ce252a8af622caac5a3a38766798b9754be627175cc",
+  "file": "assets/audio/cloud/S20-stella.wav",
+  "generatedAt": "2026-11-14T07:39:23.501139+00:00",
+  "seconds": 6.56,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 314924
+}

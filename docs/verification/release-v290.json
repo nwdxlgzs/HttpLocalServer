@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-13",
+  "version": "2.9.0",
+  "baseline": "release-v280.json",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 7374336,
+      "sha256": "368ff8d305c3d7972fd297cb3cbb4957d0eb6fcd6d3e7264a96584ea8603e078"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 9621784,
+      "sha256": "fc4d6d263b4caf4f3eb88784de501c6600537d662bb73350cebd01b2edc35713"
+    }
+  ],
+  "features": {
+    "configuration": "Default cwd/config.json; --config PATH or --no-config; built-in defaults < JSON < CLI. Relative JSON paths use configuration directory. Host settings, attention and runtime native mounts persist through atomic replacement and per-path process locking. strict-host remains CLI-only.",
+    "frozenNamespace": "Visible frozen entries with snowflake/dashed outline/badge; every config.json and active basename at any depth reserved. Physical identity blocks renamed hardlinks/native mounts; linked retired generations remain protected after atomic saves and restarts (1024 identities maximum). All read/write/preview/Range/MCP/P2P operations denied, recursive frontend workflows skip entries, ancestor mutations preflight. Identity probes use attributes/stat only, followed by an opened-file identity guard; no body reads to identify frozen aliases.",
+    "mountedPCDN": "Dedicated mount source-version namespace, no full-upload prerequisite for P2P ticket/join. Proven mount owner preferred as direct 1MiB source; up to4 active source assignments, aggregate page bandwidth/cache and2 sends. Authenticated source manifests until complete host replica exists. Path+version hash isolation and4-task coalescing. Slow host replication and demand-priority durable materialization remain.",
+    "requestBudgets": "Provider poll/reply/payload use separate32-control slots; replica uploads separate8 slots. Deferred bounded JSON stays control-owned; file body transfers use ordinary transfer budget. Tested with max-transfers1."
+  },
+  "verification": {
+    "windows": [
+      "Coherent TLS-enabled MSVC Release build; CTest3/3 passed",
+      "Configuration integration: JSON/CLI precedence, restart, persisted attention, hardlink history, alternate mounts, nested names, direct operations/ancestor traversal, malformed/null JSON, same-source process lock, Server identity guard, MCP denial and atomic-save failure rollback",
+      "Mounted PCDN HTTP and HTTPS: owner proofs/IP rejection,4-source budget, prioritized discovery, unmaterialized admission,8 concurrent coalesced/path-isolated manifest requests, version isolation, max-transfers1 HTTP fallback, opt-out of all assignments, durable unmount",
+      "Existing FileTrans/Server/backpressure: Unicode, search,5GiB offsets,144 mixed ranges passed",
+      "Existing P2P control/hash and passive HTTP/HTTPS suites passed",
+      "Existing mount/volume/provider/quota integration passed",
+      "Existing login/ban/strict-host/admin-upload/copy/hotlink/QR/compression suite passed",
+      "Full mbedTLS integration passed (TLS1.2/1.3, certificates, transport,96 ranges,5GiB, streams/uploads/gzip/preview/MCP/key protection)",
+      "Final zero-argument defaults passed with8000 available: FileTrans0.0.0.0:8000/current directory",
+      "Final dist2.9.0 served exact committed gzip and decompressed identity assets; P2P default OFF verified"
+    ],
+    "linuxMusl": [
+      "Static stripped x86_64 TLS-enabled build; CTest3/3 passed",
+      "Final configuration integration passed, including hardlink history, frozen aliases, MCP and Server guards",
+      "Final mounted-source PCDN HTTP/HTTPS, existing P2P control/hash and passive HTTP/HTTPS suites passed",
+      "Zero-argument FileTrans0.0.0.0:8000/current-directory defaults passed"
+    ],
+    "javascript": [
+      "27 ES5 frontend/vendor sources and full IE-like startup without modern globals passed",
+      "p2p_test: source-local verified reads bypass origin, page-wide opt-out, aggregate cache/bandwidth/framing and existing resume/COW/fallback scenarios",
+      "mounts_test: bounded local source slices/hashes, source-version changes and path proof, frozen provider listings without content reads, ancestor protection, frozen direct-directory exclusions and previous handle-double scenarios",
+      "clipboard_test: frozen source refused and recursive frozen entries skipped, previous cross-tab/cancellation/no-clobber checks",
+      "Existing drag/thumbnail, collaboration and player state suites passed",
+      "Actual ZIP writer against isolated HTTP fixture:251 requests,124 entries; active/nested/hardlink configurations omitted, large file bytes independently verified"
+    ],
+    "realBrowser": {
+      "environment": "Chromium-based in-app browser, disposable localhost18990 server",
+      "observed": "Frozen config row with snowflake, dashed contour and badge; download/rename/delete disabled; context menu contains one disabled frozen action",
+      "screenshot": "v290-frozen-config.png",
+      "scope": "This run checked the frozen UI. Directory picker permission and source-to-downloader actual cross-device WebRTC were not exercised; source reads and transport coordination are covered by shipped-JS doubles and HTTP/TLS provider fixtures."
+    },
+    "macOS": "Source-compatible POSIX/macOS branches retained. Per user instruction, no compilation or testing."
+  },
+  "webBundle": {
+    "uncompressedBytes": 444062,
+    "gzipBytes": 122267,
+    "sha256": "d8dcffd7679fbd965830ddd240cb6b0cb70dd4ac180039fae5eb8eceae04868b"
+  },
+  "limits": [
+    "No real directory-picker authorization or cross-device mounted-source WebRTC joint run for this release; automatic provider fixtures/handle doubles are not those tests",
+    "Native save dialog and multi-GB/TiB browser endurance remain untested",
+    "Registered mount provider is the authority for its own source before a full host copy exists; SHA-256 protects transport/version separation, not a dishonest content owner",
+    "P2P fallback requires durable host materialization; offline source with no complete host copy cannot supply missing blocks",
+    "Frozen identities cover active physical files and retained hardlinks; separately copied contents under unrelated names have independent identity",
+    "Retained historical identities bounded at1024; no automatic unbounded protection/path cache",
+    "Default download remains ordinary HTTP; no reachability/throughput/savings guarantee, no external STUN/TURN",
+    "No new third-party dependency; Apache-2.0 retained",
+    "Browser provider exclusion uses reserved names; source OS hardlink identity is not conveyed by browser handles, so unrelated-name source aliases/copies cannot be identified by server physical-ID checks before materialization."
+  ],
+  "documentation": [
+    "README.md",
+    "docs/configuration.md",
+    "docs/p2p.md",
+    "docs/development.md"
+  ]
+}

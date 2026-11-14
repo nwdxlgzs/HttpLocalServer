@@ -1,0 +1,76 @@
+{
+  "executable": "<project>\\build-msvc\\HttpLocalServer.exe",
+  "clients": 96,
+  "requests": 768,
+  "largeFiles": 96,
+  "smallFiles": 672,
+  "integrityFailures": 0,
+  "seconds": 4.903,
+  "payloadBytes": 810915840,
+  "payloadMiBPerSecond": 157.72,
+  "p50Milliseconds": 444.32,
+  "p95Milliseconds": 1822.37,
+  "statusAfterLoad": {
+    "version": "2.2.0",
+    "mode": "filetrans",
+    "rootName": "hls-load-pfy8n59t",
+    "uptime": 5,
+    "connections": 1,
+    "active": 1,
+    "requests": 769,
+    "sentBytes": 810915840,
+    "rejected": 0,
+    "threads": {
+      "io": 4,
+      "file": 4,
+      "metadata": 4
+    },
+    "magika": {
+      "enabled": true,
+      "model": "standard_v3_3",
+      "kernel": "pending",
+      "inferences": 0,
+      "active": 0,
+      "residentBytes": 0
+    },
+    "transferErrors": 0,
+    "residentMemory": 21880832,
+    "cache": {
+      "hits": 3523,
+      "misses": 221,
+      "coalesced": 1,
+      "diskBytes": 10459136,
+      "residentBytes": 9408512,
+      "allocatedBytes": 9408512,
+      "targetBytes": 33554432,
+      "limitBytes": 33554432,
+      "bufferBytes": 134217728,
+      "releasedBytes": 1183744,
+      "entries": 144,
+      "idleSeconds": 3,
+      "halfLifeSeconds": 2
+    },
+    "index": {
+      "enabled": true,
+      "scanning": false,
+      "count": 129,
+      "truncated": false,
+      "failed": false
+    }
+  },
+  "cacheAfterCooling": {
+    "hits": 3523,
+    "misses": 221,
+    "coalesced": 1,
+    "diskBytes": 10459136,
+    "residentBytes": 0,
+    "allocatedBytes": 0,
+    "targetBytes": 33554432,
+    "limitBytes": 33554432,
+    "bufferBytes": 134217728,
+    "releasedBytes": 10592256,
+    "entries": 0,
+    "idleSeconds": 3,
+    "halfLifeSeconds": 2
+  }
+}

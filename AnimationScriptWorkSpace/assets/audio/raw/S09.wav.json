@@ -1,0 +1,122 @@
+{
+  "id": "S09",
+  "voice": "Microsoft Yaoyao",
+  "rate": 1,
+  "spoken": "普通下载由浏览器管理。范围请求和文件版本检查，为大文件续传守住边界。",
+  "events": [
+    {
+      "start": 0.0744375,
+      "position": 0,
+      "length": 2,
+      "text": "普通"
+    },
+    {
+      "start": 0.426,
+      "position": 2,
+      "length": 2,
+      "text": "下载"
+    },
+    {
+      "start": 0.84,
+      "position": 4,
+      "length": 1,
+      "text": "由"
+    },
+    {
+      "start": 1.05775,
+      "position": 5,
+      "length": 3,
+      "text": "浏览器"
+    },
+    {
+      "start": 1.55825,
+      "position": 8,
+      "length": 2,
+      "text": "管理"
+    },
+    {
+      "start": 2.7181875,
+      "position": 11,
+      "length": 2,
+      "text": "范围"
+    },
+    {
+      "start": 3.0416875,
+      "position": 13,
+      "length": 2,
+      "text": "请求"
+    },
+    {
+      "start": 3.506375,
+      "position": 15,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 3.6965,
+      "position": 16,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 4.103875,
+      "position": 18,
+      "length": 2,
+      "text": "版本"
+    },
+    {
+      "start": 4.447125,
+      "position": 20,
+      "length": 2,
+      "text": "检查"
+    },
+    {
+      "start": 5.15975,
+      "position": 23,
+      "length": 1,
+      "text": "为"
+    },
+    {
+      "start": 5.376375,
+      "position": 24,
+      "length": 1,
+      "text": "大"
+    },
+    {
+      "start": 5.53175,
+      "position": 25,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 5.934375,
+      "position": 27,
+      "length": 1,
+      "text": "续"
+    },
+    {
+      "start": 6.124125,
+      "position": 28,
+      "length": 1,
+      "text": "传"
+    },
+    {
+      "start": 6.386375,
+      "position": 29,
+      "length": 1,
+      "text": "守"
+    },
+    {
+      "start": 6.576,
+      "position": 30,
+      "length": 1,
+      "text": "住"
+    },
+    {
+      "start": 6.7091875,
+      "position": 31,
+      "length": 2,
+      "text": "边界"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "clip": "assets/audio/brand/brand-pronunciation.wav",
+    "recognizedText": " HTTP local server",
+    "limitation": "English ASR supporting evidence, not human listening or phonetic certification."
+  },
+  {
+    "clip": "assets/audio/brand/zip-pronunciation.wav",
+    "recognizedText": " Zip.",
+    "limitation": "English ASR supporting evidence, not human listening or phonetic certification."
+  },
+  {
+    "clip": "assets/audio/brand/wasm-pronunciation.wav",
+    "recognizedText": " WebAssembly.",
+    "limitation": "English ASR supporting evidence, not human listening or phonetic certification."
+  }
+]

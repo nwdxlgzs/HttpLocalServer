@@ -1,0 +1,14 @@
+{
+  "id": "S07",
+  "voice": "stella",
+  "text": "目录各留一个标签。拖动排序，前后回看，也能直接输入路径。",
+  "characters": 28,
+  "inputSha256": "5dbfcb58298d8d0669f6f7c16ad31e182f8fd07c951199ffc78c6be2be6e42f0",
+  "file": "assets/audio/cloud/S07-stella.wav",
+  "generatedAt": "2026-11-14T07:38:44.576428+00:00",
+  "seconds": 6.16,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 295724
+}

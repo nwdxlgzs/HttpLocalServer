@@ -1,0 +1,50 @@
+{
+  "id": "V06",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "按需求增强，热点缓存有界。",
+  "events": [
+    {
+      "start": 0.0820625,
+      "position": 0,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 0.36,
+      "position": 1,
+      "length": 2,
+      "text": "需求"
+    },
+    {
+      "start": 0.7714375,
+      "position": 3,
+      "length": 2,
+      "text": "增强"
+    },
+    {
+      "start": 1.548125,
+      "position": 6,
+      "length": 2,
+      "text": "热点"
+    },
+    {
+      "start": 1.9784375,
+      "position": 8,
+      "length": 2,
+      "text": "缓存"
+    },
+    {
+      "start": 2.4215625,
+      "position": 10,
+      "length": 1,
+      "text": "有"
+    },
+    {
+      "start": 2.61,
+      "position": 11,
+      "length": 1,
+      "text": "界"
+    }
+  ]
+}

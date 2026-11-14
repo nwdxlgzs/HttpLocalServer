@@ -1,0 +1,110 @@
+{
+  "id": "S41",
+  "voice": "Microsoft Yaoyao",
+  "rate": 1,
+  "spoken": "资源随程序交付，界面按浏览器能力增强或降级。平台支持，也标明验证范围。",
+  "events": [
+    {
+      "start": 0.0736875,
+      "position": 0,
+      "length": 2,
+      "text": "资源"
+    },
+    {
+      "start": 0.45,
+      "position": 2,
+      "length": 1,
+      "text": "随"
+    },
+    {
+      "start": 0.638375,
+      "position": 3,
+      "length": 2,
+      "text": "程序"
+    },
+    {
+      "start": 1.0255,
+      "position": 5,
+      "length": 2,
+      "text": "交付"
+    },
+    {
+      "start": 1.650125,
+      "position": 8,
+      "length": 2,
+      "text": "界面"
+    },
+    {
+      "start": 2.07,
+      "position": 10,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 2.3,
+      "position": 11,
+      "length": 3,
+      "text": "浏览器"
+    },
+    {
+      "start": 2.798625,
+      "position": 14,
+      "length": 2,
+      "text": "能力"
+    },
+    {
+      "start": 3.15,
+      "position": 16,
+      "length": 2,
+      "text": "增强"
+    },
+    {
+      "start": 3.61,
+      "position": 18,
+      "length": 1,
+      "text": "或"
+    },
+    {
+      "start": 3.786875,
+      "position": 19,
+      "length": 2,
+      "text": "降级"
+    },
+    {
+      "start": 5.0009375,
+      "position": 22,
+      "length": 2,
+      "text": "平台"
+    },
+    {
+      "start": 5.3885625,
+      "position": 24,
+      "length": 2,
+      "text": "支持"
+    },
+    {
+      "start": 6.056875,
+      "position": 27,
+      "length": 1,
+      "text": "也"
+    },
+    {
+      "start": 6.203625,
+      "position": 28,
+      "length": 2,
+      "text": "标明"
+    },
+    {
+      "start": 6.595625,
+      "position": 30,
+      "length": 2,
+      "text": "验证"
+    },
+    {
+      "start": 6.9529375,
+      "position": 32,
+      "length": 2,
+      "text": "范围"
+    }
+  ]
+}

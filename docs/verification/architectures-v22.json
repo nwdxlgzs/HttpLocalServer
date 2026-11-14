@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-10",
+  "version": "2.2.0",
+  "architectures": {
+    "windows-x64": {
+      "toolchain": "MSVC 19.44 baseline, optional intrinsics",
+      "result": "scalar/SSE2/AVX/AVX2-FMA/AVX512-FMA full golden inference, concurrency, reclaim"
+    },
+    "windows-x86": {
+      "toolchain": "MSVC 19.44 x86",
+      "result": "full available-kernel golden inference, concurrency, reclaim"
+    },
+    "arm32": {
+      "toolchain": "GCC 9 ARM baseline",
+      "result": "aggregate scalar/NEON full golden inference, concurrency, reclaim"
+    },
+    "arm64": {
+      "toolchain": "GCC 9 runtime + Clang 20 baseline aggregate and dispatcher",
+      "result": "scalar/NEON/SVE full golden inference, concurrency, reclaim under QEMU 10"
+    },
+    "riscv64": {
+      "toolchain": "GCC 9 runtime + Clang 20 baseline aggregate and dispatcher",
+      "result": "scalar/RVV full golden inference with VLEN 128 and 256; V disabled scalar fallback under QEMU 10"
+    },
+    "riscv32": {
+      "toolchain": "Clang 20 rv32gc baseline, per-function V target, freestanding syscall probe",
+      "result": "aggregate scalar/RVV arithmetic, odd sizes and long reductions, VLEN 128 and 256 under QEMU 10; full runtime not tested"
+    }
+  },
+  "crossOutput": "scalar matched golden scores\nneon matched golden scores\nsve matched golden scores\nMagika golden, concurrency, eviction and fallback tests passed\nscalar matched golden scores\nrvv matched golden scores\nMagika golden, concurrency, eviction and fallback tests passed\nscalar matched golden scores\nrvv matched golden scores\nMagika golden, concurrency, eviction and fallback tests passed\nscalar matched golden scores\nMagika golden, concurrency, eviction and fallback tests passed",
+  "limitations": [
+    "Emulated architectures provide correctness evidence, not hardware performance",
+    "Full server release binaries cover Windows x64 and musl x86_64",
+    "Win7 and IE11 physical/VM acceptance remains manual"
+  ]
+}

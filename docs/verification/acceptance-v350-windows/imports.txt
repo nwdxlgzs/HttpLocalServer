@@ -1,0 +1,286 @@
+Microsoft (R) COFF/PE Dumper Version 14.44.35227.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file dist\HttpLocalServer-windows-x64.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Section contains the following imports:
+
+    bcrypt.dll
+             1404176C0 Import Address Table
+             1418132A8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1F BCryptGenRandom
+
+    WS2_32.dll
+             1404175F8 Import Address Table
+             1418131E0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                             Ordinal     2
+                          B7 inet_pton
+                          AA getnameinfo
+                          5B WSAStringToAddressW
+                          14 WSAAddressToStringW
+                          58 WSASocketW
+                             Ordinal     3
+                          49 WSARecv
+                             Ordinal   111
+                             Ordinal   112
+                             Ordinal   116
+                             Ordinal   115
+                             Ordinal    22
+                             Ordinal    21
+                             Ordinal    15
+                             Ordinal    14
+                             Ordinal    13
+                             Ordinal     9
+                             Ordinal     8
+                             Ordinal     7
+                             Ordinal     6
+                             Ordinal     5
+                             Ordinal    10
+                          4E WSASend
+
+    MSWSOCK.dll
+             1404175C8 Import Address Table
+             1418131B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 GetAcceptExSockaddrs
+                           0 AcceptEx
+
+    IPHLPAPI.DLL
+             140417000 Import Address Table
+             141812BE8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          45 GetAdaptersAddresses
+
+    SHELL32.dll
+             1404175E0 Import Address Table
+             1418131C8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           9 CommandLineToArgvW
+                         1B0 ShellExecuteW
+
+    KERNEL32.dll
+             140417010 Import Address Table
+             141812BF8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         227 GetConsoleMode
+                         22B GetConsoleOutputCP
+                         17D EnumSystemLocalesW
+                         34B GetUserDefaultLCID
+                         3C2 IsValidLocale
+                         293 GetLocaleInfoW
+                         3E6 LCMapStringW
+                          B5 CompareStringW
+                         343 GetTimeFormatW
+                         24E GetDateFormatW
+                         1C5 FlsFree
+                         1C8 FlsSetValue
+                         1C6 FlsGetValue
+                         1C4 FlsAlloc
+                         595 SetStdHandle
+                         2A3 GetModuleFileNameW
+                         188 ExitProcess
+                         531 SetConsoleCtrlHandler
+                         2A6 GetModuleHandleExW
+                         1D7 FreeLibraryAndExitThread
+                         189 ExitThread
+                         111 CreateThread
+                         3F8 LoadLibraryExW
+                         1D6 FreeLibrary
+                         39C InitializeSListHead
+                         303 GetStartupInfoW
+                         3B2 IsDebuggerPresent
+                         3BA IsProcessorFeaturePresent
+                         201 GetCommandLineA
+                         600 UnmapViewOfFile
+                         5DA TerminateProcess
+                         5BA SetUnhandledExceptionFilter
+                         5FD UnhandledExceptionFilter
+                         202 GetCommandLineW
+                         404 LocalFree
+                         546 SetConsoleOutputCP
+                         28F GetLastError
+                         1D1 FormatMessageA
+                         1D2 FormatMessageW
+                         425 MultiByteToWideChar
+                         64E WideCharToMultiByte
+                          9F CloseHandle
+                         57A SetLastError
+                          ED CreateIoCompletionPort
+                         2FD GetQueuedCompletionStatus
+                         458 PostQueuedCompletionStatus
+                          8B CancelIoEx
+                         159 EnterCriticalSection
+                         3F2 LeaveCriticalSection
+                         398 InitializeCriticalSectionAndSpinCount
+                         131 DeleteCriticalSection
+                         55E SetEvent
+                         4E8 ReleaseMutex
+                         627 WaitForSingleObject
+                         5CD SleepEx
+                          F8 CreateMutexW
+                          DB CreateEventW
+                         5C3 SetWaitableTimer
+                         625 WaitForMultipleObjects
+                         120 CreateWaitableTimerW
+                         48D QueueUserAPC
+                         244 GetCurrentProcessId
+                         5DB TerminateThread
+                         2A4 GetModuleHandleA
+                         2DF GetProcAddress
+                          E8 CreateFileW
+                         272 GetFileAttributesW
+                         274 GetFileInformationByHandle
+                         27C GetFileType
+                         27E GetFinalPathNameByHandleW
+                         4AB ReadFile
+                         2C9 GetOverlappedResult
+                         243 GetCurrentProcess
+                         373 GlobalMemoryStatusEx
+                         316 GetSystemInfo
+                         616 VirtualAlloc
+                         619 VirtualFree
+                         2A7 GetModuleHandleW
+                         275 GetFileInformationByHandleEx
+                          B4 CompareStringOrdinal
+                          D6 CreateDirectoryW
+                         138 DeleteFileW
+                         1CA FlushFileBuffers
+                         27A GetFileSizeEx
+                         558 SetEndOfFile
+                         565 SetFileAttributesW
+                         568 SetFileInformationByHandle
+                         56B SetFilePointerEx
+                         662 WriteFile
+                         41E MoveFileExW
+                         4FE ReplaceFileW
+                         40F LockFileEx
+                         305 GetStdHandle
+                         661 WriteConsoleW
+                         22D GetConsoleScreenBufferInfo
+                         54A SetConsoleTextAttribute
+                         25C GetDriveTypeW
+                         296 GetLogicalDrives
+                         33E GetTickCount
+                         483 QueryPerformanceCounter
+                         414 MapViewOfFile
+                          E5 CreateFileMappingW
+                         31A GetSystemTime
+                         31C GetSystemTimeAsFileTime
+                         5D6 SystemTimeToFileTime
+                         2E6 GetProcessHeap
+                         279 GetFileSize
+                         5FE UnlockFile
+                         381 HeapDestroy
+                         37F HeapCompact
+                         37E HeapAlloc
+                         385 HeapReAlloc
+                         135 DeleteFileA
+                         628 WaitForSingleObjectEx
+                          E0 CreateFileA
+                         1CD FlushViewOfFile
+                         44D OutputDebugStringW
+                         26F GetFileAttributesExW
+                         26D GetFileAttributesA
+                         253 GetDiskFreeSpaceA
+                         32A GetTempPathA
+                         5CA Sleep
+                         387 HeapSize
+                         38A HeapValidate
+                         1EC GetCPInfo
+                         32B GetTempPathW
+                         5FF UnlockFileEx
+                         284 GetFullPathNameA
+                         56A SetFilePointer
+                         40E LockFile
+                         44C OutputDebugStringA
+                         256 GetDiskFreeSpaceW
+                         287 GetFullPathNameW
+                         382 HeapFree
+                         380 HeapCreate
+                          25 AreFileApisANSI
+                         49A RaiseException
+                         397 InitializeCriticalSection
+                         5F6 TryEnterCriticalSection
+                         248 GetCurrentThreadId
+                         484 QueryPerformanceFrequency
+                         392 InitOnceExecuteOnce
+                         394 InitializeConditionVariable
+                         630 WakeConditionVariable
+                         5CB SleepConditionVariableCS
+                         345 GetTimeZoneInformation
+                         2B4 GetNativeSystemInfo
+                         4EC ReleaseSRWLockExclusive
+                           0 AcquireSRWLockExclusive
+                          F5 CreateMutexA
+                         5EC TlsAlloc
+                         5EE TlsGetValue
+                         5F0 TlsSetValue
+                         5ED TlsFree
+                         61E VirtualQuery
+                         108 CreateSemaphoreA
+                         61C VirtualProtect
+                         19F FindClose
+                         1AA FindFirstFileW
+                         1B6 FindNextFileW
+                         55C SetEnvironmentVariableW
+                         1D5 FreeEnvironmentStringsW
+                         264 GetEnvironmentStringsW
+                         2C8 GetOEMCP
+                         1DD GetACP
+                         3C0 IsValidCodePage
+                         292 GetLocaleInfoEx
+                         23C GetCurrentDirectoryW
+                         1A5 FindFirstFileExW
+                         26A GetExitCodeThread
+                         5F4 TryAcquireSRWLockExclusive
+                         5CC SleepConditionVariableSRW
+                         33F GetTickCount64
+                         62F WakeAllConditionVariable
+                         390 InitOnceBeginInitialize
+                         391 InitOnceComplete
+                         155 EncodePointer
+                         12A DecodePointer
+                         399 InitializeCriticalSectionEx
+                         3E5 LCMapStringEx
+                         30A GetStringTypeW
+                         4A8 ReadConsoleW
+
+    ntdll.dll
+             1404176D0 Import Address Table
+             1418132B8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         683 RtlVirtualUnwind
+                         523 RtlLookupFunctionEntry
+                         30D RtlCaptureContext
+                         54E RtlPcToFileHeader
+                         667 RtlUnwindEx
+                         666 RtlUnwind
+
+  Summary
+
+       22000 .data
+        1000 .fptable
+       2A000 .pdata
+     13FE000 .rdata
+        6000 .reloc
+        F000 .rsrc
+      416000 .text

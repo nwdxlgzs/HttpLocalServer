@@ -1,0 +1,14 @@
+{
+  "id": "S36",
+  "voice": "stella",
+  "text": "QuickJS承接控制逻辑，WAMR提供受限的Wasm互操作。执行有预算，资源有生命周期。",
+  "characters": 45,
+  "inputSha256": "98d2aa7fc711f258997bcf06202045457e79a8e6d825ff3e888fb288992ada68",
+  "file": "assets/audio/cloud/S36-stella.wav",
+  "generatedAt": "2026-11-14T07:40:10.105727+00:00",
+  "seconds": 9.84,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 472364
+}

@@ -1,0 +1,128 @@
+{
+  "id": "S39",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "复用可信编译结果和空闲运行时，缓存校验过的Zip资源。减少重复工作，保留调用隔离。",
+  "events": [
+    {
+      "start": 0.083,
+      "position": 0,
+      "length": 2,
+      "text": "复用"
+    },
+    {
+      "start": 0.5754375,
+      "position": 2,
+      "length": 2,
+      "text": "可信"
+    },
+    {
+      "start": 1.05,
+      "position": 4,
+      "length": 2,
+      "text": "编译"
+    },
+    {
+      "start": 1.4025,
+      "position": 6,
+      "length": 2,
+      "text": "结果"
+    },
+    {
+      "start": 1.82,
+      "position": 8,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 2.0405,
+      "position": 9,
+      "length": 2,
+      "text": "空闲"
+    },
+    {
+      "start": 2.55,
+      "position": 11,
+      "length": 2,
+      "text": "运行"
+    },
+    {
+      "start": 2.9621875,
+      "position": 13,
+      "length": 1,
+      "text": "时"
+    },
+    {
+      "start": 3.5396875,
+      "position": 15,
+      "length": 2,
+      "text": "缓存"
+    },
+    {
+      "start": 4.1,
+      "position": 17,
+      "length": 2,
+      "text": "校验"
+    },
+    {
+      "start": 4.486,
+      "position": 19,
+      "length": 1,
+      "text": "过"
+    },
+    {
+      "start": 4.63875,
+      "position": 20,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 4.82,
+      "position": 21,
+      "length": 3,
+      "text": "Zip"
+    },
+    {
+      "start": 5.2116875,
+      "position": 24,
+      "length": 2,
+      "text": "资源"
+    },
+    {
+      "start": 6.5001875,
+      "position": 27,
+      "length": 2,
+      "text": "减少"
+    },
+    {
+      "start": 6.9635625,
+      "position": 29,
+      "length": 2,
+      "text": "重复"
+    },
+    {
+      "start": 7.37375,
+      "position": 31,
+      "length": 2,
+      "text": "工作"
+    },
+    {
+      "start": 8.069125,
+      "position": 34,
+      "length": 2,
+      "text": "保留"
+    },
+    {
+      "start": 8.449125,
+      "position": 36,
+      "length": 2,
+      "text": "调用"
+    },
+    {
+      "start": 8.83075,
+      "position": 38,
+      "length": 2,
+      "text": "隔离"
+    }
+  ]
+}

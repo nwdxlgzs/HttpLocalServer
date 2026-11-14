@@ -1,0 +1,14 @@
+{
+  "id": "S17",
+  "voice": "stella",
+  "text": "按页面浏览，进入放映，或设定自动翻页。手机上，也把空间留给内容。",
+  "characters": 32,
+  "inputSha256": "e7e8f0f590d10fedcaf98206a70d0de63fde88c4d33c5c521faf9d6bf2e20930",
+  "file": "assets/audio/cloud/S17-stella.wav",
+  "generatedAt": "2026-11-14T07:39:14.663582+00:00",
+  "seconds": 7.16,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 343724
+}

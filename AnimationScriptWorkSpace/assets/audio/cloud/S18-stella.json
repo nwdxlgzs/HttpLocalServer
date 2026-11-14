@@ -1,0 +1,14 @@
+{
+  "id": "S18",
+  "voice": "stella",
+  "text": "表格可选区域，也可取字符。合并单元格与复制结果，都按阅读习惯处理。",
+  "characters": 33,
+  "inputSha256": "78e3bb0c8b6db881f8f6a6338964fe77d2161b66c41959beac102179c6675547",
+  "file": "assets/audio/cloud/S18-stella.wav",
+  "generatedAt": "2026-11-14T07:39:17.799665+00:00",
+  "seconds": 7.24,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 347564
+}

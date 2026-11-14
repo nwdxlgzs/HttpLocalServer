@@ -1,0 +1,30 @@
+{
+  "timingProfile": "continuous-overlap",
+  "transitionSeconds": 0.35,
+  "films": [
+    {
+      "id": "main",
+      "shots": 44,
+      "duration": 319.966667,
+      "nativeSpeechSeconds": 289.16067
+    },
+    {
+      "id": "overview",
+      "shots": 9,
+      "duration": 58.3,
+      "nativeSpeechSeconds": 45.04656
+    },
+    {
+      "id": "teaser",
+      "shots": 7,
+      "duration": 24.333333,
+      "nativeSpeechSeconds": 17.24252
+    },
+    {
+      "id": "vertical",
+      "shots": 8,
+      "duration": 34.733333,
+      "nativeSpeechSeconds": 24.61119
+    }
+  ]
+}

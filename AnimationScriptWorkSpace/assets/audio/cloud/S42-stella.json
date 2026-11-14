@@ -1,0 +1,14 @@
+{
+  "id": "S42",
+  "voice": "stella",
+  "text": "功能有回归，优化有对照。用可复查的结果，说明这次减少了哪些重复工作。",
+  "characters": 34,
+  "inputSha256": "fb09cef3d2aadca76bb5cbbb21959b776f5d74a9224c37c6576a2587c19411df",
+  "file": "assets/audio/cloud/S42-stella.wav",
+  "generatedAt": "2026-11-14T07:40:28.891046+00:00",
+  "seconds": 6.72,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 322604
+}

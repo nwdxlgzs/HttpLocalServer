@@ -1,0 +1,112 @@
+{
+  "version": "3.4.1",
+  "date": "2026-11-14",
+  "license": "Apache-2.0",
+  "author": "github@nwdxlgzs",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 25287168,
+      "sha256": "fe1d847f0706330603a9903fec4144e5d705022bf90f1bbd04d98d47236c2e55",
+      "tlsCompiled": true,
+      "subsystemVersion": [
+        6,
+        1
+      ]
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 27988280,
+      "sha256": "4f56f5208273afd4d713f3f423d8c530c8b7734f2b30a75a491924fc61cadcb1",
+      "tlsCompiled": true,
+      "fullyStatic": true
+    }
+  ],
+  "regression": {
+    "windows": {
+      "report": "docs/verification/acceptance-v341-windows.json",
+      "groupsPassed": 35,
+      "skipped": 0,
+      "ctestPassed": 3
+    },
+    "musl": {
+      "report": "docs/verification/acceptance-v341-musl.json",
+      "groupsPassed": 34,
+      "skipped": 0,
+      "ctestPassed": 3,
+      "ctestReport": "docs/verification/ctest-v341-musl.json"
+    }
+  },
+  "browser": {
+    "report": "docs/verification/browser-v341.json",
+    "passedScenarios": 84,
+    "protocols": [
+      "HTTP",
+      "HTTPS"
+    ],
+    "sourceOverrides": false
+  },
+  "web": {
+    "mainRawBytes": 563757,
+    "mainGzipBytes": 154501,
+    "previewAssetCount": 432,
+    "previewGzipBytes": 16265341,
+    "mainSha256": "364f0f4dee388faf25508532e83d3055a4560f743bb9e1f7bda9eebf9b496d59",
+    "previewSha256": "a228f00d9dbc6b21cfac9ff02cfa1b0b27e75aef6ca7a4c53ab87acca132390c"
+  },
+  "features": [
+    "Files and folders move by dropping onto a directory tab, folder, breadcrumb or parent button; multiple selections are preserved and preview tabs reject drops",
+    "Ctrl+X and context cut/paste move directories outward and across tabs; only successfully moved clipboard items are consumed, skipped/partial cross-mount moves remain recoverable",
+    "Directory destination picker supports parent/root traversal, explicit typed destinations and paged folder listing",
+    "Overflow menu has concise page-level groups; file actions stay with files, sibling-folder navigation spans the address bar and tracks desktop resizing",
+    "PDF.js text layer applies its font-height, horizontal-scale and rotation metrics through zoom; real pointer selection verified for PDF, Word and PPT",
+    "Presentation selection follows visual reading rows while retaining renderer transforms and original run IDs; native and toolbar copying include bounded rendered image crops in HTML and plain text",
+    "Presentation controls use deliberately aligned compact rows down to 240px; mobile, dark theme, fullscreen and no-Wasm fallback regressions passed"
+  ],
+  "sourceSnapshot": {
+    "report": "docs/verification/source-v341-sha256.json",
+    "files": 717
+  },
+  "changedInputsSince340": [
+    "CMakeLists.txt",
+    "README.md",
+    "docs/previews.md",
+    "resources/previews-manifest.json",
+    "resources/previews.bin",
+    "resources/web-manifest.json",
+    "resources/web.gz",
+    "tests/clipboard_test.cjs",
+    "tests/drag_thumbnail_test.cjs",
+    "tests/interaction_browser.cjs",
+    "tests/interaction_browser.py",
+    "tests/jobs_test.cjs",
+    "tests/viewer_layout_browser.cjs",
+    "web/index.html",
+    "web/preview/interactions.js",
+    "web/preview/pdf-controller.js",
+    "web/preview/presentation-selection.mjs",
+    "web/preview/presentation.mjs",
+    "web/preview/viewer.css",
+    "web/scripts/batch.js",
+    "web/scripts/boot.js",
+    "web/scripts/clipboard.js",
+    "web/scripts/content_tabs.js",
+    "web/scripts/core.js",
+    "web/scripts/dragdrop.js",
+    "web/scripts/jobs.js",
+    "web/scripts/listing.js",
+    "web/scripts/settings.js",
+    "web/styles/base.css",
+    "web/styles/dark.css",
+    "web/styles/polish.css"
+  ],
+  "verificationAdjustments": [
+    "The preview regression now asserts the intended file is selected before opening its tab; hidden recycled list rows are checked by visibility; multi-drag uses a distinct destination tab"
+  ],
+  "validationBoundaries": [
+    "No native macOS run, as requested; no new native IE11 or Windows 7 run; ES5/missing-API and no-Wasm Chromium fallback checks passed",
+    "Silurus 0.89.10 does not expose authored PowerPoint animation/transition playback; these effects are not implemented",
+    "Office basic/no-Wasm layout remains a text/table/common-image fallback; full desktop Office fidelity is not claimed",
+    "No physical LAN throughput benchmark for this UI patch; no GPU backend introduced"
+  ]
+}

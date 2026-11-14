@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-14T07:15:04.627508+00:00",
+  "engine": "Windows System.Speech/SAPI",
+  "selectedVoice": "Microsoft Yaoyao",
+  "sampleRate": 48000,
+  "films": [
+    {
+      "id": "single",
+      "cues": [
+        {
+          "id": "S43",
+          "title": "从一次分发，到一个本地入口",
+          "start": 464,
+          "duration": 8,
+          "text": "资料分发，团队提交，网站演示，内网工具。一个入口，按你的规则开放。",
+          "rate": 2,
+          "spoken": "资料分发，团队提交，网站演示，内网工具。一个入口，按你的规则开放。"
+        }
+      ]
+    }
+  ]
+}

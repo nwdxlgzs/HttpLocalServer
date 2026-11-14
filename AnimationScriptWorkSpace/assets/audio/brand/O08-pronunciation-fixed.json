@@ -1,0 +1,31 @@
+{
+  "id": "O08",
+  "voice": "stella",
+  "text": "让本机，成为局域网的服务入口。HttpLocalServer。",
+  "spokenText": "让本机，成为局域网的服务入口。H T T P Local Server。",
+  "file": "assets/audio/brand/O08-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 5.729333333333333,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "575b5b74471a88d04c36f947d3c88fd86da66274037e63e9ab2ebc58cd96f834",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.1951875
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "reused standard brand in original sample window; outside samples unchanged",
+    "originalClip": "assets/audio/before-pronunciation/O08.wav",
+    "replacedStart": 3.5,
+    "replacedEnd": 5.729333333333333,
+    "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+    "crossfadeSeconds": 0.008,
+    "maximumJoinJump": 3.0517578125e-05,
+    "outsideWindowPcmUnchanged": true
+  }
+}

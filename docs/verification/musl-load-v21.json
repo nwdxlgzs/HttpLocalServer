@@ -1,0 +1,76 @@
+{
+  "executable": "/mnt/d/project/GZS/HttpLocalServer/.deps/hls-musl-v21",
+  "clients": 96,
+  "requests": 768,
+  "largeFiles": 96,
+  "smallFiles": 672,
+  "integrityFailures": 0,
+  "seconds": 2.264,
+  "payloadBytes": 810915840,
+  "payloadMiBPerSecond": 341.53,
+  "p50Milliseconds": 60.11,
+  "p95Milliseconds": 1460.26,
+  "statusAfterLoad": {
+    "version": "2.1.0",
+    "mode": "filetrans",
+    "rootName": "hls-load-vgrdsszp",
+    "uptime": 2,
+    "connections": 1,
+    "active": 1,
+    "requests": 769,
+    "sentBytes": 810915840,
+    "rejected": 0,
+    "threads": {
+      "io": 4,
+      "file": 3,
+      "metadata": 4
+    },
+    "magika": {
+      "enabled": true,
+      "model": "standard_v3_3",
+      "kernel": "pending",
+      "inferences": 0,
+      "active": 0,
+      "residentBytes": 0
+    },
+    "transferErrors": 0,
+    "residentMemory": 14262272,
+    "cache": {
+      "hits": 3544,
+      "misses": 200,
+      "coalesced": 5,
+      "diskBytes": 13045760,
+      "residentBytes": 9408512,
+      "allocatedBytes": 9408512,
+      "targetBytes": 33554432,
+      "limitBytes": 33554432,
+      "bufferBytes": 134217728,
+      "releasedBytes": 3751936,
+      "entries": 144,
+      "idleSeconds": 3,
+      "halfLifeSeconds": 2
+    },
+    "index": {
+      "enabled": true,
+      "scanning": false,
+      "count": 129,
+      "truncated": false,
+      "failed": false
+    }
+  },
+  "cacheAfterCooling": {
+    "hits": 3544,
+    "misses": 200,
+    "coalesced": 5,
+    "diskBytes": 13045760,
+    "residentBytes": 0,
+    "allocatedBytes": 0,
+    "targetBytes": 33554432,
+    "limitBytes": 33554432,
+    "bufferBytes": 134217728,
+    "releasedBytes": 13160448,
+    "entries": 0,
+    "idleSeconds": 3,
+    "halfLifeSeconds": 2
+  }
+}

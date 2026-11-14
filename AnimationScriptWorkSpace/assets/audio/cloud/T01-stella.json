@@ -1,0 +1,14 @@
+{
+  "id": "T01",
+  "voice": "stella",
+  "text": "本机内容，局域网可达。",
+  "characters": 11,
+  "inputSha256": "c2cb3bb894752f50ed61f8b64608f998ab3c58fdf3116b0a2c32e38b735f0314",
+  "file": "assets/audio/cloud/T01-stella.wav",
+  "generatedAt": "2026-11-14T07:40:57.856746+00:00",
+  "seconds": 2.6,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 124844
+}

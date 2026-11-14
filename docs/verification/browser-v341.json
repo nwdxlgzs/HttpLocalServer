@@ -1,0 +1,100 @@
+{
+  "version": "3.4.1",
+  "date": "2026-11-14",
+  "binary": "<project>\\dist\\HttpLocalServer-windows-x64.exe",
+  "binarySha256": "fe1d847f0706330603a9903fec4144e5d705022bf90f1bbd04d98d47236c2e55",
+  "sourceOverrides": false,
+  "tests": [
+    {
+      "name": "preview_browser_integration.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 15.25,
+      "passedScenarios": 11,
+      "output": "PASS native-Wasm docx \nPASS native-Wasm pptx \nPASS native-Wasm xlsx \nPASS native-Wasm pdf \nPASS no-Wasm docx \nPASS no-Wasm pptx \nPASS no-Wasm xlsx \nPASS no-Wasm pdf \nZIP CONSOLE host Connecting to 'http://127.0.0.1:61416/api/admin/settings' violates the following Content Security Policy directive: \"connect-src http://127.0.0.1:61416/zip-assets/b4d25abd66dce563bf9f58fcfaf292fb7542cedbc45c7bdc/\". The action has been blocked.\nZIP CONSOLE host Fetch API cannot load http://127.0.0.1:61416/api/admin/settings. Refused to connect because it violates the document's Content Security Policy.\nPASS ZIP website host CSS/script/image/fetch and API isolation\nPASS ZIP website client CSS/script/image/fetch and API isolation\nPASS internal tabs: 12 cap, close cleanup, dark mode and mobile\nPreview browser checks passed\n"
+    },
+    {
+      "name": "preview_browser_integration.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 13.74,
+      "passedScenarios": 11,
+      "output": "PASS native-Wasm docx \nPASS native-Wasm pptx \nPASS native-Wasm xlsx \nPASS native-Wasm pdf \nPASS no-Wasm docx \nPASS no-Wasm pptx \nPASS no-Wasm xlsx \nPASS no-Wasm pdf \nZIP CONSOLE host Connecting to 'https://127.0.0.1:55411/api/admin/settings' violates the following Content Security Policy directive: \"connect-src https://127.0.0.1:55411/zip-assets/1be1b28358cc59fa21c54a2e3b72af42354bef424467eb7f/\". The action has been blocked.\nZIP CONSOLE host Fetch API cannot load https://127.0.0.1:55411/api/admin/settings. Refused to connect because it violates the document's Content Security Policy.\nPASS ZIP website host CSS/script/image/fetch and API isolation\nPASS ZIP website client CSS/script/image/fetch and API isolation\nPASS internal tabs: 12 cap, close cleanup, dark mode and mobile\nPreview browser checks passed\n"
+    },
+    {
+      "name": "features_v330_browser.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 12.09,
+      "passedScenarios": 12,
+      "output": "CONSOLE warning Allow attribute will take precedence over 'allowfullscreen'.\nPASS inferred image action without suffix\nPASS continuous scrolling docx\nPASS continuous scrolling pdf\nPASS PNG and compatible image copying\nPASS presentation rail and slideshow keyboard\nPASS spreadsheet text field, drag range and context menu\nPASS versioned editor save\nPASS localized Monaco and save\nPASS ZIP Markdown dependencies and navigation host\nCONSOLE error Failed to load resource: the server responded with a status of 403 (Forbidden)\nPASS ZIP Markdown dependencies and navigation client\nPASS mobile workspace spacing and host controls\nPASS touch single tap preview\n"
+    },
+    {
+      "name": "features_v330_browser.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 12.58,
+      "passedScenarios": 12,
+      "output": "CONSOLE warning Allow attribute will take precedence over 'allowfullscreen'.\nPASS inferred image action without suffix\nPASS continuous scrolling docx\nPASS continuous scrolling pdf\nPASS PNG and compatible image copying\nPASS presentation rail and slideshow keyboard\nPASS spreadsheet text field, drag range and context menu\nPASS versioned editor save\nPASS localized Monaco and save\nPASS ZIP Markdown dependencies and navigation host\nCONSOLE error Failed to load resource: the server responded with a status of 403 (Forbidden)\nPASS ZIP Markdown dependencies and navigation client\nPASS mobile workspace spacing and host controls\nPASS touch single tap preview\n"
+    },
+    {
+      "name": "viewer_layout_browser.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 26.23,
+      "passedScenarios": 8,
+      "output": "PASS presentation geometry, queued rapid navigation, virtual thumbnails and compact toolbar\nPASS slideshow fullscreen, Escape, keyboard, timed play/pause\nPASS responsive Word/PDF fit width, continuous navigation and manual zoom\nPASS merged-cell interior selection, anchor address, text field, clipboard and oversized-selection rejection\nPASS image in internal tab and separate window, captured thumbnail propagation, no preview sidebar\nPASS mobile slide drawer, tap-to-navigate, portrait/landscape fitting\nPASS no-Wasm merged cells, clipped column groups and row-page continuations\nPASS real touch tap navigation and swipe advance\nViewer layout browser tests passed\n"
+    },
+    {
+      "name": "viewer_layout_browser.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 28.17,
+      "passedScenarios": 8,
+      "output": "PASS presentation geometry, queued rapid navigation, virtual thumbnails and compact toolbar\nPASS slideshow fullscreen, Escape, keyboard, timed play/pause\nPASS responsive Word/PDF fit width, continuous navigation and manual zoom\nPASS merged-cell interior selection, anchor address, text field, clipboard and oversized-selection rejection\nPASS image in internal tab and separate window, captured thumbnail propagation, no preview sidebar\nPASS mobile slide drawer, tap-to-navigate, portrait/landscape fitting\nPASS no-Wasm merged cells, clipped column groups and row-page continuations\nPASS real touch tap navigation and swipe advance\nViewer layout browser tests passed\n"
+    },
+    {
+      "name": "interaction_browser.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 15.34,
+      "passedScenarios": 11,
+      "output": "PASS real pointer directory drop onto another file-manager tab, target refresh and source removal\nPASS dragging a multiple-file selection to a tab moves every selected item\nPASS Ctrl+X / Ctrl+V moves nested folders outward across tabs and clears completed cuts\nPASS context move picker exposes parent/root targets for child folders\nPASS multiple file cut/paste preserves the selection and removes only successfully moved clipboard items\nPASS full-width sibling-folder navigation and concise grouped overflow menu\nPASS real pointer PPT selection follows visual reading rows at fitted, reduced and enlarged scales\nPASS native Ctrl+C and copy button include selected text plus inline image resources without unrelated lower text\nPASS intentional aligned PPT toolbar at 390 / 320 / 280 / 240 px and clean toolbar teardown\nPASS real pointer Word text selection remains aligned through zoom changes\nPASS PDF glyph font metrics and real pointer selection remain aligned through zoom changes\n"
+    },
+    {
+      "name": "interaction_browser.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 16.72,
+      "passedScenarios": 11,
+      "output": "PASS real pointer directory drop onto another file-manager tab, target refresh and source removal\nPASS dragging a multiple-file selection to a tab moves every selected item\nPASS Ctrl+X / Ctrl+V moves nested folders outward across tabs and clears completed cuts\nPASS context move picker exposes parent/root targets for child folders\nPASS multiple file cut/paste preserves the selection and removes only successfully moved clipboard items\nPASS full-width sibling-folder navigation and concise grouped overflow menu\nPASS real pointer PPT selection follows visual reading rows at fitted, reduced and enlarged scales\nPASS native Ctrl+C and copy button include selected text plus inline image resources without unrelated lower text\nPASS intentional aligned PPT toolbar at 390 / 320 / 280 / 240 px and clean toolbar teardown\nPASS real pointer Word text selection remains aligned through zoom changes\nPASS PDF glyph font metrics and real pointer selection remain aligned through zoom changes\n"
+    }
+  ],
+  "initialFailures": [
+    {
+      "name": "preview_browser_integration.py",
+      "protocol": "http",
+      "output": "PASS native-Wasm docx \npage.waitForFunction: Timeout 30000ms exceeded.\n    at <project>\\tests\\preview_browser.cjs:25:699 {\n  log: [],\n  name: 'TimeoutError'\n}\nServer exit at failure: None\nHttpLocalServer 3.4.1\n\nMode: filetrans (readonly)\n\nRoot: <user-profile>\\AppData\\Local\\Temp\\hls-preview-browser-qn9vq_j7\n\nListen: 127.0.0.1:54694\n\nLocal: http://127.0.0.1:54694/\n\n  Loopback Pseudo-Interface 1: http://127.0.0.1:54694/\n\nRecommended: http://127.0.0.1:54694/\n\nCache: 32 MiB maximum, idle 3s, half-life 2s\n\nPress Ctrl+C to stop.\n\n\nTraceback (most recent call last):\n  File \"<project>\\tests\\preview_browser_integration.py\", line 27, in <module>\n    run(str(pathlib.Path(sys.argv[1]).resolve()),'--https' in sys.argv[2:])\n  File \"<project>\\tests\\preview_browser_integration.py\", line 16, in run\n    subprocess.run(['node',str(pathlib.Path(__file__).with_name('preview_browser.cjs')),\n  File \"C:\\Program Files\\Python310\\lib\\subprocess.py\", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['node', '<project>\\\\tests\\\\preview_browser.cjs', 'http://127.0.0.1:54694']' returned non-zero exit status 1.\n"
+    },
+    {
+      "name": "viewer_layout_browser.py",
+      "protocol": "https",
+      "output": "PASS presentation geometry, queued rapid navigation, virtual thumbnails and compact toolbar\nPASS slideshow fullscreen, Escape, keyboard, timed play/pause\nPASS responsive Word/PDF fit width, continuous navigation and manual zoom\nPASS merged-cell interior selection, anchor address, text field, clipboard and oversized-selection rejection\nPASS image in internal tab and separate window, captured thumbnail propagation, no preview sidebar\nFAIL STATE { status: undefined, body: ' theme-dark', tools: undefined }\nlocator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#content-tabs iframe').last().contentFrame().locator('#auto-play')\u001b[22m\n\u001b[2m    - locator resolved to <button title=\"自动播放\" id=\"auto-play\" aria-pressed=\"false\"></button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at <project>\\tests\\viewer_layout_browser.cjs:37:1687 {\n  log: [\n    \"  - waiting for locator('#content-tabs iframe').last().contentFrame().locator('#auto-play')\",\n    '    - locator resolved to <button title=\"自动播放\" id=\"auto-play\" aria-pressed=\"false\"></button>',\n    '  - attempting click action',\n    '    2 × waiting for element to be visible, enabled and stable',\n    '      - element is not visible',\n    '    - retrying click action',\n    '    - waiting 20ms',\n    '    2 × waiting for element to be visible, enabled and stable',\n    '      - element is not visible',\n    '    - retrying click action',\n    '      - waiting 100ms',\n    '    58 × waiting for element to be visible, enabled and stable',\n    '       - element is not visible',\n    '     - retrying click action',\n    '       - waiting 500ms'\n  ],\n  name: 'TimeoutError'\n}\nTraceback (most recent call last):\n  File \"<project>\\tests\\viewer_layout_browser.py\", line 66, in <module>\n    run(str(pathlib.Path(sys.argv[1]).resolve()),'--https' in sys.argv[2:])\n  File \"<project>\\tests\\viewer_layout_browser.py\", line 60, in run\n    subprocess.run(['node',str(pathlib.Path(__file__).with_suffix('.cjs')),('https://' if https else 'http://')+'127.0.0.1:'+str(server.port)],check=True,timeout=480)\n  File \"C:\\Program Files\\Python310\\lib\\subprocess.py\", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['node', '<project>\\\\tests\\\\viewer_layout_browser.cjs', 'https://127.0.0.1:62704']' returned non-zero exit status 1.\n"
+    },
+    {
+      "name": "interaction_browser.py",
+      "protocol": "http",
+      "output": "PASS real pointer directory drop onto another file-manager tab, target refresh and source removal\npage.waitForFunction: Timeout 30000ms exceeded.\n    at <project>\\tests\\interaction_browser.cjs:21:183 {\n  log: [],\n  name: 'TimeoutError'\n}\nTraceback (most recent call last):\n  File \"<project>\\tests\\interaction_browser.py\", line 30, in <module>\n    if __name__=='__main__':run(str(pathlib.Path(sys.argv[1]).resolve()),'--https' in sys.argv[2:])\n  File \"<project>\\tests\\interaction_browser.py\", line 27, in run\n    try:subprocess.run(['node',str(pathlib.Path(__file__).with_suffix('.cjs')),('https://' if https else 'http://')+'127.0.0.1:'+str(server.port)],check=True,timeout=480)\n  File \"C:\\Program Files\\Python310\\lib\\subprocess.py\", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['node', '<project>\\\\tests\\\\interaction_browser.cjs', 'http://127.0.0.1:49352']' returned non-zero exit status 1.\n"
+    },
+    {
+      "name": "viewer_layout_browser.py",
+      "protocol": "https",
+      "output": "PASS presentation geometry, queued rapid navigation, virtual thumbnails and compact toolbar\nPASS slideshow fullscreen, Escape, keyboard, timed play/pause\nPASS responsive Word/PDF fit width, continuous navigation and manual zoom\nPASS merged-cell interior selection, anchor address, text field, clipboard and oversized-selection rejection\nPASS image in internal tab and separate window, captured thumbnail propagation, no preview sidebar\nFAIL STATE { status: undefined, body: ' theme-dark', tools: undefined }\nAssertionError [ERR_ASSERTION]: Deck click selects the intended file before preview\n+ actual - expected\n\n+ 'continuous.docx'\n- 'deck.pptx'\n\n    at <project>\\tests\\viewer_layout_browser.cjs:37:1377 {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: 'continuous.docx',\n  expected: 'deck.pptx',\n  operator: 'strictEqual',\n  diff: 'simple'\n}\nTraceback (most recent call last):\n  File \"<project>\\tests\\viewer_layout_browser.py\", line 66, in <module>\n    run(str(pathlib.Path(sys.argv[1]).resolve()),'--https' in sys.argv[2:])\n  File \"<project>\\tests\\viewer_layout_browser.py\", line 60, in run\n    subprocess.run(['node',str(pathlib.Path(__file__).with_suffix('.cjs')),('https://' if https else 'http://')+'127.0.0.1:'+str(server.port)],check=True,timeout=480)\n  File \"C:\\Program Files\\Python310\\lib\\subprocess.py\", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['node', '<project>\\\\tests\\\\viewer_layout_browser.cjs', 'https://127.0.0.1:60891']' returned non-zero exit status 1.\n"
+    }
+  ],
+  "verificationAdjustments": [
+    "Asset integrity uses four persistent HTTP clients to avoid short-connection port churn",
+    "Clipboard verification waits for the asynchronous copy success notification"
+  ],
+  "passedScenarios": 84
+}

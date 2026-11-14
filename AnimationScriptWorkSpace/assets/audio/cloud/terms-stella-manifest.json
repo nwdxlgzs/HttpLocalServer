@@ -1,0 +1,24 @@
+{
+  "provider": "DeepSeek TTS",
+  "voice": "stella",
+  "plannedCharacters": 111,
+  "pricingVisible": false,
+  "billingTotalVisible": false,
+  "cues": [
+    {
+      "id": "TERMS",
+      "voice": "stella",
+      "text": "waz-um. Quick J S. W A M R. M C P. P C D N. H T T P. H T T P S. I P. C L I. P D F. Word. Server. Markdown. A I.",
+      "spokenText": "waz-um. Quick J S. W A M R. M C P. P C D N. H T T P. H T T P S. I P. C L I. P D F. Word. Server. Markdown. A I.",
+      "characters": 111,
+      "inputSha256": "816a0d2433657090643628048526e7fb3c998a24dd88c504ec24da1742e0c6a0",
+      "file": "assets/audio/cloud/TERMS-stella.wav",
+      "generatedAt": "2026-11-14T08:09:33.702420+00:00",
+      "seconds": 14.48,
+      "sampleRate": 24000,
+      "channels": 1,
+      "sampleWidth": 2,
+      "bytes": 695084
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "V02",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "启动一个H T T P入口，用浏览器访问。",
+  "events": [
+    {
+      "start": 0.081625,
+      "position": 0,
+      "length": 2,
+      "text": "启动"
+    },
+    {
+      "start": 0.4606875,
+      "position": 2,
+      "length": 2,
+      "text": "一个"
+    },
+    {
+      "start": 0.85,
+      "position": 4,
+      "length": 1,
+      "text": "H"
+    },
+    {
+      "start": 1.1385625,
+      "position": 6,
+      "length": 1,
+      "text": "T"
+    },
+    {
+      "start": 1.307,
+      "position": 8,
+      "length": 1,
+      "text": "T"
+    },
+    {
+      "start": 1.49025,
+      "position": 10,
+      "length": 1,
+      "text": "P"
+    },
+    {
+      "start": 1.664125,
+      "position": 11,
+      "length": 2,
+      "text": "入口"
+    },
+    {
+      "start": 2.3435625,
+      "position": 14,
+      "length": 1,
+      "text": "用"
+    },
+    {
+      "start": 2.5735625,
+      "position": 15,
+      "length": 3,
+      "text": "浏览器"
+    },
+    {
+      "start": 3.132125,
+      "position": 18,
+      "length": 2,
+      "text": "访问"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "S37",
+  "voice": "stella",
+  "text": "本机MCP把文件发现与受限读取，交给你的AI工具接入。",
+  "spokenText": "本机 M C P 把文件发现与受限读取，交给你的 A I 工具接入。",
+  "file": "assets/audio/brand/S37-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 5.5836875,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "a6187d351c518205bda2e60887e86d28ea310cd84037d989683c468430bcabfd",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.053375
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-S37-stella.wav",
+    "sourceSpokenText": "本机 M C P 把文件发现与受限读取，交给你的 A I 工具接入。",
+    "nativeSeconds": 5.5303125,
+    "finalSeconds": 5.5836875,
+    "originalSeconds": 5.5836875
+  }
+}

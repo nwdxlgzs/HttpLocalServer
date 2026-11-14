@@ -1,0 +1,14 @@
+{
+  "id": "S41",
+  "voice": "stella",
+  "text": "资源随程序交付，界面按浏览器能力增强或降级。平台支持，也标明验证范围。",
+  "characters": 35,
+  "inputSha256": "dfc4d5f11debb3226fda37d9bbcff4331d6506d9501e70505b2edefc3d8e99c0",
+  "file": "assets/audio/cloud/S41-stella.wav",
+  "generatedAt": "2026-11-14T07:40:26.251616+00:00",
+  "seconds": 8.28,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 397484
+}

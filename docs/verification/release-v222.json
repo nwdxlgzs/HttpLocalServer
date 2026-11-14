@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-11",
+  "version": "2.2.2",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 6027264,
+      "sha256": "e29445b8cccac76f4f9cc38974b9ba245971ee157bf8d9bc4704dbb21a603900"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 7737400,
+      "sha256": "c7d75d712adbcbef301dd561a6e7ef6af193d30d376cd136cf09b8442cc1c4c8"
+    }
+  ],
+  "changes": [
+    "Host-wide attention pill click policy: locate by default, download optional",
+    "Host settings dropdown and --attention-click locate|download CLI initializer",
+    "Public site polling updates pill action, title and accessibility label on every client",
+    "Locate clears search, opens the parent folder, selects and centers the target",
+    "Direct sorted target-page request; same-directory cached targets require no new listing request",
+    "Generation checks and cancellation prevent obsolete focus responses from changing navigation",
+    "Tab scroll restoration occurs after spacer sizing so short lists do not clamp another tab scroll",
+    "Loaded count reports actual cached entries, including sparsely loaded target pages",
+    "Explicit refresh bypasses both directory cache checks; zero list page size is rejected"
+  ],
+  "defaults": {
+    "attentionClick": "locate",
+    "attentionClickScope": "host controls all clients",
+    "persistence": "process; CLI selects startup default"
+  },
+  "embeddedWeb": {
+    "gzipBytes": 78071,
+    "uncompressedBytes": 276656,
+    "sha256": "2261e4cfb7029630af24f23a864f327c0468d3a3762a80a1f8667b6cf2876e8b"
+  },
+  "verification": {
+    "windows": [
+      "Clean Release CTest 3/3",
+      "Final embedded-resource rebuild CTest 3/3",
+      "integration/v2/v21/v22/v221/v222 HTTP suites",
+      "Final web bundle matches bytes embedded in released executable",
+      "Acorn 8.15 ES5 parse of final application script"
+    ],
+    "musl": [
+      "Release CTest 3/3",
+      "integration/v2/v21/v22/v221/v222 HTTP suites",
+      "Stripped released binary passed v222 HTTP suite and --version",
+      "Static ELF: no INTERP or NEEDED",
+      "Final gzip bundle present verbatim in released binary"
+    ],
+    "sanitizers": [
+      "ASAN+UBSAN CTest 3/3",
+      "v222 HTTP suite, no sanitizer reports"
+    ],
+    "attentionPolicy": [
+      "Default locate and CLI download initialization",
+      "Live host switching and public publication",
+      "Remote host-setting mutation denied even with valid token and spoofed X-Forwarded-For",
+      "CSRF/Origin checks and atomic invalid-policy rejection"
+    ],
+    "focusedListing": [
+      "All four sort fields in both directions match ordinary pagination",
+      "Targets before, at and after 100-item page boundaries",
+      "UTF-8, spaces, root file, absent file, directories, traversal, ADS and invalid limits",
+      "Explicit refresh sees externally added file despite a cached directory",
+      "Truncated directory target returns 409; concurrent requests retain independent targets"
+    ],
+    "browser": [
+      "Cross-directory item 245 selected and visible with one target page cached",
+      "List and grid focus, rapid successive pill clicks, search clearing",
+      "Second browser page followed download policy through polling and created a browser-managed download record",
+      "390px viewport: no horizontal overflow, preview drawer closes on locate, host action selector remains visible",
+      "Two tabs retain independent selected files; returning to item 245 keeps it visible after switching through a shorter list",
+      "Final status reports 100 cached entries rather than offset 300",
+      "No browser warning/error console entries in final UI"
+    ]
+  },
+  "compatibility": {
+    "ie": "User accepted previously delivered 2.2.0; this change uses ES5, no new IE runtime verification",
+    "windows7": "No new Windows 7 machine/VM verification",
+    "cpuKernels": "Unchanged; no new heterogeneous simulation"
+  },
+  "screenshots": {
+    "attention-settings-v222.png": {
+      "width": 1280,
+      "height": 720,
+      "format": "PNG",
+      "sha256": "886753b04866d46e038c661a462e099570062ac13cc484e6c2e391e0bc270ddc"
+    },
+    "mobile-attention-v222.png": {
+      "width": 390,
+      "height": 844,
+      "format": "PNG",
+      "sha256": "1234783581f06fb0bc6a68fa0af6cefffeb83da8e3b508cc7b0f70482187ee55"
+    }
+  }
+}

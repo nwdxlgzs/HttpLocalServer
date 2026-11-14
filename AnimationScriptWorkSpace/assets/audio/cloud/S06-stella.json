@@ -1,0 +1,14 @@
+{
+  "id": "S06",
+  "voice": "stella",
+  "text": "明暗跟随你的选择，桌面和手机各有适合的操作空间。",
+  "characters": 24,
+  "inputSha256": "421df8f5dd5b26b9c49824cf4b055408643ad6cd211a90968c980e3e6397efca",
+  "file": "assets/audio/cloud/S06-stella.wav",
+  "generatedAt": "2026-11-14T07:38:41.731057+00:00",
+  "seconds": 5.32,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 255404
+}

@@ -1,0 +1,20 @@
+{
+  "platform": "Windows x64",
+  "productionOnly": true,
+  "assets": [
+    {
+      "name": "ffmpeg",
+      "source": "local imageio_ffmpeg package executable",
+      "path": "tools\\bin\\ffmpeg.exe",
+      "version": "ffmpeg version 4.2.2 Copyright (c) 2000-2019 the FFmpeg developers",
+      "sha256": "404fdd541eecc577d8f24bf9a976f1e4209f4292022a41c01f5cc2f1b0d375ac"
+    },
+    {
+      "name": "ffprobe",
+      "source": "@ffprobe-installer/win32-x64@5.1.0",
+      "path": "tools\\bin\\ffprobe.exe",
+      "version": "ffprobe version 2023-02-13-git-2296078397-essentials_build-www.gyan.dev Copyright (c) 2007-2023 the FFmpeg developers",
+      "sha256": "f28c4751e7367205267025aaf0fcfc921e34d9b7edaa46bd9c8abaf367fc9051"
+    }
+  ]
+}

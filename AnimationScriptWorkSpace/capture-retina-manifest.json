@@ -1,0 +1,388 @@
+{
+  "binary": "dist/HttpLocalServer-windows-x64.exe",
+  "sha256": "81028b6a0f81876611b15d59a3b0b4f2aedc97989800c8c26a905e3c27c9103e",
+  "productVersion": "3.5.1",
+  "deviceScaleFactor": 2,
+  "captureType": "Actual isolated Chromium rendering of distributed native product; no UI replacement or CSS alterations",
+  "demonstrationSettings": {
+    "bind": "127.0.0.1",
+    "writeMode": "shared",
+    "zipPreview": "host",
+    "magika": false,
+    "isolatedDemoOnly": true
+  },
+  "notes": [
+    "Captures use explicit demonstration settings, not product defaults.",
+    "127.0.0.1 is a truthful local capture endpoint; these are not throughput or LAN reachability measurements."
+  ],
+  "assets": [
+    {
+      "slug": "manager-list",
+      "path": "assets/capture-retina/manager-list.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "默认列表；真实示例资料、连接与本机管理入口",
+      "scenes": [
+        "S05",
+        "S09",
+        "S12"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/#%2F"
+    },
+    {
+      "slug": "manager-grid",
+      "path": "assets/capture-retina/manager-grid.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "真实网格布局",
+      "scenes": [
+        "S05",
+        "S21"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/#%2F"
+    },
+    {
+      "slug": "tabs",
+      "path": "assets/capture-retina/tabs.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "三个实际目录标签及路径导航",
+      "scenes": [
+        "S07"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/#%2F02%20%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90"
+    },
+    {
+      "slug": "search",
+      "path": "assets/capture-retina/search.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "文件名搜索“说明”结果",
+      "scenes": [
+        "S08"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/#%2F?q=%E8%AF%B4%E6%98%8E"
+    },
+    {
+      "slug": "theme-dark",
+      "path": "assets/capture-retina/theme-dark.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "真实夜间主题",
+      "scenes": [
+        "S06"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/#%2F"
+    },
+    {
+      "slug": "settings",
+      "path": "assets/capture-retina/settings.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "本机主机设置，敏感输入为空/遮蔽",
+      "scenes": [
+        "S24",
+        "S30",
+        "S32"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/#%2F"
+    },
+    {
+      "slug": "mobile",
+      "path": "assets/capture-retina/mobile.png",
+      "width": 780,
+      "height": 1688,
+      "viewportCSS": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 2,
+      "description": "390×844真实手机布局；已通过产品按钮收起公告",
+      "scenes": [
+        "S06",
+        "S41"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/#%2F"
+    },
+    {
+      "slug": "preview-pdf",
+      "path": "assets/capture-retina/preview-pdf.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "PDF连续阅读与可选择文字",
+      "scenes": [
+        "S16"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/_hls/viewer?path=%2F%E5%9F%B9%E8%AE%AD%E9%A1%BB%E7%9F%A5.pdf&kind=pdf"
+    },
+    {
+      "slug": "preview-docx",
+      "path": "assets/capture-retina/preview-docx.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "Word文档与图文真实渲染",
+      "scenes": [
+        "S16"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/_hls/viewer?path=%2F%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E.docx&kind=office"
+    },
+    {
+      "slug": "preview-ppt",
+      "path": "assets/capture-retina/preview-ppt.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "PPT比例缩略图、页面和播放工具",
+      "scenes": [
+        "S17"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/_hls/viewer?path=%2F%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF.pptx&kind=office"
+    },
+    {
+      "slug": "preview-xlsx",
+      "path": "assets/capture-retina/preview-xlsx.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "Excel含合并标题与数据",
+      "scenes": [
+        "S18"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/_hls/viewer?path=%2F%E9%A2%84%E7%AE%97%E7%A4%BA%E4%BE%8B.xlsx&kind=office"
+    },
+    {
+      "slug": "editor",
+      "path": "assets/capture-retina/editor.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "实际内置Monaco中文代码编辑器",
+      "scenes": [
+        "S14"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/_hls/viewer?path=%2F%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81.js&kind=editor"
+    },
+    {
+      "slug": "zip",
+      "path": "assets/capture-retina/zip.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "实际主机ZIP预览目录与包内网页；通过点击index.html打开",
+      "scenes": [
+        "S22",
+        "S23"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/_hls/viewer?path=%2F%E7%BD%91%E7%AB%99%E4%B8%8E%E8%AF%B4%E6%98%8E.zip&kind=zip"
+    },
+    {
+      "slug": "preview-markdown",
+      "path": "assets/capture-retina/preview-markdown.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "Markdown文档及关联图片",
+      "scenes": [
+        "S19"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/preview?path=%2F%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E.md#%2F"
+    },
+    {
+      "slug": "preview-json",
+      "path": "assets/capture-retina/preview-json.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "按需展开JSON树",
+      "scenes": [
+        "S19"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/preview?path=%2F%E9%85%8D%E7%BD%AE%E7%A4%BA%E4%BE%8B.json#%2F"
+    },
+    {
+      "slug": "preview-image",
+      "path": "assets/capture-retina/preview-image.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "原创设计视觉的图片预览",
+      "scenes": [
+        "S20"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/preview?path=%2F%E8%AE%BE%E8%AE%A1%E8%A7%86%E8%A7%89.png#%2F"
+    },
+    {
+      "slug": "preview-video",
+      "path": "assets/capture-retina/preview-video.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "实际自定义视频播放器",
+      "scenes": [
+        "S20"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/preview?path=%2F%E6%BC%94%E7%A4%BA%E5%BD%95%E5%83%8F.mp4#%2F"
+    },
+    {
+      "slug": "preview-web",
+      "path": "assets/capture-retina/preview-web.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "受控HTML网页与自身样式",
+      "scenes": [
+        "S20"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59478/preview?path=%2F%E6%BC%94%E7%A4%BA%E7%BD%91%E9%A1%B5.html#%2F"
+    },
+    {
+      "slug": "login",
+      "path": "assets/capture-retina/login.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "实际登录页；口令未输入",
+      "scenes": [
+        "S30"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:63594/"
+    },
+    {
+      "slug": "server-site",
+      "path": "assets/capture-retina/server-site.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "本机原生静态Server托管的原创演示站",
+      "scenes": [
+        "S33"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:56200/"
+    },
+    {
+      "slug": "workspace-app",
+      "path": "assets/capture-retina/workspace-app.png",
+      "width": 3200,
+      "height": 1800,
+      "viewportCSS": {
+        "width": 1600,
+        "height": 900
+      },
+      "deviceScaleFactor": 2,
+      "description": "public/前端由真实ZIP应用提供",
+      "scenes": [
+        "S34"
+      ],
+      "provenance": "actual product capture",
+      "url": "http://127.0.0.1:59802/"
+    }
+  ],
+  "errors": [],
+  "browserVersion": "157.0.8103.40",
+  "captureCompleted": true,
+  "pathBase": "repository root"
+}

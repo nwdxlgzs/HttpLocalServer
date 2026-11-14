@@ -1,0 +1,76 @@
+{
+  "executable": "<project>\\build-msvc\\HttpLocalServer.exe",
+  "clients": 96,
+  "requests": 768,
+  "largeFiles": 96,
+  "smallFiles": 672,
+  "integrityFailures": 0,
+  "seconds": 4.24,
+  "payloadBytes": 810915840,
+  "payloadMiBPerSecond": 182.41,
+  "p50Milliseconds": 372.53,
+  "p95Milliseconds": 1560.05,
+  "statusAfterLoad": {
+    "version": "2.1.0",
+    "mode": "filetrans",
+    "rootName": "hls-load-buytjhh4",
+    "uptime": 4,
+    "connections": 1,
+    "active": 1,
+    "requests": 769,
+    "sentBytes": 810915840,
+    "rejected": 0,
+    "threads": {
+      "io": 4,
+      "file": 3,
+      "metadata": 4
+    },
+    "magika": {
+      "enabled": true,
+      "model": "standard_v3_3",
+      "kernel": "pending",
+      "inferences": 0,
+      "active": 0,
+      "residentBytes": 0
+    },
+    "transferErrors": 0,
+    "residentMemory": 21811200,
+    "cache": {
+      "hits": 3546,
+      "misses": 198,
+      "coalesced": 0,
+      "diskBytes": 10532864,
+      "residentBytes": 9408512,
+      "allocatedBytes": 9408512,
+      "targetBytes": 33554432,
+      "limitBytes": 33554432,
+      "bufferBytes": 134217728,
+      "releasedBytes": 1249280,
+      "entries": 144,
+      "idleSeconds": 3,
+      "halfLifeSeconds": 2
+    },
+    "index": {
+      "enabled": true,
+      "scanning": false,
+      "count": 129,
+      "truncated": false,
+      "failed": false
+    }
+  },
+  "cacheAfterCooling": {
+    "hits": 3546,
+    "misses": 198,
+    "coalesced": 0,
+    "diskBytes": 10532864,
+    "residentBytes": 0,
+    "allocatedBytes": 0,
+    "targetBytes": 33554432,
+    "limitBytes": 33554432,
+    "bufferBytes": 134217728,
+    "releasedBytes": 10657792,
+    "entries": 0,
+    "idleSeconds": 3,
+    "halfLifeSeconds": 2
+  }
+}

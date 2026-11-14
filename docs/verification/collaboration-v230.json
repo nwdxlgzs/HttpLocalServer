@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-11",
+  "version": "2.3.0",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 6226432,
+      "sha256": "d9b286404cf1658e902585797e616b01f707b2a47604c740447712080670645d"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 7987256,
+      "sha256": "9eea5ae4b616a0c2376a4bc9de9a755ead23393c0c8b688e89e1bdbb68e83881"
+    }
+  ],
+  "changes": [
+    "Nested folder selection and drag upload with complete readEntries batching, relative paths, safe lazy parents and bounded queues",
+    "Sessions and virtual browsing do not create IP directories; uploads create them; empty trees are reclaimed after all browser leases and uploads release",
+    "Peer-bound multi-tab browse leases, 45 second crash timeout, bounded incremental safe empty-directory cleanup",
+    "Post-upload name submission, host-only review with revision checks, escaped approved name capsules and no public pending-name leakage",
+    "Scrollable short-screen sidebar; settings/connection never overlap navigation",
+    "Per-page jittered coalesced directory polling, shared 5 second fingerprint cache, default refresh notice and visitor opt-in automatic refresh",
+    "High precision metadata detects same-size external rewrites; approval updates only visible owner metadata without reloading directories"
+  ],
+  "verification": {
+    "windows": [
+      "Final MSVC Release CTest 3/3",
+      "HTTP collaboration suite including 48 concurrent polls, two browser leases, aborted stream and 45 second crash lease expiry",
+      "HTTP v230 COW, version conflicts, concurrent writers, safe moves and abort cleanup",
+      "HTTP core suite: Unicode, search, 5 GiB Range, cache cooling, 144 concurrent Range requests, Server mode and backpressure",
+      "Visibility and branding HTTP regressions",
+      "ES5 parse using bundled Node Acorn; drag/thumbnail, collaboration and player state JavaScript suites"
+    ],
+    "linuxMusl": [
+      "Final GCC static x86_64 Release CTest 3/3",
+      "HTTP collaboration suite with crash expiry and 48 concurrent polls",
+      "HTTP v230 COW and writer regression",
+      "HTTP core suite: 5 GiB Range, 144 concurrent Range requests, Server mode and backpressure",
+      "Final changed C++ compiled without warnings"
+    ],
+    "browser": [
+      "Actual nested folder upload retained both files and directory hierarchy",
+      "Upload triggered optional name modal; host reviewed request; capsules appeared without manual refresh",
+      "External addition showed a refresh notice; opt-in auto refresh displayed next addition",
+      "1000x400 sidebar DOM bounds confirmed non-overlap and scrolling; 390x400 viewport had no horizontal overflow",
+      "Final browser console had no errors or warnings"
+    ],
+    "macos": "Source compatibility retained; no build or test performed as requested",
+    "ie11": "ES5 syntax checked; manual incremental verification steps documented; folder APIs require a supporting browser",
+    "limits": [
+      "Names and approvals are stored for the current service process",
+      "Folder batches cap at 10000 files and 20000 entries; empty folders create no placeholders",
+      "Directory fingerprints inspect immediate children, not a recursive whole-share watch; metadata timestamp fidelity follows the filesystem",
+      "Browser lease expiry is a fallback for crashed, disconnected or suspended pages"
+    ]
+  },
+  "embeddedWeb": {
+    "gzipBytes": 93379,
+    "uncompressedBytes": 337671,
+    "sha256": "b6252c4dd7fded875b9d1e132d622212c78fc70564e43f2008a7519c1c953bc4"
+  },
+  "screenshot": "collaboration-v230.png"
+}

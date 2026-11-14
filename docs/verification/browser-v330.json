@@ -1,0 +1,81 @@
+{
+  "binarySha256": "d73618c714ec34291f9ad78700b654dc3809575ee34b503ba19a632309be1cff",
+  "sourceOverrides": false,
+  "protocols": {
+    "http": {
+      "features": {
+        "passed": 12,
+        "scenarios": [
+          "inferred image action without suffix",
+          "continuous scrolling docx",
+          "continuous scrolling pdf",
+          "PNG and compatible image copying",
+          "presentation rail and slideshow keyboard",
+          "spreadsheet text field, drag range and context menu",
+          "versioned editor save",
+          "localized Monaco and save",
+          "ZIP Markdown dependencies and navigation host",
+          "ZIP Markdown dependencies and navigation client",
+          "mobile workspace spacing and host controls",
+          "touch single tap preview"
+        ],
+        "logSha256": "62747132f4ed1475efa5324db07ceb3481aca36494eff5b483d133615896026d"
+      },
+      "baseline": {
+        "passed": 11,
+        "scenarios": [
+          "native-Wasm docx 可选择文字或单元格并复制 · 连续阅读",
+          "native-Wasm pptx 可选择文字或单元格并复制 · 幻灯片",
+          "native-Wasm xlsx 可选择文字或单元格并复制 · 工作表",
+          "native-Wasm pdf 可选择文字并复制 · 连续阅读 · PDF.js",
+          "no-Wasm docx 基本预览 · 可以选择文字并复制 · 连续阅读",
+          "no-Wasm pptx 幻灯片基本预览 · 文字可复制",
+          "no-Wasm xlsx 工作表基本预览 · 显示已有数据行，可选择列范围并复制",
+          "no-Wasm pdf 可选择文字并复制 · 连续阅读 · 兼容渲染",
+          "ZIP website host CSS/script/image/fetch and API isolation",
+          "ZIP website client CSS/script/image/fetch and API isolation",
+          "internal tabs: 12 cap, close cleanup, dark mode and mobile"
+        ],
+        "logSha256": "4d0bb708b5a159b3a44bbc7170d52a1332807befffe9ad8b5c35a42d7148f73a"
+      }
+    },
+    "https": {
+      "features": {
+        "passed": 12,
+        "scenarios": [
+          "inferred image action without suffix",
+          "continuous scrolling docx",
+          "continuous scrolling pdf",
+          "PNG and compatible image copying",
+          "presentation rail and slideshow keyboard",
+          "spreadsheet text field, drag range and context menu",
+          "versioned editor save",
+          "localized Monaco and save",
+          "ZIP Markdown dependencies and navigation host",
+          "ZIP Markdown dependencies and navigation client",
+          "mobile workspace spacing and host controls",
+          "touch single tap preview"
+        ],
+        "logSha256": "62747132f4ed1475efa5324db07ceb3481aca36494eff5b483d133615896026d"
+      },
+      "baseline": {
+        "passed": 11,
+        "scenarios": [
+          "native-Wasm docx 可选择文字或单元格并复制 · 连续阅读",
+          "native-Wasm pptx 可选择文字或单元格并复制 · 幻灯片",
+          "native-Wasm xlsx 可选择文字或单元格并复制 · 工作表",
+          "native-Wasm pdf 可选择文字并复制 · 连续阅读 · PDF.js",
+          "no-Wasm docx 基本预览 · 可以选择文字并复制 · 连续阅读",
+          "no-Wasm pptx 幻灯片基本预览 · 文字可复制",
+          "no-Wasm xlsx 工作表基本预览 · 显示已有数据行，可选择列范围并复制",
+          "no-Wasm pdf 可选择文字并复制 · 连续阅读 · 兼容渲染",
+          "ZIP website host CSS/script/image/fetch and API isolation",
+          "ZIP website client CSS/script/image/fetch and API isolation",
+          "internal tabs: 12 cap, close cleanup, dark mode and mobile"
+        ],
+        "logSha256": "fd9bdb0e9fe81bc13f0b8fab69793e3ddd9f9186f34ef39da41959e9b1400133"
+      }
+    }
+  },
+  "passed": 46
+}

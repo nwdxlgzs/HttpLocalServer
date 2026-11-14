@@ -1,0 +1,29 @@
+{
+  "project": "HttpLocalServer",
+  "version": "3.5.1",
+  "network": {
+    "mode": "LAN",
+    "protocol": "HTTP",
+    "port": 8000
+  },
+  "features": {
+    "preview": true,
+    "writeMode": "shared",
+    "zipPreview": "host",
+    "pcdn": false
+  },
+  "deliverables": [
+    {
+      "name": "培训资料",
+      "status": "ready"
+    },
+    {
+      "name": "演示站点",
+      "status": "ready"
+    },
+    {
+      "name": "提交目录",
+      "status": "open"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "S01",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "文件要交给别人，网页也想在局域网里打开。",
+  "events": [
+    {
+      "start": 0.08,
+      "position": 0,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 0.55,
+      "position": 2,
+      "length": 1,
+      "text": "要"
+    },
+    {
+      "start": 0.7570625,
+      "position": 3,
+      "length": 2,
+      "text": "交给"
+    },
+    {
+      "start": 1.120375,
+      "position": 5,
+      "length": 2,
+      "text": "别人"
+    },
+    {
+      "start": 1.79,
+      "position": 8,
+      "length": 2,
+      "text": "网页"
+    },
+    {
+      "start": 2.23,
+      "position": 10,
+      "length": 1,
+      "text": "也"
+    },
+    {
+      "start": 2.4090625,
+      "position": 11,
+      "length": 1,
+      "text": "想"
+    },
+    {
+      "start": 2.6500625,
+      "position": 12,
+      "length": 1,
+      "text": "在"
+    },
+    {
+      "start": 2.9,
+      "position": 13,
+      "length": 3,
+      "text": "局域网"
+    },
+    {
+      "start": 3.41,
+      "position": 16,
+      "length": 1,
+      "text": "里"
+    },
+    {
+      "start": 3.56,
+      "position": 17,
+      "length": 2,
+      "text": "打开"
+    }
+  ]
+}

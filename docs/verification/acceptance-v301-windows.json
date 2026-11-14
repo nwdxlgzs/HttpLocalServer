@@ -1,0 +1,102 @@
+{
+  "binary": "HttpLocalServer.exe",
+  "sha256": "9e21fcadabafee828cae697a38b98657870f142c096683bbcea397421624fa98",
+  "tests": [
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 4.8,
+      "log": ".deps/verify-v301-windows-durable_integration.py.log"
+    },
+    {
+      "name": "archive_integration.py",
+      "exitCode": 0,
+      "seconds": 2.77,
+      "log": ".deps/verify-v301-windows-archive_integration.py.log"
+    },
+    {
+      "name": "state_integration.py",
+      "exitCode": 0,
+      "seconds": 1.64,
+      "log": ".deps/verify-v301-windows-state_integration.py.log"
+    },
+    {
+      "name": "traffic_integration.py",
+      "exitCode": 0,
+      "seconds": 40.22,
+      "log": ".deps/verify-v301-windows-traffic_integration.py.log"
+    },
+    {
+      "name": "secure_features_integration.py",
+      "exitCode": 0,
+      "seconds": 8.11,
+      "log": ".deps/verify-v301-windows-secure_features_integration.py.log"
+    },
+    {
+      "name": "integration.py",
+      "exitCode": 0,
+      "seconds": 6.81,
+      "log": ".deps/verify-v301-windows-integration.py.log"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 2.03,
+      "log": ".deps/verify-v301-windows-config_integration.py.log"
+    },
+    {
+      "name": "access_integration.py",
+      "exitCode": 0,
+      "seconds": 9.48,
+      "log": ".deps/verify-v301-windows-access_integration.py.log"
+    },
+    {
+      "name": "tls_integration.py",
+      "exitCode": 0,
+      "seconds": 27.39,
+      "log": ".deps/verify-v301-windows-tls_integration.py.log"
+    },
+    {
+      "name": "mounts_integration.py",
+      "exitCode": 0,
+      "seconds": 67.39,
+      "log": ".deps/verify-v301-windows-mounts_integration.py.log"
+    },
+    {
+      "name": "p2p_integration.py",
+      "exitCode": 0,
+      "seconds": 4.45,
+      "log": ".deps/verify-v301-windows-p2p_integration.py.log"
+    },
+    {
+      "name": "p2p_relay_integration.py",
+      "exitCode": 0,
+      "seconds": 2.81,
+      "log": ".deps/verify-v301-windows-p2p_relay_integration.py.log"
+    },
+    {
+      "name": "p2p_mount_integration.py",
+      "exitCode": 0,
+      "seconds": 30.94,
+      "log": ".deps/verify-v301-windows-p2p_mount_integration.py.log"
+    },
+    {
+      "name": "branding_integration.py",
+      "exitCode": 0,
+      "seconds": 0.8,
+      "log": ".deps/verify-v301-windows-branding_integration.py.log"
+    },
+    {
+      "name": "collaboration_integration.py",
+      "exitCode": 0,
+      "seconds": 54.62,
+      "log": ".deps/verify-v301-windows-collaboration_integration.py.log"
+    },
+    {
+      "name": "defaults.py",
+      "exitCode": 0,
+      "seconds": 0.8,
+      "log": ".deps/verify-v301-windows-defaults.py.log"
+    }
+  ]
+}

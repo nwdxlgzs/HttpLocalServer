@@ -1,0 +1,47 @@
+{
+  "version": "3.3.1",
+  "cliVersion": "HttpLocalServer 3.3.1",
+  "date": "2026-11-14",
+  "binary": "<project>\\dist\\HttpLocalServer-windows-x64.exe",
+  "sha256": "958590772a4a631e043cacace7610043e12878692eb7644e2c19881cbbaca11c",
+  "bytes": 25270272,
+  "scope": "Focused frozen lock/config/state regressions; previous v3.3.0 broader checks are historical evidence only",
+  "tests": [
+    {
+      "name": "frozen_lock_integration.py",
+      "exitCode": 0,
+      "seconds": 1.95,
+      "output": "Frozen lock tests passed: active/custom/nested/uppercase locks, frozen directories, hidden policy, indexed/mounted search, private temporary filtering, FileTrans/Server, reads/writes/P2P and ancestor protection\r\n"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 1.89,
+      "output": "Configuration tests passed: JSON/CLI precedence, atomic persistence/restart, hardlink history, native mounts, frozen listing/search, reads/writes/copy/P2P/ancestors/traversal and malformed JSON\r\n"
+    },
+    {
+      "name": "features_v330_integration.py",
+      "exitCode": 0,
+      "seconds": 1.25,
+      "output": "v3.3 feature integration passed: inference, frozen state, compression/range, lazy CWD config, persistent ZIP workspace imports and real filesystem confinement\r\n"
+    },
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 4.47,
+      "output": "durable integration passed: both modes, crash/restart, idempotency, quota, recycle, bounded scripts, frozen preflight\r\n"
+    },
+    {
+      "name": "ie_compat_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.25,
+      "output": "IE static checks passed: 35 ES5 sources, full startup without modern globals, Markdown/hooks, UTF-8/gzip fallbacks, capability gating, themes and CSS spacing/sticky fallbacks\n"
+    },
+    {
+      "name": "ctest",
+      "exitCode": 0,
+      "seconds": 11.44,
+      "output": "Internal ctest changing into directory: <user-profile>/AppData/Local/Temp/hls-tabs-20261111/build\nTest project <user-profile>/AppData/Local/Temp/hls-tabs-20261111/build\n    Start 1: magika\n1/3 Test #1: magika ...........................   Passed    1.96 sec\n    Start 2: core\n2/3 Test #2: core .............................   Passed    1.40 sec\n    Start 3: writes\n3/3 Test #3: writes ...........................   Passed    7.96 sec\n\n100% tests passed, 0 tests failed out of 3\n\nTotal Test time (real) =  11.38 sec\n"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "S33",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "切到Server，目录成为网站。默认文档、单页应用回退和错误页，都能配置。",
+  "events": [
+    {
+      "start": 0.080875,
+      "position": 0,
+      "length": 1,
+      "text": "切"
+    },
+    {
+      "start": 0.2935,
+      "position": 1,
+      "length": 1,
+      "text": "到"
+    },
+    {
+      "start": 0.46,
+      "position": 2,
+      "length": 6,
+      "text": "Server"
+    },
+    {
+      "start": 1.0603125,
+      "position": 9,
+      "length": 2,
+      "text": "目录"
+    },
+    {
+      "start": 1.4556875,
+      "position": 11,
+      "length": 2,
+      "text": "成为"
+    },
+    {
+      "start": 1.845875,
+      "position": 13,
+      "length": 2,
+      "text": "网站"
+    },
+    {
+      "start": 3.1805625,
+      "position": 16,
+      "length": 2,
+      "text": "默认"
+    },
+    {
+      "start": 3.5068125,
+      "position": 18,
+      "length": 2,
+      "text": "文档"
+    },
+    {
+      "start": 4.1828125,
+      "position": 21,
+      "length": 1,
+      "text": "单"
+    },
+    {
+      "start": 4.3728125,
+      "position": 22,
+      "length": 1,
+      "text": "页"
+    },
+    {
+      "start": 4.5128125,
+      "position": 23,
+      "length": 2,
+      "text": "应用"
+    },
+    {
+      "start": 4.9628125,
+      "position": 25,
+      "length": 1,
+      "text": "回"
+    },
+    {
+      "start": 5.176125,
+      "position": 26,
+      "length": 1,
+      "text": "退"
+    },
+    {
+      "start": 5.43175,
+      "position": 27,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 5.648375,
+      "position": 28,
+      "length": 2,
+      "text": "错误"
+    },
+    {
+      "start": 6.02675,
+      "position": 30,
+      "length": 1,
+      "text": "页"
+    },
+    {
+      "start": 6.5305625,
+      "position": 32,
+      "length": 1,
+      "text": "都"
+    },
+    {
+      "start": 6.6950625,
+      "position": 33,
+      "length": 1,
+      "text": "能"
+    },
+    {
+      "start": 6.8728125,
+      "position": 34,
+      "length": 2,
+      "text": "配置"
+    }
+  ]
+}

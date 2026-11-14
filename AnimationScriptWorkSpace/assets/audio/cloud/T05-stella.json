@@ -1,0 +1,14 @@
+{
+  "id": "T05",
+  "voice": "stella",
+  "text": "能力可配，资源有界。",
+  "characters": 10,
+  "inputSha256": "a533bc2968b460baf6fe6d3e43a7ac5772cd876918e0ae236aaeffe713dc2c06",
+  "file": "assets/audio/cloud/T05-stella.wav",
+  "generatedAt": "2026-11-14T07:41:06.811307+00:00",
+  "seconds": 2.56,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 122924
+}

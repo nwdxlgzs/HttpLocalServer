@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-10",
+  "version": "2.2.1",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 6022656,
+      "sha256": "c8987fc25aa0e36b60b478f7530c8e7e5d047699e26e40304cc3205b9df1cd4b"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 7725112,
+      "sha256": "196f091c384dcf4643f6a742658b2ebe59d095b051f2b7e0b2cf979c3b2cb143"
+    }
+  ],
+  "changes": [
+    "Only the active tab has outward bottom corners; inactive tabs end flat",
+    "Tab boxes overlap by 18px with fixed corner widths at all settled tab sizes",
+    "Host right-click marks/unmarks multiple files, independent of write mode",
+    "Single-file recommendation fields removed from host settings",
+    "Marks follow server-side rename and are removed by deletion"
+  ],
+  "userAcceptance": {
+    "scope": "IE check of previously delivered 2.2.0",
+    "result": "User reported no issues",
+    "systemAndBrowserVersions": "not supplied"
+  },
+  "embeddedWeb": {
+    "gzipBytes": 77103,
+    "uncompressedBytes": 272998,
+    "sha256": "bfe44c50b448c51f007a56159e1798f6980bf1190ce6c83d5e3f87016cfe98f8"
+  },
+  "verification": {
+    "windows": [
+      "Clean Release CTest 3/3",
+      "integration/v2/v21/v22/v221 HTTP suites",
+      "ES5 Acorn8.15 parse"
+    ],
+    "musl": [
+      "Release CTest 3/3",
+      "integration/v2/v21/v22/v221 HTTP suites",
+      "Static ELF with no INTERP/NEEDED"
+    ],
+    "sanitizers": [
+      "ASAN+UBSAN CTest 3/3",
+      "v22/v221 HTTP suites"
+    ],
+    "attention": [
+      "Readonly host marking permitted",
+      "Remote client denied despite valid page token and spoofed X-Forwarded-For",
+      "CSRF/Origin, traversal, regular-file-only, schema validation",
+      "Multiple marks, idempotency, independent cancellation",
+      "Directory/file rename and deletion propagation; prefix boundary retained",
+      "128 marks through four parallel clients with no lost changes; bounded list overflow and capacity release"
+    ],
+    "browser": [
+      "Only selected SVG has outward bottom corners after activation change",
+      "18px tab overlap; 12 tabs fit and shrink consistently",
+      "Dragging retained active folder",
+      "390px viewport has no horizontal document overflow, 104px minimum and arrows",
+      "Right-click marking two files, list highlights and independent cancellation",
+      "Single-file recommendation fields absent in settings",
+      "Second browser page received both attention files"
+    ]
+  },
+  "limits": {
+    "attentionFiles": 128,
+    "persistence": "process lifetime"
+  },
+  "screenshots": {
+    "tabs-attention-v221.png": {
+      "width": 65536,
+      "height": 4292542531,
+      "sha256": "dc28482f5612d2b09b9054d0052be92571177f9e80d29c2f24b9ae1c81a1fdb9"
+    },
+    "mobile-attention-v221.png": {
+      "width": 65536,
+      "height": 4292542531,
+      "sha256": "93c0624b4ae0b6ef1722e866867df2839e403bf596998d4ca25ec254f09ef825"
+    }
+  }
+}

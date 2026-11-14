@@ -1,0 +1,7 @@
+{
+  "version": "3.4.1",
+  "binarySha256": "4f56f5208273afd4d713f3f423d8c530c8b7734f2b30a75a491924fc61cadcb1",
+  "passed": 3,
+  "failed": 0,
+  "output": "Internal ctest changing into directory: /build\nTest project /build\n    Start 1: magika\n1/3 Test #1: magika ...........................   Passed    2.17 sec\n    Start 2: core\n2/3 Test #2: core .............................   Passed    1.24 sec\n    Start 3: writes\n3/3 Test #3: writes ...........................   Passed    6.89 sec\n\n100% tests passed, 0 tests failed out of 3\n\nTotal Test time (real) =  10.31 sec\n"
+}

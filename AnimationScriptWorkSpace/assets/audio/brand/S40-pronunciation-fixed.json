@@ -1,0 +1,29 @@
+{
+  "id": "S40",
+  "voice": "stella",
+  "text": "需要时开启PCDN，让浏览器与挂载来源分担部分流量。普通下载，仍是默认选择。",
+  "spokenText": "需要时开启 P C D N ，让浏览器与挂载来源分担部分流量。普通下载，仍是默认选择。",
+  "file": "assets/audio/brand/S40-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 8.237270833333334,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "0a90047701a1bd01715d32f8ab13f0f502e4652619ee539959ab70b2fffb7e57",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.4261041666666667
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-S40-stella.wav",
+    "sourceSpokenText": "需要时开启 P C D N ，让浏览器与挂载来源分担部分流量。普通下载，仍是默认选择。",
+    "nativeSeconds": 7.811166666666667,
+    "finalSeconds": 8.237270833333334,
+    "originalSeconds": 8.237270833333334
+  }
+}

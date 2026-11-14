@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-13",
+  "version": "2.5.0",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 6567936,
+      "sha256": "14829f7d3d580001fcfb06bc8998443cdeb13a1e77d00c9d03c561f3bdbd061d"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 8556632,
+      "sha256": "5bfd99bd3fbe0649813897de9f8c8a7df557c87d69471685c0d2241e9510ad59"
+    }
+  ],
+  "changes": [
+    "Icon-only System/Light/Dark controls at the upper right; responsive toolbar keeps tabs separate",
+    "Optional passphrase gate across FileTrans and Server, all file/API/upload/preview entrances; IP-bound HttpOnly sessions; passphrase changes revoke old sessions",
+    "Five failed attempts per round; deterministic 120 second exponential waits capped at one day; requests during a ban never extend its deadline; host blocked-IP list/unlock",
+    "CLI-only strict host identity restricts administrator to exact 127.0.0.1 and ::1; isolated-mode host uploads retain their selected shared path and bypass per-IP quota and owner count",
+    "Browser replicas publish directly in the selected share destination; unmount retains complete files and invalidates unfinished replica publication",
+    "File/folder clipboard across application and browser tabs, keyboard/context actions, native clipboard file upload; bounded folder traversal, pinned source versions, no-clobber server disk copies and browser-mount chunk writes",
+    "Explicit peer-owned copy cancellation, checked again under the write lock before atomic commit",
+    "Optional hotlink idle sessions refreshed by real transfer/interaction, not background watch polls; expired download sessions recover via explicit UI action; play/seek renew access before requests",
+    "Opaque sandbox preview resource grants with IP/session/revision binding, static-file-only routing and bounded root-URL rewriting; related CSS, JavaScript and SVG load with login enabled",
+    "Web URL/QR modal with recommended LAN interface and alternatives; optional --show-cli-qr; vendored MIT Nayuki C++ encoder with embedded notices and source hashes",
+    "Default-on Accept-Encoding gzip q-value negotiation; embedded precompression, bounded JSON encoding and streaming text files; HTTP/1.1 chunks, HTTP/1.0 close delimiters; Range retains identity byte offsets"
+  ],
+  "verification": {
+    "windows": [
+      "MSVC Release CTest 3/3, including deterministic repeated backoff/cap/idempotence and copy ownership/cancel-before-publication tests",
+      "Access HTTP: unauthenticated coverage, real socket peer cookie binding, five failures and stable ban deadline, host unblock, strict 127.0.0.2 permissions, host quota exemption, isolated copy and source version pinning, passphrase revocation",
+      "Access HTTP: sandbox resource grants/related CSS/SVG, XML syntax preservation, preview API boundary, idle/active Range hotlink, background watch does not renew, Server login/hotlink, independent OpenCV QR decode",
+      "Wire compression: q=0 and fractional q, wildcard exclusion, eight concurrent large text gzip bodies, identity Range, CLI off, HTTP/1.0 close-delimited gzip, opt-in CLI QR redirected output",
+      "Mounts HTTP: native/system/partition mappings, real 45 second offline expiry, stored copies after unmount directly downloadable, unmount during active replica upload retains complete files and rejects partial publication, quota reservation competition",
+      "Core HTTP: 5 GiB Range, Unicode/search, 144 parallel Range requests, cache cooling, backpressure and Server mode",
+      "v230 COW readers/writers/aborts/moves; v2 8 MiB chunked uploads and 64 parallel files, adaptive threads and distinct IP ceiling; collaboration names/watch/48 concurrent polls/empty folder cleanup",
+      "Branding, visibility and zero-argument defaults regressions"
+    ],
+    "linuxMusl": [
+      "Static stripped x86_64 GCC executable; CTest 3/3 with copy cancellation and login policy tests",
+      "Access HTTP suite against final stripped executable (OpenCV not installed in WSL; independent QR decode performed on Windows)",
+      "Core HTTP with 5 GiB Range, backpressure and Server mode; v230 COW and administrator upload behavior",
+      "Mounts HTTP including 45 second offline wait and active-unmount tests; collaboration HTTP including crashed-browser cleanup",
+      "Final changed C++ sources compile without GCC warnings"
+    ],
+    "javascript": [
+      "Acorn ES5 parse of final embedded application",
+      "clipboard_test: cross-tab folder hierarchy/hidden entries, source pins, no-clobber, invalid/self paths, cancellation, native clipboard precedence and read-only targets",
+      "mounts_test, player_state_test, drag_thumbnail_test, collaboration_test"
+    ],
+    "browser": [
+      "Actual login into disposable password-protected localhost fixture",
+      "Actual cross-application-tab Notes.txt copy to Target completed and listed",
+      "Actual sandbox HTML loaded related CSS + JS and valid SVG with passphrase and hotlink enabled",
+      "Actual QR modal, upper-right icon theme group and host settings fields inspected",
+      "390x500 viewport: no document horizontal overflow and all three theme icons within top-right bounds; viewport override reset"
+    ],
+    "macos": "Source compatibility retained; no build or test, as requested",
+    "ie11": "ES5 baseline checked; manual verification remains with the user; current instructions in docs/access-and-transfer.md",
+    "nativeDirectoryPicker": "No new real native picker/permission flow was executed; existing API-double and real HTTP provider tests remain the coverage"
+  },
+  "webBundle": {
+    "uncompressedBytes": 386601,
+    "gzipBytes": 105782,
+    "sha256": "57d9b2e017a5acaa03ccf93c55f362ec709b5ff4f5eee5ae24a000f6323832f6"
+  },
+  "screenshots": [
+    "v250-login.png",
+    "v250-url-qr.png",
+    "v250-protected-preview.png",
+    "v250-settings.png"
+  ],
+  "limits": [
+    "Runtime settings, bans, upload accounting, provider mappings and browser sessions are process scoped; completed mounted files persist at their selected normal shared paths",
+    "Old v2.4 .hls-mounts private replicas are retained and require manual recovery if needed; no original virtual-path mapping survived across process restart",
+    "Passphrase access control uses HTTP and does not supply transport encryption",
+    "Preview root-URL rewriting is bounded to text assets up to 2 MiB with an 8 MiB output cap; dynamic absolute URL construction and arbitrary web applications may require adaptation",
+    "Folder copy is bounded to 10000 entries and 64 levels; completed files remain after cancellation/conflict; explicit readonly and per-file size limits still apply to the host",
+    "URL recommendation is a network-interface heuristic, not a proof of remote reachability"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "binary": "<project>\\dist\\HttpLocalServer-windows-x64.exe",
+  "sha256": "d7bf537108ece818bbfc814dd1ae2f6843144743aa18df34674773f27d0b6ff1",
+  "tests": [
+    {
+      "name": "ctest",
+      "exitCode": 0,
+      "seconds": 12.52,
+      "log": "<project>\\.deps\\final-v320-windows\\ctest.log"
+    },
+    {
+      "name": "preview_assets_integration.py",
+      "exitCode": 0,
+      "seconds": 2.44,
+      "log": "<project>\\.deps\\final-v320-windows\\preview_assets_integration.py.log"
+    },
+    {
+      "name": "zip_preview_integration.py",
+      "exitCode": 0,
+      "seconds": 1.66,
+      "log": "<project>\\.deps\\final-v320-windows\\zip_preview_integration.py.log"
+    },
+    {
+      "name": "transfer_cache_integration.py",
+      "exitCode": 0,
+      "seconds": 7.73,
+      "log": "<project>\\.deps\\final-v320-windows\\transfer_cache_integration.py.log"
+    },
+    {
+      "name": "bundle_integration.py",
+      "exitCode": 0,
+      "seconds": 0.8,
+      "log": "<project>\\.deps\\final-v320-windows\\bundle_integration.py.log"
+    },
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 4.7,
+      "log": "<project>\\.deps\\final-v320-windows\\durable_integration.py.log"
+    },
+    {
+      "name": "archive_integration.py",
+      "exitCode": 0,
+      "seconds": 5.83,
+      "log": "<project>\\.deps\\final-v320-windows\\archive_integration.py.log"
+    },
+    {
+      "name": "state_integration.py",
+      "exitCode": 0,
+      "seconds": 1.67,
+      "log": "<project>\\.deps\\final-v320-windows\\state_integration.py.log"
+    },
+    {
+      "name": "traffic_integration.py",
+      "exitCode": 0,
+      "seconds": 39.42,
+      "log": "<project>\\.deps\\final-v320-windows\\traffic_integration.py.log"
+    },
+    {
+      "name": "secure_features_integration.py",
+      "exitCode": 0,
+      "seconds": 8.8,
+      "log": "<project>\\.deps\\final-v320-windows\\secure_features_integration.py.log"
+    },
+    {
+      "name": "integration.py",
+      "exitCode": 0,
+      "seconds": 6.76,
+      "log": "<project>\\.deps\\final-v320-windows\\integration.py.log"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 2.16,
+      "log": "<project>\\.deps\\final-v320-windows\\config_integration.py.log"
+    },
+    {
+      "name": "access_integration.py",
+      "exitCode": 0,
+      "seconds": 9.11,
+      "log": "<project>\\.deps\\final-v320-windows\\access_integration.py.log"
+    },
+    {
+      "name": "tls_integration.py",
+      "exitCode": 0,
+      "seconds": 5.53,
+      "log": "<project>\\.deps\\final-v320-windows\\tls_integration.py.log"
+    },
+    {
+      "name": "mounts_integration.py",
+      "exitCode": 0,
+      "seconds": 47.52,
+      "log": "<project>\\.deps\\final-v320-windows\\mounts_integration.py.log"
+    },
+    {
+      "name": "p2p_integration.py",
+      "exitCode": 0,
+      "seconds": 4.61,
+      "log": "<project>\\.deps\\final-v320-windows\\p2p_integration.py.log"
+    },
+    {
+      "name": "p2p_relay_integration.py",
+      "exitCode": 0,
+      "seconds": 3.2,
+      "log": "<project>\\.deps\\final-v320-windows\\p2p_relay_integration.py.log"
+    },
+    {
+      "name": "p2p_mount_integration.py",
+      "exitCode": 0,
+      "seconds": 3.69,
+      "log": "<project>\\.deps\\final-v320-windows\\p2p_mount_integration.py.log"
+    },
+    {
+      "name": "branding_integration.py",
+      "exitCode": 0,
+      "seconds": 0.77,
+      "log": "<project>\\.deps\\final-v320-windows\\branding_integration.py.log"
+    },
+    {
+      "name": "collaboration_integration.py",
+      "exitCode": 0,
+      "seconds": 54.64,
+      "log": "<project>\\.deps\\final-v320-windows\\collaboration_integration.py.log"
+    },
+    {
+      "name": "defaults.py",
+      "exitCode": 0,
+      "seconds": 0.81,
+      "log": "<project>\\.deps\\final-v320-windows\\defaults.py.log"
+    },
+    {
+      "name": "resume_test.cjs",
+      "exitCode": 0,
+      "seconds": 4.56,
+      "log": "<project>\\.deps\\final-v320-windows\\resume_test.cjs.log"
+    },
+    {
+      "name": "preview_assets_test.cjs",
+      "exitCode": 0,
+      "seconds": 2.33,
+      "log": "<project>\\.deps\\final-v320-windows\\preview_assets_test.cjs.log"
+    },
+    {
+      "name": "zip_codec_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.17,
+      "log": "<project>\\.deps\\final-v320-windows\\zip_codec_test.cjs.log"
+    },
+    {
+      "name": "jobs_test.cjs",
+      "exitCode": 0,
+      "seconds": 1.64,
+      "log": "<project>\\.deps\\final-v320-windows\\jobs_test.cjs.log"
+    },
+    {
+      "name": "mounts_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.12,
+      "log": "<project>\\.deps\\final-v320-windows\\mounts_test.cjs.log"
+    },
+    {
+      "name": "batch_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.26,
+      "log": "<project>\\.deps\\final-v320-windows\\batch_test.cjs.log"
+    },
+    {
+      "name": "p2p_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.7,
+      "log": "<project>\\.deps\\final-v320-windows\\p2p_test.cjs.log"
+    },
+    {
+      "name": "clipboard_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.08,
+      "log": "<project>\\.deps\\final-v320-windows\\clipboard_test.cjs.log"
+    },
+    {
+      "name": "drag_thumbnail_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.28,
+      "log": "<project>\\.deps\\final-v320-windows\\drag_thumbnail_test.cjs.log"
+    },
+    {
+      "name": "player_state_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.08,
+      "log": "<project>\\.deps\\final-v320-windows\\player_state_test.cjs.log"
+    },
+    {
+      "name": "collaboration_test.cjs",
+      "exitCode": 0,
+      "seconds": 1.89,
+      "log": "<project>\\.deps\\final-v320-windows\\collaboration_test.cjs.log"
+    },
+    {
+      "name": "ie_compat_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.22,
+      "log": "<project>\\.deps\\final-v320-windows\\ie_compat_test.cjs.log"
+    },
+    {
+      "name": "mixed-load",
+      "exitCode": 0,
+      "seconds": 9.49,
+      "log": "<project>\\.deps\\final-v320-windows\\mixed-load.log"
+    }
+  ],
+  "skipped": []
+}

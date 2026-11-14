@@ -1,0 +1,128 @@
+{
+  "id": "S30",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "口令控制访问，严格主机收紧管理身份。需要加密时，可配置内网H T T P S。",
+  "events": [
+    {
+      "start": 0.0790625,
+      "position": 0,
+      "length": 2,
+      "text": "口令"
+    },
+    {
+      "start": 0.52,
+      "position": 2,
+      "length": 2,
+      "text": "控制"
+    },
+    {
+      "start": 0.898625,
+      "position": 4,
+      "length": 2,
+      "text": "访问"
+    },
+    {
+      "start": 1.5985625,
+      "position": 7,
+      "length": 2,
+      "text": "严格"
+    },
+    {
+      "start": 1.9558125,
+      "position": 9,
+      "length": 2,
+      "text": "主机"
+    },
+    {
+      "start": 2.3775,
+      "position": 11,
+      "length": 2,
+      "text": "收紧"
+    },
+    {
+      "start": 2.846375,
+      "position": 13,
+      "length": 2,
+      "text": "管理"
+    },
+    {
+      "start": 3.17525,
+      "position": 15,
+      "length": 2,
+      "text": "身份"
+    },
+    {
+      "start": 4.488,
+      "position": 18,
+      "length": 2,
+      "text": "需要"
+    },
+    {
+      "start": 4.90725,
+      "position": 20,
+      "length": 2,
+      "text": "加密"
+    },
+    {
+      "start": 5.2665,
+      "position": 22,
+      "length": 1,
+      "text": "时"
+    },
+    {
+      "start": 5.845375,
+      "position": 24,
+      "length": 1,
+      "text": "可"
+    },
+    {
+      "start": 6.041375,
+      "position": 25,
+      "length": 2,
+      "text": "配置"
+    },
+    {
+      "start": 6.4931875,
+      "position": 27,
+      "length": 1,
+      "text": "内"
+    },
+    {
+      "start": 6.6625,
+      "position": 28,
+      "length": 1,
+      "text": "网"
+    },
+    {
+      "start": 6.84725,
+      "position": 29,
+      "length": 1,
+      "text": "H"
+    },
+    {
+      "start": 7.1338125,
+      "position": 31,
+      "length": 1,
+      "text": "T"
+    },
+    {
+      "start": 7.2981875,
+      "position": 33,
+      "length": 1,
+      "text": "T"
+    },
+    {
+      "start": 7.478125,
+      "position": 35,
+      "length": 1,
+      "text": "P"
+    },
+    {
+      "start": 7.6614375,
+      "position": 37,
+      "length": 1,
+      "text": "S"
+    }
+  ]
+}

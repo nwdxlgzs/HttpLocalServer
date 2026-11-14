@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-13",
+  "version": "2.8.0",
+  "baseline": "release-v271.json",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 7269888,
+      "sha256": "205e9ba976932522c649787faf6f4b9040188cd5508e9f77e888a0bd0647c7b3"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 9470232,
+      "sha256": "5d587ba33779a69857b5cea8249788aed668b4f182ffbe5c772dcdf5dd52db3c"
+    }
+  ],
+  "behavior": {
+    "defaultDownload": "Ordinary native HTTP download. P2P is an explicit context/more-menu choice only.",
+    "sender": "With host PCDN enabled, capable pages silently send by default. No recipient sharing consent dialog or post-completion stop-sharing workflow. Page-wide opt-out remains ephemeral and independent of explicit receiving.",
+    "cache": "One aggregate page-local verified-body cache shared across files/jobs, default64MiB, live host range0..64MiB;0 frees retained chunks. Output buffers, browser internals and metadata are not included in this retained-body budget.",
+    "expiry": "Default3600s, live host range1..86400s. Host-verified offers/new coordination, download progress and actual transfers renew same-version file activity. Idle polling does not renew. Expired data is checked before reads and by a bounded timer; background freezing can delay timer execution.",
+    "retention": "Download completion closes output and file participant but retains verified page cache for later host assignments. Different file versions never share blocks. Passive tasks can switch files without discarding unrelated retained blocks.",
+    "largeFiles": "P2P entry requires a secure context plus showSaveFilePicker for files exceeding the memory-only ceiling. Explicit selection opens the standard native save dialog and writes1MiB verified windows, with existing-file rehash/resume. No Service Worker download bridge ships.",
+    "memoryOnly": "Maximum32MiB desktop /16MiB narrow screen; deviceMemory hints may reduce this to4MiB. Unsupported large files do not advertise P2P and continue using ordinary downloading.",
+    "cli": "--p2p-cache-mb0..64; --p2p-cache-seconds1..86400 default3600; --p2p-seed-seconds remains an alias with the new idle-expiry meaning."
+  },
+  "verification": {
+    "windows": [
+      "Coherent MSVC Release build with TLS backend; CTest3/3",
+      "Final P2P control/hash integration and passive HTTP/HTTPS integration passed",
+      "Live0..64MiB and TTL publication, one-hour defaults, idle activity aging and host-verified offer renewal verified over both HTTP and HTTPS",
+      "Existing HTTP core/Server/backpressure suite passed, including5GiB file offsets and144 mixed Range requests",
+      "Existing login/ban/strict host/COW copy/hotlink/QR/compression suite passed",
+      "Full TLS regression passed: TLS1.2/1.3, ALPN/resumption/close-notify, verified certificates/SAN/DER,96 ranges, uploads/gzip, previews/MCP and private-key/handshake guards",
+      "Final dist2.8.0, exact gzip/identity embedded assets, source manifest, default PCDN OFF and64MiB/3600s policy verified on isolated port",
+      "Zero-argument Windows8000 test was blocked by a separately running user executable on that port; the test process was terminated and the user service was left untouched. No Windows8000 pass is claimed for this release."
+    ],
+    "linuxMusl": [
+      "Static stripped x86_64 TLS-enabled build; CTest3/3",
+      "Final passive HTTP/HTTPS and existing P2P integration passed",
+      "Final dist version2.8.0 and zero-argument FileTrans/0.0.0.0:8000/current-directory defaults passed"
+    ],
+    "javascript": [
+      "Aggregate cross-file LRU budget, version isolation, TTL expiration, confirmed activity renewal, stale activity non-renewal and immediate zero-budget release",
+      "Default download path contains no P2P dispatch; specialized download contains no share/confirm modal",
+      "Huge-file menu gating by secure local write capability, insecure API rejection, low-memory device hints and narrow-screen output ceilings",
+      "Page opt-out persists across10 events and host policy changes, new document defaults ON; receiving remains available after sender opt-out",
+      "Existing SHA-256 vectors, verified pieces, corruption/fallback, bounded cache/framing, local resume, async pause/cancel and COW handle tests passed",
+      "26 ES5 frontend/vendor sources and full IE-like startup without modern globals passed",
+      "Existing player, clipboard, drag/thumbnail and mount/browser suites passed"
+    ],
+    "realBrowser": {
+      "environment": "Actual Chromium-based pages using non-loopback LAN HTTP address on one physical Windows machine",
+      "largeFile": "96MiB fixture context menu showed Download and Copy only, with no P2P entry in insecure memory-only context",
+      "smallFile": "16MiB fixture showed explicit P2P option; clicking started progress directly with no sharing dialog; completed and added a completed record without stop-sharing workflow",
+      "reportedPeerBytesAfterRun": 13631488,
+      "trafficScope": "Peer byte counter is advisory. The run completed a16MiB output using peer and origin pieces; no exact host-savings claim is made for this run.",
+      "hostPanel": "Real panel showed64MiB total page budget and3600s idle expiry with host total switch",
+      "screenshots": ["v280-cache-settings.png", "v280-p2p-complete.png"],
+      "outputScope": "Per-piece verification/output completion was exercised; final browser-saved file path/hash was not independently captured in this run. Earlier2.7.0 saved-file hashes remain separately recorded."
+    },
+    "macos": "Source compatibility only, no build/test per user instruction",
+    "ie11": "Static ES5 and capability fallback only, no new actual IE run"
+  },
+  "webBundle": {
+    "uncompressedBytes": 437640,
+    "gzipBytes": 120159,
+    "sha256": "13ebd90b1125e9d98be2afe22d7ba3dd7361fdca93b6b5d762c3efd6f7122c62"
+  },
+  "limits": [
+    "Native save dialog and multi-GB/TiB endurance have not been tested in a real browser; disk APIs are covered by handle doubles",
+    "deviceMemory is a coarse optional hint, not a measurement of available memory; ordinary download remains preferable under memory pressure or for very large files",
+    "PCDN64MiB budget covers retained verified body blocks, not all process/browser memory or temporary download output",
+    "Background page suspension can delay cleanup/leases and cause node fallback",
+    "First missing piece of a passive relay still requires host data; savings require cache reuse",
+    "No external STUN/TURN and no guarantee of savings, throughput or WebRTC reachability",
+    "Received data cannot be revoked; client-reported byte counts are advisory",
+    "No new dependency; project Apache-2.0 licensing retained"
+  ],
+  "documentation": ["docs/p2p.md", "docs/development.md", "README.md"]
+}

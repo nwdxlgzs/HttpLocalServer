@@ -1,0 +1,14 @@
+{
+  "id": "O03",
+  "voice": "stella",
+  "text": "熟悉的管理器，多标签、检索与按需列表，找到需要的内容。",
+  "characters": 27,
+  "inputSha256": "00349cab46b8d3309400390f2663436ccd1cca61ad74ae6b1207417cad7840b8",
+  "file": "assets/audio/cloud/O03-stella.wav",
+  "generatedAt": "2026-11-14T07:40:42.262324+00:00",
+  "seconds": 5.92,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 284204
+}

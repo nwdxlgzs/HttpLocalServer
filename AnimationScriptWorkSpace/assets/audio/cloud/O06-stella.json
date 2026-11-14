@@ -1,0 +1,14 @@
+{
+  "id": "O06",
+  "voice": "stella",
+  "text": "谁能写、开放什么、资源怎么用，由主机设定。",
+  "characters": 21,
+  "inputSha256": "4c7c121c545731a24b1658f7d1bd08b8a922680555de059c649cb9d4e05840c9",
+  "file": "assets/audio/cloud/O06-stella.wav",
+  "generatedAt": "2026-11-14T07:40:50.313596+00:00",
+  "seconds": 4.68,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 224684
+}

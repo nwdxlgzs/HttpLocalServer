@@ -1,0 +1,110 @@
+{
+  "id": "S29",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "写入完整发布，读取保留旧代。版本冲突先确认，额度和带宽也有边界。",
+  "events": [
+    {
+      "start": 0.0833125,
+      "position": 0,
+      "length": 2,
+      "text": "写入"
+    },
+    {
+      "start": 0.55,
+      "position": 2,
+      "length": 2,
+      "text": "完整"
+    },
+    {
+      "start": 0.94,
+      "position": 4,
+      "length": 2,
+      "text": "发布"
+    },
+    {
+      "start": 1.581625,
+      "position": 7,
+      "length": 2,
+      "text": "读取"
+    },
+    {
+      "start": 2.0006875,
+      "position": 9,
+      "length": 2,
+      "text": "保留"
+    },
+    {
+      "start": 2.356125,
+      "position": 11,
+      "length": 1,
+      "text": "旧"
+    },
+    {
+      "start": 2.55,
+      "position": 12,
+      "length": 1,
+      "text": "代"
+    },
+    {
+      "start": 3.6089375,
+      "position": 14,
+      "length": 2,
+      "text": "版本"
+    },
+    {
+      "start": 3.9844375,
+      "position": 16,
+      "length": 2,
+      "text": "冲突"
+    },
+    {
+      "start": 4.470125,
+      "position": 18,
+      "length": 1,
+      "text": "先"
+    },
+    {
+      "start": 4.7045,
+      "position": 19,
+      "length": 2,
+      "text": "确认"
+    },
+    {
+      "start": 5.390125,
+      "position": 22,
+      "length": 2,
+      "text": "额度"
+    },
+    {
+      "start": 5.770125,
+      "position": 24,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 5.985875,
+      "position": 25,
+      "length": 2,
+      "text": "带宽"
+    },
+    {
+      "start": 6.450125,
+      "position": 27,
+      "length": 1,
+      "text": "也"
+    },
+    {
+      "start": 6.63075,
+      "position": 28,
+      "length": 1,
+      "text": "有"
+    },
+    {
+      "start": 6.793375,
+      "position": 29,
+      "length": 2,
+      "text": "边界"
+    }
+  ]
+}

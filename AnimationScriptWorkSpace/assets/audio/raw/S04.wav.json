@@ -1,0 +1,92 @@
+{
+  "id": "S04",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "发送地址，或者扫一扫。选择设备实际能访问的局域网入口。",
+  "events": [
+    {
+      "start": 0.0789375,
+      "position": 0,
+      "length": 2,
+      "text": "发送"
+    },
+    {
+      "start": 0.48,
+      "position": 2,
+      "length": 2,
+      "text": "地址"
+    },
+    {
+      "start": 1.1630625,
+      "position": 5,
+      "length": 2,
+      "text": "或者"
+    },
+    {
+      "start": 1.5665,
+      "position": 7,
+      "length": 1,
+      "text": "扫"
+    },
+    {
+      "start": 1.7864375,
+      "position": 8,
+      "length": 1,
+      "text": "一"
+    },
+    {
+      "start": 1.9341875,
+      "position": 9,
+      "length": 1,
+      "text": "扫"
+    },
+    {
+      "start": 3.04725,
+      "position": 11,
+      "length": 2,
+      "text": "选择"
+    },
+    {
+      "start": 3.59425,
+      "position": 13,
+      "length": 2,
+      "text": "设备"
+    },
+    {
+      "start": 3.9404375,
+      "position": 15,
+      "length": 2,
+      "text": "实际"
+    },
+    {
+      "start": 4.40425,
+      "position": 17,
+      "length": 1,
+      "text": "能"
+    },
+    {
+      "start": 4.60425,
+      "position": 18,
+      "length": 2,
+      "text": "访问"
+    },
+    {
+      "start": 5.00075,
+      "position": 20,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 5.1665,
+      "position": 21,
+      "length": 3,
+      "text": "局域网"
+    },
+    {
+      "start": 5.6705625,
+      "position": 24,
+      "length": 2,
+      "text": "入口"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "V02",
+  "voice": "stella",
+  "text": "启动一个HTTP入口，用浏览器访问。",
+  "spokenText": "启动一个 H T T P 入口，用浏览器访问。",
+  "characters": 23,
+  "inputSha256": "178f3db105de7277c5e8d664e010b6a6ddf8872f6b86916f89b07e955462eee7",
+  "file": "assets/audio/cloud/corrected-V02-stella.wav",
+  "generatedAt": "2026-11-14T08:14:23.364297+00:00",
+  "seconds": 3.84,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 184364
+}

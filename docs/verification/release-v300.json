@@ -1,0 +1,153 @@
+{
+  "version": "3.0.0",
+  "date": "2026-11-13",
+  "author": "github@nwdxlgzs",
+  "license": "Apache-2.0",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 8590336,
+      "sha256": "f2024eff0cbf89fa86e03ae3f349276804487c391178b2f7cd276ca2f4afe127",
+      "httpsCompiled": true
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 11170104,
+      "sha256": "f61c2ec309b78f18f929b21b9b63e52e09dde92a1520426e5aaa3ea4c3402eac",
+      "httpsCompiled": true
+    }
+  ],
+  "quickjs": {
+    "name": "QuickJS-NG",
+    "version": "0.18.0",
+    "released": "2026-11-01",
+    "url": "https://codeload.github.com/quickjs-ng/quickjs/tar.gz/refs/tags/v0.18.0",
+    "archive": "quickjs-ng-0.18.0.tar.gz",
+    "sha256": "28bcd89aa3683fd2a946537e5ce3f11cc46b5cbf3383c7561aaef3df5ff9f1dd",
+    "license": "MIT",
+    "sources": [
+      "quickjs.c",
+      "dtoa.c",
+      "libregexp.c",
+      "libunicode.c"
+    ],
+    "excluded": [
+      "quickjs-libc.c",
+      "qjs.c",
+      "module loaders",
+      "OS bindings"
+    ],
+    "additionalNotices": [
+      "quickjs-ng-components.txt",
+      "quickjs-ng-Unicode-3.0.txt"
+    ]
+  },
+  "windows": {
+    "compiler": "MSVC 19.44 (static runtime)",
+    "subsystemVersion": "6.1",
+    "dllImports": [
+      "bcrypt.dll",
+      "WS2_32.dll",
+      "MSWSOCK.dll",
+      "IPHLPAPI.DLL",
+      "SHELL32.dll",
+      "KERNEL32.dll"
+    ],
+    "actualWindows7Run": false,
+    "ctest": "3/3 passed"
+  },
+  "linuxMusl": {
+    "environment": "Alpine musl under WSL2",
+    "fullyStatic": true,
+    "elfInterpreter": false,
+    "elfDynamicDependencies": false,
+    "ctest": "3/3 passed",
+    "httpsEnabledBuild": "passed",
+    "httpsDisabledBuild": "passed; durable integration passed"
+  },
+  "macos": {
+    "sourceAdapted": true,
+    "built": false,
+    "tested": false,
+    "reason": "User requested adaptation without macOS testing"
+  },
+  "browser": {
+    "es5SourcesParsed": 31,
+    "ie11MissingModernAPIsStartup": "passed",
+    "nativeIE11Retested": false,
+    "localBrowser": "FileTrans UI, actual multi-file upload, pause/resume, completion, Ctrl multi-select, task panel, frozen stripes; no browser console errors",
+    "screenshot": "docs/verification/ui-v300.png"
+  },
+  "newRealProcessAcceptance": {
+    "windows": [
+      "durable_integration.py (Server and FileTrans)",
+      "state_integration.py (Server and FileTrans)",
+      "traffic_integration.py (Server and FileTrans)",
+      "secure_features_integration.py (Server and FileTrans; HTTPS)",
+      "resume_test.cjs (shipped browser transport against actual service)"
+    ],
+    "linuxMusl": [
+      "durable_integration.py (Server and FileTrans)",
+      "state_integration.py (Server and FileTrans)",
+      "traffic_integration.py (Server and FileTrans)",
+      "secure_features_integration.py (Server and FileTrans; HTTPS)",
+      "integration.py (5 GiB Range, cache cooling, static hosting, backpressure)"
+    ]
+  },
+  "regressionsPassed": [
+    "integration.py",
+    "config_integration.py",
+    "access_integration.py",
+    "tls_integration.py",
+    "mounts_integration.py",
+    "p2p_integration.py",
+    "p2p_relay_integration.py (HTTP and HTTPS)",
+    "p2p_mount_integration.py (HTTP and HTTPS)",
+    "branding_integration.py",
+    "collaboration_integration.py",
+    "defaults.py",
+    "ie_compat_test.cjs",
+    "batch_test.cjs",
+    "p2p_test.cjs",
+    "mounts_test.cjs",
+    "clipboard_test.cjs",
+    "drag_thumbnail_test.cjs",
+    "player_state_test.cjs",
+    "collaboration_test.cjs"
+  ],
+  "performance": {
+    "report": "docs/verification/load-v300-windows.json",
+    "clients": 96,
+    "requests": 768,
+    "largeFiles": 96,
+    "smallFiles": 672,
+    "payloadBytes": 810915840,
+    "integrityFailures": 0,
+    "coolingReclaimsContentPages": true,
+    "measurement": "Loopback mixed-load regression; not physical LAN bandwidth"
+  },
+  "scriptLimits": {
+    "memoryMiB": 16,
+    "nativeStackKiB": 32,
+    "deadlineMs": 50,
+    "maxConcurrent": 4,
+    "moduleLoader": false,
+    "OSBindings": false
+  },
+  "web": {
+    "uncompressedBytes": 495804,
+    "gzipBytes": 136529,
+    "sha256": "529f5d61fdc05f509e2093a00f15cd1d73f425b04c980cc4303d2a26f0f10fea"
+  },
+  "knownValidationLimits": [
+    "Actual Windows 7 OS and macOS were not run",
+    "IE checks are static/ES5 startup checks rather than an IE rendering engine",
+    "Cross-device browser WebRTC and native filesystem picker permission flows remain device-dependent; fixtures are not a substitute for hardware acceptance"
+  ],
+  "notes": [
+    "Native browser downloads are initiation records, not monitored completion",
+    "Completed upload receipts are bounded to 10 minutes / recent 1024 and do not become a lifetime file limit",
+    "Cumulative quota, alias moderation, login lockout, recycle metadata and resumable uploads persist independently of --no-config",
+    "Control overload can return an explicit 503 Retry-After; concurrent watch tests use bounded jittered retry"
+  ]
+}

@@ -1,0 +1,1827 @@
+[
+  {
+    "kind": "reference",
+    "cue": "TERMS",
+    "recognizedText": " Quick JS, W-A-M-R-M-C-P-C-D-N-H-T-T-P. HTT-PS, I-P-C-L-I-P-H-D-F, Word Server, Markdown, AI.",
+    "words": [
+      {
+        "word": " Quick",
+        "start": 0.0,
+        "end": 0.74,
+        "probability": 0.7073079943656921
+      },
+      {
+        "word": " JS,",
+        "start": 0.74,
+        "end": 1.38,
+        "probability": 0.5309261679649353
+      },
+      {
+        "word": " W",
+        "start": 2.04,
+        "end": 2.32,
+        "probability": 0.8051874041557312
+      },
+      {
+        "word": "-A",
+        "start": 2.32,
+        "end": 2.66,
+        "probability": 0.7393791079521179
+      },
+      {
+        "word": "-M",
+        "start": 2.66,
+        "end": 3.0,
+        "probability": 0.9977354109287262
+      },
+      {
+        "word": "-R",
+        "start": 3.0,
+        "end": 3.46,
+        "probability": 0.9979341626167297
+      },
+      {
+        "word": "-M",
+        "start": 3.46,
+        "end": 3.8,
+        "probability": 0.9440914690494537
+      },
+      {
+        "word": "-C",
+        "start": 3.8,
+        "end": 4.06,
+        "probability": 0.9859873056411743
+      },
+      {
+        "word": "-P",
+        "start": 4.06,
+        "end": 4.5,
+        "probability": 0.9931008219718933
+      },
+      {
+        "word": "-C",
+        "start": 4.5,
+        "end": 5.02,
+        "probability": 0.9241043329238892
+      },
+      {
+        "word": "-D",
+        "start": 5.02,
+        "end": 5.5,
+        "probability": 0.9949852824211121
+      },
+      {
+        "word": "-N",
+        "start": 5.5,
+        "end": 5.82,
+        "probability": 0.7493988573551178
+      },
+      {
+        "word": "-H",
+        "start": 5.82,
+        "end": 6.14,
+        "probability": 0.9819584786891937
+      },
+      {
+        "word": "-T",
+        "start": 6.14,
+        "end": 6.38,
+        "probability": 0.9946475028991699
+      },
+      {
+        "word": "-T",
+        "start": 6.38,
+        "end": 6.58,
+        "probability": 0.942159503698349
+      },
+      {
+        "word": "-P.",
+        "start": 6.58,
+        "end": 6.92,
+        "probability": 0.9801888167858124
+      },
+      {
+        "word": " HTT",
+        "start": 7.14,
+        "end": 7.82,
+        "probability": 0.49668796360492706
+      },
+      {
+        "word": "-PS,",
+        "start": 7.82,
+        "end": 8.36,
+        "probability": 0.7596501708030701
+      },
+      {
+        "word": " I",
+        "start": 8.84,
+        "end": 8.94,
+        "probability": 0.6214255094528198
+      },
+      {
+        "word": "-P",
+        "start": 8.94,
+        "end": 9.12,
+        "probability": 0.9414094388484955
+      },
+      {
+        "word": "-C",
+        "start": 9.12,
+        "end": 9.38,
+        "probability": 0.9967564940452576
+      },
+      {
+        "word": "-L",
+        "start": 9.38,
+        "end": 9.68,
+        "probability": 0.9929524064064026
+      },
+      {
+        "word": "-I",
+        "start": 9.68,
+        "end": 10.14,
+        "probability": 0.991496741771698
+      },
+      {
+        "word": "-P",
+        "start": 10.14,
+        "end": 10.5,
+        "probability": 0.7989578247070312
+      },
+      {
+        "word": "-H",
+        "start": 10.5,
+        "end": 10.8,
+        "probability": 0.9858661592006683
+      },
+      {
+        "word": "-D",
+        "start": 10.8,
+        "end": 11.14,
+        "probability": 0.9781422317028046
+      },
+      {
+        "word": "-F,",
+        "start": 11.14,
+        "end": 11.5,
+        "probability": 0.9929430484771729
+      },
+      {
+        "word": " Word",
+        "start": 11.78,
+        "end": 12.1,
+        "probability": 0.4455394446849823
+      },
+      {
+        "word": " Server,",
+        "start": 12.1,
+        "end": 12.48,
+        "probability": 0.5468313097953796
+      },
+      {
+        "word": " Markdown,",
+        "start": 13.02,
+        "end": 13.54,
+        "probability": 0.9001551568508148
+      },
+      {
+        "word": " AI.",
+        "start": 13.82,
+        "end": 13.96,
+        "probability": 0.85493004322052
+      }
+    ]
+  },
+  {
+    "kind": "reference",
+    "cue": "ZIP-term",
+    "recognizedText": " Zip!",
+    "words": [
+      {
+        "word": " Zip!",
+        "start": 0.0,
+        "end": 0.4,
+        "probability": 0.4028485119342804
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "S16",
+    "recognizedText": " We are happy to have a great day to enjoy the fun of the show. Thank you very much.",
+    "words": [
+      {
+        "word": " We",
+        "start": 0.0,
+        "end": 0.58,
+        "probability": 0.056894589215517044
+      },
+      {
+        "word": " are",
+        "start": 0.58,
+        "end": 0.76,
+        "probability": 0.16449317336082458
+      },
+      {
+        "word": " happy",
+        "start": 0.76,
+        "end": 1.02,
+        "probability": 0.060414716601371765
+      },
+      {
+        "word": " to",
+        "start": 1.02,
+        "end": 1.44,
+        "probability": 0.6457414031028748
+      },
+      {
+        "word": " have",
+        "start": 1.44,
+        "end": 1.44,
+        "probability": 0.1403558999300003
+      },
+      {
+        "word": " a",
+        "start": 1.44,
+        "end": 1.74,
+        "probability": 0.2199251353740692
+      },
+      {
+        "word": " great",
+        "start": 1.74,
+        "end": 1.88,
+        "probability": 0.07394154369831085
+      },
+      {
+        "word": " day",
+        "start": 1.88,
+        "end": 2.22,
+        "probability": 0.29643744230270386
+      },
+      {
+        "word": " to",
+        "start": 2.22,
+        "end": 2.48,
+        "probability": 0.22169141471385956
+      },
+      {
+        "word": " enjoy",
+        "start": 2.48,
+        "end": 2.94,
+        "probability": 0.0735565721988678
+      },
+      {
+        "word": " the",
+        "start": 2.94,
+        "end": 3.02,
+        "probability": 0.23232023417949677
+      },
+      {
+        "word": " fun",
+        "start": 3.02,
+        "end": 3.18,
+        "probability": 0.08834324032068253
+      },
+      {
+        "word": " of",
+        "start": 3.18,
+        "end": 4.02,
+        "probability": 0.3247119188308716
+      },
+      {
+        "word": " the",
+        "start": 4.02,
+        "end": 4.06,
+        "probability": 0.15224489569664001
+      },
+      {
+        "word": " show.",
+        "start": 4.06,
+        "end": 4.06,
+        "probability": 0.07035868614912033
+      },
+      {
+        "word": " Thank",
+        "start": 4.78,
+        "end": 5.2,
+        "probability": 0.09612423181533813
+      },
+      {
+        "word": " you",
+        "start": 5.2,
+        "end": 5.74,
+        "probability": 0.9750908613204956
+      },
+      {
+        "word": " very",
+        "start": 5.74,
+        "end": 5.96,
+        "probability": 0.26349377632141113
+      },
+      {
+        "word": " much.",
+        "start": 5.96,
+        "end": 5.96,
+        "probability": 0.994944155216217
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "S23",
+    "recognizedText": " I think that it's a good way to make it easy to do.",
+    "words": [
+      {
+        "word": " I",
+        "start": 0.0,
+        "end": 0.58,
+        "probability": 0.03863075375556946
+      },
+      {
+        "word": " think",
+        "start": 0.58,
+        "end": 0.84,
+        "probability": 0.08031494170427322
+      },
+      {
+        "word": " that",
+        "start": 0.84,
+        "end": 1.28,
+        "probability": 0.13838914036750793
+      },
+      {
+        "word": " it's",
+        "start": 1.28,
+        "end": 1.28,
+        "probability": 0.20993120968341827
+      },
+      {
+        "word": " a",
+        "start": 1.28,
+        "end": 1.28,
+        "probability": 0.164697527885437
+      },
+      {
+        "word": " good",
+        "start": 1.28,
+        "end": 1.28,
+        "probability": 0.07085766643285751
+      },
+      {
+        "word": " way",
+        "start": 1.28,
+        "end": 1.3,
+        "probability": 0.09932362288236618
+      },
+      {
+        "word": " to",
+        "start": 1.3,
+        "end": 1.3,
+        "probability": 0.8538880348205566
+      },
+      {
+        "word": " make",
+        "start": 1.3,
+        "end": 1.3,
+        "probability": 0.04866844788193703
+      },
+      {
+        "word": " it",
+        "start": 1.3,
+        "end": 2.38,
+        "probability": 0.16279347240924835
+      },
+      {
+        "word": " easy",
+        "start": 2.38,
+        "end": 4.84,
+        "probability": 0.07989418506622314
+      },
+      {
+        "word": " to",
+        "start": 4.84,
+        "end": 7.02,
+        "probability": 0.3781681954860687
+      },
+      {
+        "word": " do.",
+        "start": 7.02,
+        "end": 7.02,
+        "probability": 0.07750602066516876
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "S24",
+    "recognizedText": " This is the first time I've been working on the first time.",
+    "words": [
+      {
+        "word": " This",
+        "start": 0.0,
+        "end": 0.58,
+        "probability": 0.02034243382513523
+      },
+      {
+        "word": " is",
+        "start": 0.58,
+        "end": 1.2,
+        "probability": 0.3187235891819
+      },
+      {
+        "word": " the",
+        "start": 1.2,
+        "end": 1.44,
+        "probability": 0.2219897210597992
+      },
+      {
+        "word": " first",
+        "start": 1.44,
+        "end": 1.52,
+        "probability": 0.06319087743759155
+      },
+      {
+        "word": " time",
+        "start": 1.52,
+        "end": 1.52,
+        "probability": 0.19960269331932068
+      },
+      {
+        "word": " I've",
+        "start": 1.52,
+        "end": 3.58,
+        "probability": 0.19766926765441895
+      },
+      {
+        "word": " been",
+        "start": 3.58,
+        "end": 3.7,
+        "probability": 0.34208008646965027
+      },
+      {
+        "word": " working",
+        "start": 3.7,
+        "end": 4.16,
+        "probability": 0.06273603439331055
+      },
+      {
+        "word": " on",
+        "start": 4.16,
+        "end": 4.32,
+        "probability": 0.45431533455848694
+      },
+      {
+        "word": " the",
+        "start": 4.32,
+        "end": 5.06,
+        "probability": 0.16105172038078308
+      },
+      {
+        "word": " first",
+        "start": 5.06,
+        "end": 5.9,
+        "probability": 0.03962608054280281
+      },
+      {
+        "word": " time.",
+        "start": 5.9,
+        "end": 6.18,
+        "probability": 0.4273737967014313
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "S30",
+    "recognizedText": " Calling Kunchu Fan-Wel, young girl with Z-Sho Zing-Wel, she's a Japanese shoe, compared to the one HTPTS.",
+    "words": [
+      {
+        "word": " Calling",
+        "start": 0.0,
+        "end": 0.66,
+        "probability": 0.45326173305511475
+      },
+      {
+        "word": " Kunchu",
+        "start": 0.66,
+        "end": 1.08,
+        "probability": 0.22542665153741837
+      },
+      {
+        "word": " Fan",
+        "start": 1.08,
+        "end": 1.26,
+        "probability": 0.2961953580379486
+      },
+      {
+        "word": "-Wel,",
+        "start": 1.26,
+        "end": 1.5,
+        "probability": 0.5020573511719704
+      },
+      {
+        "word": " young",
+        "start": 1.86,
+        "end": 2.12,
+        "probability": 0.15826337039470673
+      },
+      {
+        "word": " girl",
+        "start": 2.12,
+        "end": 2.32,
+        "probability": 0.8067497611045837
+      },
+      {
+        "word": " with",
+        "start": 2.32,
+        "end": 2.56,
+        "probability": 0.12544792890548706
+      },
+      {
+        "word": " Z",
+        "start": 2.56,
+        "end": 2.66,
+        "probability": 0.11194448173046112
+      },
+      {
+        "word": "-Sho",
+        "start": 2.66,
+        "end": 2.88,
+        "probability": 0.2664206276337306
+      },
+      {
+        "word": " Zing",
+        "start": 2.88,
+        "end": 3.12,
+        "probability": 0.44612225890159607
+      },
+      {
+        "word": "-Wel,",
+        "start": 3.12,
+        "end": 3.32,
+        "probability": 0.3470355048775673
+      },
+      {
+        "word": " she's",
+        "start": 3.78,
+        "end": 4.66,
+        "probability": 0.2635819911956787
+      },
+      {
+        "word": " a",
+        "start": 4.66,
+        "end": 4.66,
+        "probability": 0.41808223724365234
+      },
+      {
+        "word": " Japanese",
+        "start": 4.66,
+        "end": 5.04,
+        "probability": 0.08722905814647675
+      },
+      {
+        "word": " shoe,",
+        "start": 5.04,
+        "end": 5.54,
+        "probability": 0.21007846295833588
+      },
+      {
+        "word": " compared",
+        "start": 5.7,
+        "end": 5.9,
+        "probability": 0.849621057510376
+      },
+      {
+        "word": " to",
+        "start": 5.9,
+        "end": 6.1,
+        "probability": 0.9478580355644226
+      },
+      {
+        "word": " the",
+        "start": 6.1,
+        "end": 6.22,
+        "probability": 0.46453890204429626
+      },
+      {
+        "word": " one",
+        "start": 6.22,
+        "end": 6.48,
+        "probability": 0.6607932448387146
+      },
+      {
+        "word": " HTPTS.",
+        "start": 6.48,
+        "end": 7.38,
+        "probability": 0.45922721177339554
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "S32",
+    "recognizedText": " I will show you how to do it. I will show you how to do it. I will show you how to do it.",
+    "words": [
+      {
+        "word": " I",
+        "start": 0.0,
+        "end": 0.8,
+        "probability": 0.045960549265146255
+      },
+      {
+        "word": " will",
+        "start": 0.8,
+        "end": 0.8,
+        "probability": 0.10044997930526733
+      },
+      {
+        "word": " show",
+        "start": 0.8,
+        "end": 0.8,
+        "probability": 0.0486670546233654
+      },
+      {
+        "word": " you",
+        "start": 0.8,
+        "end": 0.8,
+        "probability": 0.7365414500236511
+      },
+      {
+        "word": " how",
+        "start": 0.8,
+        "end": 1.26,
+        "probability": 0.3276549279689789
+      },
+      {
+        "word": " to",
+        "start": 1.26,
+        "end": 1.6,
+        "probability": 0.6578666567802429
+      },
+      {
+        "word": " do",
+        "start": 1.6,
+        "end": 1.9,
+        "probability": 0.13737064599990845
+      },
+      {
+        "word": " it.",
+        "start": 1.9,
+        "end": 2.06,
+        "probability": 0.6379956603050232
+      },
+      {
+        "word": " I",
+        "start": 2.32,
+        "end": 2.92,
+        "probability": 0.16552519798278809
+      },
+      {
+        "word": " will",
+        "start": 2.92,
+        "end": 3.28,
+        "probability": 0.31551873683929443
+      },
+      {
+        "word": " show",
+        "start": 3.28,
+        "end": 3.58,
+        "probability": 0.6756370067596436
+      },
+      {
+        "word": " you",
+        "start": 3.58,
+        "end": 3.58,
+        "probability": 0.7896728515625
+      },
+      {
+        "word": " how",
+        "start": 3.58,
+        "end": 3.88,
+        "probability": 0.6264243721961975
+      },
+      {
+        "word": " to",
+        "start": 3.88,
+        "end": 3.88,
+        "probability": 0.8542389869689941
+      },
+      {
+        "word": " do",
+        "start": 3.88,
+        "end": 3.88,
+        "probability": 0.7863876223564148
+      },
+      {
+        "word": " it.",
+        "start": 3.88,
+        "end": 4.08,
+        "probability": 0.7917471528053284
+      },
+      {
+        "word": " I",
+        "start": 4.46,
+        "end": 4.88,
+        "probability": 0.23041415214538574
+      },
+      {
+        "word": " will",
+        "start": 4.88,
+        "end": 4.98,
+        "probability": 0.48427653312683105
+      },
+      {
+        "word": " show",
+        "start": 4.98,
+        "end": 4.98,
+        "probability": 0.823489785194397
+      },
+      {
+        "word": " you",
+        "start": 4.98,
+        "end": 5.58,
+        "probability": 0.8431353569030762
+      },
+      {
+        "word": " how",
+        "start": 5.58,
+        "end": 5.84,
+        "probability": 0.7623246312141418
+      },
+      {
+        "word": " to",
+        "start": 5.84,
+        "end": 5.94,
+        "probability": 0.8887717127799988
+      },
+      {
+        "word": " do",
+        "start": 5.94,
+        "end": 5.94,
+        "probability": 0.8821431398391724
+      },
+      {
+        "word": " it.",
+        "start": 5.94,
+        "end": 6.44,
+        "probability": 0.8262143731117249
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "S33",
+    "recognizedText": " Today's server, Mulu Ch",
+    "words": [
+      {
+        "word": " Today's",
+        "start": 0.0,
+        "end": 1.16,
+        "probability": 0.16001476161181927
+      },
+      {
+        "word": " server,",
+        "start": 1.16,
+        "end": 1.44,
+        "probability": 0.8655868172645569
+      },
+      {
+        "word": " Mulu",
+        "start": 1.92,
+        "end": 2.24,
+        "probability": 0.2705570384860039
+      },
+      {
+        "word": " Ch",
+        "start": 2.24,
+        "end": 2.42,
+        "probability": 0.08523964136838913
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "S36",
+    "recognizedText": " Thank you for watching, and thank you for watching!",
+    "words": [
+      {
+        "word": " Thank",
+        "start": 0.0,
+        "end": 0.76,
+        "probability": 0.06823626160621643
+      },
+      {
+        "word": " you",
+        "start": 0.76,
+        "end": 0.9,
+        "probability": 0.9739397168159485
+      },
+      {
+        "word": " for",
+        "start": 0.9,
+        "end": 1.02,
+        "probability": 0.22191300988197327
+      },
+      {
+        "word": " watching,",
+        "start": 1.02,
+        "end": 1.02,
+        "probability": 0.7604996562004089
+      },
+      {
+        "word": " and",
+        "start": 2.3,
+        "end": 3.8,
+        "probability": 0.3268519937992096
+      },
+      {
+        "word": " thank",
+        "start": 3.8,
+        "end": 5.36,
+        "probability": 0.15630848705768585
+      },
+      {
+        "word": " you",
+        "start": 5.36,
+        "end": 6.18,
+        "probability": 0.9901718497276306
+      },
+      {
+        "word": " for",
+        "start": 6.18,
+        "end": 6.18,
+        "probability": 0.4610830247402191
+      },
+      {
+        "word": " watching!",
+        "start": 6.18,
+        "end": 6.68,
+        "probability": 0.7466536164283752
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "S37",
+    "recognizedText": " I'm going to show you how to do this.",
+    "words": [
+      {
+        "word": " I'm",
+        "start": 0.0,
+        "end": 0.86,
+        "probability": 0.10675072111189365
+      },
+      {
+        "word": " going",
+        "start": 0.86,
+        "end": 1.48,
+        "probability": 0.056907832622528076
+      },
+      {
+        "word": " to",
+        "start": 1.48,
+        "end": 1.48,
+        "probability": 0.9495235681533813
+      },
+      {
+        "word": " show",
+        "start": 1.48,
+        "end": 2.5,
+        "probability": 0.0661964938044548
+      },
+      {
+        "word": " you",
+        "start": 2.5,
+        "end": 3.46,
+        "probability": 0.7836416959762573
+      },
+      {
+        "word": " how",
+        "start": 3.46,
+        "end": 3.46,
+        "probability": 0.22849403321743011
+      },
+      {
+        "word": " to",
+        "start": 3.46,
+        "end": 3.46,
+        "probability": 0.5394416451454163
+      },
+      {
+        "word": " do",
+        "start": 3.46,
+        "end": 4.34,
+        "probability": 0.1419380158185959
+      },
+      {
+        "word": " this.",
+        "start": 4.34,
+        "end": 4.34,
+        "probability": 0.26196715235710144
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "S40",
+    "recognizedText": " She is a very good teacher, and she is a very good teacher.",
+    "words": [
+      {
+        "word": " She",
+        "start": 0.0,
+        "end": 0.56,
+        "probability": 0.06747278571128845
+      },
+      {
+        "word": " is",
+        "start": 0.56,
+        "end": 0.96,
+        "probability": 0.22574782371520996
+      },
+      {
+        "word": " a",
+        "start": 0.96,
+        "end": 0.98,
+        "probability": 0.2818075120449066
+      },
+      {
+        "word": " very",
+        "start": 0.98,
+        "end": 1.32,
+        "probability": 0.06778164207935333
+      },
+      {
+        "word": " good",
+        "start": 1.32,
+        "end": 1.32,
+        "probability": 0.10186439752578735
+      },
+      {
+        "word": " teacher,",
+        "start": 1.32,
+        "end": 1.86,
+        "probability": 0.1508999913930893
+      },
+      {
+        "word": " and",
+        "start": 2.32,
+        "end": 2.38,
+        "probability": 0.2728774845600128
+      },
+      {
+        "word": " she",
+        "start": 2.38,
+        "end": 3.4,
+        "probability": 0.23515936732292175
+      },
+      {
+        "word": " is",
+        "start": 3.4,
+        "end": 3.7,
+        "probability": 0.3442479968070984
+      },
+      {
+        "word": " a",
+        "start": 3.7,
+        "end": 3.74,
+        "probability": 0.24680562317371368
+      },
+      {
+        "word": " very",
+        "start": 3.74,
+        "end": 4.34,
+        "probability": 0.14972244203090668
+      },
+      {
+        "word": " good",
+        "start": 4.34,
+        "end": 5.48,
+        "probability": 0.48515310883522034
+      },
+      {
+        "word": " teacher.",
+        "start": 5.48,
+        "end": 5.5,
+        "probability": 0.9114776849746704
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "T02",
+    "recognizedText": " You got a wrong shoot. She don't add TTP for all.",
+    "words": [
+      {
+        "word": " You",
+        "start": 0.0,
+        "end": 0.46,
+        "probability": 0.4969225823879242
+      },
+      {
+        "word": " got",
+        "start": 0.46,
+        "end": 0.64,
+        "probability": 0.46121105551719666
+      },
+      {
+        "word": " a",
+        "start": 0.64,
+        "end": 0.74,
+        "probability": 0.2392529845237732
+      },
+      {
+        "word": " wrong",
+        "start": 0.74,
+        "end": 0.86,
+        "probability": 0.11138639599084854
+      },
+      {
+        "word": " shoot.",
+        "start": 0.86,
+        "end": 1.34,
+        "probability": 0.46902385354042053
+      },
+      {
+        "word": " She",
+        "start": 1.66,
+        "end": 1.78,
+        "probability": 0.4704144299030304
+      },
+      {
+        "word": " don't",
+        "start": 1.78,
+        "end": 2.22,
+        "probability": 0.9493092596530914
+      },
+      {
+        "word": " add",
+        "start": 2.22,
+        "end": 2.38,
+        "probability": 0.21901629865169525
+      },
+      {
+        "word": " TTP",
+        "start": 2.38,
+        "end": 2.72,
+        "probability": 0.6041330695152283
+      },
+      {
+        "word": " for",
+        "start": 2.72,
+        "end": 3.04,
+        "probability": 0.48757272958755493
+      },
+      {
+        "word": " all.",
+        "start": 3.04,
+        "end": 3.34,
+        "probability": 0.3446522355079651
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "V02",
+    "recognizedText": " See don't you go HDTP vehicle, you own your own line, see if I win.",
+    "words": [
+      {
+        "word": " See",
+        "start": 0.0,
+        "end": 0.56,
+        "probability": 0.17600709199905396
+      },
+      {
+        "word": " don't",
+        "start": 0.56,
+        "end": 0.82,
+        "probability": 0.6311340034008026
+      },
+      {
+        "word": " you",
+        "start": 0.82,
+        "end": 0.88,
+        "probability": 0.461736798286438
+      },
+      {
+        "word": " go",
+        "start": 0.88,
+        "end": 1.1,
+        "probability": 0.5228482484817505
+      },
+      {
+        "word": " HDTP",
+        "start": 1.1,
+        "end": 1.88,
+        "probability": 0.407882459461689
+      },
+      {
+        "word": " vehicle,",
+        "start": 1.88,
+        "end": 2.32,
+        "probability": 0.09066112339496613
+      },
+      {
+        "word": " you",
+        "start": 2.6,
+        "end": 2.7,
+        "probability": 0.5451833009719849
+      },
+      {
+        "word": " own",
+        "start": 2.7,
+        "end": 2.8,
+        "probability": 0.5741184949874878
+      },
+      {
+        "word": " your",
+        "start": 2.8,
+        "end": 2.96,
+        "probability": 0.8044741749763489
+      },
+      {
+        "word": " own",
+        "start": 2.96,
+        "end": 3.04,
+        "probability": 0.1280781477689743
+      },
+      {
+        "word": " line,",
+        "start": 3.04,
+        "end": 3.2,
+        "probability": 0.08724740147590637
+      },
+      {
+        "word": " see",
+        "start": 3.2,
+        "end": 3.34,
+        "probability": 0.960401177406311
+      },
+      {
+        "word": " if",
+        "start": 3.34,
+        "end": 3.44,
+        "probability": 0.6973650455474854
+      },
+      {
+        "word": " I",
+        "start": 3.44,
+        "end": 3.54,
+        "probability": 0.925283670425415
+      },
+      {
+        "word": " win.",
+        "start": 3.54,
+        "end": 3.7,
+        "probability": 0.8089747428894043
+      }
+    ]
+  },
+  {
+    "kind": "original",
+    "cue": "V05",
+    "recognizedText": " I'm going to go to the next one.",
+    "words": [
+      {
+        "word": " I'm",
+        "start": 0.0,
+        "end": 0.84,
+        "probability": 0.06963199004530907
+      },
+      {
+        "word": " going",
+        "start": 0.84,
+        "end": 1.04,
+        "probability": 0.09657266736030579
+      },
+      {
+        "word": " to",
+        "start": 1.04,
+        "end": 1.24,
+        "probability": 0.9327524900436401
+      },
+      {
+        "word": " go",
+        "start": 1.24,
+        "end": 1.26,
+        "probability": 0.05955641716718674
+      },
+      {
+        "word": " to",
+        "start": 1.26,
+        "end": 1.26,
+        "probability": 0.2999363839626312
+      },
+      {
+        "word": " the",
+        "start": 1.26,
+        "end": 1.26,
+        "probability": 0.19858333468437195
+      },
+      {
+        "word": " next",
+        "start": 1.26,
+        "end": 1.26,
+        "probability": 0.03219390660524368
+      },
+      {
+        "word": " one.",
+        "start": 1.26,
+        "end": 1.74,
+        "probability": 0.15596647560596466
+      }
+    ]
+  },
+  {
+    "kind": "corrected",
+    "cue": "O02",
+    "recognizedText": " If you want to watch TV local server, you can watch it on the channel.",
+    "words": [
+      {
+        "word": " If",
+        "start": 0.0,
+        "end": 0.6,
+        "probability": 0.0764944851398468
+      },
+      {
+        "word": " you",
+        "start": 0.6,
+        "end": 0.9,
+        "probability": 0.8559978008270264
+      },
+      {
+        "word": " want",
+        "start": 0.9,
+        "end": 0.9,
+        "probability": 0.17164252698421478
+      },
+      {
+        "word": " to",
+        "start": 0.9,
+        "end": 1.24,
+        "probability": 0.5166624784469604
+      },
+      {
+        "word": " watch",
+        "start": 1.24,
+        "end": 1.38,
+        "probability": 0.07275805622339249
+      },
+      {
+        "word": " TV",
+        "start": 1.38,
+        "end": 1.42,
+        "probability": 0.11442934721708298
+      },
+      {
+        "word": " local",
+        "start": 1.42,
+        "end": 2.0,
+        "probability": 0.15170548856258392
+      },
+      {
+        "word": " server,",
+        "start": 2.0,
+        "end": 2.5,
+        "probability": 0.7346746921539307
+      },
+      {
+        "word": " you",
+        "start": 2.76,
+        "end": 2.82,
+        "probability": 0.31116151809692383
+      },
+      {
+        "word": " can",
+        "start": 2.82,
+        "end": 3.28,
+        "probability": 0.41231369972229004
+      },
+      {
+        "word": " watch",
+        "start": 3.28,
+        "end": 4.84,
+        "probability": 0.07510191202163696
+      },
+      {
+        "word": " it",
+        "start": 4.84,
+        "end": 4.84,
+        "probability": 0.14255133271217346
+      },
+      {
+        "word": " on",
+        "start": 4.84,
+        "end": 5.4,
+        "probability": 0.12877510488033295
+      },
+      {
+        "word": " the",
+        "start": 5.4,
+        "end": 5.4,
+        "probability": 0.14491859078407288
+      },
+      {
+        "word": " channel.",
+        "start": 5.4,
+        "end": 5.4,
+        "probability": 0.1938953846693039
+      }
+    ]
+  },
+  {
+    "kind": "corrected",
+    "cue": "S22",
+    "recognizedText": " This is the one that I have seen in the video.",
+    "words": [
+      {
+        "word": " This",
+        "start": 0.0,
+        "end": 0.68,
+        "probability": 0.0588885135948658
+      },
+      {
+        "word": " is",
+        "start": 0.68,
+        "end": 1.1,
+        "probability": 0.36751797795295715
+      },
+      {
+        "word": " the",
+        "start": 1.1,
+        "end": 1.24,
+        "probability": 0.16406884789466858
+      },
+      {
+        "word": " one",
+        "start": 1.24,
+        "end": 1.24,
+        "probability": 0.03527906537055969
+      },
+      {
+        "word": " that",
+        "start": 1.24,
+        "end": 1.8,
+        "probability": 0.2755850851535797
+      },
+      {
+        "word": " I",
+        "start": 1.8,
+        "end": 1.8,
+        "probability": 0.13942119479179382
+      },
+      {
+        "word": " have",
+        "start": 1.8,
+        "end": 2.02,
+        "probability": 0.05080819129943848
+      },
+      {
+        "word": " seen",
+        "start": 2.02,
+        "end": 2.04,
+        "probability": 0.08807361871004105
+      },
+      {
+        "word": " in",
+        "start": 2.04,
+        "end": 3.26,
+        "probability": 0.1372247338294983
+      },
+      {
+        "word": " the",
+        "start": 3.26,
+        "end": 3.64,
+        "probability": 0.18806003034114838
+      },
+      {
+        "word": " video.",
+        "start": 3.64,
+        "end": 5.5,
+        "probability": 0.08683577924966812
+      }
+    ]
+  },
+  {
+    "kind": "corrected",
+    "cue": "S34",
+    "recognizedText": " I'm going to show you how to do it.",
+    "words": [
+      {
+        "word": " I'm",
+        "start": 0.0,
+        "end": 0.94,
+        "probability": 0.0938293281942606
+      },
+      {
+        "word": " going",
+        "start": 0.94,
+        "end": 1.06,
+        "probability": 0.1829950362443924
+      },
+      {
+        "word": " to",
+        "start": 1.06,
+        "end": 1.22,
+        "probability": 0.9628587961196899
+      },
+      {
+        "word": " show",
+        "start": 1.22,
+        "end": 1.44,
+        "probability": 0.07836708426475525
+      },
+      {
+        "word": " you",
+        "start": 1.44,
+        "end": 2.08,
+        "probability": 0.7124140858650208
+      },
+      {
+        "word": " how",
+        "start": 2.08,
+        "end": 2.96,
+        "probability": 0.20384865999221802
+      },
+      {
+        "word": " to",
+        "start": 2.96,
+        "end": 3.64,
+        "probability": 0.4780750572681427
+      },
+      {
+        "word": " do",
+        "start": 3.64,
+        "end": 5.26,
+        "probability": 0.13466274738311768
+      },
+      {
+        "word": " it.",
+        "start": 5.26,
+        "end": 6.22,
+        "probability": 0.3195173442363739
+      }
+    ]
+  },
+  {
+    "kind": "corrected",
+    "cue": "S39",
+    "recognizedText": " I'm going to see you guys in the next video. I'm going to see you guys in the next video. Bye bye. Bye bye.",
+    "words": [
+      {
+        "word": " I'm",
+        "start": 0.0,
+        "end": 0.7,
+        "probability": 0.07279127277433872
+      },
+      {
+        "word": " going",
+        "start": 0.7,
+        "end": 1.16,
+        "probability": 0.08584295958280563
+      },
+      {
+        "word": " to",
+        "start": 1.16,
+        "end": 1.16,
+        "probability": 0.8937429785728455
+      },
+      {
+        "word": " see",
+        "start": 1.16,
+        "end": 1.16,
+        "probability": 0.058524239808321
+      },
+      {
+        "word": " you",
+        "start": 1.16,
+        "end": 1.16,
+        "probability": 0.11887107044458389
+      },
+      {
+        "word": " guys",
+        "start": 1.16,
+        "end": 1.16,
+        "probability": 0.13257063925266266
+      },
+      {
+        "word": " in",
+        "start": 1.16,
+        "end": 1.16,
+        "probability": 0.23746268451213837
+      },
+      {
+        "word": " the",
+        "start": 1.16,
+        "end": 2.0,
+        "probability": 0.4084130823612213
+      },
+      {
+        "word": " next",
+        "start": 2.0,
+        "end": 2.92,
+        "probability": 0.5400158762931824
+      },
+      {
+        "word": " video.",
+        "start": 2.92,
+        "end": 2.92,
+        "probability": 0.6047385334968567
+      },
+      {
+        "word": " I'm",
+        "start": 3.26,
+        "end": 3.5,
+        "probability": 0.18283075839281082
+      },
+      {
+        "word": " going",
+        "start": 3.5,
+        "end": 3.88,
+        "probability": 0.25984907150268555
+      },
+      {
+        "word": " to",
+        "start": 3.88,
+        "end": 4.36,
+        "probability": 0.9618899822235107
+      },
+      {
+        "word": " see",
+        "start": 4.36,
+        "end": 4.42,
+        "probability": 0.5306915640830994
+      },
+      {
+        "word": " you",
+        "start": 4.42,
+        "end": 4.7,
+        "probability": 0.8278219699859619
+      },
+      {
+        "word": " guys",
+        "start": 4.7,
+        "end": 5.62,
+        "probability": 0.567116379737854
+      },
+      {
+        "word": " in",
+        "start": 5.62,
+        "end": 6.1,
+        "probability": 0.3451865017414093
+      },
+      {
+        "word": " the",
+        "start": 6.1,
+        "end": 6.5,
+        "probability": 0.5170568227767944
+      },
+      {
+        "word": " next",
+        "start": 6.5,
+        "end": 6.5,
+        "probability": 0.9035291075706482
+      },
+      {
+        "word": " video.",
+        "start": 6.5,
+        "end": 6.54,
+        "probability": 0.8105423450469971
+      },
+      {
+        "word": " Bye",
+        "start": 6.82,
+        "end": 7.04,
+        "probability": 0.4291846454143524
+      },
+      {
+        "word": " bye.",
+        "start": 7.04,
+        "end": 7.36,
+        "probability": 0.38433563709259033
+      },
+      {
+        "word": " Bye",
+        "start": 7.46,
+        "end": 7.46,
+        "probability": 0.6425095796585083
+      },
+      {
+        "word": " bye.",
+        "start": 7.46,
+        "end": 7.54,
+        "probability": 0.5027608871459961
+      }
+    ]
+  },
+  {
+    "kind": "corrected",
+    "cue": "S36",
+    "recognizedText": " Quick JS-22 kongjuloyji, W-A-M-R, T-Kong-Sho-Sho-Shan-Doh-Web, Assembly, Hoot-Hoot-Hoot-Hoot, J-S-N-Yoh-Yoh-S-N, Z-Yoh-Yoh-Sho-M-Doh-T,",
+    "words": [
+      {
+        "word": " Quick",
+        "start": 0.0,
+        "end": 0.62,
+        "probability": 0.6368319988250732
+      },
+      {
+        "word": " JS",
+        "start": 0.62,
+        "end": 0.96,
+        "probability": 0.25777408480644226
+      },
+      {
+        "word": "-22",
+        "start": 0.96,
+        "end": 1.46,
+        "probability": 0.1260209046304226
+      },
+      {
+        "word": " kongjuloyji,",
+        "start": 1.46,
+        "end": 2.56,
+        "probability": 0.3306412994861603
+      },
+      {
+        "word": " W",
+        "start": 2.98,
+        "end": 3.04,
+        "probability": 0.7130256295204163
+      },
+      {
+        "word": "-A",
+        "start": 3.04,
+        "end": 3.32,
+        "probability": 0.8404806554317474
+      },
+      {
+        "word": "-M",
+        "start": 3.32,
+        "end": 3.52,
+        "probability": 0.9727343022823334
+      },
+      {
+        "word": "-R,",
+        "start": 3.52,
+        "end": 3.86,
+        "probability": 0.9899984300136566
+      },
+      {
+        "word": " T",
+        "start": 4.0,
+        "end": 4.08,
+        "probability": 0.3370710015296936
+      },
+      {
+        "word": "-Kong",
+        "start": 4.08,
+        "end": 4.32,
+        "probability": 0.5319934884707133
+      },
+      {
+        "word": "-Sho",
+        "start": 4.32,
+        "end": 4.56,
+        "probability": 0.3377222220102946
+      },
+      {
+        "word": "-Sho",
+        "start": 4.56,
+        "end": 4.66,
+        "probability": 0.3216515779495239
+      },
+      {
+        "word": "-Shan",
+        "start": 4.66,
+        "end": 4.78,
+        "probability": 0.5411872665087382
+      },
+      {
+        "word": "-Doh",
+        "start": 4.78,
+        "end": 5.02,
+        "probability": 0.35839982827504474
+      },
+      {
+        "word": "-Web,",
+        "start": 5.02,
+        "end": 5.28,
+        "probability": 0.28756532073020935
+      },
+      {
+        "word": " Assembly,",
+        "start": 5.36,
+        "end": 5.66,
+        "probability": 0.5282108783721924
+      },
+      {
+        "word": " Hoot",
+        "start": 5.96,
+        "end": 6.04,
+        "probability": 0.22045772150158882
+      },
+      {
+        "word": "-Hoot",
+        "start": 6.04,
+        "end": 6.18,
+        "probability": 0.6237515310446421
+      },
+      {
+        "word": "-Hoot",
+        "start": 6.18,
+        "end": 6.32,
+        "probability": 0.7518573005994161
+      },
+      {
+        "word": "-Hoot,",
+        "start": 6.32,
+        "end": 6.54,
+        "probability": 0.6452242732048035
+      },
+      {
+        "word": " J",
+        "start": 6.84,
+        "end": 7.04,
+        "probability": 0.17044173181056976
+      },
+      {
+        "word": "-S",
+        "start": 7.04,
+        "end": 7.12,
+        "probability": 0.2281208634376526
+      },
+      {
+        "word": "-N",
+        "start": 7.12,
+        "end": 7.22,
+        "probability": 0.4424590691924095
+      },
+      {
+        "word": "-Yoh",
+        "start": 7.22,
+        "end": 7.46,
+        "probability": 0.8029380639394125
+      },
+      {
+        "word": "-Yoh",
+        "start": 7.46,
+        "end": 7.64,
+        "probability": 0.7488564451535543
+      },
+      {
+        "word": "-S",
+        "start": 7.64,
+        "end": 7.66,
+        "probability": 0.5159364640712738
+      },
+      {
+        "word": "-N,",
+        "start": 7.66,
+        "end": 7.78,
+        "probability": 0.4397621303796768
+      },
+      {
+        "word": " Z",
+        "start": 7.98,
+        "end": 8.1,
+        "probability": 0.714697539806366
+      },
+      {
+        "word": "-Yoh",
+        "start": 8.1,
+        "end": 8.56,
+        "probability": 0.5261674473683039
+      },
+      {
+        "word": "-Yoh",
+        "start": 8.56,
+        "end": 8.78,
+        "probability": 0.648613303899765
+      },
+      {
+        "word": "-Sho",
+        "start": 8.78,
+        "end": 8.78,
+        "probability": 0.7306949893633524
+      },
+      {
+        "word": "-M",
+        "start": 8.78,
+        "end": 8.86,
+        "probability": 0.7349677979946136
+      },
+      {
+        "word": "-Doh",
+        "start": 8.86,
+        "end": 9.12,
+        "probability": 0.7403327723344167
+      },
+      {
+        "word": "-T,",
+        "start": 9.12,
+        "end": 9.3,
+        "probability": 0.5869934409856796
+      }
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "version": "3.5.0",
+  "verifiedAt": "2026-11-14T05:53:34.858457+00:00",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 25590272,
+      "sha256": "67d0af58f26163f8c78fa1edcf45f379b5e87635957476b17c10d9a64e20ca5f"
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 28406136,
+      "sha256": "d8fef7477debe50068b17b31c4d502361f9d5b6d619e669c8ec9324622bf000c"
+    }
+  ],
+  "dependencies": {
+    "QuickJS-NG": "0.18.0",
+    "WAMR": "2.4.5",
+    "MCP": "2026-07-28",
+    "legacyMCP": [
+      "2025-11-25",
+      "2025-06-18"
+    ]
+  },
+  "features": [
+    "bounded WAMR interpreter, explicit numeric imports, BigInt i64, live memory, global/table views, hook-wide fuel and allocation budgets",
+    "QuickJS bounded fs, SQLite snapshot/restore, ZIP, compression, file types/Magika, hashes, QR",
+    "config mode/workspace ZIP/args/IP policy/capabilities; CLI precedence",
+    "public ZIP frontend and localhost-only management origin isolated by host and port",
+    "actual recycle and scoped transaction dependency protection",
+    "modern stateless MCP discovery/metadata/header consistency plus legacy handshake"
+  ],
+  "verification": {
+    "windows": {
+      "acceptance": "docs\\verification\\acceptance-v350-windows.json",
+      "passed": 36,
+      "skipped": [
+        {
+          "name": "defaults.py",
+          "reason": "Port 8000 in use"
+        }
+      ],
+      "extra": [
+        {
+          "name": "test-wasm-v350-tls-windows",
+          "result": "passed",
+          "log": "docs\\verification\\acceptance-v350-windows\\test-wasm-v350-tls-windows.log"
+        },
+        {
+          "name": "test-mcp-v350-tls-windows",
+          "result": "passed",
+          "log": "docs\\verification\\acceptance-v350-windows\\test-mcp-v350-tls-windows.log"
+        },
+        {
+          "name": "expanded-wasm-application-tests",
+          "result": "passed",
+          "log": "docs\\verification\\acceptance-v350-windows\\test-wasm-v350-windows.log"
+        },
+        {
+          "name": "browser-origin-http",
+          "result": "passed",
+          "log": "docs\\verification\\acceptance-v350-windows\\origin-browser-v350-http.log"
+        },
+        {
+          "name": "browser-origin-https",
+          "result": "passed",
+          "log": "docs\\verification\\acceptance-v350-windows\\origin-browser-v350-https.log"
+        }
+      ],
+      "mixedLoad": {
+        "report": "docs/verification/load-v350-windows.json",
+        "clients": 96,
+        "requests": 768,
+        "integrityFailures": 0,
+        "environment": "local loopback; not physical LAN performance"
+      }
+    },
+    "musl": {
+      "acceptance": "docs\\verification\\acceptance-v350-musl.json",
+      "passed": 36,
+      "skipped": [],
+      "extra": [
+        {
+          "name": "test-wasm-v350-tls-musl",
+          "result": "passed",
+          "log": "docs\\verification\\acceptance-v350-musl\\test-wasm-v350-tls-musl.log"
+        },
+        {
+          "name": "test-mcp-v350-tls-musl",
+          "result": "passed",
+          "log": "docs\\verification\\acceptance-v350-musl\\test-mcp-v350-tls-musl.log"
+        },
+        {
+          "name": "expanded-wasm-application-tests",
+          "result": "passed",
+          "log": "docs\\verification\\acceptance-v350-musl\\test-wasm-v350-musl.log"
+        },
+        {
+          "name": "ctest",
+          "result": "passed",
+          "groups": 3,
+          "log": "docs\\verification\\acceptance-v350-musl\\ctest-v350-musl.log"
+        }
+      ],
+      "mixedLoad": {
+        "report": "docs/verification/load-v350-musl.json",
+        "clients": 96,
+        "requests": 768,
+        "integrityFailures": 0,
+        "environment": "local loopback; not physical LAN performance"
+      }
+    }
+  },
+  "compatibility": {
+    "windows": "x64, /MT, subsystem 6.01; static imports inspected; no Windows 7 runtime test",
+    "linux": "musl x86_64; no ELF interpreter or dynamic section",
+    "macOS": "source/CMake adaptation only, including architecture per universal slice; no macOS test",
+    "browsers": "Chrome origin isolation over HTTP/HTTPS; IE11 static compatibility test; no new IE runtime test"
+  },
+  "limits": [
+    "WebAssembly and WASI are documented subsets, not a full browser/Node/WASI implementation",
+    "No JIT/AOT/SIMD/threads/GC/memory64; no imported memories/tables/globals or native OS/network bindings",
+    "Synchronous hooks; disk waits and bounded module parsing are not preempted JS instructions"
+  ],
+  "fixtureRepairs": [
+    "Older tests now activate the config/state paths they expect to be frozen",
+    "Player CSS style test double implements setProperty and verifies volume fill; remaining checks continued against unchanged binary hash"
+  ],
+  "documentation": [
+    "docs/workspace-app.md",
+    "docs/quickjs-wasm.md",
+    "docs/mcp.md",
+    "docs/configuration.md",
+    "examples/config-server.json"
+  ]
+}

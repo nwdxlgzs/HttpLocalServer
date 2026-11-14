@@ -1,0 +1,11 @@
+{
+  "name": "Project Nayuki QR Code generator (C++)",
+  "version": "1.8.0",
+  "license": "MIT",
+  "source": "https://gitlab.com/Nayuki/QR-Code-generator/-/tree/v1.8.0/cpp",
+  "files": {
+    "src/qrcodegen.hpp": "b779c3b156cf7a57ce789d6fee4fc991ccc2913774d26c909d22bb8f26b2a793",
+    "src/qrcodegen.cpp": "1f3b3fcdac6954c32cf583ccd02ec9b5901f756a38c461acedc70be4a77d3757",
+    "licenses/qrcodegen-MIT.txt": "b6a37a45a987d203611a71194b877431f0e5b3a4b7d2b260b3cc5e8b8adf164a"
+  }
+}

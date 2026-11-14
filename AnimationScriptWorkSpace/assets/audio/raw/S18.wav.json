@@ -1,0 +1,116 @@
+{
+  "id": "S18",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "表格可选区域，也可取字符。合并单元格与复制结果，都按阅读习惯处理。",
+  "events": [
+    {
+      "start": 0.08,
+      "position": 0,
+      "length": 2,
+      "text": "表格"
+    },
+    {
+      "start": 0.499,
+      "position": 2,
+      "length": 1,
+      "text": "可"
+    },
+    {
+      "start": 0.694125,
+      "position": 3,
+      "length": 1,
+      "text": "选"
+    },
+    {
+      "start": 0.92925,
+      "position": 4,
+      "length": 2,
+      "text": "区域"
+    },
+    {
+      "start": 1.5818125,
+      "position": 7,
+      "length": 1,
+      "text": "也"
+    },
+    {
+      "start": 1.75,
+      "position": 8,
+      "length": 2,
+      "text": "可取"
+    },
+    {
+      "start": 2.14,
+      "position": 10,
+      "length": 2,
+      "text": "字符"
+    },
+    {
+      "start": 3.435375,
+      "position": 13,
+      "length": 2,
+      "text": "合并"
+    },
+    {
+      "start": 3.8263125,
+      "position": 15,
+      "length": 2,
+      "text": "单元"
+    },
+    {
+      "start": 4.26975,
+      "position": 17,
+      "length": 1,
+      "text": "格"
+    },
+    {
+      "start": 4.44275,
+      "position": 18,
+      "length": 1,
+      "text": "与"
+    },
+    {
+      "start": 4.625375,
+      "position": 19,
+      "length": 2,
+      "text": "复制"
+    },
+    {
+      "start": 4.963625,
+      "position": 21,
+      "length": 2,
+      "text": "结果"
+    },
+    {
+      "start": 5.647,
+      "position": 24,
+      "length": 1,
+      "text": "都"
+    },
+    {
+      "start": 5.81925,
+      "position": 25,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 6.075375,
+      "position": 26,
+      "length": 2,
+      "text": "阅读"
+    },
+    {
+      "start": 6.405375,
+      "position": 28,
+      "length": 2,
+      "text": "习惯"
+    },
+    {
+      "start": 6.825375,
+      "position": 30,
+      "length": 2,
+      "text": "处理"
+    }
+  ]
+}

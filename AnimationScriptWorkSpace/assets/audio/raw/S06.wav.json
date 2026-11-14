@@ -1,0 +1,92 @@
+{
+  "id": "S06",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "明暗跟随你的选择，桌面和手机各有适合的操作空间。",
+  "events": [
+    {
+      "start": 0.07775,
+      "position": 0,
+      "length": 2,
+      "text": "明暗"
+    },
+    {
+      "start": 0.56,
+      "position": 2,
+      "length": 2,
+      "text": "跟随"
+    },
+    {
+      "start": 0.935375,
+      "position": 4,
+      "length": 1,
+      "text": "你"
+    },
+    {
+      "start": 1.0933125,
+      "position": 5,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 1.2044375,
+      "position": 6,
+      "length": 2,
+      "text": "选择"
+    },
+    {
+      "start": 1.9944375,
+      "position": 9,
+      "length": 2,
+      "text": "桌面"
+    },
+    {
+      "start": 2.45,
+      "position": 11,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 2.6651875,
+      "position": 12,
+      "length": 2,
+      "text": "手机"
+    },
+    {
+      "start": 3.12,
+      "position": 14,
+      "length": 1,
+      "text": "各"
+    },
+    {
+      "start": 3.3,
+      "position": 15,
+      "length": 1,
+      "text": "有"
+    },
+    {
+      "start": 3.51225,
+      "position": 16,
+      "length": 2,
+      "text": "适合"
+    },
+    {
+      "start": 3.905,
+      "position": 18,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 4.0806875,
+      "position": 19,
+      "length": 2,
+      "text": "操作"
+    },
+    {
+      "start": 4.5239375,
+      "position": 21,
+      "length": 2,
+      "text": "空间"
+    }
+  ]
+}

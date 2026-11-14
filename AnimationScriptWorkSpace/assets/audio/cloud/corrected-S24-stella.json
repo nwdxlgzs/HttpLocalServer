@@ -1,0 +1,15 @@
+{
+  "id": "S24",
+  "voice": "stella",
+  "text": "只读分发，共享协作，或者按IP独立提交。主机保留管理范围。",
+  "spokenText": "只读分发，共享协作，或者按 I P 独立提交。主机保留管理范围。",
+  "characters": 32,
+  "inputSha256": "cb86a192a2c05391360650e90c7b1373647ad6e1bc254692d9454d9b374018c2",
+  "file": "assets/audio/cloud/corrected-S24-stella.wav",
+  "generatedAt": "2026-11-14T08:14:04.399655+00:00",
+  "seconds": 6.12,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 293804
+}

@@ -1,0 +1,14 @@
+{
+  "id": "QR01",
+  "voice": "stella",
+  "text": "扫一扫，直接打开。",
+  "characters": 9,
+  "inputSha256": "c964e7c93f30f0c76f4487966f6f2cf0ec436dbe8ddd754fc5fd0cd3a308f275",
+  "file": "assets/audio/cloud/QR01-stella.wav",
+  "generatedAt": "2026-11-14T07:50:52.304839+00:00",
+  "seconds": 2.0,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 96044
+}

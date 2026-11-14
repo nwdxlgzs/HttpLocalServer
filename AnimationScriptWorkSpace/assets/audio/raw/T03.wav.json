@@ -1,0 +1,38 @@
+{
+  "id": "T03",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "文件浏览、预览与传输。",
+  "events": [
+    {
+      "start": 0.07775,
+      "position": 0,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 0.46,
+      "position": 2,
+      "length": 2,
+      "text": "浏览"
+    },
+    {
+      "start": 1.15,
+      "position": 5,
+      "length": 2,
+      "text": "预览"
+    },
+    {
+      "start": 1.54,
+      "position": 7,
+      "length": 1,
+      "text": "与"
+    },
+    {
+      "start": 1.7441875,
+      "position": 8,
+      "length": 2,
+      "text": "传输"
+    }
+  ]
+}

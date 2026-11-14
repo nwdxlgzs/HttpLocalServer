@@ -1,0 +1,14 @@
+{
+  "id": "V04",
+  "voice": "stella",
+  "text": "可写范围和传输规则，由主机设定。",
+  "characters": 16,
+  "inputSha256": "34ecd5ba7da30d96204b12b7ac45ad208c3ff06fcd30359a8af811f2a01eca9a",
+  "file": "assets/audio/cloud/V04-stella.wav",
+  "generatedAt": "2026-11-14T07:41:18.263011+00:00",
+  "seconds": 3.72,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 178604
+}

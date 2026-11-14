@@ -1,0 +1,193 @@
+{
+  "measuredAt": "2026-11-14T06:16:07.399671+00:00",
+  "exe": "<project>\\dist\\HttpLocalServer-windows-x64.exe",
+  "sha256": "67d0af58f26163f8c78fa1edcf45f379b5e87635957476b17c10d9a64e20ca5f",
+  "environment": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "logicalCPUs": 16,
+    "network": "IPv4 local loopback; HTTP; Python threaded keep-alive client"
+  },
+  "notes": [
+    "Short diagnostic, not a capacity or sustained-load guarantee",
+    "Default adaptive metadata workers; io threads=4; script timeout=50ms; no magika; temporary root and no config",
+    "Each client continuously issues requests for 2 seconds; no retries of failures; one measurement per case",
+    "Fresh connections per worker, reused for all its requests; elapsed time includes finishing in-flight requests",
+    "SuccessfulRPS excludes all HTTP errors; Python client can be bottleneck for trivial handlers",
+    "work route performs a synchronous Date.now busy loop until 5ms wall-clock deadline",
+    "Not representative of physical LAN, HTTPS, SQLite/fs or actual applications"
+  ],
+  "workspaceSource": "export function onRequest(r){\nif(r.url==='/api/app/ping')return {body:'ok'};\nif(r.url==='/api/app/work'){const stop=Date.now()+5;while(Date.now()<stop){}return {body:'ok'};}\nreturn {};\n}",
+  "results": [
+    {
+      "scenario": "native-static",
+      "clients": 1,
+      "requests": 367,
+      "seconds": 2.004,
+      "statusCounts": {
+        "200": 367
+      },
+      "successfulRPS": 183.1,
+      "errorPercent": 0.0,
+      "successP50ms": 5.33,
+      "successP95ms": 6.71,
+      "successP99ms": 7.68
+    },
+    {
+      "scenario": "native-static",
+      "clients": 8,
+      "requests": 610,
+      "seconds": 2.019,
+      "statusCounts": {
+        "200": 610
+      },
+      "successfulRPS": 302.2,
+      "errorPercent": 0.0,
+      "successP50ms": 26.37,
+      "successP95ms": 29.59,
+      "successP99ms": 31.9
+    },
+    {
+      "scenario": "native-static",
+      "clients": 32,
+      "requests": 637,
+      "seconds": 2.096,
+      "statusCounts": {
+        "200": 637
+      },
+      "successfulRPS": 303.9,
+      "errorPercent": 0.0,
+      "successP50ms": 104.71,
+      "successP95ms": 110.73,
+      "successP99ms": 112.75
+    },
+    {
+      "scenario": "workspace-ping",
+      "clients": 1,
+      "requests": 2933,
+      "seconds": 2.001,
+      "statusCounts": {
+        "200": 2933
+      },
+      "successfulRPS": 1465.9,
+      "errorPercent": 0.0,
+      "successP50ms": 0.65,
+      "successP95ms": 0.86,
+      "successP99ms": 1.04
+    },
+    {
+      "scenario": "workspace-ping",
+      "clients": 8,
+      "requests": 11988,
+      "seconds": 2.002,
+      "statusCounts": {
+        "200": 11988
+      },
+      "successfulRPS": 5988.5,
+      "errorPercent": 0.0,
+      "successP50ms": 1.24,
+      "successP95ms": 2.2,
+      "successP99ms": 2.75
+    },
+    {
+      "scenario": "workspace-ping",
+      "clients": 32,
+      "requests": 12572,
+      "seconds": 2.006,
+      "statusCounts": {
+        "503": 827,
+        "200": 11745
+      },
+      "successfulRPS": 5855.3,
+      "errorPercent": 6.58,
+      "successP50ms": 4.13,
+      "successP95ms": 10.79,
+      "successP99ms": 15.53
+    },
+    {
+      "scenario": "workspace-static",
+      "clients": 1,
+      "requests": 2422,
+      "seconds": 2.0,
+      "statusCounts": {
+        "200": 2422
+      },
+      "successfulRPS": 1210.8,
+      "errorPercent": 0.0,
+      "successP50ms": 0.8,
+      "successP95ms": 1.03,
+      "successP99ms": 1.18
+    },
+    {
+      "scenario": "workspace-static",
+      "clients": 8,
+      "requests": 11505,
+      "seconds": 2.002,
+      "statusCounts": {
+        "200": 11505
+      },
+      "successfulRPS": 5747.0,
+      "errorPercent": 0.0,
+      "successP50ms": 1.31,
+      "successP95ms": 2.17,
+      "successP99ms": 2.7
+    },
+    {
+      "scenario": "workspace-static",
+      "clients": 32,
+      "requests": 13132,
+      "seconds": 2.006,
+      "statusCounts": {
+        "200": 13132
+      },
+      "successfulRPS": 6547.2,
+      "errorPercent": 0.0,
+      "successP50ms": 4.32,
+      "successP95ms": 10.16,
+      "successP99ms": 13.29
+    },
+    {
+      "scenario": "workspace-sync-5ms",
+      "clients": 1,
+      "requests": 253,
+      "seconds": 2.003,
+      "statusCounts": {
+        "200": 253
+      },
+      "successfulRPS": 126.3,
+      "errorPercent": 0.0,
+      "successP50ms": 6.19,
+      "successP95ms": 17.01,
+      "successP99ms": 18.73
+    },
+    {
+      "scenario": "workspace-sync-5ms",
+      "clients": 8,
+      "requests": 345,
+      "seconds": 2.044,
+      "statusCounts": {
+        "200": 292,
+        "503": 53
+      },
+      "successfulRPS": 142.9,
+      "errorPercent": 15.36,
+      "successP50ms": 36.19,
+      "successP95ms": 75.94,
+      "successP99ms": 88.82
+    },
+    {
+      "scenario": "workspace-sync-5ms",
+      "clients": 32,
+      "requests": 7383,
+      "seconds": 2.055,
+      "statusCounts": {
+        "200": 294,
+        "503": 7089
+      },
+      "successfulRPS": 143.1,
+      "errorPercent": 96.02,
+      "successP50ms": 60.4,
+      "successP95ms": 71.95,
+      "successP99ms": 73.91
+    }
+  ]
+}

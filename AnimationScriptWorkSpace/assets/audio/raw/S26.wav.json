@@ -1,0 +1,98 @@
+{
+  "id": "S26",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "公告说明事情，关注胶囊指向文件。点击定位，还是直接下载，都可设置。",
+  "events": [
+    {
+      "start": 0.08,
+      "position": 0,
+      "length": 2,
+      "text": "公告"
+    },
+    {
+      "start": 0.501,
+      "position": 2,
+      "length": 2,
+      "text": "说明"
+    },
+    {
+      "start": 0.893,
+      "position": 4,
+      "length": 2,
+      "text": "事情"
+    },
+    {
+      "start": 1.62,
+      "position": 7,
+      "length": 2,
+      "text": "关注"
+    },
+    {
+      "start": 1.9783125,
+      "position": 9,
+      "length": 2,
+      "text": "胶囊"
+    },
+    {
+      "start": 2.478875,
+      "position": 11,
+      "length": 2,
+      "text": "指向"
+    },
+    {
+      "start": 2.84,
+      "position": 13,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 4.147125,
+      "position": 16,
+      "length": 2,
+      "text": "点击"
+    },
+    {
+      "start": 4.5139375,
+      "position": 18,
+      "length": 2,
+      "text": "定位"
+    },
+    {
+      "start": 5.1744375,
+      "position": 21,
+      "length": 2,
+      "text": "还是"
+    },
+    {
+      "start": 5.609375,
+      "position": 23,
+      "length": 2,
+      "text": "直接"
+    },
+    {
+      "start": 5.953,
+      "position": 25,
+      "length": 2,
+      "text": "下载"
+    },
+    {
+      "start": 6.6978125,
+      "position": 28,
+      "length": 1,
+      "text": "都"
+    },
+    {
+      "start": 6.865625,
+      "position": 29,
+      "length": 1,
+      "text": "可"
+    },
+    {
+      "start": 7.04475,
+      "position": 30,
+      "length": 2,
+      "text": "设置"
+    }
+  ]
+}

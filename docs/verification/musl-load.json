@@ -1,0 +1,63 @@
+{
+  "executable": "/mnt/d/project/GZS/HttpLocalServer/dist/HttpLocalServer-linux-musl-x86_64",
+  "clients": 96,
+  "requests": 768,
+  "largeFiles": 96,
+  "smallFiles": 672,
+  "integrityFailures": 0,
+  "seconds": 2.18,
+  "payloadBytes": 810915840,
+  "payloadMiBPerSecond": 354.82,
+  "p50Milliseconds": 63.34,
+  "p95Milliseconds": 1477.23,
+  "statusAfterLoad": {
+    "version": "1.0.0",
+    "mode": "filetrans",
+    "rootName": "hls-load-di3v3dvc",
+    "uptime": 2,
+    "connections": 1,
+    "active": 1,
+    "requests": 769,
+    "sentBytes": 810915840,
+    "rejected": 0,
+    "transferErrors": 0,
+    "residentMemory": 14012416,
+    "cache": {
+      "hits": 3536,
+      "misses": 208,
+      "coalesced": 0,
+      "diskBytes": 14428160,
+      "residentBytes": 9408512,
+      "allocatedBytes": 9408512,
+      "targetBytes": 33554432,
+      "limitBytes": 33554432,
+      "bufferBytes": 134217728,
+      "releasedBytes": 5148672,
+      "entries": 144,
+      "idleSeconds": 3,
+      "halfLifeSeconds": 2
+    },
+    "index": {
+      "enabled": true,
+      "scanning": false,
+      "count": 129,
+      "truncated": false,
+      "failed": false
+    }
+  },
+  "cacheAfterCooling": {
+    "hits": 3536,
+    "misses": 208,
+    "coalesced": 0,
+    "diskBytes": 14428160,
+    "residentBytes": 0,
+    "allocatedBytes": 0,
+    "targetBytes": 33554432,
+    "limitBytes": 33554432,
+    "bufferBytes": 134217728,
+    "releasedBytes": 14557184,
+    "entries": 0,
+    "idleSeconds": 3,
+    "halfLifeSeconds": 2
+  }
+}

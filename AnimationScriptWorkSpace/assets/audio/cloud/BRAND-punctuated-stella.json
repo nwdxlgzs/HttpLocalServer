@@ -1,0 +1,14 @@
+{
+  "id": "BRAND-punctuated",
+  "voice": "stella",
+  "text": "H, T, T, P. Local Server.",
+  "characters": 25,
+  "inputSha256": "44b70ba1663a638eb526ab2c6ef3500dd859e170b06cd2f99f776eef8e4f6ca9",
+  "file": "assets/audio/cloud/BRAND-punctuated-stella.wav",
+  "generatedAt": "2026-11-14T08:02:26.255409+00:00",
+  "seconds": 4.16,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 199724
+}

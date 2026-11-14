@@ -1,0 +1,14 @@
+{
+  "id": "S13",
+  "voice": "stella",
+  "text": "复制、剪切、跨标签移动。跨位置搬运先核对，再移除源文件。",
+  "characters": 28,
+  "inputSha256": "fafc934bd29ee623e5ac4021d8c19c506cd6d0e6a86e9c9a6414a1dd7914f604",
+  "file": "assets/audio/cloud/S13-stella.wav",
+  "generatedAt": "2026-11-14T07:39:02.268378+00:00",
+  "seconds": 6.64,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 318764
+}

@@ -1,0 +1,9 @@
+<!-- SPDX-License-Identifier: Apache-2.0; Copyright 2026 github@nwdxlgzs -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="HttpLocalServer">
+  <rect x="14" y="12" width="36" height="32" rx="6" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path d="M15 22h34" fill="none" stroke="currentColor" stroke-width="3"/>
+  <path d="m25 28-5 5 5 5m14-10 5 5-5 5m-4-11-6 12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 45v7m-13 0h26" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="19" cy="52" r="3" fill="currentColor"/>
+  <circle cx="45" cy="52" r="3" fill="currentColor"/>
+</svg>

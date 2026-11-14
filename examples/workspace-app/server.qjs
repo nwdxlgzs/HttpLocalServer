@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: Apache-2.0
+import hls, {wasm,fs,args} from 'hls';
+const calculator=wasm.instantiate('/calc.wasm');
+export function onStart() {
+    if(hls.capabilities.fs==='readwrite')fs.mkdir('/results');
+}
+export function onRequest(request) {
+    if(request.url==='/api/app/info')return json({args,runtime:hls.capabilities});
+    if(request.url==='/api/app/add'&&request.method==='POST'){
+        const input=JSON.parse(request.body);
+        if(!Number.isInteger(input.a)||!Number.isInteger(input.b)||Math.abs(input.a)>1000000||Math.abs(input.b)>1000000)
+            return {status:400,body:'整数必须介于 -1000000 与 1000000 之间'};
+        const result={a:input.a,b:input.b,result:calculator.exports.add(input.a,input.b)};
+        if(hls.capabilities.fs==='readwrite')fs.writeText('/results/latest.json',JSON.stringify(result));
+        return json(result);
+    }
+    return {};
+}
+function json(value){return {body:JSON.stringify(value),contentType:'application/json; charset=utf-8'};}

@@ -1,0 +1,181 @@
+{
+  "binary": "dist/HttpLocalServer-linux-musl-x86_64",
+  "sha256": "882e2640c29491d90625fe9fafc30f9b2119bd357c3fe13d2648a3ce081ac21f",
+  "tests": [
+    {
+      "name": "transfer_cache_integration.py",
+      "exitCode": 0,
+      "seconds": 7.34,
+      "log": "final-v310-musl/transfer_cache_integration.py.log"
+    },
+    {
+      "name": "bundle_integration.py",
+      "exitCode": 0,
+      "seconds": 0.97,
+      "log": "final-v310-musl/bundle_integration.py.log"
+    },
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 3.58,
+      "log": "final-v310-musl/durable_integration.py.log"
+    },
+    {
+      "name": "archive_integration.py",
+      "exitCode": 0,
+      "seconds": 6.59,
+      "log": "final-v310-musl/archive_integration.py.log"
+    },
+    {
+      "name": "state_integration.py",
+      "exitCode": 0,
+      "seconds": 1.68,
+      "log": "final-v310-musl/state_integration.py.log"
+    },
+    {
+      "name": "traffic_integration.py",
+      "exitCode": 0,
+      "seconds": 39.1,
+      "log": "final-v310-musl/traffic_integration.py.log"
+    },
+    {
+      "name": "secure_features_integration.py",
+      "exitCode": 0,
+      "seconds": 7.65,
+      "log": "final-v310-musl/secure_features_integration.py.log"
+    },
+    {
+      "name": "integration.py",
+      "exitCode": 0,
+      "seconds": 6.14,
+      "log": "final-v310-musl/integration.py.log"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 1.52,
+      "log": "final-v310-musl/config_integration.py.log"
+    },
+    {
+      "name": "access_integration.py",
+      "exitCode": 0,
+      "seconds": 8.05,
+      "log": "final-v310-musl/access_integration.py.log"
+    },
+    {
+      "name": "tls_integration.py",
+      "exitCode": 0,
+      "seconds": 5.29,
+      "log": "final-v310-musl/tls_integration.py.log"
+    },
+    {
+      "name": "mounts_integration.py",
+      "exitCode": 0,
+      "seconds": 47.15,
+      "log": "final-v310-musl/mounts_integration.py.log"
+    },
+    {
+      "name": "p2p_integration.py",
+      "exitCode": 0,
+      "seconds": 3.43,
+      "log": "final-v310-musl/p2p_integration.py.log"
+    },
+    {
+      "name": "p2p_relay_integration.py",
+      "exitCode": 0,
+      "seconds": 1.52,
+      "log": "final-v310-musl/p2p_relay_integration.py.log"
+    },
+    {
+      "name": "p2p_mount_integration.py",
+      "exitCode": 0,
+      "seconds": 2.93,
+      "log": "final-v310-musl/p2p_mount_integration.py.log"
+    },
+    {
+      "name": "branding_integration.py",
+      "exitCode": 0,
+      "seconds": 0.77,
+      "log": "final-v310-musl/branding_integration.py.log"
+    },
+    {
+      "name": "collaboration_integration.py",
+      "exitCode": 0,
+      "seconds": 54.23,
+      "log": "final-v310-musl/collaboration_integration.py.log"
+    },
+    {
+      "name": "defaults.py",
+      "exitCode": 0,
+      "seconds": 0.47,
+      "log": "final-v310-musl/defaults.py.log"
+    },
+    {
+      "name": "resume_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.63,
+      "log": "final-v310-musl/resume_test.cjs.log"
+    },
+    {
+      "name": "jobs_test.cjs",
+      "exitCode": 0,
+      "seconds": 1.03,
+      "log": "final-v310-musl/jobs_test.cjs.log"
+    },
+    {
+      "name": "mounts_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.13,
+      "log": "final-v310-musl/mounts_test.cjs.log"
+    },
+    {
+      "name": "batch_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.27,
+      "log": "final-v310-musl/batch_test.cjs.log"
+    },
+    {
+      "name": "p2p_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.42,
+      "log": "final-v310-musl/p2p_test.cjs.log"
+    },
+    {
+      "name": "clipboard_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.12,
+      "log": "final-v310-musl/clipboard_test.cjs.log"
+    },
+    {
+      "name": "drag_thumbnail_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.32,
+      "log": "final-v310-musl/drag_thumbnail_test.cjs.log"
+    },
+    {
+      "name": "player_state_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.07,
+      "log": "final-v310-musl/player_state_test.cjs.log"
+    },
+    {
+      "name": "collaboration_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.37,
+      "log": "final-v310-musl/collaboration_test.cjs.log"
+    },
+    {
+      "name": "ie_compat_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.52,
+      "log": "final-v310-musl/ie_compat_test.cjs.log"
+    },
+    {
+      "name": "mixed-load",
+      "exitCode": 0,
+      "seconds": 6.89,
+      "log": "final-v310-musl/mixed-load.log"
+    }
+  ],
+  "skipped": []
+}

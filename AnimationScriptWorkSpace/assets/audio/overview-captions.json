@@ -1,0 +1,107 @@
+[
+  {
+    "id": "O01",
+    "start": 0.2333,
+    "end": 3.4707,
+    "text": "文件与网页，交给同一个局域网入口。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O02",
+    "start": 4.6167,
+    "end": 8.4567,
+    "text": "启动HttpLocalServer，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O02",
+    "start": 8.4917,
+    "end": 11.3172,
+    "text": "用浏览器访问。一个程序，先把服务提供出来。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "OQR",
+    "start": 12.4667,
+    "end": 14.2423,
+    "text": "扫一扫，直接打开。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O03",
+    "start": 17.9167,
+    "end": 21.9817,
+    "text": "熟悉的管理器，多标签、检索与按需列表，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O03",
+    "start": 22.0167,
+    "end": 23.6114,
+    "text": "找到需要的内容。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O04",
+    "start": 24.7667,
+    "end": 28.3717,
+    "text": "大文件分块传输，目录按能力保存，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O04",
+    "start": 28.4067,
+    "end": 30.7514,
+    "text": "写操作先确认冲突。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O05",
+    "start": 31.9167,
+    "end": 36.2117,
+    "text": "先预览，再下载。文档、表格、媒体和代码，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O05",
+    "start": 36.2467,
+    "end": 38.2561,
+    "text": "各有打开方式。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O06",
+    "start": 39.4,
+    "end": 43.7859,
+    "text": "谁能写、开放什么、资源怎么用，由主机设定。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O07",
+    "start": 44.95,
+    "end": 46.45,
+    "text": "它也能托管网站，",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O07",
+    "start": 46.485,
+    "end": 50.1489,
+    "text": "以可信脚本和受限组件扩展轻量应用。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O08",
+    "start": 51.3,
+    "end": 53.925,
+    "text": "让本机，成为局域网的服务入口。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "O08",
+    "start": 53.96,
+    "end": 57.0293,
+    "text": "HttpLocalServer。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  }
+]

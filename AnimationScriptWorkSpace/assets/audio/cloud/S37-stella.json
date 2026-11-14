@@ -1,0 +1,14 @@
+{
+  "id": "S37",
+  "voice": "stella",
+  "text": "本机MCP把文件发现与受限读取，交给你的AI工具接入。",
+  "characters": 27,
+  "inputSha256": "220987bd28269c5776f05718741b78a24b4883d0c60bb138b0321c0ba05552c6",
+  "file": "assets/audio/cloud/S37-stella.wav",
+  "generatedAt": "2026-11-14T07:40:12.829154+00:00",
+  "seconds": 5.8,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 278444
+}

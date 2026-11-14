@@ -1,0 +1,14 @@
+{
+  "id": "S03",
+  "voice": "stella",
+  "text": "指定共享目录，启动。默认文件传输模式，端口和监听地址都能调整。",
+  "characters": 31,
+  "inputSha256": "7df9d0071004c3fd2ea1594740e01f9150fd8bfa3dd1fc27e14dbf49d1e9c153",
+  "file": "assets/audio/cloud/S03-stella.wav",
+  "generatedAt": "2026-11-14T07:38:34.560906+00:00",
+  "seconds": 6.52,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 313004
+}

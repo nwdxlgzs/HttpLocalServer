@@ -1,0 +1,29 @@
+{
+  "id": "T02",
+  "voice": "stella",
+  "text": "一个程序，启动HTTP服务。",
+  "spokenText": "一个程序，启动 H T T P 服务。",
+  "file": "assets/audio/brand/T02-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 3.0985625,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "1f9f6085fbbd182453c9f99e774f4304eecaf4bc886202e405fbddc4af8566da",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.4580416666666667
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-T02-stella.wav",
+    "sourceSpokenText": "一个程序，启动 H T T P 服务。",
+    "nativeSeconds": 2.6405208333333334,
+    "finalSeconds": 3.0985625,
+    "originalSeconds": 3.0985625
+  }
+}

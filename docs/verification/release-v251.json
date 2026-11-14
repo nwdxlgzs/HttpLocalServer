@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-13",
+  "version": "2.5.1",
+  "baseline": "release-v250.json",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 6568960,
+      "sha256": "0d8a387b6855ff7adb3363dfbca1a20e75da35e3fee0a027ae225269cb12f589"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 8560728,
+      "sha256": "d96dcf41afc7ab7ec9d4d1bc75336e07dcded8569f5a602b3d241a2e94f621ad"
+    }
+  ],
+  "changes": [
+    "QR dialog uses a fixed viewport overlay and true two-axis centering; short viewports scroll within the dialog",
+    "Per-IP quota number and compact MB/GB select share one joined row, including mobile widths",
+    "System/Light/Dark capsule slides between selections with a short icon animation and surface color transitions; reduced-motion preference retains its existing override",
+    "Pinned marked initialization avoids Set iterable construction, guards Symbol and falls back from Array.from; document preview explicitly uses synchronous parsing",
+    "Modern directory APIs require Promise and filesystem capability checks; CSS gap spacing has margin fallbacks, sticky headers and footers have relative positioning fallbacks",
+    "Explicit generated asset dependencies prevent stale embedded pages in localized MSVC incremental builds; packer/manifest/bundle changes also trigger reconfiguration",
+    "Login shadow uses legacy-compatible rgba instead of eight-digit hex colors"
+  ],
+  "verification": {
+    "windows": [
+      "MSVC Release build; CTest 3/3",
+      "Final dist HTTP identity body equals the decompressed committed web bundle byte for byte; gzip equals packed bundle",
+      "Final dist version, IE11 User-Agent page delivery, HEAD and Range checks",
+      "Branding HTTP regression: embedded SVG/ICO/touch icons, gzip, HEAD, 304 and hosted-site precedence"
+    ],
+    "linuxMusl": [
+      "Static stripped x86_64 build; CTest 3/3",
+      "Final dist HTTP exact embedded bytes, gzip, IE11 User-Agent page delivery, HEAD, version and Range"
+    ],
+    "javascript": [
+      "ES5 parsing of 21 frontend/vendor source files plus inline login script",
+      "IE11-like VM with Promise, Set, Map, Symbol, TextEncoder/Decoder, fetch and observer APIs absent: full application reaches session request; Markdown headings/tables/lists/hooks and UTF-8/gzip fallback pass",
+      "Theme selection/animation state and missing-matchMedia fallback; modern directory entry stays hidden; flex gap/sticky static checks",
+      "mounts_test, player_state_test, clipboard_test, drag_thumbnail_test and collaboration_test pass",
+      "Markdown patch reproduces byte for byte from the locked upstream SHA-256"
+    ],
+    "browser": [
+      "1280x720: QR center delta (0,0); fixed overlay; compact quota unit 68px with aligned input tops",
+      "390x500: QR center delta (0,0); quota unit 64px on same row; no document horizontal overflow",
+      "800x360: QR center delta (0,0); dialog height320 and scrollHeight455, internal scrolling enabled",
+      "Theme computed transition0.32s; active icon animation observed; dark slider aligns with its29px button; viewport override reset",
+      "No browser warning/error logs observed"
+    ],
+    "ie11": "Static checks and an IE11-like JavaScript VM only; no real IE rendering or manual test was performed in this release",
+    "macos": "No build or test, per user instruction"
+  },
+  "webBundle": {
+    "uncompressedBytes": 390803,
+    "gzipBytes": 106844,
+    "sha256": "e392b885fc3ec55425edd34d1d46bc6447bb69b538d4d00c733a6f05d3e781d1"
+  },
+  "screenshots": [
+    "v251-url-qr.png",
+    "v251-settings.png",
+    "v251-qr-mobile.png"
+  ]
+}

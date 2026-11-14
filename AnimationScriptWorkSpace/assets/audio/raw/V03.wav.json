@@ -1,0 +1,56 @@
+{
+  "id": "V03",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "浏览、预览、下载，先找到需要的内容。",
+  "events": [
+    {
+      "start": 0.0820625,
+      "position": 0,
+      "length": 2,
+      "text": "浏览"
+    },
+    {
+      "start": 0.78,
+      "position": 3,
+      "length": 2,
+      "text": "预览"
+    },
+    {
+      "start": 1.43,
+      "position": 6,
+      "length": 2,
+      "text": "下载"
+    },
+    {
+      "start": 2.1984375,
+      "position": 9,
+      "length": 1,
+      "text": "先"
+    },
+    {
+      "start": 2.4433125,
+      "position": 10,
+      "length": 2,
+      "text": "找到"
+    },
+    {
+      "start": 2.8721875,
+      "position": 12,
+      "length": 2,
+      "text": "需要"
+    },
+    {
+      "start": 3.25875,
+      "position": 14,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 3.3850625,
+      "position": 15,
+      "length": 2,
+      "text": "内容"
+    }
+  ]
+}

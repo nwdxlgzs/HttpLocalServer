@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "options": {
+    "root": ".",
+    "mode": "filetrans",
+    "bind": "0.0.0.0",
+    "port": 8000,
+    "write-mode": "readonly",
+    "preview": true,
+    "lazy-thumbnails": false,
+    "compression": true,
+    "p2p": false,
+    "p2p-cache-mb": 64,
+    "p2p-cache-seconds": 3600,
+    "p2p-upload-kbps": 4096,
+    "ip-limit": 256,
+    "owner-limit": 256,
+    "ip-upload-mb": 0,
+    "password": "",
+    "hotlink-seconds": 0,
+    "recycle-bin": false,
+    "recycle-days": 7,
+    "recycle-mb": 1024,
+    "resume-hours": 24,
+    "resume-mb": 65536,
+    "ip-transfers": 0,
+    "upload-kbps": 0,
+    "download-kbps": 0,
+    "ip-upload-kbps": 0,
+    "ip-download-kbps": 0,
+    "default-documents": "index.html,index.htm",
+    "spa-fallback": "",
+    "zip-preview": "off"
+  },
+  "host": {
+    "title": "在线文件下载",
+    "announcement": "",
+    "attentionPaths": []
+  },
+  "protectedFileIds": []
+}

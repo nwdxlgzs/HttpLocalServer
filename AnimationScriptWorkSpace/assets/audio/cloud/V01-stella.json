@@ -1,0 +1,14 @@
+{
+  "id": "V01",
+  "voice": "stella",
+  "text": "电脑上的内容，交给同一网络的人。",
+  "characters": 16,
+  "inputSha256": "42cbe1b479ff79681e8db1391c81c33f04d25624edfa2d85b6f4c36b9c1a70c5",
+  "file": "assets/audio/cloud/V01-stella.wav",
+  "generatedAt": "2026-11-14T07:41:10.960538+00:00",
+  "seconds": 3.2,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 153644
+}

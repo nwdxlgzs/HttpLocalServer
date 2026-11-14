@@ -1,0 +1,68 @@
+{
+  "binary": "/build/HttpLocalServer",
+  "sha256": "d5da2e4112dbd6ea5b3e2d6955b6db5eea50b872dc6f8c8f9a9cf745d629e8bf",
+  "scope": "Targeted backend/cache regression against final stripped binary; no UI changes or full release suite",
+  "tests": [
+    {
+      "name": "ctest",
+      "exitCode": 0,
+      "seconds": 10.21,
+      "log": "docs/verification/targeted-v351-musl/ctest.log"
+    },
+    {
+      "name": "script_cache_integration.py",
+      "exitCode": 0,
+      "seconds": 10.26,
+      "log": "docs/verification/targeted-v351-musl/script_cache_integration.py.log"
+    },
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 2.58,
+      "log": "docs/verification/targeted-v351-musl/durable_integration.py.log"
+    },
+    {
+      "name": "wasm_app_integration.py",
+      "exitCode": 0,
+      "seconds": 2.38,
+      "log": "docs/verification/targeted-v351-musl/wasm_app_integration.py.log"
+    },
+    {
+      "name": "features_v330_integration.py",
+      "exitCode": 0,
+      "seconds": 1.02,
+      "log": "docs/verification/targeted-v351-musl/features_v330_integration.py.log"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 1.28,
+      "log": "docs/verification/targeted-v351-musl/config_integration.py.log"
+    },
+    {
+      "name": "frozen_lock_integration.py",
+      "exitCode": 0,
+      "seconds": 0.72,
+      "log": "docs/verification/targeted-v351-musl/frozen_lock_integration.py.log"
+    },
+    {
+      "name": "mcp_current_integration.py",
+      "exitCode": 0,
+      "seconds": 0.77,
+      "log": "docs/verification/targeted-v351-musl/mcp_current_integration.py.log"
+    },
+    {
+      "name": "secure_features_integration.py",
+      "exitCode": 0,
+      "seconds": 6.75,
+      "log": "docs/verification/targeted-v351-musl/secure_features_integration.py.log"
+    },
+    {
+      "name": "integration.py",
+      "exitCode": 0,
+      "seconds": 5.54,
+      "log": "docs/verification/targeted-v351-musl/integration.py.log"
+    }
+  ],
+  "complete": true
+}

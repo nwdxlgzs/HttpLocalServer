@@ -1,0 +1,29 @@
+{
+  "id": "S24",
+  "voice": "stella",
+  "text": "只读分发，共享协作，或者按IP独立提交。主机保留管理范围。",
+  "spokenText": "只读分发，共享协作，或者按 I P 独立提交。主机保留管理范围。",
+  "file": "assets/audio/brand/S24-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 6.159208333333333,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "0f25ff5e1f44ca78777b5bf79a031d311de4ead15c0fc8b7a83e87d45abed995",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.363125
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-S24-stella.wav",
+    "sourceSpokenText": "只读分发，共享协作，或者按 I P 独立提交。主机保留管理范围。",
+    "nativeSeconds": 5.796083333333334,
+    "finalSeconds": 6.159208333333333,
+    "originalSeconds": 6.159208333333333
+  }
+}

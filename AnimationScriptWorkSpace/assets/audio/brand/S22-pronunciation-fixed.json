@@ -1,0 +1,31 @@
+{
+  "id": "S22",
+  "voice": "stella",
+  "text": "ZIP预览按需开启。解压工作放在主机，或者交给浏览器。",
+  "spokenText": " zip 预览按需开启。解压工作放在主机，或者交给浏览器。",
+  "file": "assets/audio/brand/S22-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 4.916270833333333,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "bdc440db16b7b7e7029b5de1b886a90de65442bd188a33dbc968382e4be3b239",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0999953386077692,
+    "edits": [
+      {
+        "type": "quiet-gap-center-removed",
+        "sourceStart": 0.02,
+        "sourceEnd": 0.05,
+        "removedRms": 8.106855966616422e-05
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.03864583333333333,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-S22-stella.wav",
+    "sourceSpokenText": " zip 预览按需开启。解压工作放在主机，或者交给浏览器。",
+    "nativeSeconds": 5.437875,
+    "finalSeconds": 4.916270833333333,
+    "originalSeconds": 4.877625
+  }
+}

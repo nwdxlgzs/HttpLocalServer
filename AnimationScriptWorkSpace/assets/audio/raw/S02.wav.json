@@ -1,0 +1,86 @@
+{
+  "id": "S02",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "HTTP Local Server，把文件服务和网页服务，装进一个程序。",
+  "events": [
+    {
+      "start": 0.0666875,
+      "position": 0,
+      "length": 4,
+      "text": "HTTP"
+    },
+    {
+      "start": 1.184,
+      "position": 5,
+      "length": 5,
+      "text": "Local"
+    },
+    {
+      "start": 1.6145625,
+      "position": 11,
+      "length": 6,
+      "text": "Server"
+    },
+    {
+      "start": 2.22,
+      "position": 18,
+      "length": 1,
+      "text": "把"
+    },
+    {
+      "start": 2.3926875,
+      "position": 19,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 2.766875,
+      "position": 21,
+      "length": 2,
+      "text": "服务"
+    },
+    {
+      "start": 3.19275,
+      "position": 23,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 3.4555,
+      "position": 24,
+      "length": 2,
+      "text": "网页"
+    },
+    {
+      "start": 3.7909375,
+      "position": 26,
+      "length": 2,
+      "text": "服务"
+    },
+    {
+      "start": 4.4548125,
+      "position": 29,
+      "length": 1,
+      "text": "装"
+    },
+    {
+      "start": 4.6655,
+      "position": 30,
+      "length": 1,
+      "text": "进"
+    },
+    {
+      "start": 4.9059375,
+      "position": 31,
+      "length": 2,
+      "text": "一个"
+    },
+    {
+      "start": 5.229,
+      "position": 33,
+      "length": 2,
+      "text": "程序"
+    }
+  ]
+}

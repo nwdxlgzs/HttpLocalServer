@@ -1,0 +1,14 @@
+{
+  "id": "S19",
+  "voice": "stella",
+  "text": "说明文档、结构化数据和文本，都有合适的阅读方式。",
+  "characters": 24,
+  "inputSha256": "f3c9f89c4f87def138e65618402c5f86adde8dcfac229b0f794af40e78046eed",
+  "file": "assets/audio/cloud/S19-stella.wav",
+  "generatedAt": "2026-11-14T07:39:20.510932+00:00",
+  "seconds": 4.8,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 230444
+}

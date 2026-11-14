@@ -1,0 +1,14 @@
+{
+  "id": "S32",
+  "voice": "stella",
+  "text": "主机统一调整策略，CLI决定启动规则，运行数据随时可查。",
+  "characters": 28,
+  "inputSha256": "36ac184bb8bcb7438b804926bd2f212d3f5c2d0e475050550c037b09c3057fe0",
+  "file": "assets/audio/cloud/S32-stella.wav",
+  "generatedAt": "2026-11-14T07:39:58.501060+00:00",
+  "seconds": 6.52,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 313004
+}

@@ -1,0 +1,8 @@
+#pragma once
+#include <cstddef>
+namespace hls {
+inline constexpr unsigned char preview_data[]={ @HLS_PREVIEW_BYTES@ };
+static_assert(sizeof(preview_data)==@HLS_PREVIEW_TOTAL@,"Packed preview data is truncated");
+struct PackedPreview {const char* path;std::size_t offset,bytes,raw_bytes;const char* mime;const char* sha;};
+inline constexpr PackedPreview packed_previews[]={ @HLS_PREVIEW_ROWS@ };
+}

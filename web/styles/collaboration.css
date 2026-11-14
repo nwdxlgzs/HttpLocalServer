@@ -1,0 +1,17 @@
+/* SPDX-License-Identifier: Apache-2.0 */
+/* Copyright 2026 github@nwdxlgzs */
+.sidebar{display:flex;flex-direction:column;overflow-y:auto;overflow-x:hidden;min-height:0}
+.sidebar>.sidebar-label,.sidebar>.sideitem{flex-shrink:0}
+.sidebar .connection{position:static;left:auto;right:auto;bottom:auto;margin-top:auto;padding:22px 8px 0;flex-shrink:0}
+.owner-name{display:inline-block;max-width:100px;overflow:hidden;text-overflow:ellipsis;vertical-align:middle;margin-left:8px;padding:1px 7px;border:1px solid #ccdfef;border-radius:999px;background:#eaf3fc;color:#507b9e;font-size:10px;line-height:17px;white-space:nowrap}
+.grid .owner-name{max-width:90%;margin:3px 2px 0}
+.directory-update{position:absolute;z-index:8;bottom:14px;right:26px;max-width:calc(100% - 30px);display:flex;align-items:center;padding:6px 7px 6px 13px;border:1px solid #bcd1e9;border-radius:9px;background:#f0f6fd;color:#476888;box-shadow:0 3px 13px rgba(38,67,107,.12)}
+.directory-update button{margin-left:12px;background:#326caa;color:#fff;border-radius:5px;padding:5px 12px}.directory-update button:hover:enabled{background:#245a93}
+.review-count{display:inline-block;min-width:17px;line-height:17px;margin-left:8px;border-radius:9px;background:#ce7156;color:#fff;text-align:center}
+.name-review-panel{margin:20px 0;padding:14px;border:1px solid #dbe4ee;border-radius:8px}.name-review-panel>button{float:right;color:#426e9d}.name-review-panel>div{clear:both;margin-top:12px;color:#7d8da3;font-size:12px}
+.name-review{display:flex;align-items:center;flex-wrap:wrap;padding:10px 0;border-top:1px solid #e4ebf3;}.name-review>div{flex:1;min-width:120px;overflow:hidden;margin-right:10px}.name-review strong,.name-review small{display:block;word-break:break-all}.name-review strong{color:#364d68;margin-bottom:4px}.name-review button{border:1px solid #c9d7e8;border-radius:5px;padding:5px 10px;margin-left:6px}
+.theme-dark .owner-name{background:#293f56;border-color:#49657f;color:#abcbe7}.theme-dark .directory-update{background:#273b53;border-color:#496b94;color:#c5dbf1}.theme-dark .directory-update button{background:#497bb3;color:#fff}.theme-dark .name-review-panel,.theme-dark .name-review{border-color:#40536c}.theme-dark .name-review strong{color:#d4e4f7}.theme-dark .name-review button{border-color:#4a6383}.theme-dark .name-review-panel>button{color:#a6c8ef}
+@media(max-width:720px){.directory-update{right:10px;bottom:9px;font-size:11px}.sidebar .connection{padding-left:0;padding-right:0}}
+@media(prefers-reduced-motion:no-preference){.directory-update{animation:drawer-in .16s ease-out}}
+
+.directory-update>button{margin-left:12px}.name-review>*{margin-right:6px;margin-bottom:6px}

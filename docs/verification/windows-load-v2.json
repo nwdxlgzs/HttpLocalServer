@@ -1,0 +1,68 @@
+{
+  "executable": "<project>\\build-msvc\\HttpLocalServer.exe",
+  "clients": 96,
+  "requests": 768,
+  "largeFiles": 96,
+  "smallFiles": 672,
+  "integrityFailures": 0,
+  "seconds": 4.4,
+  "payloadBytes": 810915840,
+  "payloadMiBPerSecond": 175.75,
+  "p50Milliseconds": 363.32,
+  "p95Milliseconds": 1619.05,
+  "statusAfterLoad": {
+    "version": "2.0.0",
+    "mode": "filetrans",
+    "rootName": "hls-load-ne86sp18",
+    "uptime": 4,
+    "connections": 1,
+    "active": 1,
+    "requests": 769,
+    "sentBytes": 810915840,
+    "rejected": 0,
+    "threads": {
+      "io": 4,
+      "file": 5,
+      "metadata": 4
+    },
+    "transferErrors": 0,
+    "residentMemory": 21811200,
+    "cache": {
+      "hits": 3532,
+      "misses": 212,
+      "coalesced": 3,
+      "diskBytes": 10366976,
+      "residentBytes": 9408512,
+      "allocatedBytes": 9408512,
+      "targetBytes": 33554432,
+      "limitBytes": 33554432,
+      "bufferBytes": 134217728,
+      "releasedBytes": 1085440,
+      "entries": 144,
+      "idleSeconds": 3,
+      "halfLifeSeconds": 2
+    },
+    "index": {
+      "enabled": true,
+      "scanning": false,
+      "count": 129,
+      "truncated": false,
+      "failed": false
+    }
+  },
+  "cacheAfterCooling": {
+    "hits": 3532,
+    "misses": 212,
+    "coalesced": 3,
+    "diskBytes": 10366976,
+    "residentBytes": 0,
+    "allocatedBytes": 0,
+    "targetBytes": 33554432,
+    "limitBytes": 33554432,
+    "bufferBytes": 134217728,
+    "releasedBytes": 10493952,
+    "entries": 0,
+    "idleSeconds": 3,
+    "halfLifeSeconds": 2
+  }
+}

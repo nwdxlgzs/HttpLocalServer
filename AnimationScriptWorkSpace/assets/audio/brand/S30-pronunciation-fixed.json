@@ -1,0 +1,31 @@
+{
+  "id": "S30",
+  "voice": "stella",
+  "text": "口令控制访问，严格主机收紧管理身份。需要加密时，可配置内网HTTPS。",
+  "spokenText": "口令控制访问，严格主机收紧管理身份。需要加密时，可配置内网 H T T P S 。",
+  "file": "assets/audio/brand/S30-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 7.574104166666666,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "f9dd0cd755abc3277959fef098d4727eae7f2c1e36623ca4f83992ba288ecab8",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.00302841095069,
+    "edits": [
+      {
+        "type": "quiet-gap-center-removed",
+        "sourceStart": 0.02,
+        "sourceEnd": 0.055,
+        "removedRms": 0.0001427840325050056
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-S30-stella.wav",
+    "sourceSpokenText": "口令控制访问，严格主机收紧管理身份。需要加密时，可配置内网 H T T P S 。",
+    "nativeSeconds": 7.632041666666667,
+    "finalSeconds": 7.574104166666666,
+    "originalSeconds": 7.574104166666666
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "S22",
+  "voice": "stella",
+  "text": "ZIP预览按需开启。解压工作放在主机，或者交给浏览器。",
+  "characters": 27,
+  "inputSha256": "61bfb82340a81da302328388fdc4caf0075e7e01cacd9bebf5ae24d5be8e41e0",
+  "file": "assets/audio/cloud/S22-stella.wav",
+  "generatedAt": "2026-11-14T07:39:28.748819+00:00",
+  "seconds": 5.24,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 251564
+}

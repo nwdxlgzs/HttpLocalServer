@@ -1,0 +1,596 @@
+{
+  "version": 1,
+  "voice": "stella",
+  "captionAndSceneTimingLocked": true,
+  "oldMasterBackup": "assets/audio/before-pronunciation/",
+  "references": {
+    "brand": {
+      "file": "assets/audio/brand/brand-pronunciation.wav",
+      "spoken": "H T T P Local Server",
+      "seconds": 2.0341458333333335,
+      "normalizedSource": "assets/audio/brand/brand-spaced-normalized48k.wav",
+      "cropStart": 0.12,
+      "cropEnd": 2.154145833333333
+    },
+    "zip": {
+      "file": "assets/audio/brand/zip-pronunciation.wav",
+      "spoken": "zip",
+      "seconds": 0.6264375,
+      "source": "assets/audio/cloud/ZIP-term-stella.wav"
+    },
+    "wasm": {
+      "file": "assets/audio/brand/wasm-pronunciation.wav",
+      "spoken": "Web Assembly",
+      "seconds": 0.9172916666666666,
+      "source": "assets/audio/cloud/WEB-ASSEMBLY-term-stella.wav"
+    }
+  },
+  "changes": [
+    {
+      "id": "S02",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.19585416666666666
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "reused standard brand in original sample window; outside samples unchanged",
+      "originalClip": "assets/audio/before-pronunciation/S02.wav",
+      "replacedStart": 0.0,
+      "replacedEnd": 2.23,
+      "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+      "crossfadeSeconds": 0.008,
+      "maximumJoinJump": 0.0,
+      "outsideWindowPcmUnchanged": true
+    },
+    {
+      "id": "S44",
+      "pitchPreservingTempo": 1.0250744047619047,
+      "edits": [
+        {
+          "type": "quiet-gap-center-removed",
+          "sourceStart": 0.02,
+          "sourceEnd": 0.045,
+          "removedRms": 5.23701382917352e-05
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "reused standard brand in original sample window; outside samples unchanged",
+      "originalClip": "assets/audio/before-pronunciation/S44.wav",
+      "replacedStart": 0.0,
+      "replacedEnd": 1.96,
+      "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+      "crossfadeSeconds": 0.008,
+      "maximumJoinJump": 0.000518798828125,
+      "outsideWindowPcmUnchanged": true
+    },
+    {
+      "id": "O08",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.1951875
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "reused standard brand in original sample window; outside samples unchanged",
+      "originalClip": "assets/audio/before-pronunciation/O08.wav",
+      "replacedStart": 3.5,
+      "replacedEnd": 5.729333333333333,
+      "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+      "crossfadeSeconds": 0.008,
+      "maximumJoinJump": 3.0517578125e-05,
+      "outsideWindowPcmUnchanged": true
+    },
+    {
+      "id": "T06",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.004229166666666667
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "reused standard brand in original sample window; outside samples unchanged",
+      "originalClip": "assets/audio/before-pronunciation/T06.wav",
+      "replacedStart": 0.0,
+      "replacedEnd": 2.038375,
+      "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+      "crossfadeSeconds": 0.008,
+      "maximumJoinJump": 0,
+      "outsideWindowPcmUnchanged": true
+    },
+    {
+      "id": "V07",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.004229166666666667
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "reused standard brand in original sample window; outside samples unchanged",
+      "originalClip": "assets/audio/before-pronunciation/V07.wav",
+      "replacedStart": 0.0,
+      "replacedEnd": 2.038375,
+      "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+      "crossfadeSeconds": 0.008,
+      "maximumJoinJump": 0,
+      "outsideWindowPcmUnchanged": true
+    },
+    {
+      "id": "O02",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.32929166666666665
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-O02-stella.wav",
+      "sourceSpokenText": "启动 H T T P Local Server ，用浏览器访问。一个程序，先把服务提供出来。",
+      "nativeSeconds": 6.371270833333333,
+      "finalSeconds": 6.7005625,
+      "originalSeconds": 6.7005625
+    },
+    {
+      "id": "S16",
+      "pitchPreservingTempo": 1.0633626978350343,
+      "edits": [
+        {
+          "type": "quiet-gap-center-removed",
+          "sourceStart": 0.02,
+          "sourceEnd": 0.055,
+          "removedRms": 0.00011228975927224383
+        },
+        {
+          "type": "quiet-gap-center-removed",
+          "sourceStart": 6.78,
+          "sourceEnd": 6.805,
+          "removedRms": 5.7244244089815766e-05
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-S16-stella.wav",
+      "sourceSpokenText": "Word和 P D F 连续阅读。缩放、选择、复制，在内容里自然完成。",
+      "nativeSeconds": 6.847333333333333,
+      "finalSeconds": 6.382895833333333,
+      "originalSeconds": 6.382895833333333
+    },
+    {
+      "id": "S22",
+      "pitchPreservingTempo": 1.0999953386077692,
+      "edits": [
+        {
+          "type": "quiet-gap-center-removed",
+          "sourceStart": 0.02,
+          "sourceEnd": 0.05,
+          "removedRms": 8.106855966616422e-05
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.03864583333333333,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-S22-stella.wav",
+      "sourceSpokenText": " zip 预览按需开启。解压工作放在主机，或者交给浏览器。",
+      "nativeSeconds": 5.437875,
+      "finalSeconds": 4.916270833333333,
+      "originalSeconds": 4.877625
+    },
+    {
+      "id": "S24",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.363125
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-S24-stella.wav",
+      "sourceSpokenText": "只读分发，共享协作，或者按 I P 独立提交。主机保留管理范围。",
+      "nativeSeconds": 5.796083333333334,
+      "finalSeconds": 6.159208333333333,
+      "originalSeconds": 6.159208333333333
+    },
+    {
+      "id": "S30",
+      "pitchPreservingTempo": 1.00302841095069,
+      "edits": [
+        {
+          "type": "quiet-gap-center-removed",
+          "sourceStart": 0.02,
+          "sourceEnd": 0.055,
+          "removedRms": 0.0001427840325050056
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-S30-stella.wav",
+      "sourceSpokenText": "口令控制访问，严格主机收紧管理身份。需要加密时，可配置内网 H T T P S 。",
+      "nativeSeconds": 7.632041666666667,
+      "finalSeconds": 7.574104166666666,
+      "originalSeconds": 7.574104166666666
+    },
+    {
+      "id": "S32",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.2770416666666667
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-S32-stella.wav",
+      "sourceSpokenText": "主机统一调整策略， C L I 决定启动规则，运行数据随时可查。",
+      "nativeSeconds": 6.043041666666666,
+      "finalSeconds": 6.320083333333334,
+      "originalSeconds": 6.320083333333334
+    },
+    {
+      "id": "S34",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.5053541666666667
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-S34-stella.wav",
+      "sourceSpokenText": "一个 zip ，可以装下轻量应用。公开前端，保留后台，管理入口独立隔离。",
+      "nativeSeconds": 6.6116875,
+      "finalSeconds": 7.117041666666666,
+      "originalSeconds": 7.117041666666666
+    },
+    {
+      "id": "S36",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.10758333333333334
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-S36-stella.wav",
+      "sourceSpokenText": " Quick J S 承接控制逻辑， W A M R 提供受限的 Web Assembly 互操作。执行有预算，资源有生命周期。",
+      "nativeSeconds": 9.343979166666667,
+      "finalSeconds": 9.4515625,
+      "originalSeconds": 9.4515625
+    },
+    {
+      "id": "S37",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.053375
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-S37-stella.wav",
+      "sourceSpokenText": "本机 M C P 把文件发现与受限读取，交给你的 A I 工具接入。",
+      "nativeSeconds": 5.5303125,
+      "finalSeconds": 5.5836875,
+      "originalSeconds": 5.5836875
+    },
+    {
+      "id": "S39",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.4885
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-S39-stella.wav",
+      "sourceSpokenText": "复用可信编译结果和空闲运行时，缓存校验过的 zip 资源。减少重复工作，保留调用隔离。",
+      "nativeSeconds": 8.052166666666666,
+      "finalSeconds": 8.540666666666667,
+      "originalSeconds": 8.540666666666667
+    },
+    {
+      "id": "S40",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.4261041666666667
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-S40-stella.wav",
+      "sourceSpokenText": "需要时开启 P C D N ，让浏览器与挂载来源分担部分流量。普通下载，仍是默认选择。",
+      "nativeSeconds": 7.811166666666667,
+      "finalSeconds": 8.237270833333334,
+      "originalSeconds": 8.237270833333334
+    },
+    {
+      "id": "T02",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.4580416666666667
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-T02-stella.wav",
+      "sourceSpokenText": "一个程序，启动 H T T P 服务。",
+      "nativeSeconds": 2.6405208333333334,
+      "finalSeconds": 3.0985625,
+      "originalSeconds": 3.0985625
+    },
+    {
+      "id": "V02",
+      "pitchPreservingTempo": 1.0,
+      "edits": [
+        {
+          "type": "trailing-silence-added",
+          "seconds": 0.05452083333333333
+        }
+      ],
+      "usedExtraExistingCueSeconds": 0.0,
+      "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+      "source": "assets/audio/cloud/corrected-V02-stella.wav",
+      "sourceSpokenText": "启动一个 H T T P 入口，用浏览器访问。",
+      "nativeSeconds": 3.6445,
+      "finalSeconds": 3.6990208333333334,
+      "originalSeconds": 3.6990208333333334
+    }
+  ],
+  "standards": [
+    {
+      "display": "HttpLocalServer",
+      "spokenStandard": "H T T P Local Server",
+      "cues": [
+        "S02",
+        "S44",
+        "O02",
+        "O08",
+        "T06",
+        "V07"
+      ],
+      "changedCues": [
+        "S02",
+        "S44",
+        "O02",
+        "O08",
+        "T06",
+        "V07"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "ZIP",
+      "spokenStandard": "zip /zɪp/",
+      "cues": [
+        "S22",
+        "S34",
+        "S39"
+      ],
+      "changedCues": [
+        "S22",
+        "S34",
+        "S39"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "Wasm",
+      "spokenStandard": "Web Assembly",
+      "cues": [
+        "S36"
+      ],
+      "changedCues": [
+        "S36"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "QuickJS",
+      "spokenStandard": "Quick J S",
+      "cues": [
+        "S36"
+      ],
+      "changedCues": [
+        "S36"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "WAMR",
+      "spokenStandard": "W A M R",
+      "cues": [
+        "S36"
+      ],
+      "changedCues": [
+        "S36"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "MCP",
+      "spokenStandard": "M C P",
+      "cues": [
+        "S37"
+      ],
+      "changedCues": [
+        "S37"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "PCDN",
+      "spokenStandard": "P C D N",
+      "cues": [
+        "S40"
+      ],
+      "changedCues": [
+        "S40"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "HTTP",
+      "spokenStandard": "H T T P",
+      "cues": [
+        "T02",
+        "V02"
+      ],
+      "changedCues": [
+        "T02",
+        "V02"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "HTTPS",
+      "spokenStandard": "H T T P S",
+      "cues": [
+        "S30"
+      ],
+      "changedCues": [
+        "S30"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "IP",
+      "spokenStandard": "I P",
+      "cues": [
+        "S24"
+      ],
+      "changedCues": [
+        "S24"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "CLI",
+      "spokenStandard": "C L I",
+      "cues": [
+        "S32"
+      ],
+      "changedCues": [
+        "S32"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "PDF",
+      "spokenStandard": "P D F",
+      "cues": [
+        "S16"
+      ],
+      "changedCues": [
+        "S16"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "Word",
+      "spokenStandard": "Word",
+      "cues": [
+        "S16"
+      ],
+      "changedCues": [
+        "S16"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "Server",
+      "spokenStandard": "Server",
+      "cues": [
+        "S33",
+        "V05"
+      ],
+      "changedCues": [],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "Markdown",
+      "spokenStandard": "Markdown",
+      "cues": [
+        "S23"
+      ],
+      "changedCues": [],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    },
+    {
+      "display": "AI",
+      "spokenStandard": "A I",
+      "cues": [
+        "S37"
+      ],
+      "changedCues": [
+        "S37"
+      ],
+      "verification": "Explicit request spelling; independent-English ASR is supporting evidence only. Chinese whole-sentence English-model recognition is invalid and not used."
+    }
+  ],
+  "maximumPitchPreservingTempo": 1.0999953386077692,
+  "durationExtensionRequired": false,
+  "truncatedPhonemes": 0,
+  "verificationLimit": "No human listening or phonetic certification is claimed. tiny.en supports independent English clips only; its mixed Chinese whole-sentence hallucinations are excluded.",
+  "discardedWasmPronunciation": "waz-um references were produced before the user selected Web Assembly and are not used in delivery.",
+  "finalMasterSha256": {
+    "main": "6587e31b61304ef90adc73ea80eec9f62971c5acba3066810b956ae09c21caf6",
+    "overview": "5337ccb468d824749af776d5a56f8a76aa0639856179769108b4bb8cc8fc970f",
+    "teaser": "f941166d8e97ba3443b6d9eaebf5e9805630f71ae89090d3f2b68e31483f8d5e",
+    "vertical": "7537b466ad377ff81aa54b029260a056feb5d1e7bf6a6046e7ca492fedd20df0"
+  },
+  "sceneHashBefore": "5d40325587ac86d8d564c0a5a6a352ec30b5cc11e2b956d2db787da56195a9d0",
+  "sceneHashAfter": "5d40325587ac86d8d564c0a5a6a352ec30b5cc11e2b956d2db787da56195a9d0",
+  "sceneHashUnchanged": true,
+  "captionFilesIdentical": {
+    "main-captions.json": true,
+    "main.srt": true,
+    "overview-captions.json": true,
+    "overview.srt": true,
+    "teaser-captions.json": true,
+    "teaser.srt": true,
+    "vertical-captions.json": true,
+    "vertical.srt": true
+  },
+  "untouchedCueCount": 50,
+  "untouchedCuePcmFilesIdentical": true,
+  "finalReferenceAudition": "assets/audio/brand/pronunciation-audition.wav",
+  "independentEnglishAsr": [
+    {
+      "clip": "assets/audio/brand/brand-pronunciation.wav",
+      "recognizedText": " HTTP local server",
+      "limitation": "English ASR supporting evidence, not human listening or phonetic certification."
+    },
+    {
+      "clip": "assets/audio/brand/zip-pronunciation.wav",
+      "recognizedText": " Zip.",
+      "limitation": "English ASR supporting evidence, not human listening or phonetic certification."
+    },
+    {
+      "clip": "assets/audio/brand/wasm-pronunciation.wav",
+      "recognizedText": " WebAssembly.",
+      "limitation": "English ASR supporting evidence, not human listening or phonetic certification."
+    }
+  ],
+  "independentEnglishAsrSource": "assets/audio/brand/independent-term-recognition.json"
+}

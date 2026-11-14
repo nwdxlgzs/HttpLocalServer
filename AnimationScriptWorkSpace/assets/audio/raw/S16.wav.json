@@ -1,0 +1,98 @@
+{
+  "id": "S16",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "Word和P D F连续阅读。缩放、选择、复制，在内容里自然完成。",
+  "events": [
+    {
+      "start": 0.065125,
+      "position": 0,
+      "length": 4,
+      "text": "Word"
+    },
+    {
+      "start": 0.38,
+      "position": 4,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 0.653375,
+      "position": 5,
+      "length": 1,
+      "text": "P"
+    },
+    {
+      "start": 0.8525,
+      "position": 7,
+      "length": 1,
+      "text": "D"
+    },
+    {
+      "start": 1.001875,
+      "position": 9,
+      "length": 1,
+      "text": "F"
+    },
+    {
+      "start": 1.28925,
+      "position": 10,
+      "length": 2,
+      "text": "连续"
+    },
+    {
+      "start": 1.6805625,
+      "position": 12,
+      "length": 2,
+      "text": "阅读"
+    },
+    {
+      "start": 2.9779375,
+      "position": 15,
+      "length": 2,
+      "text": "缩放"
+    },
+    {
+      "start": 3.7048125,
+      "position": 18,
+      "length": 2,
+      "text": "选择"
+    },
+    {
+      "start": 4.5405625,
+      "position": 21,
+      "length": 2,
+      "text": "复制"
+    },
+    {
+      "start": 5.2239375,
+      "position": 24,
+      "length": 1,
+      "text": "在"
+    },
+    {
+      "start": 5.443375,
+      "position": 25,
+      "length": 2,
+      "text": "内容"
+    },
+    {
+      "start": 5.774625,
+      "position": 27,
+      "length": 1,
+      "text": "里"
+    },
+    {
+      "start": 5.9705,
+      "position": 28,
+      "length": 2,
+      "text": "自然"
+    },
+    {
+      "start": 6.327,
+      "position": 30,
+      "length": 2,
+      "text": "完成"
+    }
+  ]
+}

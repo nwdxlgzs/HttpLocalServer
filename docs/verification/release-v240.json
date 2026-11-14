@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-11",
+  "version": "2.4.0",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 6384640,
+      "sha256": "784e186995425bad1239582df25fe8e7b2f40ea7f2ab6a26c7b826de6f375f66"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 8253496,
+      "sha256": "8468023ecccf9a5eda14b634672078d3a72dd1c8620c4b7a0d5c7c71c442c9df"
+    }
+  ],
+  "changes": [
+    "Persistent System/Light/Dark buttons, synchronized theme state and compact mobile layout",
+    "Native virtual path mappings for host directories, partitions, OS roots and drive/volume collections; Windows C/D/E root facade and Unix root",
+    "Read-only default mounts; explicit write capability remains subject to global readonly/shared/isolated authorization; protected mount roots and cross-mount move rejection",
+    "Capability-gated browser directory handles with explicit readwrite approval, peer-bound provider credentials and bounded asynchronous metadata queues",
+    "Background streamed host replicas with demanded file priority and duplicate source-version upload coalescing; native host cache/Range/COW distribution after materialization",
+    "Provider liveness separate from host copies; 45 second offline state, retained host files and fresh offline download tickets",
+    "Native browser direct-folder saving preserves hierarchy and empty directories using version-pinned 256 KiB Range writes, collision prompts, bounded traversal and private writable streams",
+    "Unified per-IP upload MiB/GiB allowance, individual IP overrides, zero unlimited, known-length reservations, chunk accounting and safe reservation cleanup after shutdown",
+    "MCP asynchronous live mounted directory listing, bounded recursive mount searches and virtual listing integration",
+    "Mount routing copies only a small descriptor, retaining replica metadata in the shared bounded registry"
+  ],
+  "verification": {
+    "windows": [
+      "Final MSVC Release CTest 3/3",
+      "Final mounts HTTP suite: native mounts, virtual parents, system root, scoped search, readonly/write authorization, provider key binding, materialize-before-ticket, 8 concurrent Range downloads, MCP asynchronous listing, quota changes/reservations and real 45 second offline-copy fallback",
+      "Core HTTP: Unicode, search, 5 GiB Range, cache cooling, 144 Range requests, static Server and backpressure",
+      "COW v230: writer conflicts, retained old readers, abort cleanup and moves",
+      "Collaboration: multi-browser leases, approval isolation, 48 polls and crashed-browser cleanup",
+      "Visibility/branding/defaults regressions and ES5 syntax parse"
+    ],
+    "linuxMusl": [
+      "Final static x86_64 GCC Release CTest 3/3",
+      "Final stripped artifact mounts HTTP suite including actual offline timeout and retained fresh-download fallback",
+      "Core HTTP, COW v230 and collaboration regressions",
+      "Final changed source compiled without warnings"
+    ],
+    "javascript": [
+      "mounts_test: FileSystem handle doubles, secure-capability gating, coalesced scans/copies, recursive search, readonly enforcement, version conflict, private write publication, direct save exact bytes and bounded 256 KiB reads",
+      "drag_thumbnail_test, collaboration_test, player_state_test",
+      "Bundled application parsed with Acorn ecmaVersion 5"
+    ],
+    "browser": [
+      "Actual host mount form adds a temporary test directory",
+      "Windows Computer view lists C/D/E and disables upload/mkdir in virtual mount parents",
+      "Persistent System/Light/Dark button state and actual colors",
+      "Quota UI accepts GB and an individual IP override and reloads normalized MiB values",
+      "390x400 has no horizontal overflow; compact theme controls remain in scrollable sidebar",
+      "Final visible browser console had no errors or warnings"
+    ],
+    "nativeDirectoryPicker": "Real OS permission/picker and real browser writable directory end-to-end flow were not completed; directory-handle behavior tested with API doubles and backend provider with real HTTP",
+    "macos": "Source compatibility only; no build or test, as requested",
+    "ie11": "ES5 base workflow retained; native modern directory features hidden when unsupported; manual steps documented"
+  },
+  "limits": [
+    "Browser mapping and quotas are process-scoped; replica files persist in .hls-mounts/<id> after unmount or restart",
+    "Quota counts received bytes this run including aborted bytes and replicas; deletion does not refund it",
+    "Background provider tab must stay running; suspended tabs may expire; absent data is not accessible offline",
+    "FileSystem Access actions require runtime API support and a secure context",
+    "Direct-folder creation can leave an empty placeholder after cancellation; complete files are retained",
+    "Offline listings represent stored copies and do not claim a fully synchronized source directory"
+  ],
+  "embeddedWeb": {
+    "gzipBytes": 101613,
+    "uncompressedBytes": 370620,
+    "sha256": "b0ae98c87f843dfa94948e61b486803c00692922d4d27fe231fd66f3fd07b567"
+  },
+  "screenshots": {
+    "v240-root-light.png": {
+      "width": 1280,
+      "height": 720,
+      "sha256": "63b8fc0eaeff6a2b33b66aaf0e82198406b4ec63ef2041ab851a4609e549508e"
+    },
+    "v240-root-dark.png": {
+      "width": 1280,
+      "height": 720,
+      "sha256": "5e438f09041c94a46437b13bd4a19d633c368136ed0868e4c3fc3fb2bda7ffab"
+    },
+    "v240-settings.png": {
+      "width": 1280,
+      "height": 720,
+      "sha256": "f25544119381c883ca83b5eb04bb493b8ea1329a8a291dd719d75cf3ec6d3a88"
+    },
+    "mounts-themes-v240.png": {
+      "width": 1600,
+      "height": 450,
+      "sha256": "37e01f5606f1785688a14ed7de131c4bcb6eb288eac0ff3db489912e8d21529f"
+    }
+  },
+  "documentation": "../mounts.md"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "S08",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "列表按需加载，文件名可检索。目录有变化，先提示，再由你决定刷新。",
+  "events": [
+    {
+      "start": 0.0820625,
+      "position": 0,
+      "length": 2,
+      "text": "列表"
+    },
+    {
+      "start": 0.54,
+      "position": 2,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 0.7590625,
+      "position": 3,
+      "length": 1,
+      "text": "需"
+    },
+    {
+      "start": 0.9554375,
+      "position": 4,
+      "length": 2,
+      "text": "加载"
+    },
+    {
+      "start": 1.6505625,
+      "position": 7,
+      "length": 3,
+      "text": "文件名"
+    },
+    {
+      "start": 2.3,
+      "position": 10,
+      "length": 1,
+      "text": "可"
+    },
+    {
+      "start": 2.5118125,
+      "position": 11,
+      "length": 2,
+      "text": "检索"
+    },
+    {
+      "start": 3.893625,
+      "position": 14,
+      "length": 2,
+      "text": "目录"
+    },
+    {
+      "start": 4.313625,
+      "position": 16,
+      "length": 1,
+      "text": "有"
+    },
+    {
+      "start": 4.5079375,
+      "position": 17,
+      "length": 2,
+      "text": "变化"
+    },
+    {
+      "start": 5.243625,
+      "position": 20,
+      "length": 1,
+      "text": "先"
+    },
+    {
+      "start": 5.496375,
+      "position": 21,
+      "length": 2,
+      "text": "提示"
+    },
+    {
+      "start": 6.2029375,
+      "position": 24,
+      "length": 1,
+      "text": "再"
+    },
+    {
+      "start": 6.4065625,
+      "position": 25,
+      "length": 1,
+      "text": "由"
+    },
+    {
+      "start": 6.573625,
+      "position": 26,
+      "length": 1,
+      "text": "你"
+    },
+    {
+      "start": 6.783625,
+      "position": 27,
+      "length": 2,
+      "text": "决定"
+    },
+    {
+      "start": 7.1509375,
+      "position": 29,
+      "length": 2,
+      "text": "刷新"
+    }
+  ]
+}

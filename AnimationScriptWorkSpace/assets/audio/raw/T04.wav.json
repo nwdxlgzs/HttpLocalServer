@@ -1,0 +1,62 @@
+{
+  "id": "T04",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "开放文件，也开放网页与轻量应用。",
+  "events": [
+    {
+      "start": 0.0818125,
+      "position": 0,
+      "length": 2,
+      "text": "开放"
+    },
+    {
+      "start": 0.4766875,
+      "position": 2,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 1.17,
+      "position": 5,
+      "length": 1,
+      "text": "也"
+    },
+    {
+      "start": 1.331375,
+      "position": 6,
+      "length": 2,
+      "text": "开放"
+    },
+    {
+      "start": 1.724875,
+      "position": 8,
+      "length": 2,
+      "text": "网页"
+    },
+    {
+      "start": 2.16,
+      "position": 10,
+      "length": 1,
+      "text": "与"
+    },
+    {
+      "start": 2.356375,
+      "position": 11,
+      "length": 1,
+      "text": "轻"
+    },
+    {
+      "start": 2.5884375,
+      "position": 12,
+      "length": 1,
+      "text": "量"
+    },
+    {
+      "start": 2.75825,
+      "position": 13,
+      "length": 2,
+      "text": "应用"
+    }
+  ]
+}

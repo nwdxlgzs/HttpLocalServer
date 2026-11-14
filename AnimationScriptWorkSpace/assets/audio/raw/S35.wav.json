@@ -1,0 +1,104 @@
+{
+  "id": "S35",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "文件、数据和常用组件开放给可信脚本，能力与资源仍由主机限制。",
+  "events": [
+    {
+      "start": 0.08,
+      "position": 0,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 0.77,
+      "position": 3,
+      "length": 2,
+      "text": "数据"
+    },
+    {
+      "start": 1.2189375,
+      "position": 5,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 1.4364375,
+      "position": 6,
+      "length": 2,
+      "text": "常用"
+    },
+    {
+      "start": 1.8733125,
+      "position": 8,
+      "length": 2,
+      "text": "组件"
+    },
+    {
+      "start": 2.3,
+      "position": 10,
+      "length": 2,
+      "text": "开放"
+    },
+    {
+      "start": 2.723625,
+      "position": 12,
+      "length": 1,
+      "text": "给"
+    },
+    {
+      "start": 2.9205625,
+      "position": 13,
+      "length": 2,
+      "text": "可信"
+    },
+    {
+      "start": 3.3290625,
+      "position": 15,
+      "length": 2,
+      "text": "脚本"
+    },
+    {
+      "start": 4.0104375,
+      "position": 18,
+      "length": 2,
+      "text": "能力"
+    },
+    {
+      "start": 4.3805625,
+      "position": 20,
+      "length": 1,
+      "text": "与"
+    },
+    {
+      "start": 4.5825,
+      "position": 21,
+      "length": 2,
+      "text": "资源"
+    },
+    {
+      "start": 5.01,
+      "position": 23,
+      "length": 1,
+      "text": "仍"
+    },
+    {
+      "start": 5.213625,
+      "position": 24,
+      "length": 1,
+      "text": "由"
+    },
+    {
+      "start": 5.41325,
+      "position": 25,
+      "length": 2,
+      "text": "主机"
+    },
+    {
+      "start": 5.7339375,
+      "position": 27,
+      "length": 2,
+      "text": "限制"
+    }
+  ]
+}

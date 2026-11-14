@@ -1,0 +1,33 @@
+{
+  "id": "S44",
+  "voice": "stella",
+  "text": "HttpLocalServer。让本机，成为局域网的服务入口。",
+  "spokenText": "H T T P Local Server。让本机，成为局域网的服务入口。",
+  "file": "assets/audio/brand/S44-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 5.129791666666667,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "becd540afa8047a6030cb8eb6ac7c5b7f3dd92eef6fddc91d757879e115c2acf",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0250744047619047,
+    "edits": [
+      {
+        "type": "quiet-gap-center-removed",
+        "sourceStart": 0.02,
+        "sourceEnd": 0.045,
+        "removedRms": 5.23701382917352e-05
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "reused standard brand in original sample window; outside samples unchanged",
+    "originalClip": "assets/audio/before-pronunciation/S44.wav",
+    "replacedStart": 0.0,
+    "replacedEnd": 1.96,
+    "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+    "crossfadeSeconds": 0.008,
+    "maximumJoinJump": 0.000518798828125,
+    "outsideWindowPcmUnchanged": true
+  }
+}

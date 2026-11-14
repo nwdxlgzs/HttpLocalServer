@@ -1,0 +1,31 @@
+{
+  "id": "V07",
+  "voice": "stella",
+  "text": "HttpLocalServer。",
+  "spokenText": "H T T P Local Server。",
+  "file": "assets/audio/brand/V07-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 2.038375,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "31187bce2dfee603d2ea489dc2af10c4f10a7f41357b5e8af8b9247eae54f412",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.004229166666666667
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "reused standard brand in original sample window; outside samples unchanged",
+    "originalClip": "assets/audio/before-pronunciation/V07.wav",
+    "replacedStart": 0.0,
+    "replacedEnd": 2.038375,
+    "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+    "crossfadeSeconds": 0.008,
+    "maximumJoinJump": 0,
+    "outsideWindowPcmUnchanged": true
+  }
+}

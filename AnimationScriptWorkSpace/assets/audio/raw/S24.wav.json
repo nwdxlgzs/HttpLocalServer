@@ -1,0 +1,98 @@
+{
+  "id": "S24",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "只读分发，共享协作，或者按I P独立提交。主机保留管理范围。",
+  "events": [
+    {
+      "start": 0.0789375,
+      "position": 0,
+      "length": 1,
+      "text": "只"
+    },
+    {
+      "start": 0.231,
+      "position": 1,
+      "length": 1,
+      "text": "读"
+    },
+    {
+      "start": 0.3744375,
+      "position": 2,
+      "length": 2,
+      "text": "分发"
+    },
+    {
+      "start": 1.06,
+      "position": 5,
+      "length": 2,
+      "text": "共享"
+    },
+    {
+      "start": 1.46,
+      "position": 7,
+      "length": 2,
+      "text": "协作"
+    },
+    {
+      "start": 2.1730625,
+      "position": 10,
+      "length": 2,
+      "text": "或者"
+    },
+    {
+      "start": 2.5959375,
+      "position": 12,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 2.82,
+      "position": 13,
+      "length": 1,
+      "text": "I"
+    },
+    {
+      "start": 2.96975,
+      "position": 15,
+      "length": 1,
+      "text": "P"
+    },
+    {
+      "start": 3.223625,
+      "position": 16,
+      "length": 2,
+      "text": "独立"
+    },
+    {
+      "start": 3.5345625,
+      "position": 18,
+      "length": 2,
+      "text": "提交"
+    },
+    {
+      "start": 4.8400625,
+      "position": 21,
+      "length": 2,
+      "text": "主机"
+    },
+    {
+      "start": 5.2623125,
+      "position": 23,
+      "length": 2,
+      "text": "保留"
+    },
+    {
+      "start": 5.6546875,
+      "position": 25,
+      "length": 2,
+      "text": "管理"
+    },
+    {
+      "start": 5.996,
+      "position": 27,
+      "length": 2,
+      "text": "范围"
+    }
+  ]
+}

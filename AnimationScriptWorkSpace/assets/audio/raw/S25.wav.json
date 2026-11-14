@@ -1,0 +1,104 @@
+{
+  "id": "S25",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "上传才建立目录。姓名先审核，再展示；空目录在无人使用时清理。",
+  "events": [
+    {
+      "start": 0.0833125,
+      "position": 0,
+      "length": 2,
+      "text": "上传"
+    },
+    {
+      "start": 0.66,
+      "position": 2,
+      "length": 1,
+      "text": "才"
+    },
+    {
+      "start": 0.8894375,
+      "position": 3,
+      "length": 2,
+      "text": "建立"
+    },
+    {
+      "start": 1.23225,
+      "position": 5,
+      "length": 2,
+      "text": "目录"
+    },
+    {
+      "start": 2.4716875,
+      "position": 8,
+      "length": 2,
+      "text": "姓名"
+    },
+    {
+      "start": 2.978375,
+      "position": 10,
+      "length": 1,
+      "text": "先"
+    },
+    {
+      "start": 3.1955,
+      "position": 11,
+      "length": 2,
+      "text": "审核"
+    },
+    {
+      "start": 3.9680625,
+      "position": 14,
+      "length": 1,
+      "text": "再"
+    },
+    {
+      "start": 4.174625,
+      "position": 15,
+      "length": 2,
+      "text": "展示"
+    },
+    {
+      "start": 4.908375,
+      "position": 18,
+      "length": 1,
+      "text": "空"
+    },
+    {
+      "start": 5.1303125,
+      "position": 19,
+      "length": 2,
+      "text": "目录"
+    },
+    {
+      "start": 5.568375,
+      "position": 21,
+      "length": 1,
+      "text": "在"
+    },
+    {
+      "start": 5.7904375,
+      "position": 22,
+      "length": 2,
+      "text": "无人"
+    },
+    {
+      "start": 6.2181875,
+      "position": 24,
+      "length": 2,
+      "text": "使用"
+    },
+    {
+      "start": 6.6171875,
+      "position": 26,
+      "length": 1,
+      "text": "时"
+    },
+    {
+      "start": 6.838375,
+      "position": 27,
+      "length": 2,
+      "text": "清理"
+    }
+  ]
+}

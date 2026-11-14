@@ -1,0 +1,104 @@
+{
+  "id": "O07",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "它也能托管网站，以可信脚本和受限组件扩展轻量应用。",
+  "events": [
+    {
+      "start": 0.0818125,
+      "position": 0,
+      "length": 1,
+      "text": "它"
+    },
+    {
+      "start": 0.2838125,
+      "position": 1,
+      "length": 1,
+      "text": "也"
+    },
+    {
+      "start": 0.4690625,
+      "position": 2,
+      "length": 1,
+      "text": "能"
+    },
+    {
+      "start": 0.6939375,
+      "position": 3,
+      "length": 2,
+      "text": "托管"
+    },
+    {
+      "start": 1.0978125,
+      "position": 5,
+      "length": 2,
+      "text": "网站"
+    },
+    {
+      "start": 1.80775,
+      "position": 8,
+      "length": 1,
+      "text": "以"
+    },
+    {
+      "start": 2.0143125,
+      "position": 9,
+      "length": 2,
+      "text": "可信"
+    },
+    {
+      "start": 2.4323125,
+      "position": 11,
+      "length": 2,
+      "text": "脚本"
+    },
+    {
+      "start": 2.86375,
+      "position": 13,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 3.08,
+      "position": 14,
+      "length": 1,
+      "text": "受"
+    },
+    {
+      "start": 3.2895,
+      "position": 15,
+      "length": 1,
+      "text": "限"
+    },
+    {
+      "start": 3.52175,
+      "position": 16,
+      "length": 2,
+      "text": "组件"
+    },
+    {
+      "start": 3.956375,
+      "position": 18,
+      "length": 2,
+      "text": "扩展"
+    },
+    {
+      "start": 4.438375,
+      "position": 20,
+      "length": 1,
+      "text": "轻"
+    },
+    {
+      "start": 4.652375,
+      "position": 21,
+      "length": 1,
+      "text": "量"
+    },
+    {
+      "start": 4.8231875,
+      "position": 22,
+      "length": 2,
+      "text": "应用"
+    }
+  ]
+}

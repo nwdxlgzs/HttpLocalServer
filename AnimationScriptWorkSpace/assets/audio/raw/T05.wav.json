@@ -1,0 +1,44 @@
+{
+  "id": "T05",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "能力可配，资源有界。",
+  "events": [
+    {
+      "start": 0.07775,
+      "position": 0,
+      "length": 2,
+      "text": "能力"
+    },
+    {
+      "start": 0.4003125,
+      "position": 2,
+      "length": 1,
+      "text": "可"
+    },
+    {
+      "start": 0.6125625,
+      "position": 3,
+      "length": 1,
+      "text": "配"
+    },
+    {
+      "start": 1.1196875,
+      "position": 5,
+      "length": 2,
+      "text": "资源"
+    },
+    {
+      "start": 1.47,
+      "position": 7,
+      "length": 1,
+      "text": "有"
+    },
+    {
+      "start": 1.6525625,
+      "position": 8,
+      "length": 1,
+      "text": "界"
+    }
+  ]
+}

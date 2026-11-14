@@ -1,0 +1,38 @@
+{
+  "version": "3.4.3",
+  "date": "2026-11-14",
+  "license": "Apache-2.0",
+  "author": "github@nwdxlgzs",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 25290240,
+      "sha256": "d21c39f38071ca2cc16184582f8212720bf8fdc9baabf1c1e328e2360393e129"
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 27992376,
+      "sha256": "30be99be17b2967fdf0011d567baf7b70d16fc9a08b6835497a379d5672c65d5"
+    }
+  ],
+  "changes": [
+    "依赖冻结按当前启动实际使用的配置、状态、脚本、TLS材料和锁文件的路径/身份判定；普通同名文件不再冻结。冻结项默认隐藏，显示隐藏后才出现。",
+    "代码文件继续提供纯文本编辑回退；播放器音量滑块显示已调节深色轨道。",
+    "新建菜单与空白处右键支持空文件和文件夹创建，手机设置图标和审核刷新区域布局已统一。"
+  ],
+  "validation": {
+    "ie11Static": "passed",
+    "configIntegration": "passed",
+    "dependencyFrozenIntegration": "passed",
+    "browserMountTests": "passed",
+    "workspaceBrowser": "passed",
+    "ctestMusl": "passed",
+    "ctestWindows": "passed",
+    "browserScenarios": "96",
+    "sourceOverrides": false
+  },
+  "notes": [
+    "未进行原生 macOS 测试，按要求仅保持源码适配。",
+    "Windows 8000 零参数测试受其他目录运行中的服务占用，使用临时端口完成其余回归；Linux-musl 默认启动已通过。"
+  ]
+}

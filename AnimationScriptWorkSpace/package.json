@@ -1,0 +1,18 @@
+{
+  "name": "httplocalserver-product-film",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/hf.mjs preview --background",
+    "status": "node scripts/hf.mjs preview --status",
+    "check": "node scripts/hf.mjs check",
+    "render:main": "node scripts/render-all.mjs main",
+    "render:overview": "node scripts/render-all.mjs overview",
+    "render:teaser": "node scripts/render-all.mjs teaser",
+    "render:vertical": "node scripts/render-all.mjs vertical",
+    "render:all": "node scripts/render-all.mjs"
+  },
+  "devDependencies": { "hyperframes": "0.9.44" }
+}

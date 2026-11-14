@@ -1,0 +1,74 @@
+{
+  "id": "O08",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "让本机，成为局域网的服务入口。HTTP Local Server。",
+  "events": [
+    {
+      "start": 0.08,
+      "position": 0,
+      "length": 1,
+      "text": "让"
+    },
+    {
+      "start": 0.2786875,
+      "position": 1,
+      "length": 1,
+      "text": "本"
+    },
+    {
+      "start": 0.48,
+      "position": 2,
+      "length": 1,
+      "text": "机"
+    },
+    {
+      "start": 0.9578125,
+      "position": 4,
+      "length": 2,
+      "text": "成为"
+    },
+    {
+      "start": 1.424,
+      "position": 6,
+      "length": 3,
+      "text": "局域网"
+    },
+    {
+      "start": 1.948125,
+      "position": 9,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 2.10775,
+      "position": 10,
+      "length": 2,
+      "text": "服务"
+    },
+    {
+      "start": 2.4485,
+      "position": 12,
+      "length": 2,
+      "text": "入口"
+    },
+    {
+      "start": 3.7410625,
+      "position": 15,
+      "length": 4,
+      "text": "HTTP"
+    },
+    {
+      "start": 4.858375,
+      "position": 20,
+      "length": 5,
+      "text": "Local"
+    },
+    {
+      "start": 5.290375,
+      "position": 26,
+      "length": 6,
+      "text": "Server"
+    }
+  ]
+}

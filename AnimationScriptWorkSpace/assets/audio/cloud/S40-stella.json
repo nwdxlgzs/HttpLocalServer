@@ -1,0 +1,14 @@
+{
+  "id": "S40",
+  "voice": "stella",
+  "text": "需要时开启PCDN，让浏览器与挂载来源分担部分流量。普通下载，仍是默认选择。",
+  "characters": 38,
+  "inputSha256": "9fdfacfd86a54b1f740582a5936259ab1bf6dcc2d71be68e3546958217512cf6",
+  "file": "assets/audio/cloud/S40-stella.wav",
+  "generatedAt": "2026-11-14T07:40:23.061940+00:00",
+  "seconds": 8.6,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 412844
+}

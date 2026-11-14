@@ -1,0 +1,88 @@
+{
+  "version": "3.0.1",
+  "date": "2026-11-13",
+  "author": "github@nwdxlgzs",
+  "license": "Apache-2.0",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 8600576,
+      "sha256": "fbb84d7ea6e154112e651c5f76e6c11b639707491e6031ca70477dc14e75ba89",
+      "httpsCompiled": true
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 11190584,
+      "sha256": "2277ad308a222e56abc39a3e10129d56db5c34b30d975bb024de049548ee9d3a",
+      "httpsCompiled": true
+    }
+  ],
+  "changes": [
+    "Shared managed transfer scheduler, queued pause/resume, demand priority with safe-boundary yielding, provider dependency deadlock avoidance",
+    "Serialized conflict dialogs and explicit version-confirmed native batch replacements",
+    "Provider-routed browser mount batch moves with no existing-target overwrite",
+    "Durable bounded directory plans stored separately from small cursor checkpoints",
+    "Copy/direct-directory/disk-ZIP page recovery, disk P2P handle recovery, namespace binding and changed-output rejection",
+    "Actual native-copy byte progress and complete planned totals for directory operations"
+  ],
+  "backendRegression": {
+    "windows": {
+      "report": "docs/verification/acceptance-v301-windows.json",
+      "passed": 16,
+      "testedBinarySha256": "9e21fcadabafee828cae697a38b98657870f142c096683bbcea397421624fa98"
+    },
+    "musl": {
+      "report": "docs/verification/acceptance-v301-musl.json",
+      "passed": 16,
+      "testedBinarySha256": "08fc857c2cb8804456a0ad62da722f7cab7266afc3a6c6a72be166f546b21966"
+    }
+  },
+  "regressionNote": "The complete native regressions preceded the last web-only rebuild; C/C++ runtime sources were unchanged. Final binaries were checked again with the current bundle, CTest, real ZIP transfers and shipped resumable browser transport.",
+  "finalArtifactChecks": {
+    "windows": [
+      "CTest 3/3",
+      "archive_integration.py: Server and FileTrans, codec and managed tasks",
+      "bundle_integration.py: exact gzip and identity assets in both modes",
+      "resume_test.cjs: bounded transport, source change, pause/reselect and lost acknowledgement",
+      "Bundle integration rerun against the distributed file"
+    ],
+    "linuxMusl": [
+      "CTest 3/3",
+      "archive_integration.py: Server and FileTrans, codec and managed tasks",
+      "bundle_integration.py: exact gzip and identity assets in both modes",
+      "resume_test.cjs: bounded transport, source change, pause/reselect and lost acknowledgement",
+      "ELF x86-64 statically linked",
+      "Distribution symbols stripped; bundle integration rerun against the distributed file"
+    ],
+    "httpsDisabled": [
+      "Independent musl build passed",
+      "durable_integration.py passed both modes"
+    ]
+  },
+  "browserLogic": [
+    "jobs_test.cjs",
+    "batch_test.cjs",
+    "mounts_test.cjs",
+    "p2p_test.cjs",
+    "clipboard_test.cjs",
+    "drag_thumbnail_test.cjs",
+    "player_state_test.cjs",
+    "collaboration_test.cjs",
+    "ie_compat_test.cjs"
+  ],
+  "web": {
+    "uncompressedBytes": 515181,
+    "gzipBytes": 141777,
+    "sha256": "474640c3dbdbfbfc696dc9e90c8e29c2543093d5078854c813ba2ea2ddd57cf6"
+  },
+  "es5Sources": 32,
+  "knownLimits": [
+    "Actual Windows 7 and macOS were not run; macOS source adaptation remains as requested",
+    "IE11 checks cover ES5 and missing-API startup, not its native rendering engine; incremental checklist is docs/verification/ie-v301.md",
+    "Cross-device WebRTC, real browser filesystem permissions and persistent native handles need device acceptance; filesystem/IndexedDB doubles do not replace it",
+    "Native browser downloads have initiation records only; memory ZIP and legacy PUT cannot resume across page closure",
+    "Directory/copy recovery is at saved item boundaries; an in-flight file may restart, and file publication plus browser DB checkpoint are not one transaction",
+    "ZIP recovers committed completed-file boundaries; compressor state inside an unfinished file is not persisted",
+    "Browser provider moves require supported APIs, remain within one mount and do not replace existing targets"
+  ]
+}

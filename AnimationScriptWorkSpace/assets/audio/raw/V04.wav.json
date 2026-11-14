@@ -1,0 +1,62 @@
+{
+  "id": "V04",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "可写范围和传输规则，由主机设定。",
+  "events": [
+    {
+      "start": 0.080875,
+      "position": 0,
+      "length": 1,
+      "text": "可"
+    },
+    {
+      "start": 0.3555,
+      "position": 1,
+      "length": 1,
+      "text": "写"
+    },
+    {
+      "start": 0.538875,
+      "position": 2,
+      "length": 2,
+      "text": "范围"
+    },
+    {
+      "start": 0.9886875,
+      "position": 4,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 1.24,
+      "position": 5,
+      "length": 2,
+      "text": "传输"
+    },
+    {
+      "start": 1.66725,
+      "position": 7,
+      "length": 2,
+      "text": "规则"
+    },
+    {
+      "start": 2.3689375,
+      "position": 10,
+      "length": 1,
+      "text": "由"
+    },
+    {
+      "start": 2.59,
+      "position": 11,
+      "length": 2,
+      "text": "主机"
+    },
+    {
+      "start": 2.912875,
+      "position": 13,
+      "length": 2,
+      "text": "设定"
+    }
+  ]
+}

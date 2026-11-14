@@ -1,0 +1,104 @@
+{
+  "id": "S14",
+  "voice": "Microsoft Yaoyao",
+  "rate": 1,
+  "spoken": "需要时，新建文件，直接编辑。现代桌面增强代码体验，旧环境保留文本编辑。",
+  "events": [
+    {
+      "start": 0.0755,
+      "position": 0,
+      "length": 2,
+      "text": "需要"
+    },
+    {
+      "start": 0.438,
+      "position": 2,
+      "length": 1,
+      "text": "时"
+    },
+    {
+      "start": 0.96,
+      "position": 4,
+      "length": 2,
+      "text": "新建"
+    },
+    {
+      "start": 1.3429375,
+      "position": 6,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 1.9651875,
+      "position": 9,
+      "length": 2,
+      "text": "直接"
+    },
+    {
+      "start": 2.2733125,
+      "position": 11,
+      "length": 2,
+      "text": "编辑"
+    },
+    {
+      "start": 3.50125,
+      "position": 14,
+      "length": 2,
+      "text": "现代"
+    },
+    {
+      "start": 3.86625,
+      "position": 16,
+      "length": 2,
+      "text": "桌面"
+    },
+    {
+      "start": 4.28625,
+      "position": 18,
+      "length": 2,
+      "text": "增强"
+    },
+    {
+      "start": 4.73625,
+      "position": 20,
+      "length": 2,
+      "text": "代码"
+    },
+    {
+      "start": 5.04625,
+      "position": 22,
+      "length": 2,
+      "text": "体验"
+    },
+    {
+      "start": 5.65625,
+      "position": 25,
+      "length": 1,
+      "text": "旧"
+    },
+    {
+      "start": 5.8311875,
+      "position": 26,
+      "length": 2,
+      "text": "环境"
+    },
+    {
+      "start": 6.2816875,
+      "position": 28,
+      "length": 2,
+      "text": "保留"
+    },
+    {
+      "start": 6.633125,
+      "position": 30,
+      "length": 2,
+      "text": "文本"
+    },
+    {
+      "start": 6.97825,
+      "position": 32,
+      "length": 2,
+      "text": "编辑"
+    }
+  ]
+}

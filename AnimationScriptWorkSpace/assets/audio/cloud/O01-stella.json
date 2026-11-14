@@ -1,0 +1,14 @@
+{
+  "id": "O01",
+  "voice": "stella",
+  "text": "文件与网页，交给同一个局域网入口。",
+  "characters": 17,
+  "inputSha256": "072ddff4592c484e30a53843143a765c56e3a89a4b91a3da0f3dded234466e94",
+  "file": "assets/audio/cloud/O01-stella.wav",
+  "generatedAt": "2026-11-14T07:40:36.872673+00:00",
+  "seconds": 3.56,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 170924
+}

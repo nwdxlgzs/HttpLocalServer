@@ -1,0 +1,14 @@
+{
+  "id": "S29",
+  "voice": "stella",
+  "text": "写入完整发布，读取保留旧代。版本冲突先确认，额度和带宽也有边界。",
+  "characters": 32,
+  "inputSha256": "95c005f996c532afff3f89167d2946bc6d5f3c53394232daf10ff1fe21ad3481",
+  "file": "assets/audio/cloud/S29-stella.wav",
+  "generatedAt": "2026-11-14T07:39:50.496183+00:00",
+  "seconds": 7.44,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 357164
+}

@@ -1,0 +1,14 @@
+{
+  "id": "S09",
+  "voice": "stella",
+  "text": "普通下载由浏览器管理。范围请求和文件版本检查，为大文件续传守住边界。",
+  "characters": 34,
+  "inputSha256": "0d7d29ad554202cc477357f5cad7ac531111e689ca642871ef8e47447ce808cb",
+  "file": "assets/audio/cloud/S09-stella.wav",
+  "generatedAt": "2026-11-14T07:38:50.994110+00:00",
+  "seconds": 7.88,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 378284
+}

@@ -1,0 +1,126 @@
+{
+  "reference": "ONNX Runtime CPU",
+  "cases": 13,
+  "kernels": {
+    "scalar": {
+      "selected": "scalar",
+      "maximumProbabilityError": 2.86102294921875e-06,
+      "medianMilliseconds": 87.2979,
+      "labels": {
+        "python": "python",
+        "cpp": "cpp",
+        "json": "json",
+        "shell": "shell",
+        "csv": "csv",
+        "html": "html",
+        "text": "txt",
+        "binary": "unknown",
+        "whitespace": "iso",
+        "short": "txt",
+        "tokens-0": "unknown",
+        "tokens-1": "unknown",
+        "tokens-2": "unknown"
+      }
+    },
+    "sse2": {
+      "selected": "sse2",
+      "maximumProbabilityError": 2.86102294921875e-06,
+      "medianMilliseconds": 46.5757,
+      "labels": {
+        "python": "python",
+        "cpp": "cpp",
+        "json": "json",
+        "shell": "shell",
+        "csv": "csv",
+        "html": "html",
+        "text": "txt",
+        "binary": "unknown",
+        "whitespace": "iso",
+        "short": "txt",
+        "tokens-0": "unknown",
+        "tokens-1": "unknown",
+        "tokens-2": "unknown"
+      }
+    },
+    "avx": {
+      "selected": "avx",
+      "maximumProbabilityError": 2.86102294921875e-06,
+      "medianMilliseconds": 24.7284,
+      "labels": {
+        "python": "python",
+        "cpp": "cpp",
+        "json": "json",
+        "shell": "shell",
+        "csv": "csv",
+        "html": "html",
+        "text": "txt",
+        "binary": "unknown",
+        "whitespace": "iso",
+        "short": "txt",
+        "tokens-0": "unknown",
+        "tokens-1": "unknown",
+        "tokens-2": "unknown"
+      }
+    },
+    "avx2-fma": {
+      "selected": "avx2-fma",
+      "maximumProbabilityError": 2.86102294921875e-06,
+      "medianMilliseconds": 25.403,
+      "labels": {
+        "python": "python",
+        "cpp": "cpp",
+        "json": "json",
+        "shell": "shell",
+        "csv": "csv",
+        "html": "html",
+        "text": "txt",
+        "binary": "unknown",
+        "whitespace": "iso",
+        "short": "txt",
+        "tokens-0": "unknown",
+        "tokens-1": "unknown",
+        "tokens-2": "unknown"
+      }
+    },
+    "avx512-fma": {
+      "selected": "avx512-fma",
+      "maximumProbabilityError": 2.86102294921875e-06,
+      "medianMilliseconds": 15.4892,
+      "labels": {
+        "python": "python",
+        "cpp": "cpp",
+        "json": "json",
+        "shell": "shell",
+        "csv": "csv",
+        "html": "html",
+        "text": "txt",
+        "binary": "unknown",
+        "whitespace": "iso",
+        "short": "txt",
+        "tokens-0": "unknown",
+        "tokens-1": "unknown",
+        "tokens-2": "unknown"
+      }
+    },
+    "auto": {
+      "selected": "avx512-fma",
+      "maximumProbabilityError": 2.86102294921875e-06,
+      "medianMilliseconds": 14.638,
+      "labels": {
+        "python": "python",
+        "cpp": "cpp",
+        "json": "json",
+        "shell": "shell",
+        "csv": "csv",
+        "html": "html",
+        "text": "txt",
+        "binary": "unknown",
+        "whitespace": "iso",
+        "short": "txt",
+        "tokens-0": "unknown",
+        "tokens-1": "unknown",
+        "tokens-2": "unknown"
+      }
+    }
+  }
+}

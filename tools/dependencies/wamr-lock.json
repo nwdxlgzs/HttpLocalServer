@@ -1,0 +1,10 @@
+{
+  "name": "WAMR",
+  "version": "2.4.5",
+  "released": "2026-06-29",
+  "url": "https://codeload.github.com/wasm-micro-runtime/wasm-micro-runtime/tar.gz/refs/tags/WAMR-2.4.5",
+  "archive": "wamr-2.4.5.tar.gz",
+  "sha256": "1ab09d51099f276ca4a1d6629f6b589aab2bd0caa01445e05031a4bed22c199b",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "mode": "classic interpreter; metering; no WASI, JIT, AOT, threads or native libc"
+}

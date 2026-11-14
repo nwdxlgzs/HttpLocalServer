@@ -1,0 +1,29 @@
+{
+  "id": "S34",
+  "voice": "stella",
+  "text": "一个ZIP，可以装下轻量应用。公开前端，保留后台，管理入口独立隔离。",
+  "spokenText": "一个 zip ，可以装下轻量应用。公开前端，保留后台，管理入口独立隔离。",
+  "file": "assets/audio/brand/S34-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 7.117041666666666,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "1573f31f000e7901f8246db0678364b7184d0d77416775b06d5769acda42e098",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.5053541666666667
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-S34-stella.wav",
+    "sourceSpokenText": "一个 zip ，可以装下轻量应用。公开前端，保留后台，管理入口独立隔离。",
+    "nativeSeconds": 6.6116875,
+    "finalSeconds": 7.117041666666666,
+    "originalSeconds": 7.117041666666666
+  }
+}

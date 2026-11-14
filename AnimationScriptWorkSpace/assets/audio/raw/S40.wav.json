@@ -1,0 +1,140 @@
+{
+  "id": "S40",
+  "voice": "Microsoft Yaoyao",
+  "rate": 1,
+  "spoken": "需要时开启P C D N，让浏览器与挂载来源分担部分流量。普通下载，仍是默认选择。",
+  "events": [
+    {
+      "start": 0.0730625,
+      "position": 0,
+      "length": 2,
+      "text": "需要"
+    },
+    {
+      "start": 0.43,
+      "position": 2,
+      "length": 1,
+      "text": "时"
+    },
+    {
+      "start": 0.7068125,
+      "position": 3,
+      "length": 2,
+      "text": "开启"
+    },
+    {
+      "start": 1.1305625,
+      "position": 5,
+      "length": 1,
+      "text": "P"
+    },
+    {
+      "start": 1.296875,
+      "position": 7,
+      "length": 1,
+      "text": "C"
+    },
+    {
+      "start": 1.462875,
+      "position": 9,
+      "length": 1,
+      "text": "D"
+    },
+    {
+      "start": 1.6,
+      "position": 11,
+      "length": 1,
+      "text": "N"
+    },
+    {
+      "start": 2.0335,
+      "position": 13,
+      "length": 1,
+      "text": "让"
+    },
+    {
+      "start": 2.205,
+      "position": 14,
+      "length": 3,
+      "text": "浏览器"
+    },
+    {
+      "start": 2.79,
+      "position": 17,
+      "length": 1,
+      "text": "与"
+    },
+    {
+      "start": 2.9684375,
+      "position": 18,
+      "length": 1,
+      "text": "挂"
+    },
+    {
+      "start": 3.1339375,
+      "position": 19,
+      "length": 1,
+      "text": "载"
+    },
+    {
+      "start": 3.3035,
+      "position": 20,
+      "length": 2,
+      "text": "来源"
+    },
+    {
+      "start": 3.69525,
+      "position": 22,
+      "length": 2,
+      "text": "分担"
+    },
+    {
+      "start": 4.114875,
+      "position": 24,
+      "length": 2,
+      "text": "部分"
+    },
+    {
+      "start": 4.3948125,
+      "position": 26,
+      "length": 2,
+      "text": "流量"
+    },
+    {
+      "start": 5.551,
+      "position": 29,
+      "length": 2,
+      "text": "普通"
+    },
+    {
+      "start": 5.9065625,
+      "position": 31,
+      "length": 2,
+      "text": "下载"
+    },
+    {
+      "start": 6.5679375,
+      "position": 34,
+      "length": 1,
+      "text": "仍"
+    },
+    {
+      "start": 6.7485625,
+      "position": 35,
+      "length": 1,
+      "text": "是"
+    },
+    {
+      "start": 6.9565625,
+      "position": 36,
+      "length": 2,
+      "text": "默认"
+    },
+    {
+      "start": 7.2751875,
+      "position": 38,
+      "length": 2,
+      "text": "选择"
+    }
+  ]
+}

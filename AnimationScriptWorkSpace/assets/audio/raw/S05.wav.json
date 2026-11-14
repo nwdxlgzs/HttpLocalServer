@@ -1,0 +1,68 @@
+{
+  "id": "S05",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "熟悉的文件视图，列表或网格，按习惯浏览。",
+  "events": [
+    {
+      "start": 0.083,
+      "position": 0,
+      "length": 2,
+      "text": "熟悉"
+    },
+    {
+      "start": 0.496375,
+      "position": 2,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 0.669375,
+      "position": 3,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 1.0681875,
+      "position": 5,
+      "length": 2,
+      "text": "视图"
+    },
+    {
+      "start": 1.77,
+      "position": 8,
+      "length": 2,
+      "text": "列表"
+    },
+    {
+      "start": 2.22,
+      "position": 10,
+      "length": 1,
+      "text": "或"
+    },
+    {
+      "start": 2.4139375,
+      "position": 11,
+      "length": 2,
+      "text": "网格"
+    },
+    {
+      "start": 3.14,
+      "position": 14,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 3.401,
+      "position": 15,
+      "length": 2,
+      "text": "习惯"
+    },
+    {
+      "start": 3.81,
+      "position": 17,
+      "length": 2,
+      "text": "浏览"
+    }
+  ]
+}

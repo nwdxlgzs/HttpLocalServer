@@ -1,0 +1,54 @@
+{
+  "purpose": "Simulated phone scan opens the HttpLocalServer mobile file manager. QR contents use https://example.com as an explicit placeholder.",
+  "encodedURL": "https://example.com",
+  "qr": {
+    "png": {
+      "path": "assets/capture/qr-example-com.png",
+      "bytes": 3349,
+      "sha256": "8dd810155490bfa701cf18e1c4b9ef1e1ed8de507a3158e0290b4f4704ad0261"
+    },
+    "svg": {
+      "path": "assets/capture/qr-example-com.svg",
+      "bytes": 13468,
+      "sha256": "7456125907a7b4c3f0234d65e401db028ef0754e30719910a499c6a21128d2cb"
+    },
+    "errorCorrection": "M",
+    "quietZoneModules": 4,
+    "modulesIncludingQuietZone": 33,
+    "pixels": 660,
+    "decodedPNG": "https://example.com",
+    "decodedSVGRaster": "https://example.com",
+    "decoder": "OpenCV 5.0.0 QRCodeDetector",
+    "validationPassed": true
+  },
+  "destination": {
+    "asset": {
+      "path": "assets/capture/example-com-mobile.png",
+      "bytes": 38555,
+      "sha256": "6badd0244dff6e2f4e83d73e64f89afab874e834a8b1e1e5591ec9c6ee863d2e"
+    },
+    "requestedURL": "https://example.com",
+    "finalURL": "https://example.com/",
+    "httpStatus": 200,
+    "title": "Example Domain",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "browser": "Chrome 157.0.8103.40",
+    "provenance": "Real rendered public example.com page, unmodified browser screenshot",
+    "usedInFilm": false
+  },
+  "limitations": [
+    "Animated scan gesture is simulated by composition.",
+    "QR content intentionally points to example.com; it is not the address of the shared host.",
+    "Capture contains page content, without mobile browser chrome."
+  ],
+  "filmDestination": {
+    "asset": "assets/capture/mobile.png",
+    "content": "Actual HttpLocalServer mobile file manager capture",
+    "simulation": true,
+    "placeholderURL": "https://example.com",
+    "doesNotClaimExampleComHostsProduct": true
+  }
+}

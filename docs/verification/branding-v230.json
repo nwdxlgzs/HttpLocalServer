@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-11",
+  "version": "2.3.0",
+  "design": {
+    "concept": "HTTP service window and code/content symbol above LAN endpoints",
+    "palette": [
+      "#3c8cf5",
+      "#2158b4",
+      "#ffffff",
+      "#92f0dc"
+    ],
+    "license": "Apache-2.0",
+    "author": "github@nwdxlgzs"
+  },
+  "assets": {
+    "assets": {
+      "logo.svg": {
+        "bytes": 1001,
+        "sha256": "33471b6cf603ebba7e986db5ccb58f55e2c9c2596c6885dcddc10353704891a0",
+        "gzipBytes": 507,
+        "gzipSha256": "efe70f431ddee54034f5020ba90b834d18cb0bf3f5c31ab2c0bf01e1e718eda2"
+      },
+      "favicon.ico": {
+        "bytes": 57424,
+        "sha256": "3ce6f4e9a00f44f9568cdbdc336974627c69395fad4d84617cf5406f1f0b05a0",
+        "gzipBytes": 50488,
+        "gzipSha256": "2740191cb103c2316093f295c8720d9f4da3a3d3dd7a1911385f11db15d7e871"
+      },
+      "apple-touch-icon.png": {
+        "bytes": 14061,
+        "sha256": "ae6006152ec6502eb84513b8848897d7a3cf94dd7063975f8237d195bf8251b2",
+        "gzipBytes": 14084,
+        "gzipSha256": "a1236068964448f7b7b6dbc2ef24feedc358ecc145e3bfe3df629724f6e29a6e"
+      }
+    },
+    "files": {
+      "logo.svg": "33471b6cf603ebba7e986db5ccb58f55e2c9c2596c6885dcddc10353704891a0",
+      "logo-mono.svg": "fbcce11c60c975c61e42598457c576ae898945990e2eb8b45a3f7723e1aede63",
+      "logo.png": "145da2668f6deca58d2dc3f5d19fca283711400c2121d69b2ee882245b23a156",
+      "favicon-32.png": "3abbea4846e61573bd1934da0e59ad8a799de07fe6ea9ada12e3986cad51500e",
+      "favicon.ico": "3ce6f4e9a00f44f9568cdbdc336974627c69395fad4d84617cf5406f1f0b05a0",
+      "apple-touch-icon.png": "ae6006152ec6502eb84513b8848897d7a3cf94dd7063975f8237d195bf8251b2"
+    }
+  },
+  "verification": [
+    "SVG, transparent PNG and native-size/nearest-neighbor 16/24/32/48/64/128 ICO review",
+    "Windows and musl Release builds completed; final gzip page and compressed icons are embedded in both distributed binaries",
+    "Both distributed binaries passed branding_integration.py and v22_integration.py",
+    "Icon identity/gzip bytes match committed assets; HEAD length, weak ETag cross-encoding 304, Vary, gzip refusal and MIME nosniff verified",
+    "ICO frame sizes and BMP/DIB versus PNG payload formats validated",
+    "Windows PE RT_GROUP_ICON includes seven frames; every RT_ICON frame matches original ICO bytes",
+    "Browser FileTrans head declares ICO/SVG/touch icon links; directly opening embedded SVG displays intended logo; no page script errors",
+    "Server mode preserves a custom hosted-site favicon instead of substituting application branding"
+  ],
+  "limits": [
+    "No new IE11 physical run; small ICO frames use DIB for legacy support",
+    "No macOS build or browser-chrome favicon raster capture performed"
+  ],
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 6176256,
+      "sha256": "8f5a6658a7b6a4126548b74d74521b596c998901bc76286690e34de280912a40"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 7909432,
+      "sha256": "5b205e5861fa71d6e853eeb42d2f9614cd16b6d5f4f859741a63d23f85425f7b"
+    }
+  ],
+  "embeddedWeb": {
+    "gzipBytes": 89645,
+    "uncompressedBytes": 323702,
+    "sha256": "eaa546d8cbdcee37a53da4846a3a0ac21012999c9bb1efa2b416425a19fd7b2f"
+  }
+}

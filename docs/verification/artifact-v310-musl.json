@@ -1,0 +1,84 @@
+{
+  "binary": "dist/HttpLocalServer-linux-musl-x86_64",
+  "sha256": "882e2640c29491d90625fe9fafc30f9b2119bd357c3fe13d2648a3ce081ac21f",
+  "tests": [
+    {
+      "name": "transfer_cache_integration.py",
+      "exitCode": 0,
+      "seconds": 7.34,
+      "log": "final-v310-musl/transfer_cache_integration.py.log"
+    },
+    {
+      "name": "bundle_integration.py",
+      "exitCode": 0,
+      "seconds": 0.97,
+      "log": "final-v310-musl/bundle_integration.py.log"
+    },
+    {
+      "name": "archive_integration.py",
+      "exitCode": 0,
+      "seconds": 6.59,
+      "log": "final-v310-musl/archive_integration.py.log"
+    },
+    {
+      "name": "resume_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.63,
+      "log": "final-v310-musl/resume_test.cjs.log"
+    },
+    {
+      "name": "jobs_test.cjs",
+      "exitCode": 0,
+      "seconds": 1.03,
+      "log": "final-v310-musl/jobs_test.cjs.log"
+    },
+    {
+      "name": "mounts_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.13,
+      "log": "final-v310-musl/mounts_test.cjs.log"
+    },
+    {
+      "name": "batch_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.27,
+      "log": "final-v310-musl/batch_test.cjs.log"
+    },
+    {
+      "name": "p2p_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.42,
+      "log": "final-v310-musl/p2p_test.cjs.log"
+    },
+    {
+      "name": "clipboard_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.12,
+      "log": "final-v310-musl/clipboard_test.cjs.log"
+    },
+    {
+      "name": "drag_thumbnail_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.32,
+      "log": "final-v310-musl/drag_thumbnail_test.cjs.log"
+    },
+    {
+      "name": "player_state_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.07,
+      "log": "final-v310-musl/player_state_test.cjs.log"
+    },
+    {
+      "name": "collaboration_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.37,
+      "log": "final-v310-musl/collaboration_test.cjs.log"
+    },
+    {
+      "name": "ie_compat_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.52,
+      "log": "final-v310-musl/ie_compat_test.cjs.log"
+    }
+  ]
+}

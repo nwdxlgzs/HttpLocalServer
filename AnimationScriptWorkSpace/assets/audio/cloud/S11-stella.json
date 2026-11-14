@@ -1,0 +1,14 @@
+{
+  "id": "S11",
+  "voice": "stella",
+  "text": "支持的浏览器可直接保存文件夹。其他环境，也能由浏览器打包下载。",
+  "characters": 31,
+  "inputSha256": "f22c4bd6192753fca6114190a30adf112b4350f82293921adacd7a6f79f0e434",
+  "file": "assets/audio/cloud/S11-stella.wav",
+  "generatedAt": "2026-11-14T07:38:56.401255+00:00",
+  "seconds": 5.92,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 284204
+}

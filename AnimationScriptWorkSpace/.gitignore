@@ -1,0 +1,48 @@
+# 制作依赖、Studio 状态与缓存。
+/node_modules/
+/.hyperframes/
+/.thumbnails/
+/.waveform-cache/
+/.scaffold/
+
+# 渲染成片、封面、字幕副本及核验中间产物。
+/exports/
+/renders/
+/review/
+/capture/
+
+# 隔离演示的运行状态；demo 中的原创示例资料继续保留。
+/demo/state*/
+/demo/runtime*/
+
+# 本机字体子集和制作工具；不随工程源码分发。
+/assets/fonts/
+/tools/bin/
+/tools/*.tgz
+/tools/audio-delivery-*/
+
+# 历史/重复素材及辅助识别缓存；当前配音、截图、字幕仍保留。
+/assets/capture-before-*/
+/assets/capture-retina/
+/assets/audio/before-*/
+/assets/audio/local-sapi/
+/assets/audio/auditions/
+/assets/audio/brand/asr-cache/
+/assets/audio/cloud/final-staging/
+
+# 可由 diagrams 中的源稿与审查脚本重新生成的图片和报告。
+/assets/diagrams/landscape-*.png
+/assets/diagrams/portrait-*.png
+/assets/diagrams/contact-*.jpg
+/assets/diagrams/layout-report.json
+/assets/diagrams/animation-report.json
+
+# 九宫格海报成品；HTML/CSS、导出脚本和说明继续保留。
+/PromotionalPosters/images/
+/PromotionalPosters/HttpLocalServer-nine-grid.png
+/PromotionalPosters/HttpLocalServer-nine-grid.jpg
+/PromotionalPosters/HttpLocalServer-nine-posters.zip
+/PromotionalPosters/preview.jpg
+/PromotionalPosters/verification.json
+
+*.log

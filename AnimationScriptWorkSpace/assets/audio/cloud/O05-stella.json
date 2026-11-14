@@ -1,0 +1,14 @@
+{
+  "id": "O05",
+  "voice": "stella",
+  "text": "先预览，再下载。文档、表格、媒体和代码，各有打开方式。",
+  "characters": 27,
+  "inputSha256": "60f2650e59730a20faed0ba8503111d928c24fb379e56decc87c31c2b21d11ec",
+  "file": "assets/audio/cloud/O05-stella.wav",
+  "generatedAt": "2026-11-14T07:40:47.999337+00:00",
+  "seconds": 6.72,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 322604
+}

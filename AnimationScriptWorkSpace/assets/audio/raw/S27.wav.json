@@ -1,0 +1,86 @@
+{
+  "id": "S27",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "主机目录、分区和系统根，可以按需要组织成共享入口。",
+  "events": [
+    {
+      "start": 0.07775,
+      "position": 0,
+      "length": 2,
+      "text": "主机"
+    },
+    {
+      "start": 0.3908125,
+      "position": 2,
+      "length": 2,
+      "text": "目录"
+    },
+    {
+      "start": 1.0,
+      "position": 5,
+      "length": 2,
+      "text": "分区"
+    },
+    {
+      "start": 1.4933125,
+      "position": 7,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 1.7105,
+      "position": 8,
+      "length": 2,
+      "text": "系统"
+    },
+    {
+      "start": 2.13,
+      "position": 10,
+      "length": 1,
+      "text": "根"
+    },
+    {
+      "start": 2.585,
+      "position": 12,
+      "length": 2,
+      "text": "可以"
+    },
+    {
+      "start": 2.9270625,
+      "position": 14,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 3.13,
+      "position": 15,
+      "length": 2,
+      "text": "需要"
+    },
+    {
+      "start": 3.56,
+      "position": 17,
+      "length": 2,
+      "text": "组织"
+    },
+    {
+      "start": 3.8895625,
+      "position": 19,
+      "length": 1,
+      "text": "成"
+    },
+    {
+      "start": 4.186,
+      "position": 20,
+      "length": 2,
+      "text": "共享"
+    },
+    {
+      "start": 4.57,
+      "position": 22,
+      "length": 2,
+      "text": "入口"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "S31",
+  "voice": "stella",
+  "text": "运行依赖按真实路径和文件身份保护。该隐藏的隐藏，该冻结的保持不可操作。",
+  "characters": 35,
+  "inputSha256": "d5a996fcf1a1864c99aa5184946eccc00c1425dc9c773351968de52129e35e8d",
+  "file": "assets/audio/cloud/S31-stella.wav",
+  "generatedAt": "2026-11-14T07:39:55.716269+00:00",
+  "seconds": 7.72,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 370604
+}

@@ -1,0 +1,14 @@
+{
+  "id": "S43",
+  "voice": "stella",
+  "text": "资料分发，团队提交，网站演示，内网工具。一个入口，按你的规则开放。",
+  "characters": 33,
+  "inputSha256": "e12f13d49fe121850d4ac8e01edc6cfbca2f471d970f4142a3ab5058bb40b021",
+  "file": "assets/audio/cloud/S43-stella.wav",
+  "generatedAt": "2026-11-14T07:40:31.880658+00:00",
+  "seconds": 7.84,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 376364
+}

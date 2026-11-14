@@ -1,0 +1,14 @@
+{
+  "id": "O08",
+  "voice": "stella",
+  "text": "让本机，成为局域网的服务入口。HttpLocalServer。",
+  "characters": 31,
+  "inputSha256": "532db5af6eb2f648cbb84a473fe4fa63c022e44ed5bab6e1e9b4d56f8613cf3d",
+  "file": "assets/audio/cloud/O08-stella.wav",
+  "generatedAt": "2026-11-14T07:40:55.736575+00:00",
+  "seconds": 5.8,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 278444
+}

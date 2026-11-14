@@ -1,0 +1,25 @@
+{
+  "name": "QuickJS-NG",
+  "version": "0.18.0",
+  "released": "2026-11-01",
+  "url": "https://codeload.github.com/quickjs-ng/quickjs/tar.gz/refs/tags/v0.18.0",
+  "archive": "quickjs-ng-0.18.0.tar.gz",
+  "sha256": "28bcd89aa3683fd2a946537e5ce3f11cc46b5cbf3383c7561aaef3df5ff9f1dd",
+  "license": "MIT",
+  "sources": [
+    "quickjs.c",
+    "dtoa.c",
+    "libregexp.c",
+    "libunicode.c"
+  ],
+  "excluded": [
+    "quickjs-libc.c",
+    "qjs.c",
+    "module loaders",
+    "OS bindings"
+  ],
+  "additionalNotices": [
+    "quickjs-ng-components.txt",
+    "quickjs-ng-Unicode-3.0.txt"
+  ]
+}

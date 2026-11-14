@@ -1,0 +1,14 @@
+{
+  "id": "T04",
+  "voice": "stella",
+  "text": "开放文件，也开放网页与轻量应用。",
+  "characters": 16,
+  "inputSha256": "c159baa076a793071b2010d10d194b8dd1ab469c03ce37b67b76baeff4252103",
+  "file": "assets/audio/cloud/T04-stella.wav",
+  "generatedAt": "2026-11-14T07:41:04.794030+00:00",
+  "seconds": 3.72,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 178604
+}

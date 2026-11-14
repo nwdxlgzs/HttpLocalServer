@@ -1,0 +1,14 @@
+{
+  "id": "S16",
+  "voice": "stella",
+  "text": "Word和PDF连续阅读。缩放、选择、复制，在内容里自然完成。",
+  "characters": 31,
+  "inputSha256": "f3d8d68132b2c3cbdfed275e8b09ef33982d2d3bbb455c2d53d9338170a652a5",
+  "file": "assets/audio/cloud/S16-stella.wav",
+  "generatedAt": "2026-11-14T07:39:11.384131+00:00",
+  "seconds": 6.72,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 322604
+}

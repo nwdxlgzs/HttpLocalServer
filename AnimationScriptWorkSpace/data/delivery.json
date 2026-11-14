@@ -1,0 +1,22 @@
+{
+  "profile": "uhd-stereo-music-v3",
+  "fps": 30,
+  "renderScale": 2,
+  "variants": {
+    "main": {"file": "HttpLocalServer-main-4K.mp4", "width": 3840, "height": 2160, "resolution": "landscape-4k"},
+    "overview": {"file": "HttpLocalServer-overview-4K.mp4", "width": 3840, "height": 2160, "resolution": "landscape-4k"},
+    "teaser": {"file": "HttpLocalServer-teaser-4K.mp4", "width": 3840, "height": 2160, "resolution": "landscape-4k"},
+    "vertical": {"file": "HttpLocalServer-vertical-4K.mp4", "width": 2160, "height": 3840, "resolution": "portrait-4k"}
+  },
+  "audio": {
+    "sampleRate": 48000,
+    "channels": 2,
+    "aacBitrate": "320k",
+    "voiceLoudnessIncreaseLU": 3,
+    "voiceMaximumLUFS": -17,
+    "musicIdleLUFS": -27,
+    "musicSpeechDuckDB": -6,
+    "musicGainRelativeV2DB": 4.5,
+    "truePeakCeilingDBTP": -1.2
+  }
+}

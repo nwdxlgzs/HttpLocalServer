@@ -1,0 +1,14 @@
+{
+  "id": "S28",
+  "voice": "stella",
+  "text": "浏览器目录可以持续共享，后台逐步上传。有人访问的内容优先，已完成副本留在主机。",
+  "characters": 39,
+  "inputSha256": "39ccb1b02082c11234b4dc448b6bd4e3bc06d697e3a6a8f768ac013aeb7be352",
+  "file": "assets/audio/cloud/S28-stella.wav",
+  "generatedAt": "2026-11-14T07:39:47.296491+00:00",
+  "seconds": 7.8,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 374444
+}

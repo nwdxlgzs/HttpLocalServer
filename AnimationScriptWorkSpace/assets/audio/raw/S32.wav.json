@@ -1,0 +1,98 @@
+{
+  "id": "S32",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "主机统一调整策略，C L I决定启动规则，运行数据随时可查。",
+  "events": [
+    {
+      "start": 0.07775,
+      "position": 0,
+      "length": 2,
+      "text": "主机"
+    },
+    {
+      "start": 0.5,
+      "position": 2,
+      "length": 2,
+      "text": "统一"
+    },
+    {
+      "start": 0.9130625,
+      "position": 4,
+      "length": 2,
+      "text": "调整"
+    },
+    {
+      "start": 1.35,
+      "position": 6,
+      "length": 2,
+      "text": "策略"
+    },
+    {
+      "start": 2.07,
+      "position": 9,
+      "length": 1,
+      "text": "C"
+    },
+    {
+      "start": 2.27,
+      "position": 11,
+      "length": 1,
+      "text": "L"
+    },
+    {
+      "start": 2.5563125,
+      "position": 13,
+      "length": 1,
+      "text": "I"
+    },
+    {
+      "start": 2.7063125,
+      "position": 14,
+      "length": 2,
+      "text": "决定"
+    },
+    {
+      "start": 3.16275,
+      "position": 16,
+      "length": 2,
+      "text": "启动"
+    },
+    {
+      "start": 3.5525,
+      "position": 18,
+      "length": 2,
+      "text": "规则"
+    },
+    {
+      "start": 4.2416875,
+      "position": 21,
+      "length": 2,
+      "text": "运行"
+    },
+    {
+      "start": 4.63575,
+      "position": 23,
+      "length": 2,
+      "text": "数据"
+    },
+    {
+      "start": 5.09275,
+      "position": 25,
+      "length": 2,
+      "text": "随时"
+    },
+    {
+      "start": 5.498125,
+      "position": 27,
+      "length": 1,
+      "text": "可"
+    },
+    {
+      "start": 5.7078125,
+      "position": 28,
+      "length": 1,
+      "text": "查"
+    }
+  ]
+}

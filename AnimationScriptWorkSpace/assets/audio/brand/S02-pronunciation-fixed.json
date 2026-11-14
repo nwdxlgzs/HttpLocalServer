@@ -1,0 +1,31 @@
+{
+  "id": "S02",
+  "voice": "stella",
+  "text": "HttpLocalServer，把文件服务和网页服务，装进一个程序。",
+  "spokenText": "H T T P Local Server，把文件服务和网页服务，装进一个程序。",
+  "file": "assets/audio/brand/S02-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 5.727041666666667,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "59b91617771c2b34074011d37abb4a700117b623ff636ea71d16961f9835ba78",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.19585416666666666
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "reused standard brand in original sample window; outside samples unchanged",
+    "originalClip": "assets/audio/before-pronunciation/S02.wav",
+    "replacedStart": 0.0,
+    "replacedEnd": 2.23,
+    "normalizedTerm": "assets/audio/brand/brand-pronunciation.wav",
+    "crossfadeSeconds": 0.008,
+    "maximumJoinJump": 0.0,
+    "outsideWindowPcmUnchanged": true
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "S36",
+  "voice": "Microsoft Yaoyao",
+  "rate": 1,
+  "spoken": "Quick J S承接控制逻辑，W A M R提供受限的Web Assembly互操作。执行有预算，资源有生命周期。",
+  "events": [
+    {
+      "start": 0.0545625,
+      "position": 0,
+      "length": 5,
+      "text": "Quick"
+    },
+    {
+      "start": 0.35,
+      "position": 6,
+      "length": 1,
+      "text": "J"
+    },
+    {
+      "start": 0.5175,
+      "position": 8,
+      "length": 1,
+      "text": "S"
+    },
+    {
+      "start": 0.7908125,
+      "position": 9,
+      "length": 2,
+      "text": "承接"
+    },
+    {
+      "start": 1.250625,
+      "position": 11,
+      "length": 2,
+      "text": "控制"
+    },
+    {
+      "start": 1.5920625,
+      "position": 13,
+      "length": 2,
+      "text": "逻辑"
+    },
+    {
+      "start": 2.210625,
+      "position": 16,
+      "length": 1,
+      "text": "W"
+    },
+    {
+      "start": 2.890125,
+      "position": 18,
+      "length": 1,
+      "text": "A"
+    },
+    {
+      "start": 3.015125,
+      "position": 20,
+      "length": 1,
+      "text": "M"
+    },
+    {
+      "start": 3.215125,
+      "position": 22,
+      "length": 1,
+      "text": "R"
+    },
+    {
+      "start": 3.4608125,
+      "position": 23,
+      "length": 2,
+      "text": "提供"
+    },
+    {
+      "start": 3.8308125,
+      "position": 25,
+      "length": 1,
+      "text": "受"
+    },
+    {
+      "start": 4.01925,
+      "position": 26,
+      "length": 1,
+      "text": "限"
+    },
+    {
+      "start": 4.2454375,
+      "position": 27,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 4.3908125,
+      "position": 28,
+      "length": 3,
+      "text": "Web"
+    },
+    {
+      "start": 4.782,
+      "position": 32,
+      "length": 8,
+      "text": "Assembly"
+    },
+    {
+      "start": 5.312,
+      "position": 40,
+      "length": 1,
+      "text": "互"
+    },
+    {
+      "start": 5.4685,
+      "position": 41,
+      "length": 2,
+      "text": "操作"
+    },
+    {
+      "start": 6.744,
+      "position": 44,
+      "length": 2,
+      "text": "执行"
+    },
+    {
+      "start": 7.1203125,
+      "position": 46,
+      "length": 1,
+      "text": "有"
+    },
+    {
+      "start": 7.2933125,
+      "position": 47,
+      "length": 2,
+      "text": "预算"
+    },
+    {
+      "start": 7.9126875,
+      "position": 50,
+      "length": 2,
+      "text": "资源"
+    },
+    {
+      "start": 8.2335,
+      "position": 52,
+      "length": 1,
+      "text": "有"
+    },
+    {
+      "start": 8.4103125,
+      "position": 53,
+      "length": 2,
+      "text": "生命"
+    },
+    {
+      "start": 8.7780625,
+      "position": 55,
+      "length": 2,
+      "text": "周期"
+    }
+  ]
+}

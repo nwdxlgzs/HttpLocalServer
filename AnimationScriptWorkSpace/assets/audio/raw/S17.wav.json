@@ -1,0 +1,110 @@
+{
+  "id": "S17",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "按页面浏览，进入放映，或设定自动翻页。手机上，也把空间留给内容。",
+  "events": [
+    {
+      "start": 0.0820625,
+      "position": 0,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 0.36,
+      "position": 1,
+      "length": 2,
+      "text": "页面"
+    },
+    {
+      "start": 0.736875,
+      "position": 3,
+      "length": 2,
+      "text": "浏览"
+    },
+    {
+      "start": 1.43,
+      "position": 6,
+      "length": 2,
+      "text": "进入"
+    },
+    {
+      "start": 1.762625,
+      "position": 8,
+      "length": 2,
+      "text": "放映"
+    },
+    {
+      "start": 2.46875,
+      "position": 11,
+      "length": 1,
+      "text": "或"
+    },
+    {
+      "start": 2.6474375,
+      "position": 12,
+      "length": 2,
+      "text": "设定"
+    },
+    {
+      "start": 3.11,
+      "position": 14,
+      "length": 2,
+      "text": "自动"
+    },
+    {
+      "start": 3.438125,
+      "position": 16,
+      "length": 1,
+      "text": "翻"
+    },
+    {
+      "start": 3.65875,
+      "position": 17,
+      "length": 1,
+      "text": "页"
+    },
+    {
+      "start": 4.7601875,
+      "position": 19,
+      "length": 2,
+      "text": "手机"
+    },
+    {
+      "start": 5.1428125,
+      "position": 21,
+      "length": 1,
+      "text": "上"
+    },
+    {
+      "start": 5.6490625,
+      "position": 23,
+      "length": 1,
+      "text": "也"
+    },
+    {
+      "start": 5.8175625,
+      "position": 24,
+      "length": 1,
+      "text": "把"
+    },
+    {
+      "start": 5.9798125,
+      "position": 25,
+      "length": 2,
+      "text": "空间"
+    },
+    {
+      "start": 6.466875,
+      "position": 27,
+      "length": 2,
+      "text": "留给"
+    },
+    {
+      "start": 6.8031875,
+      "position": 29,
+      "length": 2,
+      "text": "内容"
+    }
+  ]
+}

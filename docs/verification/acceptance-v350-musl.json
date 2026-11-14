@@ -1,0 +1,225 @@
+{
+  "binary": "/mnt/d/project/GZS/HttpLocalServer/dist/HttpLocalServer-linux-musl-x86_64",
+  "sha256": "d8fef7477debe50068b17b31c4d502361f9d5b6d619e669c8ec9324622bf000c",
+  "tests": [
+    {
+      "name": "wasm_app_integration.py",
+      "exitCode": 0,
+      "seconds": 2.58,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/wasm_app_integration.py.log"
+    },
+    {
+      "name": "mcp_current_integration.py",
+      "exitCode": 0,
+      "seconds": 0.87,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/mcp_current_integration.py.log"
+    },
+    {
+      "name": "frozen_lock_integration.py",
+      "exitCode": 0,
+      "seconds": 0.77,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/frozen_lock_integration.py.log"
+    },
+    {
+      "name": "features_v330_integration.py",
+      "exitCode": 0,
+      "seconds": 1.07,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/features_v330_integration.py.log"
+    },
+    {
+      "name": "preview_assets_integration.py",
+      "exitCode": 0,
+      "seconds": 2.93,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/preview_assets_integration.py.log"
+    },
+    {
+      "name": "zip_preview_integration.py",
+      "exitCode": 0,
+      "seconds": 1.71,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/zip_preview_integration.py.log"
+    },
+    {
+      "name": "transfer_cache_integration.py",
+      "exitCode": 0,
+      "seconds": 6.5,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/transfer_cache_integration.py.log"
+    },
+    {
+      "name": "bundle_integration.py",
+      "exitCode": 0,
+      "seconds": 0.87,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/bundle_integration.py.log"
+    },
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 3.38,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/durable_integration.py.log"
+    },
+    {
+      "name": "archive_integration.py",
+      "exitCode": 0,
+      "seconds": 5.54,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/archive_integration.py.log"
+    },
+    {
+      "name": "state_integration.py",
+      "exitCode": 0,
+      "seconds": 1.53,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/state_integration.py.log"
+    },
+    {
+      "name": "traffic_integration.py",
+      "exitCode": 0,
+      "seconds": 38.97,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/traffic_integration.py.log"
+    },
+    {
+      "name": "secure_features_integration.py",
+      "exitCode": 0,
+      "seconds": 6.9,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/secure_features_integration.py.log"
+    },
+    {
+      "name": "integration.py",
+      "exitCode": 0,
+      "seconds": 5.64,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/integration.py.log"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 1.53,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/config_integration.py.log"
+    },
+    {
+      "name": "access_integration.py",
+      "exitCode": 0,
+      "seconds": 7.95,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/access_integration.py.log"
+    },
+    {
+      "name": "tls_integration.py",
+      "exitCode": 0,
+      "seconds": 4.08,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/tls_integration.py.log"
+    },
+    {
+      "name": "mounts_integration.py",
+      "exitCode": 0,
+      "seconds": 46.98,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/mounts_integration.py.log"
+    },
+    {
+      "name": "p2p_integration.py",
+      "exitCode": 0,
+      "seconds": 3.43,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/p2p_integration.py.log"
+    },
+    {
+      "name": "p2p_relay_integration.py",
+      "exitCode": 0,
+      "seconds": 1.63,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/p2p_relay_integration.py.log"
+    },
+    {
+      "name": "p2p_mount_integration.py",
+      "exitCode": 0,
+      "seconds": 1.83,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/p2p_mount_integration.py.log"
+    },
+    {
+      "name": "branding_integration.py",
+      "exitCode": 0,
+      "seconds": 0.72,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/branding_integration.py.log"
+    },
+    {
+      "name": "collaboration_integration.py",
+      "exitCode": 0,
+      "seconds": 54.05,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/collaboration_integration.py.log"
+    },
+    {
+      "name": "defaults.py",
+      "exitCode": 0,
+      "seconds": 0.47,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/defaults.py.log"
+    },
+    {
+      "name": "resume_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.58,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/resume_test.cjs.log"
+    },
+    {
+      "name": "preview_assets_test.cjs",
+      "exitCode": 0,
+      "seconds": 12.68,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/preview_assets_test.cjs.log"
+    },
+    {
+      "name": "zip_codec_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.38,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/zip_codec_test.cjs.log"
+    },
+    {
+      "name": "jobs_test.cjs",
+      "exitCode": 0,
+      "seconds": 1.53,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/jobs_test.cjs.log"
+    },
+    {
+      "name": "mounts_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.19,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/mounts_test.cjs.log"
+    },
+    {
+      "name": "batch_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.32,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/batch_test.cjs.log"
+    },
+    {
+      "name": "p2p_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.53,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/p2p_test.cjs.log"
+    },
+    {
+      "name": "clipboard_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.17,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/clipboard_test.cjs.log"
+    },
+    {
+      "name": "drag_thumbnail_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.38,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/drag_thumbnail_test.cjs.log"
+    },
+    {
+      "name": "player_state_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.17,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/player_state_test.cjs.log"
+    },
+    {
+      "name": "collaboration_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.37,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/collaboration_test.cjs.log"
+    },
+    {
+      "name": "ie_compat_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.57,
+      "log": "/mnt/d/project/GZS/HttpLocalServer/docs/verification/acceptance-v350-musl/ie_compat_test.cjs.log"
+    }
+  ],
+  "skipped": [],
+  "complete": true,
+  "fixtureRepair": "CSSStyleDeclaration.setProperty test double for existing player volume fill"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "S05",
+  "voice": "stella",
+  "text": "熟悉的文件视图，列表或网格，按习惯浏览。",
+  "characters": 20,
+  "inputSha256": "152efd283a86bdfdeb1464b6ef14abbd6c38f3a5e3f44850857263eec4490c81",
+  "file": "assets/audio/cloud/S05-stella.wav",
+  "generatedAt": "2026-11-14T07:38:39.163908+00:00",
+  "seconds": 4.6,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 220844
+}

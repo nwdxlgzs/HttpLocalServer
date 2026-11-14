@@ -1,0 +1,106 @@
+{
+  "version": "3.4.0",
+  "date": "2026-11-14",
+  "license": "Apache-2.0",
+  "author": "github@nwdxlgzs",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 25280000,
+      "sha256": "d06dcd73a305de04b25cf8bd3c0fe51bef3316d21b04695447ca92c3dce3a420",
+      "tlsCompiled": true,
+      "subsystemVersion": [
+        6,
+        1
+      ]
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 27980088,
+      "sha256": "3c9d470fcbdedd11fbd8336ff3c208f539cd4e302fcb1dcaac314d90f03d9a94",
+      "tlsCompiled": true,
+      "fullyStatic": true
+    }
+  ],
+  "regression": {
+    "windows": {
+      "report": "docs/verification/acceptance-v340-windows.json",
+      "groupsPassed": 35,
+      "skipped": 0,
+      "ctestPassed": 3
+    },
+    "musl": {
+      "report": "docs/verification/acceptance-v340-musl.json",
+      "groupsPassed": 34,
+      "skipped": 0,
+      "ctestPassed": 3,
+      "ctestReport": "docs/verification/ctest-v340-musl.json"
+    }
+  },
+  "browser": {
+    "report": "docs/verification/browser-v340.json",
+    "passedScenarios": 62,
+    "protocols": [
+      "HTTP",
+      "HTTPS"
+    ],
+    "sourceOverrides": false
+  },
+  "web": {
+    "mainRawBytes": 554526,
+    "mainGzipBytes": 151926,
+    "previewAssetCount": 431,
+    "previewGzipBytes": 16261156,
+    "mainSha256": "370579a8875f0b934a8c50c280a46dd78f99877d13f97651a85fd2c345303dd0",
+    "previewSha256": "59dfe0da4b6db7c159bd5209af8797e0c10f61043010648090b03e3aaee1e1b7"
+  },
+  "features": [
+    "Transient snackbar replaces permanent viewer status/explanatory text; fullscreen keeps messages/context menus in its surface",
+    "Presentation fit-page workspace, aspect-correct virtual thumbnails, responsive collapsible navigation, top playback controls, queued navigation, auto-play, fullscreen/keyboard and touch swipe",
+    "Merged XLSX selections/anchor text/TSV and input-address navigation; no-Wasm rowspan/colspan with row-page and column-group continuation",
+    "Responsive Word fitting without fixed startup width; per-page PDF fit modes with stable selection across idle resize observers; manual zoom preserved",
+    "All file previews use internal tabs or separate windows; embedded preview policies/thumbnails follow manager, without duplicate polling/P2P relay registration",
+    "Collapsed mobile search and toolbar wrapping, light/dark presentation workspaces; oversized-copy rejection and loading/empty-page-input guards"
+  ],
+  "sourceSnapshot": {
+    "report": "docs/verification/source-v340-sha256.json",
+    "files": 714
+  },
+  "changedInputsSince331": [
+    "CMakeLists.txt",
+    "README.md",
+    "docs/previews.md",
+    "resources/previews-manifest.json",
+    "resources/previews.bin",
+    "resources/web-manifest.json",
+    "resources/web.gz",
+    "src/service.cpp",
+    "tests/features_v330_browser.cjs",
+    "tests/preview_assets_integration.py",
+    "tests/preview_browser.cjs",
+    "tests/viewer_layout_browser.cjs",
+    "tests/viewer_layout_browser.py",
+    "web/preview/app.js",
+    "web/preview/office-basic.js",
+    "web/preview/office-modern.mjs",
+    "web/preview/pdf-controller.js",
+    "web/preview/presentation.mjs",
+    "web/preview/sheet-selection.mjs",
+    "web/preview/text-editor.js",
+    "web/preview/viewer.css",
+    "web/preview/viewer.html",
+    "web/scripts/boot.js",
+    "web/scripts/collaboration.js",
+    "web/scripts/content_tabs.js",
+    "web/scripts/previews.js",
+    "web/scripts/settings.js",
+    "web/scripts/thumbnails.js",
+    "web/styles/preview_tabs.css"
+  ],
+  "validationBoundaries": [
+    "No native macOS run, as requested; no new native IE11 or Windows 7 run; ES5/missing-API and no-Wasm Chromium fallback checks passed",
+    "Silurus 0.89.10 does not expose authored PowerPoint animation/transition playback; these effects are not implemented",
+    "Office basic/no-Wasm layout remains a text/table/common-image fallback; full desktop Office fidelity is not claimed",
+    "No physical LAN throughput benchmark for this UI patch; no GPU backend introduced"
+  ]
+}

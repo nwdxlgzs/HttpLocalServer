@@ -1,0 +1,29 @@
+{
+  "id": "S32",
+  "voice": "stella",
+  "text": "主机统一调整策略，CLI决定启动规则，运行数据随时可查。",
+  "spokenText": "主机统一调整策略， C L I 决定启动规则，运行数据随时可查。",
+  "file": "assets/audio/brand/S32-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 6.320083333333334,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "035b883f9ef3809bb32bf2b5121979070faf94d5847c5208b12c823e4b609713",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.2770416666666667
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-S32-stella.wav",
+    "sourceSpokenText": "主机统一调整策略， C L I 决定启动规则，运行数据随时可查。",
+    "nativeSeconds": 6.043041666666666,
+    "finalSeconds": 6.320083333333334,
+    "originalSeconds": 6.320083333333334
+  }
+}

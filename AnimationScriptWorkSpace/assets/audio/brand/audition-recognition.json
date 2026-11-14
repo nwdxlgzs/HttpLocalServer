@@ -1,0 +1,62 @@
+[
+  {
+    "candidate": "BRAND-spaced",
+    "recognizedText": " HTTP Local Server",
+    "words": [
+      {
+        "word": " HTTP",
+        "start": 0.0,
+        "end": 0.96,
+        "probability": 0.39267730712890625
+      },
+      {
+        "word": " Local",
+        "start": 0.96,
+        "end": 1.7,
+        "probability": 0.30301350355148315
+      },
+      {
+        "word": " Server",
+        "start": 1.7,
+        "end": 2.06,
+        "probability": 0.8000232577323914
+      }
+    ]
+  },
+  {
+    "candidate": "BRAND-punctuated",
+    "recognizedText": " H-T-T-P-Locosava.",
+    "words": [
+      {
+        "word": " H",
+        "start": 0.0,
+        "end": 0.74,
+        "probability": 0.1744306981563568
+      },
+      {
+        "word": "-T",
+        "start": 0.74,
+        "end": 1.8,
+        "probability": 0.7241158485412598
+      },
+      {
+        "word": "-T",
+        "start": 1.8,
+        "end": 2.56,
+        "probability": 0.9905470907688141
+      },
+      {
+        "word": "-P",
+        "start": 2.56,
+        "end": 3.2,
+        "probability": 0.9727227091789246
+      },
+      {
+        "word": "-Locosava.",
+        "start": 3.2,
+        "end": 3.84,
+        "probability": 0.40970554649829866
+      }
+    ]
+  }
+]

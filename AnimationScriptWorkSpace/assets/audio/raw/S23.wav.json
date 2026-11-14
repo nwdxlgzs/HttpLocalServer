@@ -1,0 +1,110 @@
+{
+  "id": "S23",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "包内网页和Markdown能带上依赖。实际展开、路径和处理预算，一起检查。",
+  "events": [
+    {
+      "start": 0.0788125,
+      "position": 0,
+      "length": 1,
+      "text": "包"
+    },
+    {
+      "start": 0.25625,
+      "position": 1,
+      "length": 1,
+      "text": "内"
+    },
+    {
+      "start": 0.4104375,
+      "position": 2,
+      "length": 2,
+      "text": "网页"
+    },
+    {
+      "start": 0.84,
+      "position": 4,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 1.05,
+      "position": 5,
+      "length": 8,
+      "text": "Markdown"
+    },
+    {
+      "start": 1.7950625,
+      "position": 13,
+      "length": 1,
+      "text": "能"
+    },
+    {
+      "start": 2.0155625,
+      "position": 14,
+      "length": 1,
+      "text": "带"
+    },
+    {
+      "start": 2.182,
+      "position": 15,
+      "length": 1,
+      "text": "上"
+    },
+    {
+      "start": 2.3866875,
+      "position": 16,
+      "length": 2,
+      "text": "依赖"
+    },
+    {
+      "start": 3.629375,
+      "position": 19,
+      "length": 2,
+      "text": "实际"
+    },
+    {
+      "start": 4.028625,
+      "position": 21,
+      "length": 2,
+      "text": "展开"
+    },
+    {
+      "start": 4.768625,
+      "position": 24,
+      "length": 2,
+      "text": "路径"
+    },
+    {
+      "start": 5.186375,
+      "position": 26,
+      "length": 1,
+      "text": "和"
+    },
+    {
+      "start": 5.448625,
+      "position": 27,
+      "length": 2,
+      "text": "处理"
+    },
+    {
+      "start": 5.8085,
+      "position": 29,
+      "length": 2,
+      "text": "预算"
+    },
+    {
+      "start": 6.4974375,
+      "position": 32,
+      "length": 2,
+      "text": "一起"
+    },
+    {
+      "start": 6.8415625,
+      "position": 34,
+      "length": 2,
+      "text": "检查"
+    }
+  ]
+}

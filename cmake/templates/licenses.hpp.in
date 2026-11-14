@@ -1,0 +1,6 @@
+#pragma once
+#include <string_view>
+namespace hls {
+inline constexpr unsigned char license_bytes[] = { @HLS_LICENSE_BYTES@ };
+inline const std::string_view third_party_licenses{reinterpret_cast<const char*>(license_bytes),sizeof(license_bytes)};
+}

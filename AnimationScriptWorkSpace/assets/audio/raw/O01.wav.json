@@ -1,0 +1,56 @@
+{
+  "id": "O01",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "文件与网页，交给同一个局域网入口。",
+  "events": [
+    {
+      "start": 0.07775,
+      "position": 0,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 0.55,
+      "position": 2,
+      "length": 1,
+      "text": "与"
+    },
+    {
+      "start": 0.7444375,
+      "position": 3,
+      "length": 2,
+      "text": "网页"
+    },
+    {
+      "start": 1.4803125,
+      "position": 6,
+      "length": 2,
+      "text": "交给"
+    },
+    {
+      "start": 1.89375,
+      "position": 8,
+      "length": 1,
+      "text": "同"
+    },
+    {
+      "start": 2.12325,
+      "position": 9,
+      "length": 2,
+      "text": "一个"
+    },
+    {
+      "start": 2.51,
+      "position": 11,
+      "length": 3,
+      "text": "局域网"
+    },
+    {
+      "start": 3.0063125,
+      "position": 14,
+      "length": 2,
+      "text": "入口"
+    }
+  ]
+}

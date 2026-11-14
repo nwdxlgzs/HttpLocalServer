@@ -1,0 +1,9 @@
+/* SPDX-License-Identifier: Apache-2.0; Copyright 2026 github@nwdxlgzs */
+.file[draggable=true]{cursor:grab}.file[draggable=true]:active{cursor:grabbing}
+.file.drop-target,.crumbs button.drop-target,.sideitem.drop-target{background:#e3f0ff!important;box-shadow:inset 0 0 0 2px #639bdf;border-radius:6px}
+.file-drop-hint{position:absolute;left:50%;bottom:54px;transform:translateX(-50%);max-width:calc(100% - 28px);min-width:250px;display:flex;align-items:center;z-index:50;background:#f5faff;border:1px solid #93b9e8;border-radius:12px;padding:15px 20px;box-shadow:0 10px 35px rgba(41,75,120,.19);pointer-events:none;color:#365e92}
+.drop-symbol{display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:10px;background:#e2efff;margin-right:14px;flex-shrink:0}.drop-symbol .ui-icon{width:23px;height:23px}
+.file-drop-hint strong{display:block;font-size:13px;font-weight:600;margin-bottom:5px}.file-drop-hint div>span{display:block;max-width:430px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px;color:#6e87a6}.file-drop-hint.drop-denied{border-color:#d6a8ad;color:#a45e68;background:#fff6f7}.drop-denied .drop-symbol{background:#f7e6e9}
+.theme-dark .file-drop-hint{background:#21354f;border-color:#517eaf;color:#d3e5ff;box-shadow:0 10px 35px rgba(0,0,0,.3)}.theme-dark .drop-symbol{background:#304c70}.theme-dark .file-drop-hint div>span{color:#a0b9da}.theme-dark .file.drop-target,.theme-dark .crumbs button.drop-target,.theme-dark .sideitem.drop-target{background:#2b4567!important;box-shadow:inset 0 0 0 2px #83b5f0}.theme-dark .drop-denied{background:#482e39;border-color:#936374}
+.upload-status{max-width:calc(100% - 24px)}#upload-label{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-right:50px}
+@media(max-width:600px){.file-drop-hint{min-width:0;width:calc(100% - 28px);bottom:52px;padding:13px}.file-drop-hint>div{min-width:0}.file-drop-hint div>span{max-width:100%}}

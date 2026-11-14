@@ -1,0 +1,14 @@
+{
+  "id": "S08",
+  "voice": "stella",
+  "text": "列表按需加载，文件名可检索。目录有变化，先提示，再由你决定刷新。",
+  "characters": 32,
+  "inputSha256": "a08ef0b34ac87685d6ca52fbc7c507ab9265d0bcf478733311a685e8ffad15f8",
+  "file": "assets/audio/cloud/S08-stella.wav",
+  "generatedAt": "2026-11-14T07:38:47.846967+00:00",
+  "seconds": 6.72,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 322604
+}

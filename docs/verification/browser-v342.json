@@ -1,0 +1,105 @@
+{
+  "version": "3.4.2",
+  "date": "2026-11-14",
+  "binary": "<project>\\dist\\HttpLocalServer-windows-x64.exe",
+  "binarySha256": "a508d568bfcb1f7f6a6cb645fe9bb1b729c72c67cb12209f0a48e87772d3f46a",
+  "sourceOverrides": false,
+  "tests": [
+    {
+      "name": "preview_browser_integration.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 16.2,
+      "passedScenarios": 11,
+      "output": "PASS native-Wasm docx \nPASS native-Wasm pptx \nPASS native-Wasm xlsx \nPASS native-Wasm pdf \nPASS no-Wasm docx \nPASS no-Wasm pptx \nPASS no-Wasm xlsx \nPASS no-Wasm pdf \nZIP CONSOLE host Connecting to 'http://127.0.0.1:62925/api/admin/settings' violates the following Content Security Policy directive: \"connect-src http://127.0.0.1:62925/zip-assets/3e9521263295c783c39c10b133e979d7aecb5d745d547fb0/\". The action has been blocked.\nZIP CONSOLE host Fetch API cannot load http://127.0.0.1:62925/api/admin/settings. Refused to connect because it violates the document's Content Security Policy.\nPASS ZIP website host CSS/script/image/fetch and API isolation\nPASS ZIP website client CSS/script/image/fetch and API isolation\nPASS internal tabs: 12 cap, close cleanup, dark mode and mobile\nPreview browser checks passed\n"
+    },
+    {
+      "name": "preview_browser_integration.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 17.08,
+      "passedScenarios": 11,
+      "output": "PASS native-Wasm docx \nPASS native-Wasm pptx \nPASS native-Wasm xlsx \nPASS native-Wasm pdf \nPASS no-Wasm docx \nPASS no-Wasm pptx \nPASS no-Wasm xlsx \nPASS no-Wasm pdf \nZIP CONSOLE host Connecting to 'https://127.0.0.1:64602/api/admin/settings' violates the following Content Security Policy directive: \"connect-src https://127.0.0.1:64602/zip-assets/d512f4b01518282bd077d7f13df51df8e22f6b67c5280c62/\". The action has been blocked.\nZIP CONSOLE host Fetch API cannot load https://127.0.0.1:64602/api/admin/settings. Refused to connect because it violates the document's Content Security Policy.\nPASS ZIP website host CSS/script/image/fetch and API isolation\nPASS ZIP website client CSS/script/image/fetch and API isolation\nPASS internal tabs: 12 cap, close cleanup, dark mode and mobile\nPreview browser checks passed\n"
+    },
+    {
+      "name": "features_v330_browser.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 14.88,
+      "passedScenarios": 12,
+      "output": "CONSOLE warning Allow attribute will take precedence over 'allowfullscreen'.\nPASS inferred image action without suffix\nPASS continuous scrolling docx\nPASS continuous scrolling pdf\nPASS PNG and compatible image copying\nPASS presentation rail and slideshow keyboard\nPASS spreadsheet text field, drag range and context menu\nPASS versioned editor save\nPASS localized Monaco and save\nPASS ZIP Markdown dependencies and navigation host\nCONSOLE error Failed to load resource: the server responded with a status of 403 (Forbidden)\nPASS ZIP Markdown dependencies and navigation client\nPASS mobile workspace spacing and host controls\nPASS touch single tap preview\n"
+    },
+    {
+      "name": "features_v330_browser.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 15.19,
+      "passedScenarios": 12,
+      "output": "CONSOLE warning Allow attribute will take precedence over 'allowfullscreen'.\nPASS inferred image action without suffix\nPASS continuous scrolling docx\nPASS continuous scrolling pdf\nPASS PNG and compatible image copying\nPASS presentation rail and slideshow keyboard\nPASS spreadsheet text field, drag range and context menu\nPASS versioned editor save\nPASS localized Monaco and save\nPASS ZIP Markdown dependencies and navigation host\nCONSOLE error Failed to load resource: the server responded with a status of 403 (Forbidden)\nPASS ZIP Markdown dependencies and navigation client\nPASS mobile workspace spacing and host controls\nPASS touch single tap preview\n"
+    },
+    {
+      "name": "viewer_layout_browser.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 26.89,
+      "passedScenarios": 8,
+      "output": "PASS presentation geometry, queued rapid navigation, virtual thumbnails and compact toolbar\nPASS slideshow fullscreen, Escape, keyboard, timed play/pause\nPASS responsive Word/PDF fit width, continuous navigation and manual zoom\nPASS merged-cell interior selection, anchor address, text field, clipboard and oversized-selection rejection\nPASS image in internal tab and separate window, captured thumbnail propagation, no preview sidebar\nPASS mobile slide drawer, tap-to-navigate, portrait/landscape fitting\nPASS no-Wasm merged cells, clipped column groups and row-page continuations\nPASS real touch tap navigation and swipe advance\nViewer layout browser tests passed\n"
+    },
+    {
+      "name": "viewer_layout_browser.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 30.0,
+      "passedScenarios": 8,
+      "output": "PASS presentation geometry, queued rapid navigation, virtual thumbnails and compact toolbar\nPASS slideshow fullscreen, Escape, keyboard, timed play/pause\nPASS responsive Word/PDF fit width, continuous navigation and manual zoom\nPASS merged-cell interior selection, anchor address, text field, clipboard and oversized-selection rejection\nPASS image in internal tab and separate window, captured thumbnail propagation, no preview sidebar\nPASS mobile slide drawer, tap-to-navigate, portrait/landscape fitting\nPASS no-Wasm merged cells, clipped column groups and row-page continuations\nPASS real touch tap navigation and swipe advance\nViewer layout browser tests passed\n"
+    },
+    {
+      "name": "interaction_browser.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 18.3,
+      "passedScenarios": 11,
+      "output": "PASS real pointer directory drop onto another file-manager tab, target refresh and source removal\nPASS dragging a multiple-file selection to a tab moves every selected item\nPASS Ctrl+X / Ctrl+V moves nested folders outward across tabs and clears completed cuts\nPASS context move picker exposes parent/root targets for child folders\nPASS multiple file cut/paste preserves the selection and removes only successfully moved clipboard items\nPASS full-width sibling-folder navigation and concise grouped overflow menu\nPASS real pointer PPT selection follows visual reading rows at fitted, reduced and enlarged scales\nPASS native Ctrl+C and copy button include selected text plus inline image resources without unrelated lower text\nPASS intentional aligned PPT toolbar at 390 / 320 / 280 / 240 px and clean toolbar teardown\nPASS real pointer Word text selection remains aligned through zoom changes\nPASS PDF glyph font metrics and real pointer selection remain aligned through zoom changes\n"
+    },
+    {
+      "name": "interaction_browser.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 17.23,
+      "passedScenarios": 11,
+      "output": "PASS real pointer directory drop onto another file-manager tab, target refresh and source removal\nPASS dragging a multiple-file selection to a tab moves every selected item\nPASS Ctrl+X / Ctrl+V moves nested folders outward across tabs and clears completed cuts\nPASS context move picker exposes parent/root targets for child folders\nPASS multiple file cut/paste preserves the selection and removes only successfully moved clipboard items\nPASS full-width sibling-folder navigation and concise grouped overflow menu\nPASS real pointer PPT selection follows visual reading rows at fitted, reduced and enlarged scales\nPASS native Ctrl+C and copy button include selected text plus inline image resources without unrelated lower text\nPASS intentional aligned PPT toolbar at 390 / 320 / 280 / 240 px and clean toolbar teardown\nPASS real pointer Word text selection remains aligned through zoom changes\nPASS PDF glyph font metrics and real pointer selection remain aligned through zoom changes\n"
+    },
+    {
+      "name": "workspace_browser.py",
+      "protocol": "http",
+      "exitCode": 0,
+      "seconds": 10.94,
+      "passedScenarios": 6,
+      "output": "PASS frozen config, lock and state entries follow per-browser hidden preference\nPASS empty file creation and rejection of collisions, path traversal and frozen names\nPASS blank-space folder creation and read-only directory controls\nPASS matching settings review panels and refresh controls in both themes at desktop/mobile widths\nPASS centered mobile settings icon with review badge at 600/390/320/280/240px, expanded/collapsed, light/dark\nPASS actual browser filesystem mount publishes empty files and applies hidden frozen listing policy\n"
+    },
+    {
+      "name": "workspace_browser.py",
+      "protocol": "https",
+      "exitCode": 0,
+      "seconds": 11.38,
+      "passedScenarios": 6,
+      "output": "PASS frozen config, lock and state entries follow per-browser hidden preference\nPASS empty file creation and rejection of collisions, path traversal and frozen names\nPASS blank-space folder creation and read-only directory controls\nPASS matching settings review panels and refresh controls in both themes at desktop/mobile widths\nPASS centered mobile settings icon with review badge at 600/390/320/280/240px, expanded/collapsed, light/dark\nPASS actual browser filesystem mount publishes empty files and applies hidden frozen listing policy\n"
+    }
+  ],
+  "initialFailures": [
+    {
+      "name": "features_v330_browser.py",
+      "protocol": "http",
+      "output": "CONSOLE warning Allow attribute will take precedence over 'allowfullscreen'.\nPASS inferred image action without suffix\nPASS continuous scrolling docx\nPASS continuous scrolling pdf\nPASS PNG and compatible image copying\nPASS presentation rail and slideshow keyboard\nPASS spreadsheet text field, drag range and context menu\nPASS versioned editor save\nPASS localized Monaco and save\nPASS ZIP Markdown dependencies and navigation host\nCONSOLE error Failed to load resource: the server responded with a status of 403 (Forbidden)\nPASS ZIP Markdown dependencies and navigation client\nPASS mobile workspace spacing and host controls\nlocator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#content-tabs iframe').contentFrame().locator('#preview img') to be visible\u001b[22m\n\n    at <project>\\tests\\features_v330_browser.cjs:21:374 {\n  log: [\n    \"  - waiting for locator('#content-tabs iframe').contentFrame().locator('#preview img') to be visible\"\n  ],\n  name: 'TimeoutError'\n}\nTraceback (most recent call last):\n  File \"<project>\\tests\\features_v330_browser.py\", line 52, in <module>\n    if __name__=='__main__':run(str(pathlib.Path(sys.argv[1]).resolve()),'--https' in sys.argv[2:])\n  File \"<project>\\tests\\features_v330_browser.py\", line 48, in run\n    try:subprocess.run(['node',str(pathlib.Path(__file__).with_name('features_v330_browser.cjs')),('https://' if https else 'http://')+'127.0.0.1:'+str(server.port)],check=True,timeout=480)\n  File \"C:\\Program Files\\Python310\\lib\\subprocess.py\", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['node', '<project>\\\\tests\\\\features_v330_browser.cjs', 'http://127.0.0.1:53309']' returned non-zero exit status 1.\n"
+    },
+    {
+      "name": "features_v330_browser.py",
+      "protocol": "http",
+      "output": "CONSOLE warning Allow attribute will take precedence over 'allowfullscreen'.\nPASS inferred image action without suffix\nPASS continuous scrolling docx\nPASS continuous scrolling pdf\nPASS PNG and compatible image copying\nPASS presentation rail and slideshow keyboard\nPASS spreadsheet text field, drag range and context menu\nPASS versioned editor save\nPASS localized Monaco and save\nPASS ZIP Markdown dependencies and navigation host\nPASS ZIP Markdown dependencies and navigation client\nPASS mobile workspace spacing and host controls\nlocator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#content-tabs iframe').contentFrame().locator('#preview img') to be visible\u001b[22m\n\n    at <project>\\tests\\features_v330_browser.cjs:21:580 {\n  log: [\n    \"  - waiting for locator('#content-tabs iframe').contentFrame().locator('#preview img') to be visible\"\n  ],\n  name: 'TimeoutError'\n}\nTraceback (most recent call last):\n  File \"<project>\\tests\\features_v330_browser.py\", line 52, in <module>\n    if __name__=='__main__':run(str(pathlib.Path(sys.argv[1]).resolve()),'--https' in sys.argv[2:])\n  File \"<project>\\tests\\features_v330_browser.py\", line 48, in run\n    try:subprocess.run(['node',str(pathlib.Path(__file__).with_name('features_v330_browser.cjs')),('https://' if https else 'http://')+'127.0.0.1:'+str(server.port)],check=True,timeout=480)\n  File \"C:\\Program Files\\Python310\\lib\\subprocess.py\", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['node', '<project>\\\\tests\\\\features_v330_browser.cjs', 'http://127.0.0.1:63042']' returned non-zero exit status 1.\n"
+    }
+  ],
+  "verificationAdjustments": [
+    "Asset integrity uses four persistent HTTP clients to avoid short-connection port churn",
+    "Clipboard verification waits for the asynchronous copy success notification"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "O04",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "大文件分块传输，目录按能力保存，写操作先确认冲突。",
+  "events": [
+    {
+      "start": 0.0765,
+      "position": 0,
+      "length": 1,
+      "text": "大"
+    },
+    {
+      "start": 0.24,
+      "position": 1,
+      "length": 2,
+      "text": "文件"
+    },
+    {
+      "start": 0.7054375,
+      "position": 3,
+      "length": 1,
+      "text": "分"
+    },
+    {
+      "start": 0.92,
+      "position": 4,
+      "length": 1,
+      "text": "块"
+    },
+    {
+      "start": 1.108,
+      "position": 5,
+      "length": 2,
+      "text": "传输"
+    },
+    {
+      "start": 1.87,
+      "position": 8,
+      "length": 2,
+      "text": "目录"
+    },
+    {
+      "start": 2.25575,
+      "position": 10,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 2.52,
+      "position": 11,
+      "length": 2,
+      "text": "能力"
+    },
+    {
+      "start": 2.84775,
+      "position": 13,
+      "length": 2,
+      "text": "保存"
+    },
+    {
+      "start": 3.58,
+      "position": 16,
+      "length": 1,
+      "text": "写"
+    },
+    {
+      "start": 3.7894375,
+      "position": 17,
+      "length": 2,
+      "text": "操作"
+    },
+    {
+      "start": 4.290375,
+      "position": 19,
+      "length": 1,
+      "text": "先"
+    },
+    {
+      "start": 4.533875,
+      "position": 20,
+      "length": 2,
+      "text": "确认"
+    },
+    {
+      "start": 4.9149375,
+      "position": 22,
+      "length": 2,
+      "text": "冲突"
+    }
+  ]
+}

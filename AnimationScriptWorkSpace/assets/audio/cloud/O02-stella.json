@@ -1,0 +1,14 @@
+{
+  "id": "O02",
+  "voice": "stella",
+  "text": "启动HttpLocalServer，用浏览器访问。一个程序，先把服务提供出来。",
+  "characters": 39,
+  "inputSha256": "6aff6c426591ffb98a1eff5eb22acb601cc13fe8e3064ddfd4d299f6fa2ddf44",
+  "file": "assets/audio/cloud/O02-stella.wav",
+  "generatedAt": "2026-11-14T07:40:39.855635+00:00",
+  "seconds": 6.92,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 332204
+}

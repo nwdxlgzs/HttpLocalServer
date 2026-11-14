@@ -1,0 +1,14 @@
+{
+  "id": "S15",
+  "voice": "stella",
+  "text": "后缀不完整，也能按内容寻找合适的打开方式。识别给出建议，命名由你决定。",
+  "characters": 35,
+  "inputSha256": "38d11cbe4c2ddf624898f5eda9001ded9c6a4fc7ed25001e577de888bc95eaef",
+  "file": "assets/audio/cloud/S15-stella.wav",
+  "generatedAt": "2026-11-14T07:39:08.670604+00:00",
+  "seconds": 7.72,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 370604
+}

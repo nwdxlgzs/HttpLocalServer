@@ -1,0 +1,217 @@
+{
+  "binary": "<project>\\dist\\HttpLocalServer-windows-x64.exe",
+  "sha256": "fe1d847f0706330603a9903fec4144e5d705022bf90f1bbd04d98d47236c2e55",
+  "tests": [
+    {
+      "name": "ctest",
+      "exitCode": 0,
+      "seconds": 12.64,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\ctest.log"
+    },
+    {
+      "name": "frozen_lock_integration.py",
+      "exitCode": 0,
+      "seconds": 2.03,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\frozen_lock_integration.py.log"
+    },
+    {
+      "name": "features_v330_integration.py",
+      "exitCode": 0,
+      "seconds": 1.16,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\features_v330_integration.py.log"
+    },
+    {
+      "name": "preview_assets_integration.py",
+      "exitCode": 0,
+      "seconds": 2.92,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\preview_assets_integration.py.log"
+    },
+    {
+      "name": "zip_preview_integration.py",
+      "exitCode": 0,
+      "seconds": 1.83,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\zip_preview_integration.py.log"
+    },
+    {
+      "name": "transfer_cache_integration.py",
+      "exitCode": 0,
+      "seconds": 7.8,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\transfer_cache_integration.py.log"
+    },
+    {
+      "name": "bundle_integration.py",
+      "exitCode": 0,
+      "seconds": 0.77,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\bundle_integration.py.log"
+    },
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 5.03,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\durable_integration.py.log"
+    },
+    {
+      "name": "archive_integration.py",
+      "exitCode": 0,
+      "seconds": 5.77,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\archive_integration.py.log"
+    },
+    {
+      "name": "state_integration.py",
+      "exitCode": 0,
+      "seconds": 1.47,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\state_integration.py.log"
+    },
+    {
+      "name": "traffic_integration.py",
+      "exitCode": 0,
+      "seconds": 39.38,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\traffic_integration.py.log"
+    },
+    {
+      "name": "secure_features_integration.py",
+      "exitCode": 0,
+      "seconds": 8.19,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\secure_features_integration.py.log"
+    },
+    {
+      "name": "integration.py",
+      "exitCode": 0,
+      "seconds": 7.25,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\integration.py.log"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 1.99,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\config_integration.py.log"
+    },
+    {
+      "name": "access_integration.py",
+      "exitCode": 0,
+      "seconds": 9.84,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\access_integration.py.log"
+    },
+    {
+      "name": "tls_integration.py",
+      "exitCode": 0,
+      "seconds": 8.41,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\tls_integration.py.log"
+    },
+    {
+      "name": "mounts_integration.py",
+      "exitCode": 0,
+      "seconds": 47.58,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\mounts_integration.py.log"
+    },
+    {
+      "name": "p2p_integration.py",
+      "exitCode": 0,
+      "seconds": 4.69,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\p2p_integration.py.log"
+    },
+    {
+      "name": "p2p_relay_integration.py",
+      "exitCode": 0,
+      "seconds": 2.75,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\p2p_relay_integration.py.log"
+    },
+    {
+      "name": "p2p_mount_integration.py",
+      "exitCode": 0,
+      "seconds": 3.59,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\p2p_mount_integration.py.log"
+    },
+    {
+      "name": "branding_integration.py",
+      "exitCode": 0,
+      "seconds": 0.94,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\branding_integration.py.log"
+    },
+    {
+      "name": "collaboration_integration.py",
+      "exitCode": 0,
+      "seconds": 54.91,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\collaboration_integration.py.log"
+    },
+    {
+      "name": "defaults.py",
+      "exitCode": 0,
+      "seconds": 0.84,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\defaults.py.log"
+    },
+    {
+      "name": "resume_test.cjs",
+      "exitCode": 0,
+      "seconds": 6.31,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\resume_test.cjs.log"
+    },
+    {
+      "name": "preview_assets_test.cjs",
+      "exitCode": 0,
+      "seconds": 4.88,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\preview_assets_test.cjs.log"
+    },
+    {
+      "name": "zip_codec_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.17,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\zip_codec_test.cjs.log"
+    },
+    {
+      "name": "jobs_test.cjs",
+      "exitCode": 0,
+      "seconds": 2.53,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\jobs_test.cjs.log"
+    },
+    {
+      "name": "mounts_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.2,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\mounts_test.cjs.log"
+    },
+    {
+      "name": "batch_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.27,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\batch_test.cjs.log"
+    },
+    {
+      "name": "p2p_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.88,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\p2p_test.cjs.log"
+    },
+    {
+      "name": "clipboard_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.09,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\clipboard_test.cjs.log"
+    },
+    {
+      "name": "drag_thumbnail_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.3,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\drag_thumbnail_test.cjs.log"
+    },
+    {
+      "name": "player_state_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.08,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\player_state_test.cjs.log"
+    },
+    {
+      "name": "collaboration_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.84,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\collaboration_test.cjs.log"
+    },
+    {
+      "name": "ie_compat_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.25,
+      "log": "<project>\\docs\\verification\\acceptance-v341-windows\\ie_compat_test.cjs.log"
+    }
+  ],
+  "skipped": []
+}

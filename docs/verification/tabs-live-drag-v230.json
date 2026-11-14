@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-11",
+  "version": "2.3.0",
+  "scope": "Live tab drag feedback",
+  "changes": [
+    "Dragged tab follows pointer with frame-coalesced transforms and no drag transition; neighboring tabs move to preview the insertion slot before release",
+    "Release commits ordering while preserving active tab identity and animates from current painted positions to final layout",
+    "Esc, pointer cancellation, window blur, resize and release outside the tab bar restore the previous order",
+    "Overflow scroll updates the live drop slot even without further pointer movement",
+    "Polling preserves manual tab scroll; pending layout animation callbacks cannot overwrite a live gesture",
+    "Pointer Events with mouse/touch fallback and ES5 sources; reduced-motion preference keeps direct following while disabling settling animation"
+  ],
+  "verification": {
+    "browser": [
+      "Native left-to-right drag captured 8 rendered frames before release; dragged transform and neighbor transforms were nonzero before pointerup",
+      "Native reverse drag restored the expected ordering; active folder remained 图片素材",
+      "Dropping outside the bar retained the original order and cleared all drag state",
+      "800px/12-tab layout displayed overflow controls; manual scroll stayed at zero across subsequent site polling",
+      "Dragging tab ID 1 across the overflow strip produced order 2,3,4,5,6,7,1,8,9,10,11,12; no console warnings or errors"
+    ],
+    "build": [
+      "Windows MSVC Release and Linux musl static rebuild in temporary directories outside the repository",
+      "Both final artifacts contain the exact final gzip bundle; manifest matches every original source digest"
+    ],
+    "regression": [
+      "Acorn 8.15 ES5 parse",
+      "Existing drag/thumbnail/settings tests",
+      "Existing player-state tests",
+      "Windows and musl distributed binaries: v230 COW/move/upload suite and hidden-visibility suite"
+    ],
+    "limits": [
+      "Native edge-hover dwell, touch devices and IE were not newly exercised; polling, live cross-strip dragging and fallback source syntax were checked",
+      "No macOS build/test or new heterogeneous CPU simulation in this follow-up"
+    ]
+  },
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 6049792,
+      "sha256": "360f00ff3240543a4407a44f8a1a6fc7505552870dc52c4a381d861c8afa5ac0"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 7774264,
+      "sha256": "0053d1fd34ae4ec321ee24992877321e7d5e703245952a8064adde8166ce7605"
+    }
+  ],
+  "embeddedWeb": {
+    "gzipBytes": 89558,
+    "uncompressedBytes": 323477,
+    "sha256": "213ebff0d4343aad9fcdeb9d6a44c48ef1bbb86dca393775b502e829d021f7b6"
+  },
+  "screenshot": {
+    "file": "tabs-live-drag-v230.png",
+    "sha256": "e7e1a8061b54717e065aca1961f9af4317b49d53ef7d35ec4644bee66c494158"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "binary": "HttpLocalServer",
+  "sha256": "08fc857c2cb8804456a0ad62da722f7cab7266afc3a6c6a72be166f546b21966",
+  "tests": [
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 3.03,
+      "log": ".deps/verify-v301-musl-durable_integration.py.log"
+    },
+    {
+      "name": "archive_integration.py",
+      "exitCode": 0,
+      "seconds": 2.41,
+      "log": ".deps/verify-v301-musl-archive_integration.py.log"
+    },
+    {
+      "name": "state_integration.py",
+      "exitCode": 0,
+      "seconds": 1.3,
+      "log": ".deps/verify-v301-musl-state_integration.py.log"
+    },
+    {
+      "name": "traffic_integration.py",
+      "exitCode": 0,
+      "seconds": 43.06,
+      "log": ".deps/verify-v301-musl-traffic_integration.py.log"
+    },
+    {
+      "name": "secure_features_integration.py",
+      "exitCode": 0,
+      "seconds": 7.38,
+      "log": ".deps/verify-v301-musl-secure_features_integration.py.log"
+    },
+    {
+      "name": "integration.py",
+      "exitCode": 0,
+      "seconds": 5.57,
+      "log": ".deps/verify-v301-musl-integration.py.log"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 1.29,
+      "log": ".deps/verify-v301-musl-config_integration.py.log"
+    },
+    {
+      "name": "access_integration.py",
+      "exitCode": 0,
+      "seconds": 7.81,
+      "log": ".deps/verify-v301-musl-access_integration.py.log"
+    },
+    {
+      "name": "tls_integration.py",
+      "exitCode": 0,
+      "seconds": 32.23,
+      "log": ".deps/verify-v301-musl-tls_integration.py.log"
+    },
+    {
+      "name": "mounts_integration.py",
+      "exitCode": 0,
+      "seconds": 70.29,
+      "log": ".deps/verify-v301-musl-mounts_integration.py.log"
+    },
+    {
+      "name": "p2p_integration.py",
+      "exitCode": 0,
+      "seconds": 3.25,
+      "log": ".deps/verify-v301-musl-p2p_integration.py.log"
+    },
+    {
+      "name": "p2p_relay_integration.py",
+      "exitCode": 0,
+      "seconds": 2.18,
+      "log": ".deps/verify-v301-musl-p2p_relay_integration.py.log"
+    },
+    {
+      "name": "p2p_mount_integration.py",
+      "exitCode": 0,
+      "seconds": 33.74,
+      "log": ".deps/verify-v301-musl-p2p_mount_integration.py.log"
+    },
+    {
+      "name": "branding_integration.py",
+      "exitCode": 0,
+      "seconds": 0.64,
+      "log": ".deps/verify-v301-musl-branding_integration.py.log"
+    },
+    {
+      "name": "collaboration_integration.py",
+      "exitCode": 0,
+      "seconds": 54.14,
+      "log": ".deps/verify-v301-musl-collaboration_integration.py.log"
+    },
+    {
+      "name": "defaults.py",
+      "exitCode": 0,
+      "seconds": 0.38,
+      "log": ".deps/verify-v301-musl-defaults.py.log"
+    }
+  ]
+}

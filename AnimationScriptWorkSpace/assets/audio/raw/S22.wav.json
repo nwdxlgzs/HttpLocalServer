@@ -1,0 +1,92 @@
+{
+  "id": "S22",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "Zip预览按需开启。解压工作放在主机，或者交给浏览器。",
+  "events": [
+    {
+      "start": 0.0666875,
+      "position": 0,
+      "length": 3,
+      "text": "Zip"
+    },
+    {
+      "start": 0.45,
+      "position": 3,
+      "length": 2,
+      "text": "预览"
+    },
+    {
+      "start": 0.8655,
+      "position": 5,
+      "length": 1,
+      "text": "按"
+    },
+    {
+      "start": 1.085125,
+      "position": 6,
+      "length": 1,
+      "text": "需"
+    },
+    {
+      "start": 1.2700625,
+      "position": 7,
+      "length": 2,
+      "text": "开启"
+    },
+    {
+      "start": 2.6475625,
+      "position": 10,
+      "length": 1,
+      "text": "解"
+    },
+    {
+      "start": 2.8071875,
+      "position": 11,
+      "length": 1,
+      "text": "压"
+    },
+    {
+      "start": 2.961875,
+      "position": 12,
+      "length": 2,
+      "text": "工作"
+    },
+    {
+      "start": 3.4265,
+      "position": 14,
+      "length": 1,
+      "text": "放"
+    },
+    {
+      "start": 3.637,
+      "position": 15,
+      "length": 1,
+      "text": "在"
+    },
+    {
+      "start": 3.8248125,
+      "position": 16,
+      "length": 2,
+      "text": "主机"
+    },
+    {
+      "start": 4.4869375,
+      "position": 19,
+      "length": 2,
+      "text": "或者"
+    },
+    {
+      "start": 4.9065,
+      "position": 21,
+      "length": 2,
+      "text": "交给"
+    },
+    {
+      "start": 5.271875,
+      "position": 23,
+      "length": 3,
+      "text": "浏览器"
+    }
+  ]
+}

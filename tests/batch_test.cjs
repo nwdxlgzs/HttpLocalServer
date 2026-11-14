@@ -1,0 +1,24 @@
+// SPDX-License-Identifier: Apache-2.0
+const fs=require('fs'),vm=require('vm'),path=require('path'),assert=require('assert');
+const rows=Array.from({length:6},(_,i)=>({name:'file'+i,path:'/file'+i,directory:false,frozen:i===1})),tab={loaded:6,generation:1,path:'/',q:'',sort:'name',order:'asc'},nodes={};let refreshed=0;
+const calls=[],ctx=vm.createContext({console,Date,Math,JSON,Object,Array,setTimeout,clearTimeout,window:{},selected:null,drawerMode:'',session:{writeMode:'shared',localAdmin:true},localStorage:{setItem(){}},current:()=>tab,entryAt:(t,i)=>rows[i],frozenEntry:e=>!!e.frozen,canManage:e=>!e.frozen,canMoveEntry:()=>true,findMount:()=>null,canWrite:()=>true,
+    $:id=>nodes[id]||(nodes[id]={className:'',disabled:false,textContent:'',style:{}}),show(el,value){el.hidden=!value;},text(el,value){el.textContent=value;},render(){},refresh(){refreshed++;},toast(){},enc:encodeURIComponent,query:o=>new URLSearchParams(o).toString(),join:(p,n)=>(p==='/'?'':p)+'/'+n,parent:p=>p.slice(0,p.lastIndexOf('/'))||'/',base:p=>p.slice(p.lastIndexOf('/')+1),showHidden:false,
+    request(method,url,body,done){calls.push({method,url,body});if(url.startsWith('/api/list?'))done(null,{entries:rows,total:rows.length});else if(url==='/api/batch')done(null,{results:body.items.map(x=>({path:x.path,status:200}))});else if(url.startsWith('/api/upload-target?')){const p=new URL('http://local'+url).searchParams.get('path');done(null,p==='/same.txt'?{exists:true,version:'current-version'}:{exists:false});}else throw Error(url);}
+});
+for(const name of ['tasks.js','jobs.js','batch.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'../web/scripts',name),'utf8'),ctx,{filename:name});
+ctx.selectEntry(rows[0]);assert.equal(ctx.selectedEntries().length,1);
+ctx.selectEntry(rows[2],{ctrlKey:true});assert.equal(ctx.selectedEntries().length,2,'Ctrl extends selection');
+ctx.selectEntry(rows[5],{shiftKey:true});assert.deepEqual(Array.from(ctx.selectedEntries(),x=>x.path),['/file2','/file3','/file4','/file5'],'Shift range');
+ctx.selectAllEntries();assert.equal(ctx.selectedEntries().length,5,'Select all excludes frozen items');
+ctx.taskConflict='replace';ctx.resolveBatchConflict('/same.txt',false,(e,to,version)=>{assert(!e);assert.equal(to,'/same.txt');assert.equal(version,'current-version');});
+ctx.taskConflict='keep-both';ctx.resolveBatchConflict('/same.txt',false,(e,to,version)=>{assert(!e);assert.equal(to,'/same (1).txt');assert.equal(version,'');});
+const items=Array.from({length:300},(_,i)=>({path:'/deep/'+('x'.repeat(500))+i,name:'file'+i}));ctx.batchAction('delete',items);
+const batches=calls.filter(x=>x.url==='/api/batch');assert(batches.length>3&&batches.every(x=>Buffer.byteLength(JSON.stringify(x.body))<65536),'Long paths are split below HTTP control body ceiling');assert.equal(batches.reduce((n,x)=>n+x.body.items.length,0),300);assert.equal(refreshed,1);
+const started=[],a=ctx.taskCreate('test','a','/a',1),b=ctx.taskCreate('test','b','/b',1),c=ctx.taskCreate('test','c','/c',1);ctx.taskQueue(a,()=>started.push('a'));ctx.taskQueue(b,()=>started.push('b'));ctx.taskQueue(c,()=>started.push('c'));assert.deepEqual(started,['a','b'],'Two slots by default');ctx.taskRelease(a);ctx.taskPump();assert.deepEqual(started,['a','b','c'],'Queue advances when a slot is released');ctx.taskRelease(b);ctx.taskRelease(c);
+console.log('Batch/task tests passed: Ctrl/Shift/all, frozen exclusion, versioned policies, bounded long-path bodies and upload queue slots');
+
+vm.runInContext(fs.readFileSync(path.join(__dirname,'../web/scripts/resume.js'),'utf8'),ctx,{filename:'resume.js'});
+const prompts=[],shade=ctx.$('modal-shade');shade.className='hidden';ctx.modal=(title,message,value,actions)=>{shade.className='';prompts.push(actions);};
+ctx.queueUploadExtension({path:'/a',version:'v1',type:{label:'Text',suggestedName:'a.txt'}});ctx.queueUploadExtension({path:'/b',version:'v2',type:{label:'Text',suggestedName:'b.txt'}});assert.equal(prompts.length,1,'Concurrent suffix prompts cannot overwrite each other');shade.className='hidden';prompts[0][0].run();setTimeout(()=>{assert.equal(prompts.length,2,'Next suffix prompt appears after the previous choice');shade.className='hidden';prompts[1][0].run();assert.equal(ctx.taskAmount({unit:'items'},4),'4 项');console.log('Concurrent extension dialogs and task item units passed');},20);
+
+const dialogFixture=ctx.modal;vm.runInContext(fs.readFileSync(path.join(__dirname,'../web/scripts/transfers.js'),'utf8'),ctx,{filename:'transfers.js'});ctx.modal=dialogFixture;ctx.canResumeUpload=()=>true;ctx.uploadBusy=true;const fileList={0:{name:'queued.bin'},length:1};ctx.upload(fileList,'/',{});fileList[0]=undefined;fileList.length=0;assert.equal(ctx.managedUpload.pending[0].files.length,1);assert.equal(ctx.managedUpload.pending[0].files[0].name,'queued.bin','Queued upload owns a file snapshot independent of input clearing');console.log('Queued file selection snapshot passed');

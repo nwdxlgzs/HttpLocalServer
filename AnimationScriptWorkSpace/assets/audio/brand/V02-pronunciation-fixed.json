@@ -1,0 +1,29 @@
+{
+  "id": "V02",
+  "voice": "stella",
+  "text": "启动一个HTTP入口，用浏览器访问。",
+  "spokenText": "启动一个 H T T P 入口，用浏览器访问。",
+  "file": "assets/audio/brand/V02-pronunciation-fixed.wav",
+  "preprocessed48k": true,
+  "seconds": 3.6990208333333334,
+  "sampleRate": 48000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "sha256": "8075e3458ec84a0a811344a7423c958276c2a3166301ded65adfe6b7ece62e67",
+  "pronunciation": {
+    "pitchPreservingTempo": 1.0,
+    "edits": [
+      {
+        "type": "trailing-silence-added",
+        "seconds": 0.05452083333333333
+      }
+    ],
+    "usedExtraExistingCueSeconds": 0.0,
+    "method": "only affected cue resynthesized with explicit English spelling; fitted to original sample count",
+    "source": "assets/audio/cloud/corrected-V02-stella.wav",
+    "sourceSpokenText": "启动一个 H T T P 入口，用浏览器访问。",
+    "nativeSeconds": 3.6445,
+    "finalSeconds": 3.6990208333333334,
+    "originalSeconds": 3.6990208333333334
+  }
+}

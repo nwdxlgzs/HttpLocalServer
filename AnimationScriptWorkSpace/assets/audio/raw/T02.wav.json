@@ -1,0 +1,56 @@
+{
+  "id": "T02",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "一个程序，启动H T T P服务。",
+  "events": [
+    {
+      "start": 0.08,
+      "position": 0,
+      "length": 2,
+      "text": "一个"
+    },
+    {
+      "start": 0.3694375,
+      "position": 2,
+      "length": 2,
+      "text": "程序"
+    },
+    {
+      "start": 1.08,
+      "position": 5,
+      "length": 2,
+      "text": "启动"
+    },
+    {
+      "start": 1.53,
+      "position": 7,
+      "length": 1,
+      "text": "H"
+    },
+    {
+      "start": 1.807375,
+      "position": 9,
+      "length": 1,
+      "text": "T"
+    },
+    {
+      "start": 1.9809375,
+      "position": 11,
+      "length": 1,
+      "text": "T"
+    },
+    {
+      "start": 2.171375,
+      "position": 13,
+      "length": 1,
+      "text": "P"
+    },
+    {
+      "start": 2.3464375,
+      "position": 14,
+      "length": 2,
+      "text": "服务"
+    }
+  ]
+}

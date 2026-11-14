@@ -1,0 +1,14 @@
+{
+  "id": "S21",
+  "voice": "stella",
+  "text": "缩略图默认关闭。主机允许后，只把本次预览捕获在客户端内存。",
+  "characters": 29,
+  "inputSha256": "e199e34e1a8227f6a0d0ecb55db6b71b69b5483b7d49b3e58c7c7ae997e72106",
+  "file": "assets/audio/cloud/S21-stella.wav",
+  "generatedAt": "2026-11-14T07:39:26.207658+00:00",
+  "seconds": 6.36,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 305324
+}

@@ -1,0 +1,14 @@
+{
+  "id": "V03",
+  "voice": "stella",
+  "text": "浏览、预览、下载，先找到需要的内容。",
+  "characters": 18,
+  "inputSha256": "4450644a36a9b351f739c662d5223c44a4ef3cfec059afbac8c2ffb9fe9efd65",
+  "file": "assets/audio/cloud/V03-stella.wav",
+  "generatedAt": "2026-11-14T07:41:15.776724+00:00",
+  "seconds": 3.8,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 182444
+}

@@ -1,0 +1,98 @@
+{
+  "id": "S07",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "目录各留一个标签。拖动排序，前后回看，也能直接输入路径。",
+  "events": [
+    {
+      "start": 0.08,
+      "position": 0,
+      "length": 2,
+      "text": "目录"
+    },
+    {
+      "start": 0.5,
+      "position": 2,
+      "length": 1,
+      "text": "各"
+    },
+    {
+      "start": 0.6796875,
+      "position": 3,
+      "length": 1,
+      "text": "留"
+    },
+    {
+      "start": 0.873625,
+      "position": 4,
+      "length": 2,
+      "text": "一个"
+    },
+    {
+      "start": 1.184375,
+      "position": 6,
+      "length": 2,
+      "text": "标签"
+    },
+    {
+      "start": 2.5384375,
+      "position": 9,
+      "length": 2,
+      "text": "拖动"
+    },
+    {
+      "start": 2.916625,
+      "position": 11,
+      "length": 2,
+      "text": "排序"
+    },
+    {
+      "start": 3.616625,
+      "position": 14,
+      "length": 2,
+      "text": "前后"
+    },
+    {
+      "start": 4.0633125,
+      "position": 16,
+      "length": 1,
+      "text": "回"
+    },
+    {
+      "start": 4.2795,
+      "position": 17,
+      "length": 1,
+      "text": "看"
+    },
+    {
+      "start": 4.7963125,
+      "position": 19,
+      "length": 1,
+      "text": "也"
+    },
+    {
+      "start": 4.958,
+      "position": 20,
+      "length": 1,
+      "text": "能"
+    },
+    {
+      "start": 5.146625,
+      "position": 21,
+      "length": 2,
+      "text": "直接"
+    },
+    {
+      "start": 5.559,
+      "position": 23,
+      "length": 2,
+      "text": "输入"
+    },
+    {
+      "start": 5.916625,
+      "position": 25,
+      "length": 2,
+      "text": "路径"
+    }
+  ]
+}

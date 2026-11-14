@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-10",
+  "version": "2.2.0",
+  "author": "github@nwdxlgzs",
+  "license": "Apache-2.0",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 6017024,
+      "sha256": "6c1ebda2fc746eca9e89fe8d6af1b32195210b3bc40572adf0126d54be242b7b"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 7721016,
+      "sha256": "d07dd4f851f3d540f40bbf9ec3bff252a48b11da2f04788cc818149509cfc708"
+    }
+  ],
+  "embeddedWeb": {
+    "format": "gzip",
+    "uncompressedBytes": 269260,
+    "gzipBytes": 76205,
+    "sha256": "08395427f94e16f99b49e90330fa60d4746bfe52ebfe91828d264ef99c229cb2"
+  },
+  "checks": {
+    "windows": [
+      "Clean MSVC Release CTest: magika/core/writes",
+      "integration.py, v2_integration.py, v21_integration.py, v22_integration.py",
+      "defaults.py",
+      "96 clients / 768 mixed requests: zero integrity failures, cache cooled to zero",
+      "PE subsystem 6.01, system DLL imports only",
+      "Final dist v22 integration and embedded resource equality"
+    ],
+    "musl": [
+      "Alpine GCC14 musl1.2.5 static Release CTest",
+      "All four HTTP integration suites and zero-argument defaults",
+      "96 clients / 768 mixed requests: zero integrity failures, cache cooled to zero",
+      "Stripped ELF: no INTERP / NEEDED, embedded resource equality"
+    ],
+    "sanitizers": [
+      "GCC9 ASAN+UBSAN CTest and all four HTTP suites",
+      "Final resources rebuild CTest and v22 integration passed"
+    ],
+    "browser": [
+      "Chrome tabs, drag reorder preserving active folder, 12 tab limit, overflow arrows",
+      "Continuous close width hold",
+      "390x844 viewport: no horizontal overflow, media controls and menu usable",
+      "Standalone WebM decode/play/seek",
+      "Relative CSS plus root script and JSON in opaque sandbox",
+      "Host thumbnail switch followed by second client; clear observed after disable",
+      "Markdown raw HTML and dangerous links blocked",
+      "JSON first expansion creates 100 array children",
+      "Client directory ZIP completed; shipped writer CRC/UTF8/empty-directory/content equality"
+    ],
+    "es5": [
+      "Acorn8.15 ecmaVersion5: application, marked4.3.0, fflate0.8.2"
+    ]
+  },
+  "zipProbe": {
+    "bytes": 5346,
+    "sha256": "f513e843ed5702e0d202a90c7a394f42498c3690df6dbed06ddf236e15d88fa5",
+    "entries": 4,
+    "result": "CRC, empty folder, Chinese filename and original bytes matched"
+  },
+  "architectureEvidence": "architectures-v22.json",
+  "browserScreenshots": {
+    "grid-v22.png": {
+      "width": 65536,
+      "height": 4292542531,
+      "sha256": "35effaeac999899b73163b5dfdbe3793746d8526f68712245fbc3afa9b36b856"
+    },
+    "json-v22.png": {
+      "width": 65536,
+      "height": 4292542531,
+      "sha256": "3f9b6c1e3b3c081054264dc9e02df7b5f9f63474723bd409256eba005587afc8"
+    },
+    "mobile-v22.png": {
+      "width": 65536,
+      "height": 4292542531,
+      "sha256": "7db4c6e43e1ae3187bf7f6ed7e80f91bed3a45db09eeaa0d20cc9aa10ca32ba4"
+    }
+  },
+  "cleanup": {
+    "qemuPackages": "Removed Ubuntu qemu-user and Alpine qemu-aarch64/arm/riscv32/riscv64",
+    "oneTimeSources": "Removed migration scripts and freestanding arithmetic probe",
+    "cache": "Automatic approval rejected bulk .deps cache deletion; retained outside dist"
+  },
+  "limitations": [
+    "Windows7 / IE11 real-device or VM acceptance remains manual",
+    "Emulated ARM/RISC-V validates correctness, not physical hardware throughput",
+    "Full server artifacts cover Windows x64 and Linux musl x86_64",
+    "Media support depends on browser codecs; no transcoding",
+    "Live settings last for the process lifetime",
+    "ZIP Blob fallback bounded at 256MiB desktop / 64MiB narrow screen"
+  ]
+}

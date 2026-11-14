@@ -1,0 +1,67 @@
+{
+  "version": "3.3.1",
+  "date": "2026-11-14",
+  "license": "Apache-2.0",
+  "author": "github@nwdxlgzs",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 25270272,
+      "sha256": "958590772a4a631e043cacace7610043e12878692eb7644e2c19881cbbaca11c",
+      "machine": "x64",
+      "subsystemVersion": [
+        6,
+        1
+      ]
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 27967800,
+      "sha256": "ed6c4a41e2d5991ba7c34b7e43a155403287a2576f4edc9f72c8df8098c2b3d0"
+    }
+  ],
+  "regression": {
+    "windows": {
+      "report": "docs/verification/frozen-lock-v331-windows.json",
+      "integrationGroupsPassed": 4,
+      "ieStaticPassed": true,
+      "ctestPassed": 3
+    },
+    "musl": {
+      "report": "docs/verification/frozen-lock-v331-musl.json",
+      "integrationGroupsPassed": 4,
+      "ieStaticPassed": true,
+      "ctestPassed": 3
+    }
+  },
+  "changes": [
+    "List .hls-config-lock-* files and directories as frozen hatched placeholders, case-insensitively at all depths",
+    "Consistent directory listings, SQLite search and native/synthetic mount search; hide size/time and never recurse into frozen placeholders",
+    "Retain all .hls-* web operation restrictions; private upload/transaction items remain absent without interrupting mounted searches",
+    "Explicit generated version header dependencies for localized MSVC incremental builds"
+  ],
+  "embeddedWebResourcesUnchanged": true,
+  "sourceSnapshot": {
+    "report": "docs/verification/source-v331-sha256.json",
+    "files": 710
+  },
+  "changedInputsSince330": [
+    "CMakeLists.txt",
+    "README.md",
+    "docs/configuration.md",
+    "src/index.cpp",
+    "src/service.cpp",
+    "src/util.cpp",
+    "src/util.hpp",
+    "tests/features_v330_integration.py",
+    "tests/frozen_lock_integration.py",
+    "tests/ie_compat_test.cjs",
+    "tools/maintenance/verify_release.py"
+  ],
+  "historicalBaseline": "docs/verification/release-v330.json",
+  "validationBoundaries": [
+    "Focused regression for this patch; v3.3.0 broader browser/load results are historical, not rerun for v3.3.1",
+    "No new native IE11, Windows 7 or macOS execution; IE11 static/missing-API checks passed and Windows subsystem remains 6.01",
+    "Linux-musl x86-64 built and tested in Alpine; packaged artifact checked with file as stripped, fully static ELF"
+  ]
+}

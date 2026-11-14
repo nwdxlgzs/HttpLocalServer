@@ -1,0 +1,92 @@
+{
+  "id": "S13",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "复制、剪切、跨标签移动。跨位置搬运先核对，再移除源文件。",
+  "events": [
+    {
+      "start": 0.083,
+      "position": 0,
+      "length": 2,
+      "text": "复制"
+    },
+    {
+      "start": 0.7993125,
+      "position": 3,
+      "length": 2,
+      "text": "剪切"
+    },
+    {
+      "start": 1.560625,
+      "position": 6,
+      "length": 1,
+      "text": "跨"
+    },
+    {
+      "start": 1.831375,
+      "position": 7,
+      "length": 2,
+      "text": "标签"
+    },
+    {
+      "start": 2.25,
+      "position": 9,
+      "length": 2,
+      "text": "移动"
+    },
+    {
+      "start": 3.5131875,
+      "position": 12,
+      "length": 1,
+      "text": "跨"
+    },
+    {
+      "start": 3.7195,
+      "position": 13,
+      "length": 2,
+      "text": "位置"
+    },
+    {
+      "start": 4.125375,
+      "position": 15,
+      "length": 2,
+      "text": "搬运"
+    },
+    {
+      "start": 4.576875,
+      "position": 17,
+      "length": 1,
+      "text": "先"
+    },
+    {
+      "start": 4.800625,
+      "position": 18,
+      "length": 2,
+      "text": "核对"
+    },
+    {
+      "start": 5.5021875,
+      "position": 21,
+      "length": 1,
+      "text": "再"
+    },
+    {
+      "start": 5.7076875,
+      "position": 22,
+      "length": 1,
+      "text": "移"
+    },
+    {
+      "start": 5.8725,
+      "position": 23,
+      "length": 1,
+      "text": "除"
+    },
+    {
+      "start": 6.0639375,
+      "position": 24,
+      "length": 3,
+      "text": "源文件"
+    }
+  ]
+}

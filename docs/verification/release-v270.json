@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-13",
+  "version": "2.7.0",
+  "baseline": "release-v260.json",
+  "artifacts": [
+    {
+      "file": "HttpLocalServer-windows-x64.exe",
+      "bytes": 7250944,
+      "sha256": "1e90ce91b58f4880246681148e84825ac566825df75f23938332adc28221b8ba"
+    },
+    {
+      "file": "HttpLocalServer-linux-musl-x86_64",
+      "bytes": 9449752,
+      "sha256": "872fb442a19799fdd27f526275a897061dff9605ce73c1375dcfbe75e5a6e8c8"
+    }
+  ],
+  "changes": [
+    "Default-off --p2p and live host setting; explicit cooperative file download action, ordinary native downloads retained",
+    "Browser WebRTC DataChannels with no external STUN/TURN; bounded host discovery, acknowledged signaling queues, leases and file-version-isolated membership",
+    "Portable project-owned C++ SHA-256, on-demand 16-piece digest pages, 1 MiB transfer pieces verified before output, corrupt/missing/offline peer fallback to pinned HTTP Range",
+    "Bounded chunk cache, four connections and 4096 KiB/s aggregate upload per page by default, 120 seconds of post-download sharing, explicit stop and pagehide cleanup",
+    "Disk-backed streaming and verified existing-file resume where local write APIs exist; bounded Blob fallback for small files; pause/cancel/error commit and exponentially spaced COW checkpoints",
+    "TCP-IP/cookie/key/access-revision binding and existing token/Origin/login/hotlink guards; idle control polling does not extend hotlink access",
+    "No new third-party dependency; compressed embedded assets and ES5 syntax maintained"
+  ],
+  "budgets": {
+    "pieceBytes": 1048576,
+    "maximumFileBytes": 1099511627776,
+    "participants": 512,
+    "participantsPerIP": 32,
+    "participantsPerFileVersion": 128,
+    "leaseSeconds": 20,
+    "signalsPerRecipient": 16,
+    "signalQueueBytes": 4194304,
+    "signalsPerSenderPerMinute": 60,
+    "hashCacheBytes": 8388608,
+    "hashCachePages": 4096,
+    "hashCacheIdleSeconds": 300,
+    "concurrentHashTasks": 4,
+    "coalescedHashWaiters": 32,
+    "defaultChunkCacheMiBPerPage": 64,
+    "defaultConnectionsPerPage": 4,
+    "defaultUploadKiBPerSecondPerPage": 4096,
+    "defaultSeedSeconds": 120,
+    "blobLimitMiB": { "desktop": 128, "narrowScreen": 64 }
+  },
+  "verification": {
+    "windows": [
+      "Coherent clean MSVC Release build with static runtime and optional TLS backend enabled; CTest 3/3",
+      "P2P HTTP suite: default off, host enable/disable, file-version/key/IP/Origin/token isolation, signal acknowledgement/retry and metadata bounds",
+      "Concurrent/coalesced digest requests independently compared against Python hashlib, including SHA-256 padding boundaries and 1 MiB pieces",
+      "P2P authenticated join and hotlink expiry despite periodic idle polls",
+      "Existing HTTP core/Server/backpressure suite with 5 GiB offset and 144 mixed Range operations",
+      "Access/login/five-attempt ban/manual unlock/strict host/COW copy/hotlink/QR/gzip regression",
+      "Full HTTPS regression: TLS1.2/1.3, ALPN/resumption/close-notify, trust/SAN/RSA/ECDSA/DER, 96 concurrent ranges, streaming/chunked upload/gzip, preview/MCP/key aliases and handshake budgets",
+      "Published executable zero-argument HTTP8000 defaults, default P2P off, version, exact embedded gzip/identity bytes, HEAD and IE11 user-agent response checked"
+    ],
+    "linuxMusl": [
+      "Static stripped x86_64 Release build with TLS enabled; CTest 3/3",
+      "Same P2P HTTP, existing core/Server/backpressure, access and full HTTPS suites passed",
+      "Published executable 2.7.0 and zero-argument HTTP8000 defaults passed; ELF has no interpreter or dynamic section"
+    ],
+    "tlsOff": [
+      "Separate clean MSVC Release build with HLS_ENABLE_TLS=OFF",
+      "Same P2P HTTP and SHA-256 integration passed without linking mbedTLS"
+    ],
+    "javascript": [
+      "P2P verified output, corrupted-peer removal and bounded host fallback, cache/hash reuse and existing-file rehash resume",
+      "DataChannel frame reconstruction, negotiated message-size bounds and malformed/oversized envelope rejection",
+      "Pause/cancel races during hash resolution/rejection, writer reopen, pause commit and final close; buffers released",
+      "COW filesystem-handle test double verifies private writes, snapshots, checkpoints, pause/reopen, truncation and no leaked writer",
+      "IE static check: 23 ES5 sources and full startup with modern browser globals removed",
+      "Existing player, clipboard, drag/thumbnail and mount/browser suites passed"
+    ],
+    "realBrowser": {
+      "environment": "Two pages in one actual Chromium-based browser, HTTP loopback test service; generated disposable binary fixture",
+      "fileBytes": 8388608,
+      "secondPagePeerBytes": 8388608,
+      "secondPageHostFileBodyBytes": 0,
+      "sourceAndBothSavedFilesSHA256": "7d212b9c884f5c77896de960ae17cc341cda43b14d6a971f34ca29ebd4badf7f",
+      "result": "Both pages completed; second page received all file bytes from first page, both saved files independently matched source; stop-sharing buttons hid the transfer panels; no warning/error logs on receiver",
+      "screenshot": "v270-peer-download.png",
+      "scope": "WebRTC/framing/browser-output proof preceded final checkpoint/resume cleanup patches; final lifecycle patches passed JavaScript regression and both final native builds"
+    },
+    "macos": "Source-compatible portable code only; no build or test per user instruction",
+    "ie11": "Existing user-provided IE acceptance predates this feature; this release has static ES5/capability fallback checks, no new actual IE run"
+  },
+  "webBundle": {
+    "uncompressedBytes": 423569,
+    "gzipBytes": 115941,
+    "sha256": "e1070350a92be421675ca798f7b2de99cdb8162e5e583feea4030c58fba498de"
+  },
+  "limits": [
+    "Remote LAN P2P requires a trusted secure context; ordinary insecure IP HTTP and IE use existing native downloads",
+    "Native save-file picker and large-file COW behavior are covered by test doubles only; no actual picker or multi-GB/TiB endurance run",
+    "Actual WebRTC proof uses two loopback pages, not separate physical LAN machines or production-scale concurrent peers",
+    "One cooperative download per page; nonempty regular/native-mounted files only, maximum1TiB; active browser materialization is excluded",
+    "No external STUN/TURN; blocked UDP, network isolation and absent peers can eliminate bandwidth savings",
+    "First copy usually still needs host data and on-demand hashing adds disk reads; no throughput/savings guarantee",
+    "COW checkpoints are spaced to reduce repeated copying, not a zero-copy persistence guarantee; crashes can lose uncommitted progress and disk APIs may need extra space",
+    "Client-reported aggregate peer bytes are advisory, not trusted billing or exact host traffic accounting",
+    "Received content cannot be revoked; custom malicious clients are not constrained by the webpage stop button"
+  ],
+  "documentation": ["docs/p2p.md", "docs/development.md", "README.md"]
+}

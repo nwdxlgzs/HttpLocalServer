@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "sampleRate": 48000,
+  "engine": "DeepSeek TTS",
+  "voice": "stella",
+  "films": [
+    {
+      "id": "main",
+      "seconds": 319.966667,
+      "shots": 44,
+      "captions": 89,
+      "fallbackEstimatedCaptions": 89,
+      "nativeSpeechEvents": 0,
+      "minimumTailSeconds": 0.48373,
+      "maximumTailSeconds": 2.27333,
+      "ordinaryTailMinSeconds": 0.48373,
+      "ordinaryTailMaxSeconds": 1.1329,
+      "qrDemonstrationTailsSeconds": {
+        "S04": 2.27333
+      },
+      "minimumSpeechGapSeconds": 0.36706,
+      "truncatedCues": 0,
+      "tracks": [
+        {
+          "file": "assets/audio/voice-main.wav",
+          "seconds": 319.96666666666664,
+          "peak": 0.858856,
+          "rms": 0.115384
+        },
+        {
+          "file": "assets/audio/music-main.wav",
+          "seconds": 319.96666666666664,
+          "peak": 0.233398,
+          "rms": 0.031325
+        },
+        {
+          "file": "assets/audio/master-main.wav",
+          "seconds": 319.96666666666664,
+          "peak": 0.864929,
+          "rms": 0.11957
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "seconds": 58.3,
+      "shots": 9,
+      "captions": 15,
+      "fallbackEstimatedCaptions": 15,
+      "nativeSpeechEvents": 0,
+      "minimumTailSeconds": 1.26054,
+      "maximumTailSeconds": 3.79102,
+      "ordinaryTailMinSeconds": 1.26054,
+      "ordinaryTailMaxSeconds": 1.28196,
+      "qrDemonstrationTailsSeconds": {
+        "OQR": 3.79102
+      },
+      "minimumSpeechGapSeconds": 1.14388,
+      "truncatedCues": 0,
+      "tracks": [
+        {
+          "file": "assets/audio/voice-overview.wav",
+          "seconds": 58.3,
+          "peak": 0.840454,
+          "rms": 0.116621
+        },
+        {
+          "file": "assets/audio/music-overview.wav",
+          "seconds": 58.3,
+          "peak": 0.244751,
+          "rms": 0.037334
+        },
+        {
+          "file": "assets/audio/master-overview.wav",
+          "seconds": 58.3,
+          "peak": 0.823059,
+          "rms": 0.122567
+        }
+      ]
+    },
+    {
+      "id": "teaser",
+      "seconds": 24.333333,
+      "shots": 7,
+      "captions": 7,
+      "fallbackEstimatedCaptions": 7,
+      "nativeSpeechEvents": 0,
+      "minimumTailSeconds": 0.50144,
+      "maximumTailSeconds": 3.79102,
+      "ordinaryTailMinSeconds": 0.50144,
+      "ordinaryTailMaxSeconds": 0.92829,
+      "qrDemonstrationTailsSeconds": {
+        "TQR": 3.79102
+      },
+      "minimumSpeechGapSeconds": 0.38477,
+      "truncatedCues": 0,
+      "tracks": [
+        {
+          "file": "assets/audio/voice-teaser.wav",
+          "seconds": 24.333333333333332,
+          "peak": 0.823486,
+          "rms": 0.107952
+        },
+        {
+          "file": "assets/audio/music-teaser.wav",
+          "seconds": 24.333333333333332,
+          "peak": 0.246735,
+          "rms": 0.036688
+        },
+        {
+          "file": "assets/audio/master-teaser.wav",
+          "seconds": 24.333333333333332,
+          "peak": 0.845581,
+          "rms": 0.113897
+        }
+      ]
+    },
+    {
+      "id": "vertical",
+      "seconds": 34.733333,
+      "shots": 8,
+      "captions": 8,
+      "fallbackEstimatedCaptions": 8,
+      "nativeSpeechEvents": 0,
+      "minimumTailSeconds": 0.76765,
+      "maximumTailSeconds": 3.79102,
+      "ordinaryTailMinSeconds": 0.76765,
+      "ordinaryTailMaxSeconds": 1.16042,
+      "qrDemonstrationTailsSeconds": {
+        "VQR": 3.79102
+      },
+      "minimumSpeechGapSeconds": 0.65098,
+      "truncatedCues": 0,
+      "tracks": [
+        {
+          "file": "assets/audio/voice-vertical.wav",
+          "seconds": 34.733333333333334,
+          "peak": 0.88147,
+          "rms": 0.115744
+        },
+        {
+          "file": "assets/audio/music-vertical.wav",
+          "seconds": 34.733333333333334,
+          "peak": 0.233765,
+          "rms": 0.038275
+        },
+        {
+          "file": "assets/audio/master-vertical.wav",
+          "seconds": 34.733333333333334,
+          "peak": 0.845673,
+          "rms": 0.1217
+        }
+      ]
+    }
+  ],
+  "totalCues": 68
+}

@@ -1,0 +1,30 @@
+/* SPDX-License-Identifier: Apache-2.0 */
+/* Supported baseline: IE11. Keep modern selectors in separate rules. */
+.titlebar .theme-buttons{overflow:hidden;transition:background-color .22s,border-color .22s,box-shadow .22s}
+.theme-selection{position:absolute;left:2px;top:2px;width:29px;height:24px;border-radius:6px;background:#fff;box-shadow:0 1px 4px rgba(39,67,103,.15);pointer-events:none;transform:translateX(0)}
+.theme-ready .theme-selection{transition:transform .32s cubic-bezier(.22,1,.36,1),background-color .22s,box-shadow .22s}
+.theme-buttons[data-mode=light] .theme-selection{transform:translateX(100%)}
+.theme-buttons[data-mode=dark] .theme-selection{transform:translateX(200%)}
+.titlebar .theme-buttons button{position:relative;z-index:1;transition:color .2s,background-color .16s}
+.titlebar .theme-buttons button.active,.theme-dark .titlebar .theme-buttons button.active{background:transparent;box-shadow:none}
+.titlebar .theme-buttons button:hover:enabled{background:rgba(92,127,171,.1)}
+.titlebar .theme-buttons button:focus{outline:1px solid #8babd3;outline-offset:-2px}
+.theme-dark .theme-selection{background:#3c526e;box-shadow:0 1px 5px rgba(0,0,0,.22)}
+.theme-animating .theme-selection{box-shadow:0 2px 9px rgba(51,102,166,.23)}
+.theme-animating button.active .ui-icon{animation:theme-icon-select .32s ease-out}
+@keyframes theme-icon-select{0%{transform:scale(.82) rotate(-12deg)}55%{transform:scale(1.13) rotate(5deg)}100%{transform:scale(1) rotate(0)}}
+body,.titlebar,.commands,.navigation,.sidebar,.main,.statusbar,.drawer,.settings-panel{transition:background-color .22s,color .22s,border-color .22s}
+.settings-panel .quota-inputs{display:flex;align-items:stretch;margin-top:7px}
+.settings-panel .quota-inputs input{flex:1 1 0%;width:calc(100% - 68px);min-width:0;margin-top:0;border-right:0;border-radius:6px 0 0 6px}
+.settings-panel .quota-inputs select{flex:0 0 68px;width:68px;min-width:68px;margin-top:0;padding-left:8px;padding-right:4px;border-radius:0 6px 6px 0}
+.modal-copy{margin:12px 0}
+.qr-choices{flex-shrink:0}.qr-choices>button{flex-shrink:0}
+/* IE11 ignores sticky positioning; the panel remains one scrollable document. */
+@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none){
+    .settings-panel{flex:0 1 620px;max-height:calc(100vh - 40px)}
+    .settings-grid>label,.settings-grid>.setting-checks{min-width:0}
+    .settings-panel header,.settings-panel footer{position:relative}
+    .theme-buttons button{flex-shrink:0}
+}
+@media(max-width:720px){.theme-selection{width:26px}}
+@media(max-width:540px){.modal-shade{padding:12px}.modal{max-height:calc(100vh - 24px);padding:22px}.settings-panel .quota-inputs select{flex-basis:64px;width:64px;min-width:64px}}

@@ -1,0 +1,109 @@
+{
+  "version": "3.1.0",
+  "date": "2026-11-13",
+  "author": "github@nwdxlgzs",
+  "license": "Apache-2.0",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 8671232,
+      "sha256": "756ac25440109913bf65ee16dc39ed09735390a8ff374b522a53275d8c4fcfd7",
+      "httpsCompiled": true
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 11301176,
+      "sha256": "882e2640c29491d90625fe9fafc30f9b2119bd357c3fe13d2648a3ce081ac21f",
+      "httpsCompiled": true
+    }
+  ],
+  "changes": [
+    "Native copies use durable 1 MiB pinned-source chunks and idempotent publication receipts",
+    "Direct directory downloads preserve committed local sidecar pieces within unfinished files and COW-publish verified output",
+    "Browser ZIP compression saves CRC, ZIP64 metadata and bounded fflate compressor snapshots within unfinished files",
+    "Without native local filesystem APIs, browser-generated ZIP chunks use an IP-bound private host spool and native Range download",
+    "Server-side ZIP journals and byte checkpoints commit atomically; per-task immutable checkpoint requests are serialized",
+    "Mounted uploads preserve staged offsets and validate the full acknowledged source-prefix SHA-256 chain after reselection",
+    "Provider COW publication streams 256 KiB ranges from the private spool; host replicas reuse existing bytes without provider reupload or double billing",
+    "Cross-mount moves and browser rename fallback copy, verify destination and conditionally delete the original source generation; directories remove only when empty",
+    "Mounted-source versions are distinct from host replica versions; changed/skipped/frozen source content is retained",
+    "Provider payloads keep independent admission budgets, including max-transfers=1",
+    "Private spool limits share the resumable storage budget; capabilities bind IP and share namespace, protected config is rejected",
+    "Single generated CMake version for CLI, banner, HTTP, status and MCP; file identification/suffix advice retained on mounted upload receipts",
+    "Plain uploads coalesce network fragments into bounded buffers before durable quota writes; early EOF accounts the short tail without publishing",
+    "IE11 ES5 compatibility, prefixed Blob slicing fallbacks, bounded retries and cancellation cleanup retained; long transfers have no fixed 60-second client deadline"
+  ],
+  "fullRegression": {
+    "windows": {
+      "report": "docs/verification/acceptance-v310-windows.json",
+      "passed": 30,
+      "testedBinarySha256": "756ac25440109913bf65ee16dc39ed09735390a8ff374b522a53275d8c4fcfd7"
+    },
+    "musl": {
+      "report": "docs/verification/acceptance-v310-musl.json",
+      "passed": 29,
+      "testedBinarySha256": "882e2640c29491d90625fe9fafc30f9b2119bd357c3fe13d2648a3ce081ac21f"
+    }
+  },
+  "regressionNote": "Complete regressions, native CTest and shipped-browser checks ran against the final runtime implementation. Both complete release suites used the exact distributed files identified above, including bundle/version checks, private transfer/copy/move, actual mid-file ZIP recovery and mixed load. Native inputs are preserved in native-v310-sha256.json.",
+  "finalArtifactChecks": {
+    "windows": {
+      "report": "docs/verification/artifact-v310-windows.json",
+      "passed": 13
+    },
+    "musl": {
+      "report": "docs/verification/artifact-v310-musl.json",
+      "passed": 13
+    }
+  },
+  "ctest": {
+    "windows": "3/3",
+    "linuxMusl": "3/3"
+  },
+  "httpsDisabled": {
+    "build": "independent static musl executable",
+    "passed": [
+      "durable_integration.py (both modes)",
+      "transfer_cache_integration.py (both modes, max-transfers=1)"
+    ]
+  },
+  "web": {
+    "uncompressedBytes": 537405,
+    "gzipBytes": 147637,
+    "sha256": "967d95cb1a14c0c3feb411ab9fa6259840071675bff6656dee144103fbdc8bda"
+  },
+  "es5Sources": 33,
+  "load": {
+    "windows": "docs/verification/load-v310-windows.json",
+    "linuxMusl": "docs/verification/load-v310-musl.json",
+    "scope": "Each: 96 clients, 768 requests, exact file hashes; loopback functional load, not physical NIC bandwidth"
+  },
+  "binaryChecks": {
+    "windows": {
+      "machine": "0x8664",
+      "subsystemVersion": [
+        6,
+        1
+      ],
+      "imports": [
+        "bcrypt.dll",
+        "WS2_32.dll",
+        "MSWSOCK.dll",
+        "IPHLPAPI.DLL",
+        "SHELL32.dll",
+        "KERNEL32.dll"
+      ]
+    },
+    "linuxMusl": "/mnt/d/project/GZS/HttpLocalServer/dist/HttpLocalServer-linux-musl-x86_64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=6ec10e1e519cabcccdcf2a77a0adb3e17d5b4b4d, stripped"
+  },
+  "validationBoundaries": [
+    "Actual Windows 7 was not available; PE subsystem 6.01 and system-DLL imports were checked",
+    "macOS source adaptation retained; no macOS test was run, as requested",
+    "IE11 previously accepted by the user; this increment has ES5/missing-API checks and docs/verification/ie-v310.md, not a new native IE rendering verdict",
+    "Native filesystem authorization/reopened handles and external-program races are covered by handle/IndexedDB doubles plus actual HTTP; physical browser picker and cross-device WebRTC acceptance are not replaced by those tests",
+    "Browsers without FileReader/Blob slicing retain legacy PUT and require restarting that file after page closure; browsers cannot silently recover disk permission",
+    "Direct-directory recovery may refetch the last uncommitted local part (at most 16 MiB); ZIP rolls back to its saved compressor checkpoint",
+    "Native download completion remains browser-managed; generated ZIP spools remain until cancellation or the configured expiry to support Range resume"
+  ],
+  "resolvedRegression": "Repeated musl concurrent-upload timeouts were traced with syscalls to quota fsync on 512-byte network fragments. Bounded body coalescing reduced the local 600 KB two-client quota test from about 7-8 seconds to about 0.1 seconds across 20 successful repetitions. Early-EOF accounting and repeated concurrent quota races are covered by the final regression; no failed run is counted as passed."
+}

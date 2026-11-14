@@ -1,0 +1,81 @@
+{
+  "executable": "/mnt/d/project/GZS/HttpLocalServer/dist/HttpLocalServer-linux-musl-x86_64",
+  "clients": 96,
+  "requests": 768,
+  "largeFiles": 96,
+  "smallFiles": 672,
+  "integrityFailures": 0,
+  "seconds": 1.995,
+  "payloadBytes": 810915840,
+  "payloadMiBPerSecond": 387.6,
+  "p50Milliseconds": 137.87,
+  "p95Milliseconds": 913.12,
+  "statusAfterLoad": {
+    "version": "3.2.0",
+    "mode": "filetrans",
+    "rootName": "hls-load-m1mr22ko",
+    "p2p": {
+      "enabled": false,
+      "reportedPeerBytes": 0
+    },
+    "uptime": 2,
+    "connections": 1,
+    "active": 1,
+    "receivedBytes": 0,
+    "requests": 769,
+    "sentBytes": 810915840,
+    "rejected": 0,
+    "threads": {
+      "io": 4,
+      "file": 5,
+      "metadata": 4
+    },
+    "magika": {
+      "enabled": true,
+      "model": "standard_v3_3",
+      "kernel": "pending",
+      "inferences": 0,
+      "active": 0,
+      "residentBytes": 0
+    },
+    "transferErrors": 0,
+    "residentMemory": 16003072,
+    "cache": {
+      "hits": 3558,
+      "misses": 186,
+      "coalesced": 7,
+      "diskBytes": 12396544,
+      "residentBytes": 9408512,
+      "allocatedBytes": 9408512,
+      "targetBytes": 33554432,
+      "limitBytes": 33554432,
+      "bufferBytes": 134217728,
+      "releasedBytes": 3080192,
+      "entries": 144,
+      "idleSeconds": 3,
+      "halfLifeSeconds": 2
+    },
+    "index": {
+      "enabled": true,
+      "scanning": false,
+      "count": 129,
+      "truncated": false,
+      "failed": false
+    }
+  },
+  "cacheAfterCooling": {
+    "hits": 3558,
+    "misses": 186,
+    "coalesced": 7,
+    "diskBytes": 12396544,
+    "residentBytes": 0,
+    "allocatedBytes": 0,
+    "targetBytes": 33554432,
+    "limitBytes": 33554432,
+    "bufferBytes": 134217728,
+    "releasedBytes": 12488704,
+    "entries": 0,
+    "idleSeconds": 3,
+    "halfLifeSeconds": 2
+  }
+}

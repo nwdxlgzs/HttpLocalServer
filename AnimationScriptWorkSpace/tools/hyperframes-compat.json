@@ -1,0 +1,10 @@
+{
+  "package": "hyperframes",
+  "version": "0.9.44",
+  "patch": "scripts/hf_compat.mjs",
+  "reason": "Accept FFmpeg 4.2 NVENC preset help without numeric enum IDs.",
+  "scope": "production tooling only",
+  "ffmpegVersion": "4.2.2",
+  "selectedLegacyPreset": "fast",
+  "completed4KExport": "HttpLocalServer-teaser-4K.mp4"
+}

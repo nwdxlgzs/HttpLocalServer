@@ -1,0 +1,47 @@
+{
+  "version": "3.3.1",
+  "cliVersion": "HttpLocalServer 3.3.1",
+  "date": "2026-11-14",
+  "binary": "/mnt/d/project/GZS/HttpLocalServer/dist/HttpLocalServer-linux-musl-x86_64",
+  "sha256": "ed6c4a41e2d5991ba7c34b7e43a155403287a2576f4edc9f72c8df8098c2b3d0",
+  "bytes": 27967800,
+  "scope": "Focused frozen lock/config/state regressions; previous v3.3.0 broader checks are historical evidence only",
+  "tests": [
+    {
+      "name": "frozen_lock_integration.py",
+      "exitCode": 0,
+      "seconds": 1.05,
+      "output": "Frozen lock tests passed: active/custom/nested/uppercase locks, frozen directories, hidden policy, indexed/mounted search, private temporary filtering, FileTrans/Server, reads/writes/P2P and ancestor protection\n"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 1.46,
+      "output": "Configuration tests passed: JSON/CLI precedence, atomic persistence/restart, hardlink history, native mounts, frozen listing/search, reads/writes/copy/P2P/ancestors/traversal and malformed JSON\n"
+    },
+    {
+      "name": "features_v330_integration.py",
+      "exitCode": 0,
+      "seconds": 1.05,
+      "output": "v3.3 feature integration passed: inference, frozen state, compression/range, lazy CWD config, persistent ZIP workspace imports and real filesystem confinement\n"
+    },
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 3.52,
+      "output": "durable integration passed: both modes, crash/restart, idempotency, quota, recycle, bounded scripts, frozen preflight\n"
+    },
+    {
+      "name": "ie_compat_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.58,
+      "output": "IE static checks passed: 35 ES5 sources, full startup without modern globals, Markdown/hooks, UTF-8/gzip fallbacks, capability gating, themes and CSS spacing/sticky fallbacks\n"
+    },
+    {
+      "name": "ctest",
+      "exitCode": 0,
+      "seconds": 10.33,
+      "output": "Internal ctest changing into directory: /build\nTest project /build\n    Start 1: magika\n1/3 Test #1: magika ...........................   Passed    2.17 sec\n    Start 2: core\n2/3 Test #2: core .............................   Passed    1.24 sec\n    Start 3: writes\n3/3 Test #3: writes ...........................   Passed    6.88 sec\n\n100% tests passed, 0 tests failed out of 3\n\nTotal Test time (real) =  10.29 sec\n"
+    }
+  ]
+}

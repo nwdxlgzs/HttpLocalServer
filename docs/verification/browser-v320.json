@@ -1,0 +1,20 @@
+{
+  "engine": "Installed Google Chrome / Playwright Core",
+  "protocols": [
+    "HTTP",
+    "HTTPS (mbedTLS self-signed)"
+  ],
+  "scenariosPerProtocol": 11,
+  "passed": 22,
+  "includes": [
+    "DOCX/PPTX/XLSX/PDF with native Wasm",
+    "Same formats after removing Wasm, fetch, Streams, TextEncoder/TextDecoder, DOMMatrix, Path2D and AbortSignal",
+    "Real text and spreadsheet clipboard copy",
+    "JPEG2000 actual pixel decoding with Wasm and JS fallback",
+    "ZIP websites in both modes with CSS/scripts/images/fetch and blocked management access",
+    "12 internal tabs, close cleanup, dark mode and 390px mobile layout"
+  ],
+  "report": "docs/verification/browser-v320.json",
+  "testedBinarySha256": "d7bf537108ece818bbfc814dd1ae2f6843144743aa18df34674773f27d0b6ff1",
+  "canvasCompatibilityUnit": "2D/4D inversion, singular matrices and tracked transforms passed"
+}

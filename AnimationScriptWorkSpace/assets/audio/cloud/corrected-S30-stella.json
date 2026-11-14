@@ -1,0 +1,15 @@
+{
+  "id": "S30",
+  "voice": "stella",
+  "text": "口令控制访问，严格主机收紧管理身份。需要加密时，可配置内网HTTPS。",
+  "spokenText": "口令控制访问，严格主机收紧管理身份。需要加密时，可配置内网 H T T P S 。",
+  "characters": 41,
+  "inputSha256": "4177e309dcd4af02fc7f0444c1929fcdf178cf34c70786dc6beb9a40ef68d172",
+  "file": "assets/audio/cloud/corrected-S30-stella.wav",
+  "generatedAt": "2026-11-14T08:14:08.310442+00:00",
+  "seconds": 7.96,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 382124
+}

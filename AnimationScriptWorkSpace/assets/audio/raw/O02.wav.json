@@ -1,0 +1,92 @@
+{
+  "id": "O02",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "启动HTTP Local Server，用浏览器访问。一个程序，先把服务提供出来。",
+  "events": [
+    {
+      "start": 0.081625,
+      "position": 0,
+      "length": 2,
+      "text": "启动"
+    },
+    {
+      "start": 0.53,
+      "position": 2,
+      "length": 4,
+      "text": "HTTP"
+    },
+    {
+      "start": 1.66925,
+      "position": 7,
+      "length": 5,
+      "text": "Local"
+    },
+    {
+      "start": 2.0938125,
+      "position": 13,
+      "length": 6,
+      "text": "Server"
+    },
+    {
+      "start": 2.70525,
+      "position": 20,
+      "length": 1,
+      "text": "用"
+    },
+    {
+      "start": 2.939125,
+      "position": 21,
+      "length": 3,
+      "text": "浏览器"
+    },
+    {
+      "start": 3.49625,
+      "position": 24,
+      "length": 2,
+      "text": "访问"
+    },
+    {
+      "start": 4.806375,
+      "position": 27,
+      "length": 2,
+      "text": "一个"
+    },
+    {
+      "start": 5.0958125,
+      "position": 29,
+      "length": 2,
+      "text": "程序"
+    },
+    {
+      "start": 5.806375,
+      "position": 32,
+      "length": 1,
+      "text": "先"
+    },
+    {
+      "start": 6.06025,
+      "position": 33,
+      "length": 1,
+      "text": "把"
+    },
+    {
+      "start": 6.2175,
+      "position": 34,
+      "length": 2,
+      "text": "服务"
+    },
+    {
+      "start": 6.626375,
+      "position": 36,
+      "length": 2,
+      "text": "提供"
+    },
+    {
+      "start": 7.026375,
+      "position": 38,
+      "length": 2,
+      "text": "出来"
+    }
+  ]
+}

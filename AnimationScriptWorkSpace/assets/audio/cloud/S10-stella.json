@@ -1,0 +1,14 @@
+{
+  "id": "S10",
+  "voice": "stella",
+  "text": "传输能排队，也能在检查点继续。重新授权，核对源文件，再接着传。",
+  "characters": 31,
+  "inputSha256": "11c56212cf1fbd97fb4fd810da5d10844c061c9228824f2787ec5bd7addb9784",
+  "file": "assets/audio/cloud/S10-stella.wav",
+  "generatedAt": "2026-11-14T07:38:53.861142+00:00",
+  "seconds": 7.64,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 366764
+}

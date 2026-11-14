@@ -1,0 +1,14 @@
+{
+  "id": "O07",
+  "voice": "stella",
+  "text": "它也能托管网站，以可信脚本和受限组件扩展轻量应用。",
+  "characters": 25,
+  "inputSha256": "11a238f6bb77c6162149455ee783242585d4886617fff57421c87b6e7a598de7",
+  "file": "assets/audio/cloud/O07-stella.wav",
+  "generatedAt": "2026-11-14T07:40:52.832688+00:00",
+  "seconds": 5.52,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 265004
+}

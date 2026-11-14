@@ -1,0 +1,14 @@
+{
+  "id": "S04",
+  "voice": "stella",
+  "text": "发送地址，或者扫一扫。选择设备实际能访问的局域网入口。",
+  "characters": 27,
+  "inputSha256": "d08cb98590ed0aa19ffc60ea05f96a0de65a0c2a80e7ba9db3fca50fc631bfc5",
+  "file": "assets/audio/cloud/S04-stella.wav",
+  "generatedAt": "2026-11-14T07:38:37.160666+00:00",
+  "seconds": 5.8,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 278444
+}

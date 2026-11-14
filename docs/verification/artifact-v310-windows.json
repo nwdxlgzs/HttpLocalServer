@@ -1,0 +1,84 @@
+{
+  "binary": "dist/HttpLocalServer-windows-x64.exe",
+  "sha256": "756ac25440109913bf65ee16dc39ed09735390a8ff374b522a53275d8c4fcfd7",
+  "tests": [
+    {
+      "name": "transfer_cache_integration.py",
+      "exitCode": 0,
+      "seconds": 8.44,
+      "log": "final-v310-windows/transfer_cache_integration.py.log"
+    },
+    {
+      "name": "bundle_integration.py",
+      "exitCode": 0,
+      "seconds": 0.92,
+      "log": "final-v310-windows/bundle_integration.py.log"
+    },
+    {
+      "name": "archive_integration.py",
+      "exitCode": 0,
+      "seconds": 8.27,
+      "log": "final-v310-windows/archive_integration.py.log"
+    },
+    {
+      "name": "resume_test.cjs",
+      "exitCode": 0,
+      "seconds": 4.99,
+      "log": "final-v310-windows/resume_test.cjs.log"
+    },
+    {
+      "name": "jobs_test.cjs",
+      "exitCode": 0,
+      "seconds": 1.84,
+      "log": "final-v310-windows/jobs_test.cjs.log"
+    },
+    {
+      "name": "mounts_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.14,
+      "log": "final-v310-windows/mounts_test.cjs.log"
+    },
+    {
+      "name": "batch_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.28,
+      "log": "final-v310-windows/batch_test.cjs.log"
+    },
+    {
+      "name": "p2p_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.74,
+      "log": "final-v310-windows/p2p_test.cjs.log"
+    },
+    {
+      "name": "clipboard_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.08,
+      "log": "final-v310-windows/clipboard_test.cjs.log"
+    },
+    {
+      "name": "drag_thumbnail_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.28,
+      "log": "final-v310-windows/drag_thumbnail_test.cjs.log"
+    },
+    {
+      "name": "player_state_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.08,
+      "log": "final-v310-windows/player_state_test.cjs.log"
+    },
+    {
+      "name": "collaboration_test.cjs",
+      "exitCode": 0,
+      "seconds": 2.52,
+      "log": "final-v310-windows/collaboration_test.cjs.log"
+    },
+    {
+      "name": "ie_compat_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.22,
+      "log": "final-v310-windows/ie_compat_test.cjs.log"
+    }
+  ]
+}

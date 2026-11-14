@@ -1,0 +1,74 @@
+{
+  "id": "S44",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "HTTP Local Server。让本机，成为局域网的服务入口。",
+  "events": [
+    {
+      "start": 0.0666875,
+      "position": 0,
+      "length": 4,
+      "text": "HTTP"
+    },
+    {
+      "start": 1.184,
+      "position": 5,
+      "length": 5,
+      "text": "Local"
+    },
+    {
+      "start": 1.616,
+      "position": 11,
+      "length": 6,
+      "text": "Server"
+    },
+    {
+      "start": 2.893875,
+      "position": 18,
+      "length": 1,
+      "text": "让"
+    },
+    {
+      "start": 3.0925625,
+      "position": 19,
+      "length": 1,
+      "text": "本"
+    },
+    {
+      "start": 3.293875,
+      "position": 20,
+      "length": 1,
+      "text": "机"
+    },
+    {
+      "start": 3.7716875,
+      "position": 22,
+      "length": 2,
+      "text": "成为"
+    },
+    {
+      "start": 4.237875,
+      "position": 24,
+      "length": 3,
+      "text": "局域网"
+    },
+    {
+      "start": 4.762,
+      "position": 27,
+      "length": 1,
+      "text": "的"
+    },
+    {
+      "start": 4.921625,
+      "position": 28,
+      "length": 2,
+      "text": "服务"
+    },
+    {
+      "start": 5.262375,
+      "position": 30,
+      "length": 2,
+      "text": "入口"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "S10",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "传输能排队，也能在检查点继续。重新授权，核对源文件，再接着传。",
+  "events": [
+    {
+      "start": 0.082625,
+      "position": 0,
+      "length": 2,
+      "text": "传输"
+    },
+    {
+      "start": 0.59,
+      "position": 2,
+      "length": 1,
+      "text": "能"
+    },
+    {
+      "start": 0.7945625,
+      "position": 3,
+      "length": 2,
+      "text": "排队"
+    },
+    {
+      "start": 1.5218125,
+      "position": 6,
+      "length": 1,
+      "text": "也"
+    },
+    {
+      "start": 1.6835625,
+      "position": 7,
+      "length": 1,
+      "text": "能"
+    },
+    {
+      "start": 1.879625,
+      "position": 8,
+      "length": 1,
+      "text": "在"
+    },
+    {
+      "start": 2.1369375,
+      "position": 9,
+      "length": 2,
+      "text": "检查"
+    },
+    {
+      "start": 2.562875,
+      "position": 11,
+      "length": 1,
+      "text": "点"
+    },
+    {
+      "start": 2.83,
+      "position": 12,
+      "length": 2,
+      "text": "继续"
+    },
+    {
+      "start": 4.146375,
+      "position": 15,
+      "length": 2,
+      "text": "重新"
+    },
+    {
+      "start": 4.5900625,
+      "position": 17,
+      "length": 2,
+      "text": "授权"
+    },
+    {
+      "start": 5.3859375,
+      "position": 20,
+      "length": 2,
+      "text": "核对"
+    },
+    {
+      "start": 5.7333125,
+      "position": 22,
+      "length": 3,
+      "text": "源文件"
+    },
+    {
+      "start": 6.6255,
+      "position": 26,
+      "length": 1,
+      "text": "再"
+    },
+    {
+      "start": 6.8255,
+      "position": 27,
+      "length": 2,
+      "text": "接着"
+    },
+    {
+      "start": 7.115625,
+      "position": 29,
+      "length": 1,
+      "text": "传"
+    }
+  ]
+}

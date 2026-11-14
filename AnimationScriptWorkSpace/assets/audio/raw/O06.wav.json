@@ -1,0 +1,74 @@
+{
+  "id": "O06",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "谁能写、开放什么、资源怎么用，由主机设定。",
+  "events": [
+    {
+      "start": 0.0833125,
+      "position": 0,
+      "length": 1,
+      "text": "谁"
+    },
+    {
+      "start": 0.3125,
+      "position": 1,
+      "length": 1,
+      "text": "能"
+    },
+    {
+      "start": 0.51,
+      "position": 2,
+      "length": 1,
+      "text": "写"
+    },
+    {
+      "start": 1.03775,
+      "position": 4,
+      "length": 2,
+      "text": "开放"
+    },
+    {
+      "start": 1.429375,
+      "position": 6,
+      "length": 2,
+      "text": "什么"
+    },
+    {
+      "start": 2.0805,
+      "position": 9,
+      "length": 2,
+      "text": "资源"
+    },
+    {
+      "start": 2.518875,
+      "position": 11,
+      "length": 2,
+      "text": "怎么"
+    },
+    {
+      "start": 2.854125,
+      "position": 13,
+      "length": 1,
+      "text": "用"
+    },
+    {
+      "start": 3.34,
+      "position": 15,
+      "length": 1,
+      "text": "由"
+    },
+    {
+      "start": 3.56,
+      "position": 16,
+      "length": 2,
+      "text": "主机"
+    },
+    {
+      "start": 3.887875,
+      "position": 18,
+      "length": 2,
+      "text": "设定"
+    }
+  ]
+}

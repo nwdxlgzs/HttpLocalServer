@@ -1,0 +1,14 @@
+{
+  "id": "S02",
+  "voice": "stella",
+  "text": "HttpLocalServer，把文件服务和网页服务，装进一个程序。",
+  "characters": 34,
+  "inputSha256": "6abffdbe56a53141ef734a183540179613132529a4e3d4ee18d233d0f378417b",
+  "file": "assets/audio/cloud/S02-stella.wav",
+  "generatedAt": "2026-11-14T07:38:32.401199+00:00",
+  "seconds": 5.96,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 286124
+}

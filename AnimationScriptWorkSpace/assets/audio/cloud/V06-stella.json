@@ -1,0 +1,14 @@
+{
+  "id": "V06",
+  "voice": "stella",
+  "text": "按需求增强，热点缓存有界。",
+  "characters": 13,
+  "inputSha256": "2c1c9e358c8997e3b52398bc82f48cc7277bbe8574a469ea45f53890b8ba7b46",
+  "file": "assets/audio/cloud/V06-stella.wav",
+  "generatedAt": "2026-11-14T07:41:23.194694+00:00",
+  "seconds": 3.32,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 159404
+}

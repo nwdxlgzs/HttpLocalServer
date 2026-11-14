@@ -1,0 +1,165 @@
+{
+  "version": "3.2.0",
+  "date": "2026-11-14",
+  "author": "github@nwdxlgzs",
+  "license": "Apache-2.0",
+  "artifacts": [
+    {
+      "path": "dist/HttpLocalServer-windows-x64.exe",
+      "bytes": 19720704,
+      "sha256": "d7bf537108ece818bbfc814dd1ae2f6843144743aa18df34674773f27d0b6ff1",
+      "httpsCompiled": true
+    },
+    {
+      "path": "dist/HttpLocalServer-linux-musl-x86_64",
+      "bytes": 22397240,
+      "sha256": "5c3df08dcc5bdbff26dc9e5c015d76256a7a8d01e5c68d2609c936dc7406f30f",
+      "httpsCompiled": true
+    }
+  ],
+  "features": [
+    "ZIP preview off/host/client; off by default; CLI/config/host settings",
+    "Internal preview tabs share the 12-tab cap; independent ZIP grants and close cleanup",
+    "Bounded C++ ZIP/ZIP64 inspection, STORE/DEFLATE extraction, CRC, overlap/path/size/ratio/time checks",
+    "Single ZIP worker, bounded queue/index/private disk; active streams keep their disk reservation",
+    "Host archive websites use read-only IP-bound grants; client mode runs under an opaque origin and works over HTTP",
+    "DOCX/PPTX/XLSX via official Silurus precompiled browser Wasm; no Rust toolchain in host build",
+    "Pure JS basic Office fallback and ES5 PDF.js with text selection and real clipboard copy",
+    "PDF Range/page rendering, bounded canvases, JS JPEG2000/JBIG2 fallback and legacy matrix/canvas shims",
+    "Compressed separate preview assets are fetched only when needed; dependency versions/integrity/licenses retained"
+  ],
+  "dependencies": {
+    "silurus-ooxml": "0.89.10",
+    "pdfjs-dist": "6.5.438",
+    "lock": "tools/dependencies/preview-lock.json"
+  },
+  "zipLimits": {
+    "sourceHostMiB": 512,
+    "sourceClientMiB": 64,
+    "entryMiB": 32,
+    "declaredTotalMiB": 256,
+    "entries": 8192,
+    "centralDirectoryMiB": 4,
+    "pathDepth": 32,
+    "ratio": 200,
+    "ratioFloorMiB": 1,
+    "nativeProcessingMilliseconds": 2000,
+    "clientWorkerMilliseconds": 5000,
+    "nativeWorkers": 1,
+    "queue": 32,
+    "sessions": 16,
+    "sessionsPerIP": 4,
+    "indexMiB": 16,
+    "diskCacheMiB": 128,
+    "cachedEntriesPerSession": 512,
+    "idleSeconds": 120
+  },
+  "fullRegression": {
+    "windows": {
+      "report": "docs/verification/acceptance-v320-windows.json",
+      "passed": 34,
+      "skipped": 0,
+      "testedBinarySha256": "d7bf537108ece818bbfc814dd1ae2f6843144743aa18df34674773f27d0b6ff1"
+    },
+    "musl": {
+      "report": "docs/verification/acceptance-v320-musl.json",
+      "passed": 33,
+      "skipped": 0,
+      "testedBinarySha256": "5c3df08dcc5bdbff26dc9e5c015d76256a7a8d01e5c68d2609c936dc7406f30f"
+    }
+  },
+  "ctest": {
+    "windows": "3/3",
+    "linuxMusl": "3/3"
+  },
+  "browser": {
+    "engine": "Installed Google Chrome / Playwright Core",
+    "protocols": [
+      "HTTP",
+      "HTTPS (mbedTLS self-signed)"
+    ],
+    "scenariosPerProtocol": 11,
+    "passed": 22,
+    "includes": [
+      "DOCX/PPTX/XLSX/PDF with native Wasm",
+      "Same formats after removing Wasm, fetch, Streams, TextEncoder/TextDecoder, DOMMatrix, Path2D and AbortSignal",
+      "Real text and spreadsheet clipboard copy",
+      "JPEG2000 actual pixel decoding with Wasm and JS fallback",
+      "ZIP websites in both modes with CSS/scripts/images/fetch and blocked management access",
+      "12 internal tabs, close cleanup, dark mode and 390px mobile layout"
+    ],
+    "report": "docs/verification/browser-v320.json"
+  },
+  "web": {
+    "main": {
+      "rawBytes": 542692,
+      "gzipBytes": 149236,
+      "sha256": "bc7d8140d5a34449b9453460b02cfcd1cb173261613fec1acfbf516d33d4b6c7"
+    },
+    "previewAssets": {
+      "count": 297,
+      "gzipBytes": 10827407,
+      "sha256": "8144f9d166e65e498b1c0c376b77dc70cf1b8eb2a4ba57e407ddfca29ffe65ab",
+      "es5Scripts": 13,
+      "modernModules": 91
+    }
+  },
+  "load": {
+    "windows": {
+      "report": "docs/verification/load-v320-windows.json",
+      "clients": 96,
+      "requests": 768,
+      "payloadBytes": 810915840,
+      "integrityFailures": 0
+    },
+    "musl": {
+      "report": "docs/verification/load-v320-musl.json",
+      "clients": 96,
+      "requests": 768,
+      "payloadBytes": 810915840,
+      "integrityFailures": 0
+    }
+  },
+  "loadScope": "Loopback correctness and cache cooldown; not measured physical LAN throughput",
+  "binaryChecks": {
+    "windows": {
+      "machine": "0x8664",
+      "subsystem": [
+        6,
+        1
+      ],
+      "imports": [
+        "bcrypt.dll",
+        "WS2_32.dll",
+        "MSWSOCK.dll",
+        "IPHLPAPI.DLL",
+        "SHELL32.dll",
+        "KERNEL32.dll"
+      ]
+    },
+    "linuxMusl": "stripped fully static x86-64 ELF"
+  },
+  "sourceSnapshot": {
+    "report": "docs/verification/source-v320-sha256.json",
+    "files": 571
+  },
+  "resolvedRegressions": [
+    "Truncated generated asset array: atomic deterministic packing, configure-size checks, static_assert, runtime bounds and exact HTTP comparison of all 297 assets",
+    "DEFLATE end-code lookahead: bounded padding and unused-bit accounting, tested using CMap bytes in gzip and ZIP",
+    "musl worker stack: inflate IO buffers live on the heap",
+    "Multiple tabs opening one ZIP now receive distinct preview grants"
+  ],
+  "validationBoundaries": [
+    "No actual Windows 7 was available; PE subsystem 6.01 and system DLL imports checked",
+    "macOS remains source-adapted and untested as requested",
+    "No new native IE11 rendering run; ES5 and missing-API Chromium tests do not replace the manual checklist",
+    "Legacy Office fallback preserves text/tables/worksheet values, not full modern canvas layout",
+    "Unsupported/encrypted/multivolume ZIPs are rejected; nested ZIPs do not auto-expand; hard preview ceilings do not restrict ordinary raw downloads",
+    "Client ZIP website conversion covers common static dependencies and read-only fetch/XHR; complex module graphs/Service Workers/backends require ordinary hosting",
+    "Browser page scripts and downstream external decompression are outside native ZIP processing limits",
+    "Generic Wasm-to-JS conversion of Silurus parsers was not viable due to multi-table Wasm; a functional JS Office fallback is supplied instead",
+    "No new TLS-disabled build was run for this increment"
+  ],
+  "documentation": "docs/previews.md",
+  "ieChecklist": "docs/verification/ie-v320.md"
+}

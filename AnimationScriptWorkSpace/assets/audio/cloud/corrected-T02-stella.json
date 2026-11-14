@@ -1,0 +1,15 @@
+{
+  "id": "T02",
+  "voice": "stella",
+  "text": "一个程序，启动HTTP服务。",
+  "spokenText": "一个程序，启动 H T T P 服务。",
+  "characters": 19,
+  "inputSha256": "21840830bef8dc4a4e7667bd3f91408404be7a96bce0562c2cd9d6d8de85a572",
+  "file": "assets/audio/cloud/corrected-T02-stella.wav",
+  "generatedAt": "2026-11-14T08:14:20.210500+00:00",
+  "seconds": 2.84,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 136364
+}

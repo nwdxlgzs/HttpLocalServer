@@ -1,0 +1,14 @@
+{
+  "id": "S34",
+  "voice": "stella",
+  "text": "一个ZIP，可以装下轻量应用。公开前端，保留后台，管理入口独立隔离。",
+  "characters": 34,
+  "inputSha256": "6f9c5a3fa1961d78425aca5956ba96eb44642054dd0017a1dd3b20e66d9714d8",
+  "file": "assets/audio/cloud/S34-stella.wav",
+  "generatedAt": "2026-11-14T07:40:04.039694+00:00",
+  "seconds": 7.36,
+  "sampleRate": 24000,
+  "channels": 1,
+  "sampleWidth": 2,
+  "bytes": 353324
+}

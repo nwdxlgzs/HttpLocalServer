@@ -1,0 +1,58 @@
+[
+  {
+    "id": "V01",
+    "start": 0.2333,
+    "end": 3.2059,
+    "text": "电脑上的内容，交给同一网络的人。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "V02",
+    "start": 4.0167,
+    "end": 7.7157,
+    "text": "启动一个HTTP入口，用浏览器访问。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "VQR",
+    "start": 8.3667,
+    "end": 10.1423,
+    "text": "扫一扫，直接打开。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "V03",
+    "start": 13.8167,
+    "end": 17.4229,
+    "text": "浏览、预览、下载，先找到需要的内容。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "V04",
+    "start": 18.4667,
+    "end": 21.9813,
+    "text": "可写范围和传输规则，由主机设定。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "V05",
+    "start": 22.8833,
+    "end": 26.8521,
+    "text": "它还承担Server任务，托管网页与轻量应用。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "V06",
+    "start": 27.8667,
+    "end": 30.9026,
+    "text": "按需求增强，热点缓存有界。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  },
+  {
+    "id": "V07",
+    "start": 31.65,
+    "end": 33.6884,
+    "text": "HttpLocalServer。",
+    "timing": "measured-audio silence guided phrase estimate; not ASR"
+  }
+]

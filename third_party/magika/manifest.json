@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/google/magika",
+  "commit": "8575380e2e17b02b40eabdd703d2dc6b23c08af8",
+  "model": "standard_v3_3",
+  "license": "Apache-2.0",
+  "files": {
+    "config.min.json": "ae24c742205358f6ff6dfd5facb6743fb69743dbba8373e73da58ff0cbd695db",
+    "content_types_kb.min.json": "360509291ae8f0a74c0ea058f5313daeb3dfc26b29d6acfca8e59db25e11fa68",
+    "LICENSE": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "standard_v3_3.hlsm": "6aead17218a39a3db9f754e7a77364d7135e9ead26cdd243c64f4997e9fdd61e",
+    "standard_v3_3.onnx": "fe2d2eb49c5f88a9e0a6c048e15d6ffdf86235519c2afc535044de433169ec8c"
+  }
+}

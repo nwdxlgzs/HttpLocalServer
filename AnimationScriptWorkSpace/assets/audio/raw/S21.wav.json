@@ -1,0 +1,104 @@
+{
+  "id": "S21",
+  "voice": "Microsoft Yaoyao",
+  "rate": 0,
+  "spoken": "缩略图默认关闭。主机允许后，只把本次预览捕获在客户端内存。",
+  "events": [
+    {
+      "start": 0.0833125,
+      "position": 0,
+      "length": 2,
+      "text": "缩略"
+    },
+    {
+      "start": 0.4685625,
+      "position": 2,
+      "length": 1,
+      "text": "图"
+    },
+    {
+      "start": 0.7208125,
+      "position": 3,
+      "length": 2,
+      "text": "默认"
+    },
+    {
+      "start": 1.0825,
+      "position": 5,
+      "length": 2,
+      "text": "关闭"
+    },
+    {
+      "start": 2.3635,
+      "position": 8,
+      "length": 2,
+      "text": "主机"
+    },
+    {
+      "start": 2.78575,
+      "position": 10,
+      "length": 2,
+      "text": "允许"
+    },
+    {
+      "start": 3.1766875,
+      "position": 12,
+      "length": 1,
+      "text": "后"
+    },
+    {
+      "start": 3.6769375,
+      "position": 14,
+      "length": 1,
+      "text": "只"
+    },
+    {
+      "start": 3.853625,
+      "position": 15,
+      "length": 1,
+      "text": "把"
+    },
+    {
+      "start": 4.02575,
+      "position": 16,
+      "length": 1,
+      "text": "本"
+    },
+    {
+      "start": 4.2168125,
+      "position": 17,
+      "length": 1,
+      "text": "次"
+    },
+    {
+      "start": 4.415,
+      "position": 18,
+      "length": 2,
+      "text": "预览"
+    },
+    {
+      "start": 4.83575,
+      "position": 20,
+      "length": 2,
+      "text": "捕获"
+    },
+    {
+      "start": 5.161625,
+      "position": 22,
+      "length": 1,
+      "text": "在"
+    },
+    {
+      "start": 5.4175625,
+      "position": 23,
+      "length": 3,
+      "text": "客户端"
+    },
+    {
+      "start": 5.99575,
+      "position": 26,
+      "length": 2,
+      "text": "内存"
+    }
+  ]
+}
