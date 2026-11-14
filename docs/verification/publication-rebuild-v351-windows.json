@@ -1,0 +1,240 @@
+{
+  "version": "3.5.1",
+  "date": "2026-11-14",
+  "reason": "Privacy-safe Windows publication rebuild; application source unchanged",
+  "binary": "dist/HttpLocalServer-windows-x64.exe",
+  "bytes": 25619456,
+  "sha256": "74e2faaf4275a1c124a92a7397113df9a96e79136a275bc95145c2f0b8905437",
+  "neutralBuildRoot": "R:/",
+  "personalBuildStringsFound": [],
+  "ctest": {
+    "cases": 3,
+    "allPassed": true
+  },
+  "tests": [
+    {
+      "name": "script_cache_integration.py",
+      "exitCode": 0,
+      "seconds": 26.69,
+      "log": ".git/privacy-rebuild-regression/script_cache_integration.py.log"
+    },
+    {
+      "name": "wasm_app_integration.py",
+      "exitCode": 0,
+      "seconds": 19.03,
+      "log": ".git/privacy-rebuild-regression/wasm_app_integration.py.log"
+    },
+    {
+      "name": "mcp_current_integration.py",
+      "exitCode": 0,
+      "seconds": 1.14,
+      "log": ".git/privacy-rebuild-regression/mcp_current_integration.py.log"
+    },
+    {
+      "name": "frozen_lock_integration.py",
+      "exitCode": 0,
+      "seconds": 1.33,
+      "log": ".git/privacy-rebuild-regression/frozen_lock_integration.py.log"
+    },
+    {
+      "name": "features_v330_integration.py",
+      "exitCode": 0,
+      "seconds": 1.34,
+      "log": ".git/privacy-rebuild-regression/features_v330_integration.py.log"
+    },
+    {
+      "name": "preview_assets_integration.py",
+      "exitCode": 0,
+      "seconds": 2.83,
+      "log": ".git/privacy-rebuild-regression/preview_assets_integration.py.log"
+    },
+    {
+      "name": "zip_preview_integration.py",
+      "exitCode": 0,
+      "seconds": 1.5,
+      "log": ".git/privacy-rebuild-regression/zip_preview_integration.py.log"
+    },
+    {
+      "name": "transfer_cache_integration.py",
+      "exitCode": 0,
+      "seconds": 7.64,
+      "log": ".git/privacy-rebuild-regression/transfer_cache_integration.py.log"
+    },
+    {
+      "name": "bundle_integration.py",
+      "exitCode": 0,
+      "seconds": 0.8,
+      "log": ".git/privacy-rebuild-regression/bundle_integration.py.log"
+    },
+    {
+      "name": "durable_integration.py",
+      "exitCode": 0,
+      "seconds": 5.19,
+      "log": ".git/privacy-rebuild-regression/durable_integration.py.log"
+    },
+    {
+      "name": "archive_integration.py",
+      "exitCode": 0,
+      "seconds": 6.66,
+      "log": ".git/privacy-rebuild-regression/archive_integration.py.log"
+    },
+    {
+      "name": "state_integration.py",
+      "exitCode": 0,
+      "seconds": 1.59,
+      "log": ".git/privacy-rebuild-regression/state_integration.py.log"
+    },
+    {
+      "name": "traffic_integration.py",
+      "exitCode": 0,
+      "seconds": 39.42,
+      "log": ".git/privacy-rebuild-regression/traffic_integration.py.log"
+    },
+    {
+      "name": "secure_features_integration.py",
+      "exitCode": 0,
+      "seconds": 9.34,
+      "log": ".git/privacy-rebuild-regression/secure_features_integration.py.log"
+    },
+    {
+      "name": "integration.py",
+      "exitCode": 0,
+      "seconds": 6.69,
+      "log": ".git/privacy-rebuild-regression/integration.py.log"
+    },
+    {
+      "name": "config_integration.py",
+      "exitCode": 0,
+      "seconds": 2.3,
+      "log": ".git/privacy-rebuild-regression/config_integration.py.log"
+    },
+    {
+      "name": "access_integration.py",
+      "exitCode": 0,
+      "seconds": 10.08,
+      "log": ".git/privacy-rebuild-regression/access_integration.py.log"
+    },
+    {
+      "name": "tls_integration.py",
+      "exitCode": 0,
+      "seconds": 6.02,
+      "log": ".git/privacy-rebuild-regression/tls_integration.py.log"
+    },
+    {
+      "name": "mounts_integration.py",
+      "exitCode": 0,
+      "seconds": 47.39,
+      "log": ".git/privacy-rebuild-regression/mounts_integration.py.log"
+    },
+    {
+      "name": "p2p_integration.py",
+      "exitCode": 0,
+      "seconds": 4.34,
+      "log": ".git/privacy-rebuild-regression/p2p_integration.py.log"
+    },
+    {
+      "name": "p2p_relay_integration.py",
+      "exitCode": 0,
+      "seconds": 2.05,
+      "log": ".git/privacy-rebuild-regression/p2p_relay_integration.py.log"
+    },
+    {
+      "name": "p2p_mount_integration.py",
+      "exitCode": 0,
+      "seconds": 4.31,
+      "log": ".git/privacy-rebuild-regression/p2p_mount_integration.py.log"
+    },
+    {
+      "name": "branding_integration.py",
+      "exitCode": 0,
+      "seconds": 0.86,
+      "log": ".git/privacy-rebuild-regression/branding_integration.py.log"
+    },
+    {
+      "name": "collaboration_integration.py",
+      "exitCode": 0,
+      "seconds": 54.44,
+      "log": ".git/privacy-rebuild-regression/collaboration_integration.py.log"
+    },
+    {
+      "name": "resume_test.cjs",
+      "exitCode": 0,
+      "seconds": 4.59,
+      "log": ".git/privacy-rebuild-regression/resume_test.cjs.log"
+    },
+    {
+      "name": "preview_assets_test.cjs",
+      "exitCode": 0,
+      "seconds": 4.56,
+      "log": ".git/privacy-rebuild-regression/preview_assets_test.cjs.log"
+    },
+    {
+      "name": "zip_codec_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.22,
+      "log": ".git/privacy-rebuild-regression/zip_codec_test.cjs.log"
+    },
+    {
+      "name": "jobs_test.cjs",
+      "exitCode": 0,
+      "seconds": 1.41,
+      "log": ".git/privacy-rebuild-regression/jobs_test.cjs.log"
+    },
+    {
+      "name": "mounts_test.cjs",
+      "exitCode": 0,
+      "seconds": 3.16,
+      "log": ".git/privacy-rebuild-regression/mounts_test.cjs.log"
+    },
+    {
+      "name": "batch_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.31,
+      "log": ".git/privacy-rebuild-regression/batch_test.cjs.log"
+    },
+    {
+      "name": "p2p_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.75,
+      "log": ".git/privacy-rebuild-regression/p2p_test.cjs.log"
+    },
+    {
+      "name": "clipboard_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.11,
+      "log": ".git/privacy-rebuild-regression/clipboard_test.cjs.log"
+    },
+    {
+      "name": "drag_thumbnail_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.33,
+      "log": ".git/privacy-rebuild-regression/drag_thumbnail_test.cjs.log"
+    },
+    {
+      "name": "player_state_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.09,
+      "log": ".git/privacy-rebuild-regression/player_state_test.cjs.log"
+    },
+    {
+      "name": "collaboration_test.cjs",
+      "exitCode": 0,
+      "seconds": 2.08,
+      "log": ".git/privacy-rebuild-regression/collaboration_test.cjs.log"
+    },
+    {
+      "name": "ie_compat_test.cjs",
+      "exitCode": 0,
+      "seconds": 0.26,
+      "log": ".git/privacy-rebuild-regression/ie_compat_test.cjs.log"
+    }
+  ],
+  "skipped": [
+    {
+      "name": "defaults.py",
+      "reason": "Port 8000 in use"
+    }
+  ],
+  "allPassed": true,
+  "scope": "Native integrations and shipped-browser JavaScript checks; no new manual IE/Win7/macOS runtime validation"
+}

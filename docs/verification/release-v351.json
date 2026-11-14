@@ -4,8 +4,8 @@
   "artifacts": [
     {
       "path": "dist/HttpLocalServer-windows-x64.exe",
-      "bytes": 25621504,
-      "sha256": "81028b6a0f81876611b15d59a3b0b4f2aedc97989800c8c26a905e3c27c9103e"
+      "bytes": 25619456,
+      "sha256": "74e2faaf4275a1c124a92a7397113df9a96e79136a275bc95145c2f0b8905437"
     },
     {
       "path": "dist/HttpLocalServer-linux-musl-x86_64",
@@ -22,10 +22,11 @@
   ],
   "verification": {
     "windows": {
-      "report": "docs/verification/targeted-v351-windows.json",
-      "checkGroups": 10,
+      "report": "docs/verification/publication-rebuild-v351-windows.json",
+      "checkGroups": 36,
       "allPassed": true,
-      "ctestCases": 3
+      "ctestCases": 3,
+      "previousReport": "docs/verification/targeted-v351-windows.json"
     },
     "musl": {
       "report": "docs/verification/targeted-v351-musl.json",
@@ -86,5 +87,11 @@
     "ZIP application JS dispatch remains serialized; this is not a backend worker-pool redesign",
     "Targeted regression only; no new UI/IE, real Win7 or macOS runtime verification",
     "Retained ZIP cache budget excludes active HTTP response copies; decompression separately bounded"
-  ]
+  ],
+  "publicationRebuild": {
+    "date": "2026-11-14",
+    "reason": "Remove personal build paths from Windows diagnostics; no application source changes",
+    "originalWindowsSha256": "81028b6a0f81876611b15d59a3b0b4f2aedc97989800c8c26a905e3c27c9103e",
+    "windowsReport": "docs/verification/publication-rebuild-v351-windows.json"
+  }
 }
